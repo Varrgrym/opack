@@ -33,8 +33,9 @@ Default copies: `AGENTS.md` · `OPERATOR_WORKFLOW.md` · `.cursor/rules/follow-o
 ## Clone / open as its own workspace
 
 ```bash
-# already at:
-# /home/mmedina429/Desktop/opack
+git clone https://github.com/Varrgrym/opack.git
+# or local:
+# ~/Desktop/opack
 ```
 
 Open this folder in Cursor when you want to **edit the pack itself**. Edit here, then re-run `install.sh` on projects to refresh (or copy selectively).
