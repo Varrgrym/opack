@@ -1,11 +1,11 @@
 # Model seat playbooks v0
 
-**Status:** portable · OPERATOR_STARTER · **2026-08-06**  
+**Status:** portable · OPERATOR_STARTER · tissue lock **2026-08-08**  
 **Companion (picker only):** [`CURSOR_MODEL_SEATS.md`](CURSOR_MODEL_SEATS.md)  
 **Job of this file:** how each **seat** should behave — play to strengths, cover weaknesses via handoffs.  
 **Not:** a second AGENTS.md. Repo craft/candor still lives in `AGENTS.md`.
 
-Brands churn; **seats stay**. Current tissue examples: GPT-5.6 · Opus · Kimi K3 · DeepSeek R1 · Gemini.
+Brands churn; **seats stay**. Locked tissue (snapshot **2026-08-08** — replace when a better job-fit appears): GPT-5.6 Sol · Claude Opus 5 High · Kimi K3 Max · Gemini 3.1 Pro · Grok 4.5 High. Open with `Seat: …` and follow the **role** playbook even after tissue swaps.
 
 ---
 
@@ -25,7 +25,7 @@ Do **not** self-promote into another seat mid-chat. Hand off instead.
 
 ## Standing seats
 
-### Engineer — GPT-5.6-class
+### Engineer — GPT-5.6 Sol
 
 | | |
 |--|--|
@@ -50,7 +50,7 @@ Do **not** self-promote into another seat mid-chat. Hand off instead.
 
 ---
 
-### Reviewer — Opus-class
+### Reviewer — Claude Opus 5 High
 
 | | |
 |--|--|
@@ -75,7 +75,7 @@ Do **not** self-promote into another seat mid-chat. Hand off instead.
 
 ---
 
-### Finisher — Kimi-class (e.g. Kimi K3)
+### Finisher — Kimi K3 Max
 
 | | |
 |--|--|
@@ -101,33 +101,62 @@ Do **not** self-promote into another seat mid-chat. Hand off instead.
 
 ## On-call specialists (not standing)
 
-### Archivist — Gemini-class
+### Archivist — Gemini 3.1 Pro
 
 | | |
 |--|--|
 | **Strengths** | Mega-context; cross-repo / docs consistency archaeology; synthesis across large trees |
 | **Weaknesses** | Not the default implementer; findings can sprawl without a tight question |
+| **Tissue note** | Locked **3.1 Pro** (2026-08-08). Prefer over Gemini 3.6 Flash for map/synthesis. Flash = budget fallback only — **protocol below is mandatory on Flash**. |
+
+**Protocol (always; non-negotiable on Flash)**
+
+```text
+named archaeology question
+        ↓
+cite paths (evidence)
+        ↓
+compress (short map)
+        ↓
+hand off → Engineer or Reviewer
+```
+
+1. **Name the question** — one concrete ask (e.g. “Where is auth enforced and what docs claim about it?”). No open-ended “understand the repo.”
+2. **Cite paths** — every important claim points at files/dirs; no pathless narrative.
+3. **Compress** — map → contradictions/doc↔code drift → unknowns → **recommended next seat** (usually Engineer or Reviewer). Prefer ≤1 page equivalent.
+4. **Hand off and stop** — do not implement, redesign, or open a second archaeology spiral.
 
 **Must do**
-- Answer a **named** archaeology question; cite paths.
-- Compress: map → contradictions → recommended next seat.
-- Close the spike when the map is good enough.
+- Stay inside the named question; park adjacent findings as one-liners, don’t chase them.
+- Close the spike when the compressed map answers the question well enough.
 
 **Must not**
 - Quietly become standing seat #5.
 - Land large unsupervised edits “while reading.”
+- Produce 20 folder summaries without synthesis (violates chunk-for-processing pin).
+- Widen into “full architecture review” unless the named question *is* that review.
+
+**Opener (paste)**
+
+```text
+Seat: Archivist
+Question: <one named archaeology question>
+Do: cite paths → compress map → contradictions → next seat. Do not edit. Do not wander.
+Tissue: Gemini 3.1 Pro (or Flash fallback).
+```
 
 **Hand off when**
 - Map complete → **Engineer** (implement) or **Reviewer** (if laws/pins at stake)
 
 ---
 
-### Attacker — R1-class (e.g. DeepSeek R1)
+### Attacker — Grok 4.5 High
 
 | | |
 |--|--|
 | **Strengths** | Forced disagreement; contradiction hunting; hard invariants; nasty state / race thinking |
 | **Weaknesses** | Wrong as daily driver; can block forever if no “good enough”; not the feature factory |
+| **Tissue note** | Locked **Grok 4.5 High** (2026-08-08). DeepSeek R1 preferred class but **unavailable** in operator Cursor picker. |
 
 **Must do**
 - Falsify: list failure modes, invariants, conditions under which the claim breaks.
@@ -162,7 +191,7 @@ Blind spots in one lab              → different seat, not second GPT
 
 - Three chats that are all Engineer tissue (correlated failure).
 - Opus design-first on every task.
-- R1 on every PR.
+- Attacker on every PR.
 - Finisher used as a second Reviewer.
 - Model-shopping every prompt instead of defaulting Engineer + naming the seat when you switch.
 

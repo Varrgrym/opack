@@ -40,23 +40,25 @@ Do **not** give a thin summary. Pick a mode (or ask if unclear):
 | Where are we / status / takeover | **A — Ownership takeover** | Intent → current state → progress → alignment → coherence → architecture → debt → consolidate → missing → build vs polish → roadmap tiers → should-not → blind spots → critique → executive close + next week |
 | Capture / notebook / organize | **B — Design notebook** | Group by **concept**; label items; decided vs NOT; parked + why; deps; short vs long; close with state · backlog · parked · gaps · next by leverage |
 | Roadmap / next week / milestones | **C — Execution roadmap** | State → immediate actions (why / DoD / deps / risks) → milestones (+ what NOT) → stop points → consolidate → wait → risks → numbered order → one focused week |
-| Full review / vision / fine-tooth | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. |
+| Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Cold-lead: `optional/MODE_D_COLD_LEAD.md`. **Do not ask which mode** — expand via Adaptive. |
 
 If several fit: **B then C**, or **D** when they want codebase-wide evidence. Inline candor anytime they say “challenge me.”
+
+**Project-review default:** short phrases like *please review this project* → Mode **D** + Adaptive expansion + Universal decide-next close. Open with a one-line **runtime stanza** (Mode · Seat · Multitask · Plan?). Minimum coverage (not README-only): purpose · structure/entry points · tests’ real proof · doc↔code. Multitask **off** unless a named synthesis owner; no review fleets.
 
 ---
 
 ## Model seats (roles, not brands)
 
-Which **chat/model role** to open — not repo behavior (that’s the rest of this file). Standing seats: **3** (hard cap **4**). Never five. Brands churn; **jobs stay**.
+Which **chat/model role** to open — not repo behavior (that’s the rest of this file). **5 jobs** on the menu; standing spine **3** (hard cap **4** standing). Per task: **active ≤3**, declare the rest idle. **Roles endure; tissue is a snapshot** — when a better model appears for a job, swap the picker, keep the seat name. Locked tissue (2026-08-08): see `optional/CURSOR_MODEL_SEATS.md`.
 
-| Seat | Example tissue | Job | When |
-|------|----------------|-----|------|
-| **Project Engineer** | GPT-5.6-class | Plan → edit → test → fix | Default |
-| **Senior Reviewer** | Opus-class | Regret-pass; scary diffs; design forks | Before irreversible changes |
-| **Pair / Finisher** | Kimi-class | Close stalled multi-file loops | Agent stuck mid-refactor |
+| Seat | Locked tissue | Job | When |
+|------|---------------|-----|------|
+| **Project Engineer** | GPT-5.6 Sol | Plan → edit → test → fix | Default |
+| **Senior Reviewer** | Claude Opus 5 High | Regret-pass; scary diffs; design forks | Before irreversible changes |
+| **Pair / Finisher** | Kimi K3 Max | Close stalled multi-file loops | Agent stuck mid-refactor |
 
-Temporary only: Archivist (mega-context), Attacker (hard invariants). Promote a 4th standing seat only after the same gap bites ~3× in a week **and** you can say in one sentence when that chat opens.
+Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.5 High). Promote a 4th standing seat only after the same gap bites ~3× in a week **and** you can say in one sentence when that chat opens.
 
 **Picker:** `optional/CURSOR_MODEL_SEATS.md` · **How that seat must behave:** `optional/MODEL_SEAT_PLAYBOOKS.md` (open with `Seat: Engineer|Reviewer|Finisher|Archivist|Attacker`). After install with `--with-seats`, same files live under the project’s `docs/`.
 
@@ -83,6 +85,13 @@ Do **not** propose on a single offhand remark.
 
 - Personality / tone · behaviors · repeated tasks · repo-local refuses/pins
 - **Standing prompts** — phrases, checklists, or “always open with X” the operator wants kept in mind (overlay § Standing prompts). If a prompt must be hot in *every* chat across projects, ask before promoting a one-line digest tweak into `follow-operator-pack.mdc`.
+
+### Naming (accuracy)
+
+- Suggest freely: seat **jobs** · Mode A–D · install **dials** / profiles · certainty labels (fact · decided · NOT · parked).
+- Adopt the operator’s **project vocabulary** into overlays only after the trigger floor (twice-seen or “remember that”).
+- Do **not** invent Mode E, a sixth standing seat, cluster org-chart names, or per-repo seat renames. Roles endure; tissue swaps.
+- Stage → dials: `optional/INSTALL_PROFILES.md`. Overlay starters: `templates/overlay-*.md`.
 
 ### How to add (fail-closed)
 

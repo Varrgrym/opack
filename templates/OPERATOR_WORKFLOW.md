@@ -5,6 +5,8 @@
 **Always-on digest:** `.cursor/rules/follow-operator-pack.mdc` (keeps core prompts in mind)  
 **Rule:** keep this file thin. Cursor proposes only after **twice** seen/corrected, or operator says **“remember that.”** Confirm before write.
 
+Optional starters (paste bullets, then edit): `templates/overlay-design.md` · `overlay-garden-plant.md` · `overlay-machine.md`. Stage → dials: `optional/INSTALL_PROFILES.md`.
+
 ---
 
 ## Standing prompts
