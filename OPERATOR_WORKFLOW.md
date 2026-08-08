@@ -21,6 +21,7 @@
 - Prefer structure in **3s** where it helps (active families / WIP, standing seats, roadmap tiers) — not fake triads everywhere.
 - **Active families (note, not law):** (1) Garden · (2) Game development · (3) Updating systems (substrate / Proxmox-of-devices to host Garden). Hands primarily on one; two more in mind. Many repos OK while clearing backlog.
 - Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
+- **This machine (Windows / Samsung):** not the usual Linux workhorse. Paths, shells, vision/gaming plants, and host assumptions differ — do not pretend Pop/Proxmox behavior here. Prefer capture + light Windows-native work; heavy Garden execution waits for the workhorse unless explicitly scoped to Windows.
 
 ## Personality
 
@@ -48,6 +49,7 @@
 - Keep lab digests short; promote kits only after twice useful.
 - Opack as Garden’s local-AI rulebook later (still portable Layer A for non-Garden roots).
 - **Tissue re-bake (parked):** optional nudge in **opack root only** — not in other installs’ digests.
+- **Windows satellite:** **thoughts** repo at `C:\Users\mmedi\Projects\thoughts` — capture inbox (raw / sources / by-family / workhorse-queue). Not library organizer; Garden runtime stays workhorse.
 
 ## Upstream candidates
 
@@ -76,4 +78,6 @@
 | 2026-08-08 | Install profiles + overlay snippets | Stage dials; naming pin; design/plant/machine templates |
 | 2026-08-08 | Operator philosophy + active families | Order/notes/Murphy/3s; Garden·Games·Systems note; no PHILOSOPHY.md |
 | 2026-08-08 | Tissue re-bake ritual parked | System-update analogue for seats; no implement until pain / “add that” |
+| 2026-08-08 | Windows satellite machine note | Not Linux workhorse; ideas-inbox vs library-organizer considered |
+| 2026-08-08 | thoughts repo bootstrapped | `Projects/thoughts` capture inbox; Garden runtime deferred on Windows |
 | 2026-08-08 | Lab consolidate → archive | Intent/Runtime/Spec/Mode D/Chunking thin; EXTERNAL+Stack archived |
