@@ -1,8 +1,13 @@
-# cursor-rules — always-on digest
+# cursor-rules — always-on source
 
 **Canonical full pack:** `../AGENTS.md`  
-**This folder:** `follow-operator-pack.mdc` — short standing-prompt digest (`alwaysApply`).
+**Edit here:** `follow-operator-pack.mdc` · `workflow-lab.mdc`  
+**Install output:** `install.sh` copies these into the target’s `.cursor/rules/`.
 
-Installed into projects by `../install.sh` as `.cursor/rules/follow-operator-pack.mdc`.
+In the **opack** repo itself, keep `.cursor/rules/` in sync by re-copying after edits:
 
-When you change the baseline: edit `AGENTS.md` first; update digest bullets only when a prompt must stay hot in every chat.
+```bash
+cp cursor-rules/*.mdc .cursor/rules/
+```
+
+Do not maintain divergent doctrine in both places.

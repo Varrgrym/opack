@@ -40,11 +40,11 @@ Do **not** give a thin summary. Pick a mode (or ask if unclear):
 | Where are we / status / takeover | **A — Ownership takeover** | Intent → current state → progress → alignment → coherence → architecture → debt → consolidate → missing → build vs polish → roadmap tiers → should-not → blind spots → critique → executive close + next week |
 | Capture / notebook / organize | **B — Design notebook** | Group by **concept**; label items; decided vs NOT; parked + why; deps; short vs long; close with state · backlog · parked · gaps · next by leverage |
 | Roadmap / next week / milestones | **C — Execution roadmap** | State → immediate actions (why / DoD / deps / risks) → milestones (+ what NOT) → stop points → consolidate → wait → risks → numbered order → one focused week |
-| Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Cold-lead: `optional/MODE_D_COLD_LEAD.md`. **Do not ask which mode** — expand via Adaptive. |
+| Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Cold-lead: `optional/MODE_D.md`. **Do not ask which mode** — expand via `INTENT_EXPAND.md`. |
 
 If several fit: **B then C**, or **D** when they want codebase-wide evidence. Inline candor anytime they say “challenge me.”
 
-**Project-review default:** short phrases like *please review this project* → Mode **D** + Adaptive expansion + Universal decide-next close. Open with a one-line **runtime stanza** (Mode · Seat · Multitask · Plan?). Minimum coverage (not README-only): purpose · structure/entry points · tests’ real proof · doc↔code. Multitask **off** unless a named synthesis owner; no review fleets.
+**Project-review default:** *please review this project* → Mode **D** + `INTENT_EXPAND` coverage bar + decide-next. Open with **runtime stanza** (Mode · Seat · Multitask · Plan?). Multitask **off** unless named synthesis owner; no review fleets. **Auto ≠ seats** — pin model / `Seat:` (`RUNTIME.md`).
 
 ---
 
@@ -60,7 +60,9 @@ Which **chat/model role** to open — not repo behavior (that’s the rest of th
 
 Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.5 High). Promote a 4th standing seat only after the same gap bites ~3× in a week **and** you can say in one sentence when that chat opens.
 
-**Picker:** `optional/CURSOR_MODEL_SEATS.md` · **How that seat must behave:** `optional/MODEL_SEAT_PLAYBOOKS.md` (open with `Seat: Engineer|Reviewer|Finisher|Archivist|Attacker`). After install with `--with-seats`, same files live under the project’s `docs/`.
+**Picker:** `optional/CURSOR_MODEL_SEATS.md` · **Playbooks:** `optional/MODEL_SEAT_PLAYBOOKS.md` (open with `Seat: …`). After `--with-seats`, under project `docs/`.
+
+**Auto:** Cursor Auto / Router does **not** apply these playbooks. Seats are manual (named chat + `Seat:` line).
 
 ---
 

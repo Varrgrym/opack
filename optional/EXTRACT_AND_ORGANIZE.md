@@ -2,7 +2,7 @@
 
 **Status:** decided · repeated operator pattern  
 **Use when:** “analyze this and extract what is useful” · “organize the repo” · ChatGPT/export dumps · long notes · Downloads drops  
-**Companion:** Mode **B** (design notebook) · Adaptive · `EXTERNAL_READING.md` · FIC  
+**Companion:** Mode **B** (design notebook) · `INTENT_EXPAND.md` · FIC (`CHUNKING.md`)  
 **NOT:** paste whole dumps into Layer A · vendor Garden Immune from chat exports
 
 ---
@@ -27,7 +27,7 @@ Do **not** ask “what format?” if Mode B + extract protocol fits. Open with r
 3. SIGNAL    Label: fact · observation · conclusion · assumption · open Q · recommendation · decided · NOT · parked
 4. MAP       Already in opack / hub? → note “covered” (don’t duplicate)
 5. NET-NEW   Only land what improves kits or overlay (propose → confirm if Layer A)
-6. ORGANIZE  Place under optional/ · overlay log · EXTERNAL_READING — keep pack thin
+6. ORGANIZE  Place under optional/ · overlay log — keep pack thin; prefer archive/ over delete
 7. STOP      When remaining text is noise or already covered
 ```
 

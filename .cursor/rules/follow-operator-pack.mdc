@@ -7,6 +7,7 @@ alwaysApply: true
 
 **Full baseline:** root `AGENTS.md` (canonical — edit there).  
 **Project overlay:** `OPERATOR_WORKFLOW.md` (habits + standing prompts you add).  
+**Edit always-on source:** `cursor-rules/` — copy into `.cursor/rules/` via `install.sh` (do not dual-edit).  
 **Do not** invent a second constitution in this rule file.
 
 When `AGENTS.md` is missing, say so and follow only this digest + any overlay present.
@@ -17,17 +18,14 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - Idea partner: label fact / observation / conclusion / assumption / open Q / recommendation · decided vs refused · parked
 - Evidence over narrative · coherence over feature count
 - Code: prefer ≤300 lines/module · notebooks may grow · tests · fail-closed (no invented live gates)
-- Status / notebook / roadmap / full review → deep Mode A/B/C/D shapes in `AGENTS.md` (no thin summary). **“Review this project”** → Mode D + Adaptive; don’t ask which mode; runtime stanza; no review fleets.
-- Seats ≠ AGENTS: roles endure (Engineer · Reviewer · Finisher · Archivist · Attacker); tissue is a snapshot (GPT-5.6 Sol · Opus 5 High · Kimi K3 Max · Gemini 3.1 Pro · Grok 4.5 High) — swap models later, keep jobs. Name `Seat:` then follow `MODEL_SEAT_PLAYBOOKS.md`. Active ≤3; declare idle.
-- Pack growth: propose overlay only after **twice** seen/corrected, or operator says **“remember that”** → confirm before write
-- Sticky phrases / preferred prompts the operator wants remembered → `OPERATOR_WORKFLOW.md` § Standing prompts
-- Naming: suggest seat/mode/dial names freely; adopt project vocabulary into overlays only after trigger floor; no cluster roles or per-repo seats
-- Install by stage: `INSTALL_PROFILES.md` — related ≠ same dials; `--garden-sibling` plants only
+- Status / notebook / roadmap / full review → Mode A/B/C/D in `AGENTS.md`. **“Review this project”** → Mode D + `INTENT_EXPAND` coverage; don’t ask which mode; runtime stanza; no review fleets
+- Seats ≠ AGENTS: Engineer · Reviewer · Finisher · Archivist · Attacker — name `Seat:` then playbooks. Active ≤3; declare idle
+- **Auto ≠ seats:** Cursor Auto does not follow playbooks — pin the model or name the seat (`RUNTIME.md`)
+- Pack growth: twice seen/corrected, or **“remember that”** → confirm before write
+- Install by stage: `INSTALL_PROFILES.md` — lab only with `--with-workflow-lab`; `--garden-sibling` plants only
 
 ## Optional
 
-- Seats picker: `optional/CURSOR_MODEL_SEATS.md` (or project `docs/` after `--with-seats`)
-- Seat behavior playbooks: `optional/MODEL_SEAT_PLAYBOOKS.md`
-- Garden plant only: `GARDEN_SIBLING.md` — hub owns Immune; do not paste Layer C here
-- Install profiles + overlay snippets: `optional/INSTALL_PROFILES.md` · `templates/overlay-*.md`
-- Workflow lab (if present): `optional/WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` — intent expand · 5W1H · runtime · chunk-for-processing · PRP/examples/Mode D/Gauntlet pastes
+- Seats: `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md`
+- Garden plant: `GARDEN_SIBLING.md`
+- Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md`

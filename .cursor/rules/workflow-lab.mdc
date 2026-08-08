@@ -1,22 +1,20 @@
 ---
-description: Workflow lab digest — intent expand, 5W1H, review phrase lock, runtime (full kits in optional/)
+description: Workflow lab digest — intent expand, runtime, phrase locks (kits in optional/)
 alwaysApply: true
 ---
 
 # Workflow lab (opack)
 
-**Full kits:** `optional/WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` and linked files under `optional/`.
+**Front doors:** `optional/WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md`  
+**Edit source:** `cursor-rules/` — install copies into project `.cursor/rules/`.
 
-- Short requests are **goals**, not full specifications — expand to needed rigor only.
-- **“Review this project”** (and fine-tooth / full review) → Mode **D** + coverage bar + decide-next. Do **not** ask which mode.
-- **Organize / extract useful** from dumps → `EXTRACT_AND_ORGANIZE.md` (net-new only; maintain repo coherence).
-- Substantial work: reason **Who / What / Why / When / Where / How**. Known → Inferred → Unknown → Recommended.
-- Open substantial work with a **runtime stanza**: Mode · Seat · Multitask · Plan?
-- Runtime: multitask **off** unless needed; **no review fleets** (`RUNTIME_CONTROL.md`).
-- Prefer understand → verify → simplify → plan → execute → validate → **stop**. Do nothing when correct.
-- Too large: semantic chunks → investigate → cross-chunk → **synthesize before conclusions**.
-- Long sessions: **FIC** — compact high-signal state after each slice; re-inject (`CHUNKING.md`).
-- Pin: **Chunk for processing, never for understanding.**
-- Feature polish: seat-aware Gauntlet only after MVP. PRP/examples/Mode D: paste index.
-- Install by stage: `INSTALL_PROFILES.md` — related ≠ same dials; overlay snippets in `templates/`.
-- Bad session: name failure mode (`FAILURE_MODES.md`); don’t prompt-harder on a bad stack.
+- Short requests are **goals** — expand via `INTENT_EXPAND.md` only as needed.
+- **“Review this project”** → Mode **D** + coverage bar; do **not** ask which mode.
+- Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`.
+- Substantial work: 5W1H · runtime stanza (`RUNTIME.md`).
+- **Auto ≠ seats** — name `Seat:` / pin model; Auto does not follow playbooks.
+- Multitask **off** unless synthesis-owned; **no review fleets**.
+- Chunk → synthesize; **chunk for processing, never for understanding** (`CHUNKING.md`).
+- Prefer understand → verify → simplify → plan → execute → validate → **stop**.
+- Feature builds: `SPEC_BUILD.md`. Bad session: name failure mode in `RUNTIME.md`.
+- Install lab only with `--with-workflow-lab`. Profiles: `INSTALL_PROFILES.md`.

@@ -10,13 +10,12 @@
 ## Standing prompts
 
 - This repo’s lab chats may focus on **prompt / context / specification / agent-loop formation** — Garden is an occasional example only.
-- **“Review this project” / fine-tooth / full review** → Mode D + Adaptive coverage bar + Universal decide-next; do not ask which mode. Open with runtime stanza (Mode · Seat · Multitask · Plan?). No review fleets.
-- **“Organize the repo” / “extract what is useful” / chat-export drops** → `EXTRACT_AND_ORGANIZE.md` (filter → map → land net-new only; maintain coherence). Often Mode B.
-- Automatic reasoning includes **Who / What / Why / When / Where / How** (show on substantial work; skip ceremony on trivia).
-- Large scope: **chunk for processing, never for understanding** — synthesize before project-level conclusions. Long sessions: **FIC** (compact → re-inject).
-- Runtime: Mode · Seat by job · multitask when needed only (`RUNTIME_CONTROL.md`).
-- Feature builds: prefer `PRP_TEMPLATE` + `EXAMPLES_CONVENTION`; Gauntlet only as polish after MVP.
-- Kits: `optional/PASTEABLES_INDEX.md` · `WORKFLOW_LAB_DIGEST.md` · Universal · Adaptive · Chunking · Runtime · Failure modes · External reading · PRP · Examples · Mode D cold-lead · Analysis · Stack.
+- **“Review this project” / fine-tooth / full review** → Mode D + `INTENT_EXPAND` coverage; do not ask which mode. Runtime stanza. No review fleets.
+- **“Organize the repo” / extract dumps** → `EXTRACT_AND_ORGANIZE.md`. Often Mode B.
+- 5W1H on substantial work; skip ceremony on trivia.
+- Large scope: **chunk for processing, never for understanding** (`CHUNKING.md`). FIC on long sessions.
+- Runtime / failures / Auto≠seats: `RUNTIME.md`. Feature builds: `SPEC_BUILD.md`.
+- Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` (full essays in `optional/archive/`).
 - Desire **order**; meticulous notes are mandatory memory — chat is not storage.
 - **Necessary complexity only**; many moving parts → Murphy; prefer consolidate.
 - Prefer structure in **3s** where it helps (active families / WIP, standing seats, roadmap tiers) — not fake triads everywhere.
@@ -41,16 +40,14 @@
 ## Refuses / pins (this repo)
 
 - Do not paste Garden Immune, FOCUS notebooks, organ contracts, or traveler corpora into this pack.
-- Do not silently promote Adaptive Task Expansion into Layer A or always-on without operator confirm.
+- Do not silently promote Intent Expand full kit into Layer A / always-on without confirm.
+- Prefer archive over delete for superseded kits (`optional/archive/`).
 
 ## Open experiments
 
-- Adaptive Task Expansion / Universal Deep-Reasoning digests as persistent rules (full text in `optional/`).
-- Chunking protocol as procedural context engineering for large repos.
-- Runtime control + failure modes landed 2026-08-08; parked items listed in `RUNTIME_CONTROL.md` § Parked.
-- FIC + external reading pointers (Cole / HumanLayer / open-gsd); Cole PRP = optional experiment only.
-- Opack may later live as Garden’s local-AI rulebook (still portable Layer A for non-Garden roots).
-- **Tissue re-bake ritual (parked):** optional ~monthly nudge (“first of month — check picker vs lock / compare by seat job”) — **only while working in the opack root** (or explicit seats/update chat). Must **not** surface in Fallen Blade / games / other installs via digest or Layer A. Feasible as opack-overlay reminder or calendar; **NOT** auto-updater, novelty feed, or always-on across projects. Ad hoc re-bake OK until “add that.”
+- Keep lab digests short; promote kits only after twice useful.
+- Opack as Garden’s local-AI rulebook later (still portable Layer A for non-Garden roots).
+- **Tissue re-bake (parked):** optional nudge in **opack root only** — not in other installs’ digests.
 
 ## Upstream candidates
 
@@ -79,3 +76,4 @@
 | 2026-08-08 | Install profiles + overlay snippets | Stage dials; naming pin; design/plant/machine templates |
 | 2026-08-08 | Operator philosophy + active families | Order/notes/Murphy/3s; Garden·Games·Systems note; no PHILOSOPHY.md |
 | 2026-08-08 | Tissue re-bake ritual parked | System-update analogue for seats; no implement until pain / “add that” |
+| 2026-08-08 | Lab consolidate → archive | Intent/Runtime/Spec/Mode D/Chunking thin; EXTERNAL+Stack archived |
