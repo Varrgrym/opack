@@ -105,4 +105,4 @@ Seats, wrong-seat callout, decide-low/ask-high, DoD/stop: `RUNTIME.md`.
 ## Promote later?
 
 Thin Prefer line already mirrored in `RUNTIME.md`. Digest points here.  
-Long research stays in thoughts unless operator asks to copy full brief into `optional/`.
+Long research stays in the operator inbox unless asked to copy the full brief into `optional/`.
