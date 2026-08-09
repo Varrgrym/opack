@@ -122,3 +122,5 @@ Classic names: README theater · premature build · sycophantic agreement · sco
 
 understand → verify → simplify → plan → execute → validate → **stop**.  
 Goal = best justified outcome with least unnecessary complexity. **Do nothing** when that is correct.
+
+**Agentic interaction:** partial autonomy (slider by blast) · generate↔verify on a leash · program design / vertical slice before long cook · vibe only for throwaway · human owns understanding. Full kit: `AGENTIC_INTERACTION.md`.
