@@ -2,7 +2,7 @@
 
 **Status:** decided · repeated operator pattern  
 **Use when:** “analyze this and extract what is useful” · “organize the repo” · ChatGPT/export dumps · long notes · Downloads drops  
-**Companion:** Mode **B** (design notebook) · `INTENT_EXPAND.md` · FIC (`CHUNKING.md`)  
+**Companion:** Mode **B** (design notebook) · `INTENT_EXPAND.md` · FIC (`CHUNKING.md`) · dense organisms → `ORGANISM_PLACEMENT.md`  
 **NOT:** paste whole dumps into Layer A · vendor Garden Immune from chat exports
 
 ---
@@ -40,6 +40,10 @@ Do **not** ask “what format?” if Mode B + extract protocol fits. Open with r
 **Reject only:** PII · secrets · credentials/tokens · wallet material · expired ops noise · ads/spam.  
 
 Thin fragments → park bucket; promote to a theme note when coherent. Capture-inbox roots: see `templates/overlay-capture-inbox.md`.
+
+### Dense / multi-brand organisms
+
+When a theme has many brands, crafts, loops, or scattered sources (Living Systems–class, Garden-class): do **not** only Keep-Park scraps. Run **`ORGANISM_PLACEMENT.md`** (A→F) → parent · ≤4 cores · coupling diagram · source router. Extract protocol still strips noise first.
 
 ### Raw dumps (fail-closed)
 

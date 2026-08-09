@@ -1,7 +1,7 @@
 # Workflow lab digest (short)
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
-**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md`  
+**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `ORGANISM_PLACEMENT.md`  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
 **Intent ≠ full specification.** Expand to needed rigor only (`INTENT_EXPAND.md`).
@@ -17,7 +17,8 @@
 **Handoff / DoD-stop / decide-low:** `RUNTIME.md` § Gates & handoff.  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook — `AGENTIC_INTERACTION.md`.  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
-**Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `templates/overlay-capture-inbox.md`.
+**Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `templates/overlay-capture-inbox.md`.  
+**Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
 
 **Large scope:** chunk → investigate → **synthesize** before conclusions. Pin: **Chunk for processing, never for understanding.** FIC on long sessions.
 
