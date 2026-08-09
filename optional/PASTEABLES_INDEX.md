@@ -7,10 +7,12 @@
 |------|------|
 | Short intent → rigor / project review | `INTENT_EXPAND.md` |
 | Runtime stanza · seats vs Auto · failure modes | `RUNTIME.md` |
+| Runtime hygiene ideas (callouts, not quizzes) | `RUNTIME_HYGIENE_IDEAS.md` |
+| Extract dump · Keep/Park · raw off-repo · organize | `EXTRACT_AND_ORGANIZE.md` |
+| Capture-inbox overlay snippet | `../templates/overlay-capture-inbox.md` |
 | Feature plan → build (PRP + examples) | `SPEC_BUILD.md` |
 | Mode D cold-lead | `MODE_D.md` |
 | Large scope chunking | `CHUNKING.md` |
-| Extract dump / organize repo | `EXTRACT_AND_ORGANIZE.md` |
 | Install by stage | `INSTALL_PROFILES.md` · `templates/overlay-*.md` |
 | Seat picker / playbooks | `CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` |
 | Full prior essays | `archive/` |

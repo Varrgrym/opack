@@ -10,11 +10,12 @@ alwaysApply: true
 
 - Short requests are **goals** — expand via `INTENT_EXPAND.md` only as needed.
 - **“Review this project”** → Mode **D** + coverage bar; do **not** ask which mode.
-- Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`.
-- Substantial work: 5W1H · runtime stanza (`RUNTIME.md`).
+- Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md` (personal Keep/Park; reject PII/secrets/ops only).
+- Substantial work: 5W1H · runtime stanza · wrong-seat / DoD-stop / decide-low (`RUNTIME.md`).
 - **Auto ≠ seats** — name `Seat:` / pin model; Auto does not follow playbooks.
 - Multitask **off** unless synthesis-owned; **no review fleets**.
 - Chunk → synthesize; **chunk for processing, never for understanding** (`CHUNKING.md`).
 - Prefer understand → verify → simplify → plan → execute → validate → **stop**.
 - Feature builds: `SPEC_BUILD.md`. Bad session: name failure mode in `RUNTIME.md`.
-- Install lab only with `--with-workflow-lab`. Profiles: `INSTALL_PROFILES.md`.
+- Capture satellite: `templates/overlay-capture-inbox.md`. Profiles: `INSTALL_PROFILES.md`.
+- Install lab only with `--with-workflow-lab`.

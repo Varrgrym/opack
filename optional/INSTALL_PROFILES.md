@@ -12,6 +12,7 @@ Same Layer A everywhere. Relatedness does **not** auto-upgrade dials. `--garden-
 | Profile | Stage / example | Install | Overlay |
 |---------|-----------------|---------|---------|
 | **Design / lore** | Theory, locks, dumps (e.g. Fallen Blade) | Baseline only | Mode B notebook; paste `templates/overlay-design.md` bullets |
+| **Capture inbox** | Ideas/sources satellite (e.g. thoughts) — not product runtime | Baseline only | Paste `templates/overlay-capture-inbox.md`; Mode B + Keep/Park personal |
 | **Product MVP** | Playable slice + design (e.g. MH creatures) | Baseline + `--with-seats` | Light seats; selective lab later; design/product habits in overlay |
 | **Garden plant** | Peeled plant (Cookie, DocuBot, scrape) | Baseline + `--with-seats` + `--garden-sibling` | Paste `templates/overlay-garden-plant.md`; fill `HELPER_*_ROOT` |
 | **Garden hub** | Universal Automated Helper | Baseline + `--with-seats` + `--with-workflow-lab` | Hub owns Immune — never paste Immune into opack |

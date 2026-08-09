@@ -21,8 +21,12 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - Status / notebook / roadmap / full review → Mode A/B/C/D in `AGENTS.md`. **“Review this project”** → Mode D + `INTENT_EXPAND` coverage; don’t ask which mode; runtime stanza; no review fleets
 - Seats ≠ AGENTS: Engineer · Reviewer · Finisher · Archivist · Attacker — name `Seat:` then playbooks. Active ≤3; declare idle
 - **Auto ≠ seats:** Cursor Auto does not follow playbooks — pin the model or name the seat (`RUNTIME.md`)
+- **Wrong-seat callout:** if the ask clearly needs another seat, say so in one line — do not quiz “who owns this?” every turn (`RUNTIME.md`)
+- **DoD / stop:** when DoD met or polish starts without new need — one line, then stop (`RUNTIME.md`)
+- **Decide-low / ask-high:** local reversible clear work → decide and do; live/secrets/pack growth/high blast → ask or fail-closed (`RUNTIME.md`)
 - Pack growth: twice seen/corrected, or **“remember that”** → confirm before write
 - Install by stage: `INSTALL_PROFILES.md` — lab only with `--with-workflow-lab`; `--garden-sibling` plants only
+- Extract dumps: personal ideas Keep/Park; reject PII/secrets/ops noise only (`EXTRACT_AND_ORGANIZE.md`)
 
 ## Optional
 

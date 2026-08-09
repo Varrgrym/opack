@@ -3,7 +3,8 @@
 **Status:** active consolidated kit · 2026-08-08  
 **Archives:** `archive/RUNTIME_CONTROL.md` · `FAILURE_MODES.md`  
 **Use when:** choosing *how* the agent runs — mode, seat, parallelism, gates, handoff — or diagnosing a bad session  
-**NOT:** always-on multitasking · sixth standing seat · Layer A bloat
+**NOT:** always-on multitasking · sixth standing seat · Layer A bloat  
+**Same-line ideas (not all landed):** `RUNTIME_HYGIENE_IDEAS.md`
 
 ---
 
@@ -56,6 +57,12 @@ Default: Agent + adaptive depth. Plan ceremony is not for “rename this variabl
 
 Open with `Seat: …` and follow `MODEL_SEAT_PLAYBOOKS.md`. Active ≤3; declare idle.
 
+### Wrong-seat callout (not a quiz)
+
+Do **not** ask “whose job is this?” on ordinary turns.  
+When the ask clearly fits another seat (scary → Reviewer · stuck multi-file → Finisher · mega-map → Archivist · falsify → Attacker) and this chat is the wrong one: **one line** naming the better seat, then stop or continue only if the operator keeps you here.  
+Default = stay Engineer and answer. Ceremony is for mismatch, not every prompt.
+
 ---
 
 ## 4. Gates & handoff
@@ -64,6 +71,31 @@ Open with `Seat: …` and follow `MODEL_SEAT_PLAYBOOKS.md`. Active ≤3; declare
 - Author ≠ sole Reviewer on scary diffs.  
 - Stuck → Finisher; scary → Reviewer; invariant → Attacker.  
 - Stop when DoD met; don’t polish forever.
+
+### Handoff packet (seat redirect)
+
+When calling a wrong-seat redirect (or operator opens the next seat), leave **three bullets** so the next chat is not cold:
+
+```text
+Intent: …
+Facts so far: …
+Open risk / ask: …
+```
+
+No essay. If continuing in this chat anyway, skip the packet.
+
+### DoD / stop callout
+
+When the stated DoD is met, or polish starts without a new requirement: **one line** — “DoD met — stop unless you want polish.” Then stop. Counters infinite polish / wow-bar.
+
+### Decide-low / ask-high
+
+| | Do |
+|--|-----|
+| **Decide-low** | Clear ask · local · reversible · no live/prod/credentials · no Layer A / pack rewrite → **decide and do**; one short “I decided X because …” only when non-obvious |
+| **Ask-high** | Live / irreversible · secrets · commit/push unless asked · weaken safety gates · Layer A or shared kit growth · ambiguous high blast · seat stop after redirect → **ask or fail-closed** |
+
+This is scoped agency, not unbounded autonomy. Wrong-seat and DoD callouts still apply.
 
 ---
 

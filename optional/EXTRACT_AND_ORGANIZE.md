@@ -23,7 +23,7 @@ Do **not** ask “what format?” if Mode B + extract protocol fits. Open with r
 
 ```text
 1. SCOPE     What is the artifact? (chat export, notes, video transcript, …)
-2. NOISE     Strip unrelated threads (games tier lists, ads, one-off trivia)
+2. NOISE     Strip ads, pure spam, expired ops chatter, one-off trivia with no idea residue
 3. SIGNAL    Label: fact · observation · conclusion · assumption · open Q · recommendation · decided · NOT · parked
 4. MAP       Already in opack / hub? → note “covered” (don’t duplicate)
 5. NET-NEW   Only land what improves kits or overlay (propose → confirm if Layer A)
@@ -32,6 +32,19 @@ Do **not** ask “what format?” if Mode B + extract protocol fits. Open with r
 ```
 
 **Pin:** Extract for **leverage**, not completeness. A 10k-line ChatGPT export may yield one page of net-new doctrine.
+
+### Personal ideas — Keep / Park (not noise)
+
+**“Personal” is not a reject category.** Media-sparked thoughts, living-systems hunches (fish/hydro, mycology, compost), creative sketches, and similar idea-fragments → **Keep or Park** with a durable home (notebook or `personal-ideas` bucket).  
+
+**Reject only:** PII · secrets · credentials/tokens · wallet material · expired ops noise · ads/spam.  
+
+Thin fragments → park bucket; promote to a theme note when coherent. Capture-inbox roots: see `templates/overlay-capture-inbox.md`.
+
+### Raw dumps (fail-closed)
+
+- Prefer **archive raw off-repo** (zip outside git); land **Keep notes** + indexes in-repo.  
+- **Never commit** Discord/HTML dumps, Drive raw trees, OAuth tokens, or secret-bearing exports.
 
 ---
 

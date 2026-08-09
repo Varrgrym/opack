@@ -62,7 +62,9 @@ Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.5 High). 
 
 **Picker:** `optional/CURSOR_MODEL_SEATS.md` · **Playbooks:** `optional/MODEL_SEAT_PLAYBOOKS.md` (open with `Seat: …`). After `--with-seats`, under project `docs/`.
 
-**Auto:** Cursor Auto / Router does **not** apply these playbooks. Seats are manual (named chat + `Seat:` line).
+**Auto:** Cursor Auto / Router does **not** apply these playbooks. Seats are manual (named chat + `Seat:` line).  
+**Wrong-seat callout:** mismatch → one-line redirect; do **not** quiz seat ownership every turn (`optional/RUNTIME.md`).  
+**Decide-low / ask-high · DoD/stop · handoff packet:** `optional/RUNTIME.md` § Gates & handoff.
 
 ---
 

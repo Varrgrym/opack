@@ -23,6 +23,7 @@ No Garden Immune / constitution.
 | Profile | Install |
 |---------|---------|
 | Design / lore | Baseline only |
+| Capture inbox | Baseline only (+ paste `templates/overlay-capture-inbox.md`) |
 | Product MVP | Baseline + `--with-seats` |
 | Garden plant | Baseline + `--with-seats` + `--garden-sibling` |
 | Garden hub | Baseline + `--with-seats` + `--with-workflow-lab` |

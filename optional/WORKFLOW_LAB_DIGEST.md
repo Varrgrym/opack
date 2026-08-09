@@ -12,7 +12,10 @@
 **Automatic 5W1H** on substantial work. Certainty: Known → Inferred → Unknown → Recommended.
 
 **Runtime stanza:** `Mode · Seat · Multitask · Plan?` — multitask **off** unless synthesis-owned. **No review fleets.**  
-**Auto vs seats:** Cursor Auto does **not** pick seats from playbooks — name `Seat:` / pin the model (`RUNTIME.md`).
+**Auto vs seats:** Cursor Auto does **not** pick seats from playbooks — name `Seat:` / pin the model (`RUNTIME.md`).  
+**Wrong-seat:** one-line redirect on mismatch — no per-turn seat quiz (`RUNTIME.md` · ideas: `RUNTIME_HYGIENE_IDEAS.md`).  
+**Handoff / DoD-stop / decide-low:** `RUNTIME.md` § Gates & handoff.  
+**Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `templates/overlay-capture-inbox.md`.
 
 **Large scope:** chunk → investigate → **synthesize** before conclusions. Pin: **Chunk for processing, never for understanding.** FIC on long sessions.
 
