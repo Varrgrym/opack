@@ -32,6 +32,18 @@
 
 **Rule:** one **canonical** copy per machine (`opack/optional/`). Project copies are **instances** — add project examples; don’t fork the method silently.
 
+**Install today:** manual copy/link from `optional/` (kit not yet in `install.sh` — see profile review action #7).
+
+**Instance sync:** FBT may run ahead of portable (case studies, v2 retrospective). On twice-seen correction, promote **patterns** to opack canonical; keep product names in instances only.
+
+**Second instance (open):** MHCOS — opack baseline + creative overlay + `CREATURE_DESIGN_PROCESS.md` as Materialize evidence.
+
+---
+
+## Gate integrity (portable rule)
+
+**Checklist is SoT** for phase approve (3A.9, 3B.5, MVP exit). Production plans and review notes may record progress but must not claim pass while checklist gates are open. Cursor: sync checklist before marking steps [x] elsewhere.
+
 ---
 
 ## Context axes (same operator, different primary seat)
@@ -74,3 +86,4 @@ Profile doc holds the **full** multi-context map; overlay holds **current projec
 | Date | Change |
 |------|--------|
 | 2026-08-12 | Promoted from FBT session; portable kit + profile refinements (gameplay vs process implementer) |
+| 2026-08-12 | Profile v2 + review doc; gate integrity rule; PASTEABLES fix; MHCOS instance open |

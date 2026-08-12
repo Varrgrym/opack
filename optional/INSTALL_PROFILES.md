@@ -13,7 +13,7 @@ Same Layer A everywhere. Relatedness does **not** auto-upgrade dials. `--garden-
 |---------|-----------------|---------|---------|
 | **Design / lore** | Theory, locks, dumps (e.g. Fallen Blade) | Baseline only | Mode B notebook; paste `templates/overlay-design.md` or **`overlay-creative-operator.md`** + [`optional/CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md) |
 | **Capture inbox** | Ideas/sources satellite (e.g. thoughts) — not product runtime | Baseline only | Paste `templates/overlay-capture-inbox.md`; Mode B + Keep/Park personal |
-| **Product MVP** | Playable slice + design (e.g. MH creatures) | Baseline + `--with-seats` | Light seats; selective lab later; design/product habits in overlay |
+| **Product MVP** | Playable slice + design (e.g. MH creatures) | Baseline + `--with-seats` | Light seats; paste **`overlay-creative-operator.md`** + link [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md); phase pin + `BUILD_FOCUS` / MVP metrics in overlay |
 | **Garden plant** | Peeled plant (Cookie, DocuBot, scrape) | Baseline + `--with-seats` + `--garden-sibling` | Paste `templates/overlay-garden-plant.md`; fill `HELPER_*_ROOT` |
 | **Garden hub** | Universal Automated Helper | Baseline + `--with-seats` + `--with-workflow-lab` | Hub owns Immune — never paste Immune into opack |
 | **Machine / hygiene** | Host config, care centers, launch helpers | Baseline + `--with-seats` | Paste `templates/overlay-machine.md` |

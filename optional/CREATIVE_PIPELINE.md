@@ -239,6 +239,12 @@ Game-art specific examples: FBT instance doc.
 
 ---
 
+## Gate integrity (portable)
+
+**Checklist is SoT** for phase approve. Production plans, review notes, and chat may track progress — but **3A.9 / 3B.5 / MVP exit** live on the checklist only. If docs disagree, fix checklist first, then sync others.
+
+---
+
 ## Project phase pin (fill per repo)
 
 | Field | Value |
