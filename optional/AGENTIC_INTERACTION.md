@@ -95,6 +95,13 @@ MVP / working slice **before** Gauntlet or critic polish (`SPEC_BUILD` · wow-ba
 Under the threshold: **just paste** — RLM theater for a short PDF is complexity failure.  
 Over it: give a **handle** (paths, ledger, grep, chunked reads) — same spirit as `CHUNKING.md` (chunk for processing, never for understanding).
 
+### Chat history ≠ durable memory (**decided**)
+
+- Long threads drop or soft-lose earlier turns — **you cannot rely on “remember the entire chat.”**  
+- Same shape as paste threshold: when the thread is a warehouse, **land a handle** (session note · decided/NOT/parked · handoff packet · overlay log), then continue from that — don’t re-paste the transcript.  
+- Hot path stays thin (`AGENTS` / digests / overlay); cross-chat recall = **read files**, not infinite RAM.  
+- Chat dumps → `EXTRACT_AND_ORGANIZE.md` (query/slice), not “stuff the whole JSONL back in.”
+
 ### Shallow slice / subagent (**decided** · gated)
 
 - Child chat / subagent may take **only the slice + DoD**, not the whole warehouse (empty-of-corpus context).  
@@ -117,6 +124,7 @@ Huge score gaps on the same weights prove the **loop** matters. Steal the lesson
 |--------|
 | Default-buy Prime Agent / RLM product install |
 | Paste-all warehouses “so the model has everything” |
+| Treating long chat history as infinite memory |
 | RLM ceremony on short one-shots |
 | Deep recursion theater · unsandboxed self-refine / cheat-capable loops |
 | Treating benchmark crowns as proof of tissue |
