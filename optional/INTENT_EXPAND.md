@@ -1,7 +1,7 @@
 # Intent expand (workflow lab)
 
 **Status:** active consolidated kit · 2026-08-08  
-**Archives:** `archive/ADAPTIVE_TASK_EXPANSION.md` · `UNIVERSAL_DEEP_REASONING.md` · `ANALYSIS_PROMPT_PLATFORM.md`  
+**Archives:** `archive/ADAPTIVE_TASK_EXPANSION.md` · `archive/UNIVERSAL_DEEP_REASONING.md` · `archive/ANALYSIS_PROMPT_PLATFORM.md`  
 **Use when:** short human intents need the right rigor — not maximum ceremony  
 **NOT:** Layer A by default · inventing scope · trivia theater
 

@@ -17,7 +17,7 @@
 **Handoff / DoD-stop / decide-low:** `RUNTIME.md` § Gates & handoff.  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) — `AGENTIC_INTERACTION.md`.  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
-**Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `templates/overlay-capture-inbox.md`.  
+**Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  
 **Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
 
 **Large scope:** chunk → investigate → **synthesize** before conclusions. Pin: **Chunk for processing, never for understanding.** FIC on long sessions.

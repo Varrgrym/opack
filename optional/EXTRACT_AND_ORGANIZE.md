@@ -39,7 +39,7 @@ Do **not** ask “what format?” if Mode B + extract protocol fits. Open with r
 
 **Reject only:** PII · secrets · credentials/tokens · wallet material · expired ops noise · ads/spam.  
 
-Thin fragments → park bucket; promote to a theme note when coherent. Capture-inbox roots: see `templates/overlay-capture-inbox.md`.
+Thin fragments → park bucket; promote to a theme note when coherent. Capture-inbox roots: see `../templates/overlay-capture-inbox.md`.
 
 ### Dense / multi-brand organisms
 

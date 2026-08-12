@@ -111,6 +111,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     EXTRACT_AND_ORGANIZE.md \
     AGENTIC_INTERACTION.md \
     DAY_PROMPTS.md \
+    ORGANISM_PLACEMENT.md \
     INSTALL_PROFILES.md
   do
     run "cp \"$PACK_ROOT/optional/$f\" \"$TARGET/docs/workflow-lab/$f\""

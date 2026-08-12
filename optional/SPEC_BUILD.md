@@ -1,7 +1,7 @@
 # Spec → build (PRP + examples)
 
 **Status:** active consolidated kit · 2026-08-08  
-**Archives:** `archive/PRP_TEMPLATE.md` · `EXAMPLES_CONVENTION.md`  
+**Archives:** `archive/PRP_TEMPLATE.md` · `archive/EXAMPLES_CONVENTION.md`  
 **Use when:** a named feature needs durable intent → plan → execute  
 **NOT:** Layer A · every tiny fix
 

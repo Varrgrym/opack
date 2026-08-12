@@ -1,7 +1,7 @@
 # Runtime control (+ failure modes)
 
 **Status:** active consolidated kit · 2026-08-08  
-**Archives:** `archive/RUNTIME_CONTROL.md` · `FAILURE_MODES.md`  
+**Archives:** `archive/RUNTIME_CONTROL.md` · `archive/FAILURE_MODES.md`  
 **Use when:** choosing *how* the agent runs — mode, seat, parallelism, gates, handoff — or diagnosing a bad session  
 **NOT:** always-on multitasking · sixth standing seat · Layer A bloat  
 **Same-line ideas (not all landed):** `RUNTIME_HYGIENE_IDEAS.md`
