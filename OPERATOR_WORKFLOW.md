@@ -84,3 +84,4 @@
 | 2026-08-08 | Lab consolidate → archive | Intent/Runtime/Spec/Mode D/Chunking thin; EXTERNAL+Stack archived |
 | 2026-08-12 | No project symlinks | Operator pin — real folders only; not a layout quick-fix |
 | 2026-08-12 | Host roles standing prompt restored | Operator: need satellite vs workhorse behavior split (not “this PC is Windows”) |
+| 2026-08-12 | Digest hot-path ~30k paste threshold | Promote literal threshold from AGENTIC kit into always-on digest + AGENTS/RUNTIME/lab digests |
