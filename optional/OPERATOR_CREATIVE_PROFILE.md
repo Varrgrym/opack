@@ -321,7 +321,7 @@ Operator retains **approve gates**. Checklist records approve.
 
 ## Links
 
-- Review: [`profile-review-2026-08-12.md`](profile-review-2026-08-12.md)
+- Review (archived): [`archive/profile-review-2026-08-12.md`](archive/profile-review-2026-08-12.md)
 - Pipeline: [`CREATIVE_PIPELINE.md`](CREATIVE_PIPELINE.md) · [`CREATIVE_PIPELINE_CHECKLIST.md`](CREATIVE_PIPELINE_CHECKLIST.md)
 - Overlay: [`../templates/overlay-creative-operator.md`](../templates/overlay-creative-operator.md) · Garden hub: [`../templates/overlay-garden-plant.md`](../templates/overlay-garden-plant.md)
 - Instances: FBT · MHCOS · Garden (`thoughts/by-family/garden/operator-profile-garden-instance.md`)

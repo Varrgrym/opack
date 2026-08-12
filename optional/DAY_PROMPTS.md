@@ -21,6 +21,23 @@
 
 **Also reach for:** #9 Chunked investigation on large repos · meta-prompt when you want silent expansion of short asks.
 
+### Full TOC
+
+| # | Section |
+|---|---------|
+| — | [Daily five](#daily-five-keep-these-hot) · [Map to pack](#map-to-existing-pack-dont-duplicate-doctrine) |
+| 1 | [Deep review](#1--deep-review) |
+| 2 | [Double-check my work](#2--double-check-my-work) |
+| 3 | [Find what we're missing](#3--find-what-were-missing) |
+| 4 | [Skeptical reviewer / adversarial pass](#4--skeptical-reviewer--adversarial-pass) |
+| 5 | [What should we do next?](#5--what-should-we-do-next) |
+| 6 | [Should we build this?](#6--should-we-build-this) |
+| 7 | [Find consolidation opportunities](#7--find-consolidation-opportunities) |
+| 8 | [Who / what / why / when / where / how](#8--who--what--why--when--where--how) |
+| 9 | [Chunked investigation](#9--chunked-investigation) |
+| 10 | [Are we actually done?](#10--are-we-actually-done) |
+| — | [Meta — expand short asks](#meta--expand-short-asks-standing-paste) · [Operator tips](#operator-tips) · [Log](#log) |
+
 ---
 
 ## Map to existing pack (don’t duplicate doctrine)
@@ -512,3 +529,4 @@ When appropriate, finish with:
 | Date | Note |
 |------|------|
 | 2026-08-09 | Operator paste kit landed; daily five highlighted; mapped to existing Modes/kits |
+| 2026-08-12 | Full TOC added (no file split — single paste kit stays installable as one dial file) |

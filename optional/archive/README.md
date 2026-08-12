@@ -15,5 +15,6 @@
 | `EXAMPLES_CONVENTION.md` | `../SPEC_BUILD.md` |
 | `AI_WORKFLOW_STACK.md` | 6-layer table → `../WORKFLOW_LAB_DIGEST.md` |
 | `EXTERNAL_READING.md` | Out of install path; keep here as bibliography |
+| `profile-review-2026-08-12.md` | Working note after creative-kit promote; profile lives in `../OPERATOR_CREATIVE_PROFILE.md` |
 
 **Install:** `--with-workflow-lab` copies **active** kits only — not this folder.

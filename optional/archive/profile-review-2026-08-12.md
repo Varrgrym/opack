@@ -2,7 +2,7 @@
 
 **Purpose:** critical evidence pass after promoting creative operator kit.  
 **Scope:** opack · thoughts · FBT · MHCOS (read-only) · profile accuracy.  
-**Outcome:** profile v2 amendments in [`OPERATOR_CREATIVE_PROFILE.md`](OPERATOR_CREATIVE_PROFILE.md).
+**Outcome:** profile v2 amendments in [`OPERATOR_CREATIVE_PROFILE.md`](../OPERATOR_CREATIVE_PROFILE.md).
 
 ---
 
@@ -55,12 +55,12 @@ Profile is **directionally accurate** — design lead, coherence radar, meta-sys
 | 2 | Fix PASTEABLES_INDEX capture-inbox link | done 2026-08-12 |
 | 3 | INSTALL_PROFILES Product MVP → creative kit | done 2026-08-12 |
 | 4 | FBT checklist = gate SoT; sync wave-1 pin | done 2026-08-12 |
-| 5 | MHCOS install + profile instance | **open** |
-| 6 | Commit FBT art wave | **open** (operator) |
+| 5 | MHCOS install + profile instance | **open (other repo)** — not opack |
+| 6 | Commit FBT art wave | **open (other repo)** — not opack |
 | 7 | Add kit to install.sh optional copy | **NOT** 2026-08-12 — keep `--with-workflow-lab` thin; kit stays opack-local / manual |
 
 ---
 
 ## Paste — re-run review
 
-> Read opack `optional/profile-review-2026-08-12.md` + `OPERATOR_CREATIVE_PROFILE.md`. Re-assess profile against [repo paths]. Evidence only. Output: delta list + profile patch.
+> Read opack `optional/archive/profile-review-2026-08-12.md` + `OPERATOR_CREATIVE_PROFILE.md`. Re-assess profile against [repo paths]. Evidence only. Output: delta list + profile patch.
