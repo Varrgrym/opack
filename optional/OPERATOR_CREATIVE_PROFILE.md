@@ -2,11 +2,11 @@
 
 **Purpose:** how this operator works best — strengths, gaps, team-role fit, Cursor defaults. **Not** a clinical personality test.
 
-**Status:** v2 · 2026-08-12 · review pass [`profile-review-2026-08-12.md`](profile-review-2026-08-12.md)  
+**Status:** v3 · 2026-08-12 · Garden axis + Cursor gap-cover + habit patterns  
 **Kit:** [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md)  
-**Instance with game case studies:** `fallen-blade-tactics/docs/process/operator-creative-profile.md`
+**Instances:** FBT `docs/process/` · MHCOS `docs/process/` · Garden `thoughts/by-family/garden/operator-profile-garden-instance.md`
 
-**Scope:** design-heavy and capture/architecture work. Revisit after Phase 4 MVP on a product, or twice-seen correction.
+**Scope:** design-heavy products · capture/architecture (thoughts/opack) · **Garden hub** (systems owner). Revisit after twice-seen correction.
 
 ---
 
@@ -39,11 +39,35 @@
 | **Game product (MHCOS)** | Creative director + product owner | **Evidence open** — install profile instance; link `CREATURE_DESIGN_PROCESS.md` |
 | **Capture inbox (thoughts)** | **Process architect** / idea organizer | Mode B · Keep/Park · organism placement · coverage ledger |
 | **Pack / workflow (opack)** | **Process architect** / kit maintainer | Template discipline · no Layer A sprawl |
-| **Garden hub** | Systems owner / critic | MVP smokes · peer steals · fail-closed |
+| **Garden hub (UAH)** | **Systems owner / critic** | MVP smokes · organ coherence · fail-closed · **Engineer implements** |
+| **Garden satellite (thoughts)** | Process architect + peer analyst | Steals · ladder · #2b — **no hub build on Windows** |
 
 Pin **one context per chat** in overlay phase line.
 
-**Machine topology:** Windows satellite (thoughts, organize) · Linux workhorse (Garden hub, some execution) · product repos local. Do not fight wrong machine for runtime work.
+**Machine topology:** Windows satellite (thoughts, organize) · Linux workhorse (Garden hub, Cookie/DocuBot runtime) · product repos local. Do not fight wrong machine for runtime work.
+
+---
+
+## Habit patterns (cross-repo — evidence)
+
+These recur across FBT, thoughts, MHCOS, Garden notes. Cursor should treat them as **stable**, not one-off preferences.
+
+| Pattern | What you do | Cursor implication |
+|---------|-------------|-------------------|
+| **Spiky workflow** | Strong organize/design bursts → long maintenance tail | After a burst, prompt closure: commit batch · checklist · one bridge |
+| **Write when we discuss** | Durable decisions land in repo, not chat | Default **write** locks/labels; chat-only = failure unless talk-only |
+| **“Is it written?”** | You verify when chat may summarize | Proactively confirm file path after decisions; offer commit when batch done |
+| **Label first** | decided · NOT · parked before debating forever | Structure dumps before converging |
+| **Fail-closed** | Workspace handoffs, scrape retries, ToS, live gates | Refuse wrong-root work · dry-run · no invented allow-flags |
+| **Keep-fat / thin-shelf** | Warehouse in notebook; thin cut at build | Allow rich dumps in Talk; challenge scope during Materialize/Code |
+| **Product SoT in product repo** | thoughts = bridges only | Do not deepen product design in thoughts when product repo exists |
+| **Coherence before features** | Collisions named early | Harsh sort test · collision matrix · radical candor when asked |
+| **Delegation** | AI pixels; Engineer runtime; you judge | Never assume operator wants to be primary gameplay coder |
+| **Commit when asked** | Git batches on operator request | Propose commit at Materialize/organize session end; don’t commit unprompted |
+| **Phase pin** | Resume with phase + sub-step + focus | Open long tasks with pin; challenge work that mismatches pin |
+| **Checklist = gate SoT** | Approve lives on checklist | Don’t mark pass in production plans alone |
+
+**Chat memory:** Cursor may summarize long threads. **Files and overlays outlive chat.** When in doubt, write.
 
 ---
 
@@ -75,7 +99,9 @@ Pin **one context per chat** in overlay phase line.
 6. **Meta-systems builder** — pipelines, organism placement, operator pack, coverage ledger.
 7. **Delegation clarity** — AI generates; operator judges; runtime code delegated on FBT.
 8. **IP / audience awareness** — external handoffs sanitized; standalone prompts.
-9. **Independent process rediscovery** — MHCOS one-knob Materialize predates explicit pipeline naming.
+9. **Independent process rediscovery** — MHCOS one-knob Materialize; Garden practice ladder + DocuBot Path E predate explicit pipeline naming.
+10. **Fail-closed instinct** — workspace handoffs, scrape correction, ToS/AC gates, live input refuses.
+11. **Games as organ gym** — Cookie/Minesweeper path — verifiable loops, not game studio identity.
 
 ---
 
@@ -92,8 +118,10 @@ Pin **one context per chat** in overlay phase line.
 9. **Bridge maintenance tail** — FBT↔MHCOS pipeline, handoff follow-through after organize bursts.
 10. **Parallel Materialize lanes** — code v5 + AI solo without one recorded 3A exit.
 11. **Line-edit not default** — structure/labels over prose polish.
+12. **Garden execution deferred** — maps/steals on thoughts; smokes on workhorse queue.
+13. **Steal backlog > smokes** — peer P0 documented; Minesweeper/Cookie proof thin.
 
-**Mitigation:** creative pipeline · checklist as gate SoT · phase pin · profile self-check · commit art/docs when batch completes.
+**Mitigation:** creative pipeline · checklist as gate SoT · phase pin · gap-cover table · commit batches · workhorse-queue.
 
 ---
 
@@ -107,6 +135,53 @@ Pin **one context per chat** in overlay phase line.
 | **Explicit vs intuitive** | Products: intuitive first (MHCOS). FBT/thoughts: moving explicit (pipeline v2) |
 
 Plans **what it means and should look like** before **how the repo implements it**.
+
+---
+
+## Garden (UAH) — systems owner axis
+
+Garden is a **different primary seat** from FBT/MHCOS. You are not the pixel creative director here — you are the **organism architect**: one hub with shared senses, thin plants, fail-closed mouths.
+
+### Organism shape (four cores)
+
+| Core | What it is | Your habit |
+|------|------------|------------|
+| **Organs** | Vision · Hands · Memory · Learn · Remember — shared contracts | Steal **patterns** from peers into organs; don’t fork stacks |
+| **Surfaces** | Discord · Cursor · thoughts inbox · (phone parked) | #2b archive on thoughts; digest shipped on hub |
+| **Plants / skills** | Cookie · DocuBot · Heroic · library · Myuu later | Bounded capabilities on shared organs — not fat apps |
+| **Substrate** | Linux workhorse · Proxmox · local MoE ideas | Execute here; organize on Windows satellite |
+
+### Plants — what each proves about you
+
+| Plant | Practice path | Profile read |
+|-------|---------------|--------------|
+| **Cookie** | Path A — game loop (`idle.clicker`, `ocr.counter`) | Uses **games as training wheels** for organs — fast done/fail |
+| **DocuBot** | Path E — IRL/docs | Same organs; **harder done-detectors** — bridge to real tasks |
+| **Discord digest** | Surface — shipped | Eyes→digest habit works |
+| **#2b DM archive** | thoughts satellite | Capture architect — rubric/scorecard done; **maintenance tail** (use board) open |
+| **Heroic free-games** | Shipped plant | Can finish bounded skills |
+| **Game library (#4)** | Design — after #2b | Mechanic tags + Remember — feeds transfer aspiration |
+| **Myuu / live online** | **NOT now** — after #4 + ToS | **Refusal discipline** — won’t risk ban macros as curriculum |
+
+**Decided:** Games are **a** practice goal for Garden, not the whole organism (`garden-practice-ladder-parked.md`).
+
+### Garden Materialize ≠ FBT Materialize
+
+| | FBT Materialize | Garden Materialize |
+|--|-----------------|-------------------|
+| Proof | Gray sprites · sort test · identity locks | **Smoke** · replay trail · pairing gate · one legal game loop |
+| Critic seat | Art director | Systems critic — does organ cohere? |
+| Doc type | Briefs · handoffs | Peer steal row · smoke DoD · fail-closed checklist |
+| Wrong machine | — | Building hub from thoughts Windows PC |
+
+### Garden weaknesses (operator-specific)
+
+- **Hub execution deferred** — rich thoughts-side maps; workhorse queue can stall.
+- **Steal backlog > smokes built** — peer P0 items documented, Minesweeper MVP not proven on hub.
+- **#2b maintenance** — infrastructure done; “use board a few days” still open since Aug 8.
+- **Same doc sprawl risk** — peer notebook extensions vs one smoke.
+
+**Instance bridge:** `thoughts/by-family/garden/operator-profile-garden-instance.md`
 
 ---
 
@@ -130,6 +205,15 @@ Plans **what it means and should look like** before **how the repo implements it
 | Materialize | Prompts · sort test · identity notes · **one SoT lane** | Polish before 3A.9 · parallel lanes without exit record |
 | Code MVP | **Engineer seat** — operator directs | Scope creep · operator as primary gameplay coder |
 | Refine | Reviewer · doc↔build drift | Re-litigating locked lore without cause |
+
+**Garden hub (parallel frame — not the six product phases):**
+
+| Job | Cursor does | Avoid |
+|-----|-------------|-------|
+| Smoke / proof | Thin MVP · replay · one game loop | Fleet of plants · new organ |
+| Peer steal | One row landed · P0 before M13 | Review fleets · default-buy stacks |
+| Live / safety | Fail-closed · dry-run · pairing | Always-on shell from chat |
+| thoughts side | Steals · ladder · #2b notes | Hub scaffold on Windows |
 
 ### Model seats
 
@@ -159,6 +243,33 @@ Plans **what it means and should look like** before **how the repo implements it
 
 ---
 
+## How Cursor covers gaps (weakness → behavior)
+
+Use this table proactively — **balance strengths, don’t flatter.**
+
+| Weakness | Cursor should |
+|----------|----------------|
+| **Doc sprawl** | Name phase pin; refuse new docs without leverage; suggest index split or commit batch |
+| **Structure without closure** | Ask “close loop?” · land open Q as decided/parked · row in workhorse-queue |
+| **Warehouse during pin** | “This is Talk/Plan — mismatch Materialize pin — park or update pin?” |
+| **Plan thin on props** | Force visual-identity lock note before retry |
+| **Analysis loop** | Interrupt: “sort test + one retry first?” before new process doc |
+| **Runtime implementation gap** | **Engineer seat** for Phase 4 / hub smokes; operator directs |
+| **Tool variance (AI art)** | Solo prompts · hybrid v1+v2 · external standalone blocks |
+| **Gate integrity** | Checklist before any “passed” claim; sync production plan |
+| **Uncommitted durable work** | End session: “commit this batch?” with file list |
+| **Bridge maintenance tail** | Surface workhorse-queue / handoff when product bridge mentioned |
+| **Parallel Materialize lanes** | Record one SoT; refuse second lane without exit |
+| **Line-edit gap** | Structure/labels only unless asked |
+| **Wrong workspace root** | **STOP** — handoff to product/hub repo (fail-closed) |
+| **Wrong machine** | Remind: organize on thoughts · execute Garden on workhorse |
+| **Garden steal > smoke** | One MVP smoke before new peer extension row |
+| **Chat-only decisions** | Write to file; give path; confirm “is it written?” |
+
+**Tone:** radical candor when invited; short challenge when pin/blasts radius violated; not sycophancy.
+
+---
+
 ## Solo + Cursor model
 
 | Role | Who |
@@ -176,9 +287,9 @@ Operator retains **approve gates**. Checklist records approve.
 
 | Item | Question | Where to land |
 |------|----------|---------------|
-| **MHCOS runtime seat** | Operator-directed only, or hands-on implementer? | MHCOS `docs/process/` instance row |
-| **MHCOS kit install** | Overlay + phase pin | `MonsterHunter-CreaturesofSonaria/OPERATOR_WORKFLOW.md` |
 | **FBT 3A.9** | Code v5 conditional vs AI solo SoT | FBT checklist wave-1 pin |
+| **Garden #2b maintenance** | Board use → declare maintenance | `discord-notes-board-from-dm.md` |
+| **MHCOS runtime seat** | Directed vs hands-on | MHCOS instance doc |
 
 ---
 
@@ -203,6 +314,8 @@ Operator retains **approve gates**. Checklist records approve.
 - [ ] Gates: checklist matches reality?
 - [ ] Maintenance tail: open Qs / bridges scheduled?
 - [ ] Durable work committed?
+- [ ] Garden: steal or smoke this week?
+- [ ] Right machine for execution?
 
 ---
 
@@ -210,5 +323,5 @@ Operator retains **approve gates**. Checklist records approve.
 
 - Review: [`profile-review-2026-08-12.md`](profile-review-2026-08-12.md)
 - Pipeline: [`CREATIVE_PIPELINE.md`](CREATIVE_PIPELINE.md) · [`CREATIVE_PIPELINE_CHECKLIST.md`](CREATIVE_PIPELINE_CHECKLIST.md)
-- Overlay: [`../templates/overlay-creative-operator.md`](../templates/overlay-creative-operator.md)
-- FBT instance: `fallen-blade-tactics/docs/process/`
+- Overlay: [`../templates/overlay-creative-operator.md`](../templates/overlay-creative-operator.md) · Garden hub: [`../templates/overlay-garden-plant.md`](../templates/overlay-garden-plant.md)
+- Instances: FBT · MHCOS · Garden (`thoughts/by-family/garden/operator-profile-garden-instance.md`)

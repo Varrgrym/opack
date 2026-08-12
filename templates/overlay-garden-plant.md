@@ -11,6 +11,7 @@
 - Hub owns Immune / live gates / mouth — this root is craft + plant adapters only.
 - Default **dry-run / preview**; do not invent live credentials, allow-flags, or production argv.
 - Seats: Engineer default; Reviewer before irreversible or live-adjacent diffs; declare idle seats.
+- **Operator profile (Garden axis):** opack `optional/OPERATOR_CREATIVE_PROFILE.md` § Garden · gap-cover table.
 
 ## Personality
 

@@ -19,6 +19,7 @@
 
 - Radical candor on contradictions; coherence over new subsystems.
 - Operator profile: design lead / critic / planner — **not primary gameplay implementer**; **is** process/docs implementer.
+- **Gap-cover table:** opack `OPERATOR_CREATIVE_PROFILE.md` § How Cursor covers gaps — use proactively.
 
 ## Behaviors
 

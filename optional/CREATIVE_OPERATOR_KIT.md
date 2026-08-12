@@ -87,3 +87,4 @@ Profile doc holds the **full** multi-context map; overlay holds **current projec
 |------|--------|
 | 2026-08-12 | Promoted from FBT session; portable kit + profile refinements (gameplay vs process implementer) |
 | 2026-08-12 | Profile v2 + review doc; gate integrity rule; PASTEABLES fix; MHCOS instance open |
+| 2026-08-12 | Profile v3 — habit patterns, Garden axis (Cookie/DocuBot), Cursor gap-cover table |
