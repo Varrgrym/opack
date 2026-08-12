@@ -20,15 +20,15 @@ No Garden Immune / constitution.
 
 ## Install by stage (MVP)
 
-| Profile | Install |
-|---------|---------|
-| Design / lore | Baseline only |
-| Capture inbox | Baseline only (+ paste `templates/overlay-capture-inbox.md`) |
-| Product MVP | Baseline + `--with-seats` |
-| Garden plant | Baseline + `--with-seats` + `--garden-sibling` |
-| Garden hub | Baseline + `--with-seats` + `--with-workflow-lab` |
-| Machine / hygiene | Baseline + `--with-seats` |
-| Idle / toy | Skip, or baseline only |
+| Profile | `--profile` | Install |
+|---------|-------------|---------|
+| Design / lore | `design` | Baseline only |
+| Capture inbox | `capture` | Baseline only (+ paste `templates/overlay-capture-inbox.md`) |
+| Product MVP | `product-mvp` | Baseline + `--with-seats` |
+| Garden plant | `garden-plant` | Baseline + `--with-seats` + `--garden-sibling` |
+| Garden hub | `garden-hub` | Baseline + `--with-seats` + `--with-workflow-lab` |
+| Machine / hygiene | `machine` | Baseline + `--with-seats` |
+| Idle / toy | `idle` | Skip, or baseline only |
 
 Full matrix: [`optional/INSTALL_PROFILES.md`](optional/INSTALL_PROFILES.md).
 

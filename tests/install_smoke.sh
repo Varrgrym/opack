@@ -39,6 +39,34 @@ else
   fail "dry-run missing ORGANISM_PLACEMENT"
 fi
 
+# --- digest dual-edit + ~30k hot-path ---
+FOLLOW_SRC="$PACK_ROOT/cursor-rules/follow-operator-pack.mdc"
+FOLLOW_INST="$PACK_ROOT/.cursor/rules/follow-operator-pack.mdc"
+LAB_SRC="$PACK_ROOT/cursor-rules/workflow-lab.mdc"
+LAB_INST="$PACK_ROOT/.cursor/rules/workflow-lab.mdc"
+if diff -q "$FOLLOW_SRC" "$FOLLOW_INST" >/dev/null; then
+  pass "follow-operator-pack cursor-rules sync"
+else
+  fail "follow-operator-pack cursor-rules drift"
+fi
+if diff -q "$LAB_SRC" "$LAB_INST" >/dev/null; then
+  pass "workflow-lab cursor-rules sync"
+else
+  fail "workflow-lab cursor-rules drift"
+fi
+if grep -q '30k' "$FOLLOW_SRC" && grep -q '30k' "$LAB_SRC"; then
+  pass "~30k hot-path in both digests"
+else
+  fail "~30k missing from a digest source"
+fi
+
+# --- capture profile = baseline dial ---
+CAP="$(mktemp -d /tmp/opack-smoke-capture.XXXXXX)"
+"$INSTALL" "$CAP" --profile capture >/dev/null
+need "$CAP/AGENTS.md" "capture profile installs baseline"
+forbid "$CAP/docs/workflow-lab" "capture profile does not ship lab"
+forbid "$CAP/docs/CURSOR_MODEL_SEATS.md" "capture profile does not ship seats"
+
 # --- live baseline + lab ---
 LIVE="$(mktemp -d /tmp/opack-smoke.XXXXXX)"
 "$INSTALL" "$LIVE" --with-workflow-lab >/dev/null

@@ -2,7 +2,7 @@
 # Install opack into a target project.
 # Usage: ./install.sh /path/to/project [flags]
 #   --with-seats --with-workflow-lab --garden-sibling --force-workflow
-#   --profile design|product-mvp|garden-plant|garden-hub|machine|idle
+#   --profile design|capture|product-mvp|garden-plant|garden-hub|machine|idle
 #   --dry-run
 set -euo pipefail
 
@@ -22,7 +22,7 @@ usage() {
 
 apply_profile() {
   case "$1" in
-    design|idle)
+    design|capture|idle)
       ;;
     product-mvp|machine)
       WITH_SEATS=1
@@ -36,7 +36,7 @@ apply_profile() {
       WITH_WORKFLOW_LAB=1
       ;;
     *)
-      echo "Unknown --profile: $1 (design|product-mvp|garden-plant|garden-hub|machine|idle)" >&2
+      echo "Unknown --profile: $1 (design|capture|product-mvp|garden-plant|garden-hub|machine|idle)" >&2
       exit 2
       ;;
   esac

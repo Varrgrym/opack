@@ -9,17 +9,19 @@ Same Layer A everywhere. Relatedness does **not** auto-upgrade dials. `--garden-
 
 ## Profile matrix
 
-| Profile | Stage / example | Install | Overlay |
-|---------|-----------------|---------|---------|
-| **Design / lore** | Theory, locks, dumps (e.g. Fallen Blade) | Baseline only | Mode B notebook; paste `templates/overlay-design.md` or **`overlay-creative-operator.md`** + [`optional/CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md) |
-| **Capture inbox** | Ideas/sources satellite (e.g. thoughts) — not product runtime | Baseline only | Paste `templates/overlay-capture-inbox.md`; Mode B + Keep/Park personal |
-| **Product MVP** | Playable slice + design (e.g. MH creatures) | Baseline + `--with-seats` | Light seats; paste **`overlay-creative-operator.md`** + link [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md); phase pin + `BUILD_FOCUS` / MVP metrics in overlay |
-| **Garden plant** | Peeled plant (Cookie, DocuBot, scrape) | Baseline + `--with-seats` + `--garden-sibling` | Paste `templates/overlay-garden-plant.md`; fill `HELPER_*_ROOT` |
-| **Garden hub** | Universal Automated Helper | Baseline + `--with-seats` + `--with-workflow-lab` | Hub owns Immune — never paste Immune into opack |
-| **Machine / hygiene** | Host config, care centers, launch helpers | Baseline + `--with-seats` | Paste `templates/overlay-machine.md` |
-| **Idle / toy** | Abandoned or tiny bots | Skip, or baseline only | Do nothing is correct |
+| Profile | `--profile` | Stage / example | Install | Overlay |
+|---------|-------------|-----------------|---------|---------|
+| **Design / lore** | `design` | Theory, locks, dumps (e.g. Fallen Blade) | Baseline only | Mode B notebook; paste `templates/overlay-design.md` or **`overlay-creative-operator.md`** + [`optional/CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md) |
+| **Capture inbox** | `capture` (same dial as `design`) | Ideas/sources satellite (e.g. thoughts) — not product runtime | Baseline only | Paste `templates/overlay-capture-inbox.md`; Mode B + Keep/Park personal |
+| **Product MVP** | `product-mvp` | Playable slice + design (e.g. MH creatures) | Baseline + `--with-seats` | Light seats; paste **`overlay-creative-operator.md`** + link [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md); phase pin + `BUILD_FOCUS` / MVP metrics in overlay |
+| **Garden plant** | `garden-plant` | Peeled plant (Cookie, DocuBot, scrape) | Baseline + `--with-seats` + `--garden-sibling` | Paste `templates/overlay-garden-plant.md`; fill `HELPER_*_ROOT` |
+| **Garden hub** | `garden-hub` | Universal Automated Helper | Baseline + `--with-seats` + `--with-workflow-lab` | Hub owns Immune — never paste Immune into opack |
+| **Machine / hygiene** | `machine` | Host config, care centers, launch helpers | Baseline + `--with-seats` | Paste `templates/overlay-machine.md` |
+| **Idle / toy** | `idle` | Abandoned or tiny bots | Skip, or baseline only | Do nothing is correct |
 
 **Baseline** = `AGENTS.md` + `OPERATOR_WORKFLOW.md` + `.cursor/rules/follow-operator-pack.mdc`
+
+`capture` and `design` are the **same install dial** (baseline only) — the name only helps you remember which overlay snippet to paste.
 
 ---
 
@@ -40,12 +42,16 @@ Do **not** invent cluster roles, per-repo seat names, or a crawler that “react
 ## Commands (examples)
 
 ```bash
-./install.sh /path/to/fallen-blade-tactics
-./install.sh /path/to/MonsterHunter-CreaturesofSonaria --with-seats
-./install.sh /path/to/cookie-clicker-family --with-seats --garden-sibling
-./install.sh /path/to/Universal-Automated-Helper --with-seats --with-workflow-lab
-./install.sh /path/to/machine-config-pop-rtx4070 --with-seats
+./install.sh /path/to/fallen-blade-tactics --profile design
+./install.sh /path/to/thoughts --profile capture
+./install.sh /path/to/MonsterHunter-CreaturesofSonaria --profile product-mvp
+./install.sh /path/to/cookie-clicker-family --profile garden-plant
+./install.sh /path/to/Universal-Automated-Helper --profile garden-hub
+./install.sh /path/to/machine-config-pop-rtx4070 --profile machine
+./install.sh /path/to/project --dry-run --profile garden-hub
 ```
+
+Equivalent flag form still works (`--with-seats`, `--with-workflow-lab`, `--garden-sibling`).
 
 After install: paste matching snippet bullets into that project’s `OPERATOR_WORKFLOW.md` (never overwrite a living overlay with `--force-workflow` unless intentional).
 
