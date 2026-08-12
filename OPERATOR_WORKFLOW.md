@@ -21,7 +21,6 @@
 - Prefer structure in **3s** where it helps (active families / WIP, standing seats, roadmap tiers) — not fake triads everywhere.
 - **Active families (note, not law):** (1) Garden · (2) Game development · (3) Updating systems (substrate / Proxmox-of-devices to host Garden). Hands primarily on one; two more in mind. Many repos OK while clearing backlog.
 - Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
-- **This machine (Windows / Samsung):** not the usual Linux workhorse. Paths, shells, vision/gaming plants, and host assumptions differ — do not pretend Pop/Proxmox behavior here. Prefer capture + light Windows-native work; heavy Garden execution waits for the workhorse unless explicitly scoped to Windows.
 
 ## Personality
 
@@ -43,6 +42,7 @@
 - Do not paste Garden Immune, FOCUS notebooks, organ contracts, or traveler corpora into this pack.
 - Do not silently promote Intent Expand full kit into Layer A / always-on without confirm.
 - Prefer archive over delete for superseded kits (`optional/archive/`).
+- **No project symlinks.** Real folders only — symlinks are a path quick-fix that break Cursor chat binding, confuse installs, and hide layout debt. Move/rename for real; never `ln -s` project roots unless the operator explicitly overrides.
 
 ## Open experiments
 
@@ -81,3 +81,5 @@
 | 2026-08-08 | Windows satellite machine note | Not Linux workhorse; ideas-inbox vs library-organizer considered |
 | 2026-08-08 | thoughts repo bootstrapped | `Projects/thoughts` capture inbox; Garden runtime deferred on Windows |
 | 2026-08-08 | Lab consolidate → archive | Intent/Runtime/Spec/Mode D/Chunking thin; EXTERNAL+Stack archived |
+| 2026-08-12 | No project symlinks | Operator pin — real folders only; not a layout quick-fix |
+| 2026-08-12 | Remove Windows/Samsung standing prompt from shared opack | Host-specific; belongs on that machine’s overlay, not portable pack |
