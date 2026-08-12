@@ -21,7 +21,7 @@
 - Prefer structure in **3s** where it helps (active families / WIP, standing seats, roadmap tiers) — not fake triads everywhere.
 - **Active families (note, not law):** (1) Garden · (2) Game development · (3) Updating systems (substrate / Proxmox-of-devices to host Garden). Hands primarily on one; two more in mind. Many repos OK while clearing backlog.
 - Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
-- **Host roles (differentiate behavior):** **Workhorse** = Pop / Linux (Garden runtime, heavy plants, Proxmox-of-devices). **Satellite** = Windows / Samsung (capture + light Windows-native work; paths/shells/vision differ — do not pretend Pop behavior). On satellite: organize in **thoughts** (`C:\Users\mmedi\Projects\thoughts` or Desktop clone) → `workhorse-queue.md`; do not fight hub/plant execution there. On workhorse: execute queued Garden work; do not assume Windows paths or satellite-only constraints.
+- **Host roles (differentiate behavior):** **Workhorse** = Pop / Linux (`~/Desktop/…` clones — Garden runtime, heavy plants, Proxmox-of-devices). **Satellite** = Windows / Samsung (capture + light Windows-native work; paths/shells/vision differ — do not pretend Pop behavior). On satellite: organize in **thoughts** (`C:\Users\mmedi\Projects\thoughts`) → `workhorse-queue.md`; do not fight hub/plant execution there. On workhorse: execute queued Garden work; prefer `~/Desktop/` paths; do not assume Windows paths.
 - **Multi-device pickup:** chat is not storage. After meaningful pack work → **commit + push** (clean tree on `origin`). Leave **decide-next / parked / NOT** in the overlay Log (or commit body) so another device can `git pull` and continue without re-deriving state.
 
 ## Personality
@@ -52,7 +52,7 @@
 - Keep lab digests short; promote kits only after twice useful.
 - Opack as Garden’s local-AI rulebook later (still portable Layer A for non-Garden roots).
 - **Tissue re-bake (parked):** optional nudge in **opack root only** — not in other installs’ digests.
-- **Windows satellite path (detail):** **thoughts** at `C:\Users\mmedi\Projects\thoughts` — capture inbox (raw / sources / by-family / workhorse-queue). Not library organizer; see standing prompt Host roles.
+- **Windows satellite path (detail):** **thoughts** at `C:\Users\mmedi\Projects\thoughts` (Windows). On Pop workhorse the same repo is `~/Desktop/thoughts`. Capture inbox (raw / sources / by-family / workhorse-queue). Not library organizer; see standing prompt Host roles.
 
 ## Upstream candidates
 
@@ -92,4 +92,5 @@
 | 2026-08-12 | Multi-device pickup stance | Commit+push after meaningful work; Log decide-next for other devices |
 | 2026-08-12 | Close Mode D Later | DAY_PROMPTS full TOC; archive `profile-review-2026-08-12.md` |
 | 2026-08-12 | Self-test fixes | ~30k in workflow-lab.mdc; `--profile capture`; INSTALL_PROFILES CLI column; smoke digest sync |
-| — | **Pickup** | **opack local: clear.** Parked (do not land without trigger): hygiene R1/R8. External (other repos): MHCOS creative instance · FBT art commit. Do not: creative kit on install dial · Mode E · new kits before consolidate |
+| 2026-08-12 | Pop path migrate | Handoffs + bridges → `~/Desktop/…`; Archives stay Windows-labeled |
+| — | **Pickup** | **opack local: clear.** Parked: hygiene R1/R8 (gather evidence). Paths: Pop `~/Desktop/…` (2026-08-12). External next (when chosen): FBT **3A.9** review — not art commit (already on master). MHCOS creative instance **done**. Do not: creative kit on install dial · Mode E |
