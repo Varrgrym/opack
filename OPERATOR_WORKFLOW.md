@@ -90,4 +90,5 @@
 | 2026-08-12 | Lab index↔install align (`598a9e6`) | ORGANISM in lab dial; PASTEABLES shipped vs opack-local; archive/template path fixes |
 | 2026-08-12 | Path-aware AGENTS + install smoke | After-install path table; `tests/install_smoke.sh`; creative kit install **NOT** (thin dial) |
 | 2026-08-12 | Multi-device pickup stance | Commit+push after meaningful work; Log decide-next for other devices |
-| — | **Pickup next** | Parked: hygiene R1/R8 (twice-seen); DAY_PROMPTS TOC/split; move `profile-review-2026-08-12.md` → archive. Do not: creative kit on install dial, Mode E, new kits before consolidate |
+| 2026-08-12 | Close Mode D Later | DAY_PROMPTS full TOC; archive `profile-review-2026-08-12.md` |
+| — | **Pickup** | **opack local: clear.** Parked (do not land without trigger): hygiene R1/R8. External (other repos): MHCOS creative instance · FBT art commit. Do not: creative kit on install dial · Mode E · new kits before consolidate |
