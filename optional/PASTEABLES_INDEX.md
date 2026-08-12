@@ -2,7 +2,8 @@
 
 **Status:** TOC only · doctrine in linked kits  
 **Front door with:** `WORKFLOW_LAB_DIGEST.md`  
-**Install:** `--with-workflow-lab` copies the **Shipped** table into `docs/workflow-lab/` (not archive/, not opack-local).
+**Install:** `--with-workflow-lab` copies the **Shipped** table into `docs/workflow-lab/` (not archive/, not opack-local).  
+**Paths:** after install, open basenames under `docs/workflow-lab/`. `../templates/` and `archive/` live in the opack clone only.
 
 ## Shipped by `--with-workflow-lab`
 

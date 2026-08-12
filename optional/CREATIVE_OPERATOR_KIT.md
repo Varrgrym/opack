@@ -32,7 +32,7 @@
 
 **Rule:** one **canonical** copy per machine (`opack/optional/`). Project copies are **instances** — add project examples; don’t fork the method silently.
 
-**Install today:** manual copy/link from `optional/` (kit not yet in `install.sh` — see profile review action #7).
+**Install:** manual copy/link from `optional/` into `docs/process/` (or paste overlay only). **NOT** on `install.sh` dials — **decided** 2026-08-12 (keep lab dial thin; creative kit stays opack-local).
 
 **Instance sync:** FBT may run ahead of portable (case studies, v2 retrospective). On twice-seen correction, promote **patterns** to opack canonical; keep product names in instances only.
 

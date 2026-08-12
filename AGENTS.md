@@ -67,6 +67,19 @@ Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.5 High). 
 **Decide-low / ask-high · DoD/stop · handoff packet:** `optional/RUNTIME.md` § Gates & handoff.  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query) — `optional/AGENTIC_INTERACTION.md`.
 
+### After install (paths)
+
+This file is copied as-is. Resolve kit paths by **where you are**:
+
+| Dial / piece | In **opack** clone | In **installed** project |
+|--------------|--------------------|---------------------------|
+| Seats + playbooks | `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` | `docs/` (only with `--with-seats`) |
+| Workflow lab kits | `optional/*.md` (digest, pasteables, Mode D, …) | `docs/workflow-lab/` (only with `--with-workflow-lab`) |
+| Overlay starters | `templates/overlay-*.md` | Still only in the **opack** clone — paste into project `OPERATOR_WORKFLOW.md`; not copied by install |
+| Creative operator kit · runtime hygiene ideas | `optional/` | **Not** shipped by install — copy/paste from opack when needed |
+
+Links that say `optional/…` mean the **kit name**; after a dialed install, open the same basename under `docs/` or `docs/workflow-lab/`. Archive essays stay in the opack clone (`optional/archive/`) — not copied.
+
 ---
 
 ## Pack growth (project-specific workflow)

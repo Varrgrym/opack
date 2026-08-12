@@ -22,6 +22,7 @@
 - **Active families (note, not law):** (1) Garden · (2) Game development · (3) Updating systems (substrate / Proxmox-of-devices to host Garden). Hands primarily on one; two more in mind. Many repos OK while clearing backlog.
 - Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
 - **Host roles (differentiate behavior):** **Workhorse** = Pop / Linux (Garden runtime, heavy plants, Proxmox-of-devices). **Satellite** = Windows / Samsung (capture + light Windows-native work; paths/shells/vision differ — do not pretend Pop behavior). On satellite: organize in **thoughts** (`C:\Users\mmedi\Projects\thoughts` or Desktop clone) → `workhorse-queue.md`; do not fight hub/plant execution there. On workhorse: execute queued Garden work; do not assume Windows paths or satellite-only constraints.
+- **Multi-device pickup:** chat is not storage. After meaningful pack work → **commit + push** (clean tree on `origin`). Leave **decide-next / parked / NOT** in the overlay Log (or commit body) so another device can `git pull` and continue without re-deriving state.
 
 ## Personality
 
@@ -30,13 +31,14 @@
 
 ## Behaviors
 
--
+- Prefer durable notes + remote sync over “I’ll remember from chat.” Dirty unpushed opack after a fix session is a handoff failure.
 
 ## Repeated tasks
 
 - When landing prompt-lab doctrine: put full shapes under `optional/`; promote only short digests to always-on / user rules after explicit confirm.
 - **Organize / maintain the repo** often — keep indexes, cross-links, digests, and install flags coherent; prefer consolidation over new kits.
 - **Chat/export dumps** (“analyze and extract useful”): run `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in optional/.
+- **Session close (opack):** if the tree changed → commit with why → push → confirm `0 ahead / 0 behind`. If WIP remains, one Log row: done · next · parked.
 
 ## Refuses / pins (this repo)
 
@@ -85,3 +87,7 @@
 | 2026-08-12 | No project symlinks | Operator pin — real folders only; not a layout quick-fix |
 | 2026-08-12 | Host roles standing prompt restored | Operator: need satellite vs workhorse behavior split (not “this PC is Windows”) |
 | 2026-08-12 | Digest hot-path ~30k paste threshold | Promote literal threshold from AGENTIC kit into always-on digest + AGENTS/RUNTIME/lab digests |
+| 2026-08-12 | Lab index↔install align (`598a9e6`) | ORGANISM in lab dial; PASTEABLES shipped vs opack-local; archive/template path fixes |
+| 2026-08-12 | Path-aware AGENTS + install smoke | After-install path table; `tests/install_smoke.sh`; creative kit install **NOT** (thin dial) |
+| 2026-08-12 | Multi-device pickup stance | Commit+push after meaningful work; Log decide-next for other devices |
+| — | **Pickup next** | Parked: hygiene R1/R8 (twice-seen); DAY_PROMPTS TOC/split; move `profile-review-2026-08-12.md` → archive. Do not: creative kit on install dial, Mode E, new kits before consolidate |

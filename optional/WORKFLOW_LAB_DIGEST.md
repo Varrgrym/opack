@@ -2,6 +2,7 @@
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
 **Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `ORGANISM_PLACEMENT.md`  
+**Paths:** in opack → `optional/`; after `--with-workflow-lab` → `docs/workflow-lab/`. `../templates/` and `archive/` resolve only in the **opack** clone.  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
 **Intent ≠ full specification.** Expand to needed rigor only (`INTENT_EXPAND.md`).

@@ -57,7 +57,7 @@ Profile is **directionally accurate** — design lead, coherence radar, meta-sys
 | 4 | FBT checklist = gate SoT; sync wave-1 pin | done 2026-08-12 |
 | 5 | MHCOS install + profile instance | **open** |
 | 6 | Commit FBT art wave | **open** (operator) |
-| 7 | Add kit to install.sh optional copy | **open** |
+| 7 | Add kit to install.sh optional copy | **NOT** 2026-08-12 — keep `--with-workflow-lab` thin; kit stays opack-local / manual |
 
 ---
 

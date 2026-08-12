@@ -43,6 +43,8 @@ Full matrix: [`optional/INSTALL_PROFILES.md`](optional/INSTALL_PROFILES.md).
 
 Baseline stays thin. **Do not** imply “install everything.”
 
+Smoke (from opack root): `./tests/install_smoke.sh`
+
 ---
 
 ## Auto vs seats
