@@ -15,7 +15,7 @@
 **Auto vs seats:** Cursor Auto does **not** pick seats from playbooks — name `Seat:` / pin the model (`RUNTIME.md`).  
 **Wrong-seat:** one-line redirect on mismatch — no per-turn seat quiz (`RUNTIME.md` · ideas: `RUNTIME_HYGIENE_IDEAS.md`).  
 **Handoff / DoD-stop / decide-low:** `RUNTIME.md` § Gates & handoff.  
-**Agentic interaction:** autonomy slider · gen↔verify · design before cook — `AGENTIC_INTERACTION.md`.  
+**Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (query/slice warehouses; paste short one-shots) — `AGENTIC_INTERACTION.md`.  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `templates/overlay-capture-inbox.md`.  
 **Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
