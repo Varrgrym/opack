@@ -12,7 +12,8 @@
 | **Day prompts** (deep review · double-check · skeptical · next · done?) | `DAY_PROMPTS.md` |
 | Extract dump · Keep/Park · raw off-repo · organize | `EXTRACT_AND_ORGANIZE.md` |
 | **Organism placement (A→F)** · dense idea maps · contested nodes | `ORGANISM_PLACEMENT.md` |
-| Capture-inbox overlay snippet | `../templates/overlay-capture-inbox.md` |
+| **Creative operator kit** · pipeline · profile · design phases | `CREATIVE_OPERATOR_KIT.md` |
+| Capture-inbox overlay snippet | `../templates/overlay-creative-operator.md` |
 | Feature plan → build (PRP + examples) | `SPEC_BUILD.md` |
 | Mode D cold-lead | `MODE_D.md` |
 | Large scope chunking | `CHUNKING.md` |

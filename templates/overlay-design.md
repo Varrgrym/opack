@@ -2,7 +2,8 @@
 
 **Use:** theory, lore locks, class trees, dump triage — little or no shippable loop.  
 **Install profile:** baseline only (`optional/INSTALL_PROFILES.md`).  
-**How:** copy bullets into the project’s `OPERATOR_WORKFLOW.md`; delete what does not fit.
+**Full creative method:** [`optional/CREATIVE_OPERATOR_KIT.md`](../optional/CREATIVE_OPERATOR_KIT.md) (pipeline + checklist + operator profile).  
+**How:** copy bullets into the project’s `OPERATOR_WORKFLOW.md`; delete what does not fit. For phased design work, prefer `templates/overlay-creative-operator.md`.
 
 ---
 
