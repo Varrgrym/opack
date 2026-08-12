@@ -21,6 +21,7 @@
 - Prefer structure in **3s** where it helps (active families / WIP, standing seats, roadmap tiers) — not fake triads everywhere.
 - **Active families (note, not law):** (1) Garden · (2) Game development · (3) Updating systems (substrate / Proxmox-of-devices to host Garden). Hands primarily on one; two more in mind. Many repos OK while clearing backlog.
 - Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
+- **Host roles (differentiate behavior):** **Workhorse** = Pop / Linux (Garden runtime, heavy plants, Proxmox-of-devices). **Satellite** = Windows / Samsung (capture + light Windows-native work; paths/shells/vision differ — do not pretend Pop behavior). On satellite: organize in **thoughts** (`C:\Users\mmedi\Projects\thoughts` or Desktop clone) → `workhorse-queue.md`; do not fight hub/plant execution there. On workhorse: execute queued Garden work; do not assume Windows paths or satellite-only constraints.
 
 ## Personality
 
@@ -49,7 +50,7 @@
 - Keep lab digests short; promote kits only after twice useful.
 - Opack as Garden’s local-AI rulebook later (still portable Layer A for non-Garden roots).
 - **Tissue re-bake (parked):** optional nudge in **opack root only** — not in other installs’ digests.
-- **Windows satellite:** **thoughts** repo at `C:\Users\mmedi\Projects\thoughts` — capture inbox (raw / sources / by-family / workhorse-queue). Not library organizer; Garden runtime stays workhorse.
+- **Windows satellite path (detail):** **thoughts** at `C:\Users\mmedi\Projects\thoughts` — capture inbox (raw / sources / by-family / workhorse-queue). Not library organizer; see standing prompt Host roles.
 
 ## Upstream candidates
 
@@ -82,4 +83,4 @@
 | 2026-08-08 | thoughts repo bootstrapped | `Projects/thoughts` capture inbox; Garden runtime deferred on Windows |
 | 2026-08-08 | Lab consolidate → archive | Intent/Runtime/Spec/Mode D/Chunking thin; EXTERNAL+Stack archived |
 | 2026-08-12 | No project symlinks | Operator pin — real folders only; not a layout quick-fix |
-| 2026-08-12 | Remove Windows/Samsung standing prompt from shared opack | Host-specific; belongs on that machine’s overlay, not portable pack |
+| 2026-08-12 | Host roles standing prompt restored | Operator: need satellite vs workhorse behavior split (not “this PC is Windows”) |
