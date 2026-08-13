@@ -22,7 +22,7 @@
 | **Analyst / critical thinker** | ★★★★☆ | Coherence, phase gates, “does this hold together?” |
 | **Structural proofreader (spec/design)** | ★★★★☆ | decided/NOT/parked, collisions, doc↔build drift |
 | **Line-level prose editor** | ★★☆☆☆ | Structure over comma-polish |
-| **Gameplay / runtime implementer** | ★☆☆☆☆ | Not primary seat on design-first repos — delegate Phase 4 |
+| **Gameplay / runtime implementer** | ★☆☆☆☆ | Not primary seat — **Engineer** implements Phase 4. On Code MVP repos operator is **directed product owner** (vertical slices, acceptance); not the gameplay programmer seat. |
 | **Process / docs / workflow implementer** | ★★★☆☆ | Builds methods, overlays, indexes — not the gameplay programmer |
 
 **One-line:** *Passionate design lead who thinks in systems, reviews like a director, and externalizes ideas into durable docs — primary implementer of meaning and process, not of runtime gameplay code.*
@@ -36,7 +36,7 @@
 | Context | Primary seat | Cursor default |
 |---------|--------------|----------------|
 | **Game product (FBT)** | Creative director / design lead | Mode B · phase pin · Materialize gates |
-| **Game product (MHCOS)** | Creative director + product owner | **Evidence open** — install profile instance; link `CREATURE_DESIGN_PROCESS.md` |
+| **Game product (MHCOS)** | Creative director + **directed product owner** | Phase 4 · Engineer seat for runtime; charter in `docs/process/CREATIVE_INSTANCE.md` |
 | **Capture inbox (thoughts)** | **Process architect** / idea organizer | Mode B · Keep/Park · organism placement · coverage ledger |
 | **Pack / workflow (opack)** | **Process architect** / kit maintainer | Template discipline · no Layer A sprawl |
 | **Garden hub (UAH)** | **Systems owner / critic** | MVP smokes · organ coherence · fail-closed · **Engineer implements** |

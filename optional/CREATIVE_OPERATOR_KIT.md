@@ -16,6 +16,11 @@
 | **Checklist (print)** | [`CREATIVE_PIPELINE_CHECKLIST.md`](CREATIVE_PIPELINE_CHECKLIST.md) | Pin per session; phase pin at top |
 | **Operator profile** | [`OPERATOR_CREATIVE_PROFILE.md`](OPERATOR_CREATIVE_PROFILE.md) | Team role, strengths/risks, Cursor defaults — evidence not MBTI |
 | **Overlay snippet** | [`../templates/overlay-creative-operator.md`](../templates/overlay-creative-operator.md) | Thin bullets → project `OPERATOR_WORKFLOW.md` |
+| **Instance charter** | [`../templates/CREATIVE_INSTANCE.md`](../templates/CREATIVE_INSTANCE.md) | One page per repo: cargo tier + phase pin + product SoT + scope fence |
+| **ChatGPT extract** | [`EXTRACT_CHAT_EXPORT_PROMPT.md`](EXTRACT_CHAT_EXPORT_PROMPT.md) | HTML export — parameterized `{PROJECT_ROOT}` |
+| **General extract** | [`EXTRACT_AND_ORGANIZE.md`](EXTRACT_AND_ORGANIZE.md) | Messy dumps / organize repo |
+
+**Reference pair:** FBT = **Full** cargo · Phase 3 Materialize · **no runtime**. MHCOS = **Lite** cargo · Phase 4 Code MVP · **runtime yes**. Process cargo ≠ product phase — not ranked by doc count.
 
 **First reference instance:** Fallen Blade Tactics — `fallen-blade-tactics/docs/process/` (case studies, wave-1 pins, game-specific anti-patterns).
 
@@ -36,7 +41,18 @@
 
 **Instance sync:** FBT may run ahead of portable (case studies, v2 retrospective). On twice-seen correction, promote **patterns** to opack canonical; keep product names in instances only.
 
-**Second instance (open):** MHCOS — opack baseline + creative overlay + `CREATURE_DESIGN_PROCESS.md` as Materialize evidence.
+**Second instance:** MHCOS (`MonsterHunter-CreaturesofSonaria`) — Lite cargo · `docs/process/CREATIVE_INSTANCE.md` · `BUILD_FOCUS_PIN.md` as build SoT.
+
+---
+
+## Two axes (every product repo)
+
+| Axis | Question |
+|------|----------|
+| **Process cargo** | Full / Lite / Capture — how much kit lives *in* the repo |
+| **Product phase** | Talk → Plan → Materialize → Code MVP → Refine → Publish |
+
+Charter (`docs/process/CREATIVE_INSTANCE.md`) records **both**. Phase pin SoT = charter; overlay links, does not duplicate.
 
 ---
 
@@ -61,7 +77,7 @@ Profile doc holds the **full** multi-context map; overlay holds **current projec
 
 ## Paste — new design-heavy project
 
-> Install opack creative operator kit. Copy or link `CREATIVE_PIPELINE.md`, `CREATIVE_PIPELINE_CHECKLIST.md`, `OPERATOR_CREATIVE_PROFILE.md` into this repo’s `docs/process/`. Paste `overlay-creative-operator.md` into `OPERATOR_WORKFLOW.md`. Set phase pin. Adapt Materialize tier to this product (pixels / wireframe / stub). Evidence from this repo only — no generic personality types.
+> Install opack creative operator kit. Create `docs/process/CREATIVE_INSTANCE.md` from `templates/CREATIVE_INSTANCE.md`. Set process cargo (Full / Lite / Capture) and product phase. Fill product SoT links and phase scope fence. Paste `overlay-creative-operator.md` into `OPERATOR_WORKFLOW.md` (link charter — do not duplicate phase pin). Copy pipeline + checklist into `docs/process/` **only if tier is Full**. Add extract pointer (`EXTRACT_CHAT_EXPORT_PROMPT.md`). Evidence from this repo only.
 
 ---
 
@@ -88,3 +104,4 @@ Profile doc holds the **full** multi-context map; overlay holds **current projec
 | 2026-08-12 | Promoted from FBT session; portable kit + profile refinements (gameplay vs process implementer) |
 | 2026-08-12 | Profile v2 + review doc; gate integrity rule; PASTEABLES fix; MHCOS instance open |
 | 2026-08-12 | Profile v3 — habit patterns, Garden axis (Cookie/DocuBot), Cursor gap-cover table |
+| 2026-08-13 | CREATIVE_INSTANCE template · EXTRACT_CHAT_EXPORT promote · two-axis model · MHCOS+FBT reference pair |

@@ -2,6 +2,7 @@
 
 **Use:** game design, lore, art prep, creative products with Talk→Plan→Materialize→MVP phases.  
 **Install profile:** baseline · paste with [`optional/CREATIVE_OPERATOR_KIT.md`](../optional/CREATIVE_OPERATOR_KIT.md).  
+**Charter:** fill [`templates/CREATIVE_INSTANCE.md`](../templates/CREATIVE_INSTANCE.md) → `docs/process/CREATIVE_INSTANCE.md` (phase pin SoT).  
 **How:** copy bullets into project `OPERATOR_WORKFLOW.md`; delete what does not fit.
 
 ---
@@ -11,7 +12,7 @@
 - Prefer **Mode B** (design notebook) for capture / organize; Mode C only when a buildable slice appears.
 - Label **decided** · **NOT (refused)** · **parked** — chat-only drift is failure.
 - **Creative pipeline:** [`CREATIVE_PIPELINE.md`](../optional/CREATIVE_PIPELINE.md) · checklist · [`OPERATOR_CREATIVE_PROFILE.md`](../optional/OPERATOR_CREATIVE_PROFILE.md) (or project `docs/process/` copies).
-- **Phase pin (update each session):** Phase ___ · sub-step ___ · focus ___.
+- **Phase pin (update each session):** in [`CREATIVE_INSTANCE.md`](../templates/CREATIVE_INSTANCE.md) — overlay links only.
 - **Talk only** = no engine/scaffold; **notes and art prep still land** unless owner says otherwise.
 - Default when we discuss design: **write it down** — don’t wait to be asked each time.
 
