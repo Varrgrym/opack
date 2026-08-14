@@ -109,6 +109,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     MODE_D.md \
     CHUNKING.md \
     EXTRACT_AND_ORGANIZE.md \
+    VIDEO_EXTRACT.md \
     AGENTIC_INTERACTION.md \
     DAY_PROMPTS.md \
     ORGANISM_PLACEMENT.md \

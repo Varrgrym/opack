@@ -14,6 +14,7 @@
 | Agentic interaction (slider · leash · program design · **context as variable**) | `AGENTIC_INTERACTION.md` |
 | **Day prompts** (deep review · double-check · skeptical · next · done?) | `DAY_PROMPTS.md` |
 | Extract dump · Keep/Park · raw off-repo · organize | `EXTRACT_AND_ORGANIZE.md` |
+| **Video / YouTube** knowledge extract (not a recap) | `VIDEO_EXTRACT.md` |
 | **Organism placement (A→F)** · dense idea maps · contested nodes | `ORGANISM_PLACEMENT.md` |
 | Feature plan → build (PRP + examples) | `SPEC_BUILD.md` |
 | Mode D cold-lead | `MODE_D.md` |

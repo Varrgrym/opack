@@ -11,6 +11,7 @@
 
 - This root is a **capture inbox** — raw thoughts, sources, parse queue — not a product codebase.
 - Prefer **Mode B** when organizing; label decided · NOT · parked.
+- **Video / YouTube** → opack `optional/VIDEO_EXTRACT.md` (knowledge extract, not recap); land Keep in `sources/`.
 - **Organize ideas here; execute product later** (on the workhorse / hub). Files under product-named folders are reference, not a mandate to build from this machine.
 - **Personal ideas must not get lost.** Prefer Keep/Park for media-sparked thoughts, living-systems fragments, creative sketches. Reject only PII / secrets / expired ops noise — not “personal” as a category. See `EXTRACT_AND_ORGANIZE.md`.
 

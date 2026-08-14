@@ -10,7 +10,7 @@ alwaysApply: true
 
 - Short requests are **goals** — expand via `INTENT_EXPAND.md` only as needed.
 - **“Review this project”** → Mode **D** + coverage bar; do **not** ask which mode.
-- Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md` (personal Keep/Park; reject PII/secrets/ops only).
+- Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md` (personal Keep/Park; reject PII/secrets/ops only). Video / YouTube → `VIDEO_EXTRACT.md` (not a recap).
 - Substantial work: 5W1H · runtime stanza · wrong-seat / DoD-stop / decide-low (`RUNTIME.md`).
 - **Auto ≠ seats** — name `Seat:` / pin model; Auto does not follow playbooks.
 - Multitask **off** unless synthesis-owned; **no review fleets**.

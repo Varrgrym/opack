@@ -1,14 +1,14 @@
 # Workflow lab digest (short)
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
-**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `ORGANISM_PLACEMENT.md`  
+**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
 **Paths:** in opack → `optional/`; after `--with-workflow-lab` → `docs/workflow-lab/`. `../templates/` and `archive/` resolve only in the **opack** clone.  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
 **Intent ≠ full specification.** Expand to needed rigor only (`INTENT_EXPAND.md`).
 
 **Phrase lock:** “please review this project” / fine-tooth / full review → **Mode D** + Intent coverage bar. **Do not ask which mode.**  
-**Also:** organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`.
+**Also:** organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`. Video / YouTube → `VIDEO_EXTRACT.md` (not a recap).
 
 **Automatic 5W1H** on substantial work. Certainty: Known → Inferred → Unknown → Recommended.
 

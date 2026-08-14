@@ -19,6 +19,7 @@
 | **Instance charter** | [`../templates/CREATIVE_INSTANCE.md`](../templates/CREATIVE_INSTANCE.md) | One page per repo: cargo tier + phase pin + product SoT + scope fence |
 | **ChatGPT extract** | [`EXTRACT_CHAT_EXPORT_PROMPT.md`](EXTRACT_CHAT_EXPORT_PROMPT.md) | HTML export — parameterized `{PROJECT_ROOT}` |
 | **General extract** | [`EXTRACT_AND_ORGANIZE.md`](EXTRACT_AND_ORGANIZE.md) | Messy dumps / organize repo |
+| **Video extract** | [`VIDEO_EXTRACT.md`](VIDEO_EXTRACT.md) | YouTube / video — knowledge, not recap |
 
 **Reference pair:** FBT = **Full** cargo · Phase 3 Materialize · **no runtime**. MHCOS = **Lite** cargo · Phase 4 Code MVP · **runtime yes**. Process cargo ≠ product phase — not ranked by doc count.
 

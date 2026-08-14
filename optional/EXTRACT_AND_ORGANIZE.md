@@ -2,7 +2,7 @@
 
 **Status:** decided · repeated operator pattern  
 **Use when:** “analyze this and extract what is useful” · “organize the repo” · ChatGPT/export dumps · long notes · Downloads drops  
-**Companion:** Mode **B** (design notebook) · `INTENT_EXPAND.md` · FIC (`CHUNKING.md`) · dense organisms → `ORGANISM_PLACEMENT.md`  
+**Companion:** Mode **B** (design notebook) · `INTENT_EXPAND.md` · FIC (`CHUNKING.md`) · dense organisms → `ORGANISM_PLACEMENT.md` · video/YouTube → `VIDEO_EXTRACT.md`  
 **NOT:** paste whole dumps into Layer A · vendor Garden Immune from chat exports
 
 ---
@@ -14,6 +14,7 @@
 | **organize the repo** / keep it maintained | Coherence pass: structure · naming · drift · duplication · what to consolidate; prefer maintain over feature add |
 | **analyze this and extract what is useful** | Filter → map to existing kits → land only net-new · park gaps · discard noise |
 | Drop a path/file (Downloads, .txt export, transcript) | Same extract protocol; cite source path |
+| **extract this video** / YouTube URL / “without watching it myself” | `VIDEO_EXTRACT.md` — source-first knowledge report, not a transcript recap |
 
 Do **not** ask “what format?” if Mode B + extract protocol fits. Open with runtime stanza on substantial extracts.
 

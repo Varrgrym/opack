@@ -12,6 +12,7 @@
 - This repo’s lab chats may focus on **prompt / context / specification / agent-loop formation** — Garden is an occasional example only.
 - **“Review this project” / fine-tooth / full review** → Mode D + `INTENT_EXPAND` coverage; do not ask which mode. Runtime stanza. No review fleets.
 - **“Organize the repo” / extract dumps** → `EXTRACT_AND_ORGANIZE.md`. Often Mode B.
+- **Video / YouTube** / “without watching it myself” → `VIDEO_EXTRACT.md` — source-first knowledge extract, not a transcript recap.
 - 5W1H on substantial work; skip ceremony on trivia.
 - Large scope: **chunk for processing, never for understanding** (`CHUNKING.md`). FIC on long sessions.
 - Runtime / failures / Auto≠seats: `RUNTIME.md`. Feature builds: `SPEC_BUILD.md`.
@@ -93,4 +94,5 @@
 | 2026-08-12 | Close Mode D Later | DAY_PROMPTS full TOC; archive `profile-review-2026-08-12.md` |
 | 2026-08-12 | Self-test fixes | ~30k in workflow-lab.mdc; `--profile capture`; INSTALL_PROFILES CLI column; smoke digest sync |
 | 2026-08-12 | Pop path migrate | Handoffs + bridges → `~/Desktop/…`; Archives stay Windows-labeled |
+| 2026-08-14 | Video extract pasteable | Phrase lock: YouTube / without-watching → `VIDEO_EXTRACT.md`; not always-on |
 | — | **Pickup** | **opack local: clear.** Parked: hygiene R1/R8 (gather evidence). Paths: Pop `~/Desktop/…` (2026-08-12). External next (when chosen): FBT **3A.9** review — not art commit (already on master). MHCOS creative instance **done**. Do not: creative kit on install dial · Mode E |
