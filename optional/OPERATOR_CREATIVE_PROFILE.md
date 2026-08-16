@@ -2,9 +2,10 @@
 
 **Purpose:** how this operator works best — strengths, gaps, team-role fit, Cursor defaults. **Not** a clinical personality test.
 
-**Status:** v3 · 2026-08-16 habit: inbox autosave (commit+push notes; product code still asked) · prior 2026-08-12 Garden axis + gap-cover  
+**Status:** v3 · 2026-08-16 distill/consolidate habits explicit · prior inbox autosave · prior 2026-08-12 Garden axis + gap-cover  
 **Kit:** [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md)  
-**Instances:** FBT `docs/process/` · MHCOS `docs/process/` · Garden `thoughts/by-family/garden/operator-profile-garden-instance.md`
+**Instances:** FBT `docs/process/` · MHCOS `docs/process/` · Garden `thoughts/by-family/garden/operator-profile-garden-instance.md`  
+**Stranger door (thoughts):** `thoughts/by-family/parked/map-of-me.md` — who / projects / spoken vs shown
 
 **Scope:** design-heavy products · capture/architecture (thoughts/opack) · **Garden hub** (systems owner). Revisit after twice-seen correction.
 
@@ -64,6 +65,8 @@ These recur across FBT, thoughts, MHCOS, Garden notes. Cursor should treat them 
 | **Coherence before features** | Collisions named early | Harsh sort test · collision matrix · radical candor when asked |
 | **Delegation** | AI pixels; Engineer runtime; you judge | Never assume operator wants to be primary gameplay coder |
 | **Inbox autosave (multi-device)** | Notes/pack/overlay batches must reach `origin` | After a durable notes/pack/overlay batch: **commit and push**. Product/runtime code: still ask, or propose at slice end. Never secrets / empty / force-push |
+| **Distill to base form** | Extract → Keep as the smallest understandable claim; warehouse stays warehouse | Promote deltas; refuse PDF/transcript dumps into spines; human doors over AI taxonomy |
+| **Consolidate / simplify** | Few cores · few Start-here doors · merge duplicate maps | Challenge second SoTs and catalog sprawl |
 | **Phase pin** | Resume with phase + sub-step + focus | Open long tasks with pin; challenge work that mismatches pin |
 | **Checklist = gate SoT** | Approve lives on checklist | Don’t mark pass in production plans alone |
 
