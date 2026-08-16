@@ -95,4 +95,5 @@
 | 2026-08-12 | Self-test fixes | ~30k in workflow-lab.mdc; `--profile capture`; INSTALL_PROFILES CLI column; smoke digest sync |
 | 2026-08-12 | Pop path migrate | Handoffs + bridges → `~/Desktop/…`; Archives stay Windows-labeled |
 | 2026-08-14 | Video extract pasteable | Phrase lock: YouTube / without-watching → `VIDEO_EXTRACT.md`; not always-on |
+| 2026-08-16 | Notes commit+push = multi-device save | Scoped: notes/pack/overlay autosave; product code still ask; not always-push |
 | — | **Pickup** | **opack local: clear.** Parked: hygiene R1/R8 (gather evidence). Paths: Pop `~/Desktop/…` (2026-08-12). External next (when chosen): FBT **3A.9** review — not art commit (already on master). MHCOS creative instance **done**. Do not: creative kit on install dial · Mode E |

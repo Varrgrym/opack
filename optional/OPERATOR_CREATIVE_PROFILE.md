@@ -2,7 +2,7 @@
 
 **Purpose:** how this operator works best — strengths, gaps, team-role fit, Cursor defaults. **Not** a clinical personality test.
 
-**Status:** v3 · 2026-08-12 · Garden axis + Cursor gap-cover + habit patterns  
+**Status:** v3 · 2026-08-16 habit: inbox autosave (commit+push notes; product code still asked) · prior 2026-08-12 Garden axis + gap-cover  
 **Kit:** [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md)  
 **Instances:** FBT `docs/process/` · MHCOS `docs/process/` · Garden `thoughts/by-family/garden/operator-profile-garden-instance.md`
 
@@ -63,7 +63,7 @@ These recur across FBT, thoughts, MHCOS, Garden notes. Cursor should treat them 
 | **Product SoT in product repo** | thoughts = bridges only | Do not deepen product design in thoughts when product repo exists |
 | **Coherence before features** | Collisions named early | Harsh sort test · collision matrix · radical candor when asked |
 | **Delegation** | AI pixels; Engineer runtime; you judge | Never assume operator wants to be primary gameplay coder |
-| **Commit when asked** | Git batches on operator request | Propose commit at Materialize/organize session end; don’t commit unprompted |
+| **Inbox autosave (multi-device)** | Notes/pack/overlay batches must reach `origin` | After a durable notes/pack/overlay batch: **commit and push**. Product/runtime code: still ask, or propose at slice end. Never secrets / empty / force-push |
 | **Phase pin** | Resume with phase + sub-step + focus | Open long tasks with pin; challenge work that mismatches pin |
 | **Checklist = gate SoT** | Approve lives on checklist | Don’t mark pass in production plans alone |
 
@@ -257,7 +257,7 @@ Use this table proactively — **balance strengths, don’t flatter.**
 | **Runtime implementation gap** | **Engineer seat** for Phase 4 / hub smokes; operator directs |
 | **Tool variance (AI art)** | Solo prompts · hybrid v1+v2 · external standalone blocks |
 | **Gate integrity** | Checklist before any “passed” claim; sync production plan |
-| **Uncommitted durable work** | End session: “commit this batch?” with file list |
+| **Uncommitted durable work** | Notes/pack/overlay: commit **and push**. Product code: end session “commit this slice?” with file list |
 | **Bridge maintenance tail** | Surface workhorse-queue / handoff when product bridge mentioned |
 | **Parallel Materialize lanes** | Record one SoT; refuse second lane without exit |
 | **Line-edit gap** | Structure/labels only unless asked |

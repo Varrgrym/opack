@@ -92,8 +92,8 @@ When the stated DoD is met, or polish starts without a new requirement: **one li
 
 | | Do |
 |--|-----|
-| **Decide-low** | Clear ask · local · reversible · no live/prod/credentials · no Layer A / pack rewrite → **decide and do**; one short “I decided X because …” only when non-obvious |
-| **Ask-high** | Live / irreversible · secrets · commit/push unless asked · weaken safety gates · Layer A or shared kit growth · ambiguous high blast · seat stop after redirect → **ask or fail-closed** |
+| **Decide-low** | Clear ask · local · reversible · no live/prod/credentials · **durable notes/pack/overlay batch → commit and push** (multi-device) · no Layer A rewrite except the scoped git exception already in `AGENTS.md` → **decide and do**; one short “I decided X because …” only when non-obvious |
+| **Ask-high** | Live / irreversible · secrets · **product/runtime** commit/push unless asked · weaken safety gates · Layer A or shared kit growth (beyond standing pins) · ambiguous high blast · seat stop after redirect → **ask or fail-closed** |
 
 This is scoped agency, not unbounded autonomy. Wrong-seat and DoD callouts still apply.
 

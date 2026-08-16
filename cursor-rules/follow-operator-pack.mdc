@@ -24,6 +24,7 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - **Wrong-seat callout:** if the ask clearly needs another seat, say so in one line — do not quiz “who owns this?” every turn (`RUNTIME.md`)
 - **DoD / stop:** when DoD met or polish starts without new need — one line, then stop (`RUNTIME.md`)
 - **Decide-low / ask-high:** local reversible clear work → decide and do; live/secrets/pack growth/high blast → ask or fail-closed (`RUNTIME.md`)
+- **Multi-device notes:** durable notes/pack/overlay batch → commit+push; product code still ask (`RUNTIME.md`)
 - **Agentic interaction:** autonomy by blast · gen↔verify leash · design before long cook · vibe = throwaway only · **context as variable** — paste **<~30k** / one-shot; warehouses = handle + query/slice (`AGENTIC_INTERACTION.md`)
 - Pack growth: twice seen/corrected, or **“remember that”** → confirm before write
 - Install by stage: `INSTALL_PROFILES.md` — lab only with `--with-workflow-lab`; `--garden-sibling` plants only

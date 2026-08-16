@@ -29,6 +29,7 @@
 
 - New raw material → `inbox/` or `sources/` first; parse before promoting to by-family (or equivalent).
 - Work that needs product runtime → queue file for the workhorse; do not fight hub/plant execution here.
+- **Inbox autosave (multi-device):** after a durable notes batch (extract, map, overlay), **commit and push**. Disk without origin is not the other PC. Skip empty commits. Never secrets / Drive raw / Discord dumps.
 
 ## Refuses / pins (this repo)
 

@@ -27,7 +27,7 @@
 - Descriptive names; concise comments only for non-obvious logic.
 - Unit tests or small example cases for new behavior.
 - **Fail-closed defaults:** dry-run / preview when actions are irreversible or gated; do not invent live credentials, allow-flags, or production argv.
-- Do not commit unless asked. Do not push unless asked. Do not weaken safety gates for convenience.
+- **Git (scoped, not always-push):** product/runtime code — do not commit or push unless asked (propose at a finished slice). **Durable notes / pack / overlay batches** — commit **and push** so other devices can `git pull` (multi-device save slot). Never secrets, empty commits, or force-push. Do not weaken safety gates for convenience.
 
 ---
 
