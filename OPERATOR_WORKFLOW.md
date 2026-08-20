@@ -100,4 +100,5 @@
 | 2026-08-20 | Review/Audit/Plan engines | `PROJECT_REVIEW` · `REPOSITORY_AUDIT` · `EXECUTION_ROADMAP` — peer pasteables to exploration |
 | 2026-08-20 | Mode D: trajectory · unknowns · confidence · leverage | Strengthen review without stealing Audit/Explore jobs |
 | 2026-08-20 | Audit + Roadmap judgment parity | Same confidence/unknowns/leverage kit; Explore left exploratory |
+| 2026-08-20 | Audit anti-AI-review controls | Evidence hierarchy · execute≠read · full-scale definition · preserve→expand sequence |
 | — | **Pickup** | **opack local: clear.** Parked: hygiene R1/R8 (gather evidence). Paths: Pop `~/Desktop/…` (2026-08-12). External next (when chosen): FBT **3A.9** review — not art commit (already on master). MHCOS creative instance **done**. Do not: creative kit on install dial · Mode E |

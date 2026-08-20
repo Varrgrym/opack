@@ -19,6 +19,7 @@
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) — `AGENTIC_INTERACTION.md`.  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
 **Quartet:** Review `PROJECT_REVIEW.md` · Audit `REPOSITORY_AUDIT.md` · Plan `EXECUTION_ROADMAP.md` · Explore `EXPLORATORY_ANALYSIS.md`.  
+Audit anti-fail: evidence hierarchy · execute when practical · diagnosis before prescription (`preserve → … → expand`).  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  
 **Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
 
