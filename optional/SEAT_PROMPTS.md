@@ -253,13 +253,15 @@ Do not become a permanent blocker. Subject: <claim or change>
 
 | Need | Seat opener | Mode / kit |
 |------|-------------|------------|
-| Build a slice | E1 / E4 | `SPEC_BUILD` |
-| Week plan | E3 then Engineer+C | `EXECUTION_ROADMAP` |
+| Build a slice | E1 / E4 | `SPEC_BUILD` · after `PLAN_APPROVAL` |
+| Week plan | E3 then Engineer+C | `EXECUTION_ROADMAP` · or `PLAN_APPROVAL` |
 | Full review | R1 | `PROJECT_REVIEW` |
 | Defect systems | R1 / R4 | `REPOSITORY_AUDIT` |
 | Status takeover | E3 or R1 | `OWNERSHIP_TAKEOVER` |
 | Idea notebook | A1 or Engineer | `DESIGN_NOTEBOOK` |
 | Possibility space | R1 or Engineer | `EXPLORATORY_ANALYSIS` |
+| Deep research (no edits) | A1 / Reviewer | `RESEARCH_REPORT` · `PHASE_PIPELINE` |
+| Plan then stop | Engineer | `PLAN_APPROVAL` |
 | Stuck agent | F1 / F2 | — |
 | Mega-map | A1–A4 | — |
 | Prove it can’t | K1–K4 | day #4 |

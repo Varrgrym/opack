@@ -123,4 +123,6 @@ Classic names: README theater · premature build · sycophantic agreement · sco
 understand → verify → simplify → plan → execute → validate → **stop**.  
 Goal = best justified outcome with least unnecessary complexity. **Do nothing** when that is correct.
 
+For unfamiliar / high-blast work, prefer gated phases: Research → Plan (approve) → Code → Verify (`PHASE_PIPELINE.md`). Research never edits; Plan never codes.
+
 **Agentic interaction:** partial autonomy (slider by blast) · generate↔verify on a leash · program design / vertical slice before long cook · vibe only for throwaway · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) · human owns understanding. Full kit: `AGENTIC_INTERACTION.md`.

@@ -43,6 +43,8 @@ Do **not** give a thin summary. Pick a mode (or ask if unclear):
 | Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Full paste: `optional/PROJECT_REVIEW.md`. Cold-lead: `optional/MODE_D.md`. **Do not ask which mode** — expand via `INTENT_EXPAND.md`. |
 | Repo audit / what’s wrong / systems diagnosis | **Audit** (peer pasteable) | What’s here · how well it works · what’s wrong. Full paste: `optional/REPOSITORY_AUDIT.md`. Not Mode E. |
 | Possibility space / what haven’t we considered | **Exploration** (peer pasteable) | Missed questions · latent capability · directions — not a backlog. Full paste: `optional/EXPLORATORY_ANALYSIS.md`. |
+| Deep research report / no edits yet | **Research** (phase) | Cited report artifact; never implement. Full paste: `optional/RESEARCH_REPORT.md`. Orchestration: `optional/PHASE_PIPELINE.md`. |
+| Plan then wait for approval | **Plan gate** (phase) | Plan only → APPROVE / NARROW / REJECT. Full paste: `optional/PLAN_APPROVAL.md`. |
 
 If several fit: **B then C**, or **D** when they want codebase-wide evidence. Inline candor anytime they say “challenge me.”
 

@@ -78,7 +78,8 @@ End with: **Do now / next / later / do not** · milestone proof · what would ch
 
 ## Extract / organize phrase lock
 
-“Extract what is useful” / “organize the repo” / chat dumps → `EXTRACT_AND_ORGANIZE.md` (filter → map → land **net-new only**). Video / YouTube / “without watching it myself” → `VIDEO_EXTRACT.md`.
+“Extract what is useful” / “organize the repo” / chat dumps → `EXTRACT_AND_ORGANIZE.md` (filter → map → land **net-new only**). Video / YouTube / “without watching it myself” → `VIDEO_EXTRACT.md`.  
+Deep research (no edits) → `RESEARCH_REPORT.md`. Plan-before-code → `PLAN_APPROVAL.md`. Phased flow → `PHASE_PIPELINE.md`.
 
 ---
 

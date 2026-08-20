@@ -24,6 +24,9 @@
 | **Repository audit** (what’s wrong / weak) | `REPOSITORY_AUDIT.md` |
 | **Execution roadmap** (what next · Mode C engine) | `EXECUTION_ROADMAP.md` |
 | **Exploratory analysis** (possibility space · missed questions · not a backlog) | `EXPLORATORY_ANALYSIS.md` |
+| **Research report** (deep cite · no edits · artifact) | `RESEARCH_REPORT.md` |
+| **Plan approval gate** (plan only → APPROVE/NARROW/REJECT) | `PLAN_APPROVAL.md` |
+| **Phase pipeline** (Research → Plan → Code → Verify) | `PHASE_PIPELINE.md` |
 | Large scope chunking | `CHUNKING.md` |
 | Install by stage | `INSTALL_PROFILES.md` · `../templates/overlay-*.md` |
 | Lab digest / this TOC | `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` |
