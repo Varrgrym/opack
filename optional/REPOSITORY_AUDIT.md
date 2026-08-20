@@ -15,6 +15,8 @@ Paste when you want a **full-scale, evidence-based systems analysis**: inventory
 
 **Seat hint:** Reviewer (preferred) or Engineer · Multitask **off** · Plan **no** until after the audit.
 
+**Philosophy:** The auditor is paid to diagnose with evidence — not to invent a backlog of interesting fixes.
+
 ---
 
 ## Paste
@@ -36,16 +38,27 @@ Do not invent problems to fill sections. Skip empty sections. Depth over coverag
 Do not turn the audit into a feature wishlist. Diagnosis first; prescriptions only after evidence.
 Do not unlock builds unless I explicitly ask after the audit.
 
+## Philosophy
+
+The auditor is paid to diagnose with evidence — not to invent a backlog of interesting fixes.
+A finding without a path cite is not a finding. A recommendation without confidence is not advice — it is a guess wearing authority.
+
 ## Operating rules (read first)
 
 * Ground every important claim in files, tests, docs, configs, or runnable checks. Cite paths.
 * Label findings: Verified · Strongly inferred · Uncertain.
+* Label recommendations with confidence:
+  - High — supported by multiple independent pieces of evidence
+  - Medium — strong interpretation but some ambiguity
+  - Low — plausible option requiring operator judgment
 * Severity for defects: Critical · High · Medium · Low · Nit.
 * Prefer consolidation and simplification over new subsystems.
 * Distinguish: bug · design flaw · doc drift · missing test proof · operational risk · incomplete work · intentional deferral.
+* Distinguish intrinsic complexity from self-inflicted surface area. Do not treat file count as proof of either.
 * If something looks abandoned, say so and cite evidence (staleness, TODOs, dead entry points, broken refs).
 * If the repo is too large: chunk by subsystem → investigate → synthesize before project-level conclusions. Chunk for processing, never for understanding.
 * Author ≠ sole reviewer on irreversible recommendations — flag where a second pass is warranted.
+* Do not fill unknowns with assumptions.
 * End with decide-next, but do not smuggle a full roadmap into the audit.
 
 ---
@@ -56,7 +69,7 @@ Open with:
 
 Mode=Audit · Seat=Reviewer (or Engineer) · Multitask=off · Plan=no
 
-State briefly what you inspected (and what you did not).
+State briefly what you inspected and what you did not (directories, workflows, tests not run, integrations not exercised).
 
 ---
 
@@ -169,6 +182,7 @@ Evaluate structure:
 * Boundary violations
 * Complexity theater (impressive structure without leverage)
 * Organism vs collection (coherent system vs pile of parts)
+* Complexity vs surface area: which parts increase capability vs merely increase surface area?
 
 Prefer simplify. Do not recommend rewrites without strong evidence.
 
@@ -239,7 +253,7 @@ What should not be casually rewritten.
 Areas where change is high blast / low evidence / low leverage.
 
 ### Safe to delete or archive
-Only with evidence.
+Only with evidence. Attach recommendation confidence (High / Medium / Low).
 
 ---
 
@@ -256,7 +270,21 @@ Each finding: one sentence claim · evidence path(s) · impact · suggested veri
 
 ---
 
-## 15. Audit Verdict
+## 15. Unknowns & Unverified Areas
+
+Mandatory on non-trivial repos. Do not fill gaps with assumptions.
+
+* files/directories not inspected
+* workflows not executed
+* integrations not tested
+* assumptions that could not be verified
+* documentation that appears authoritative but was not confirmed against implementation
+* areas where understanding is weak
+* conclusions that would change if missing evidence were different
+
+---
+
+## 16. Audit Verdict
 
 Give a direct systems verdict:
 
@@ -265,11 +293,11 @@ Give a direct systems verdict:
 * Biggest structural problem
 * Biggest operational problem
 * Biggest documentation problem
-* Single highest-leverage fix (one)
+* Single highest-leverage fix (one) — with recommendation confidence
 
 ---
 
-## 16. Decide-Next (audit close — not a full roadmap)
+## 17. Decide-Next (audit close — not a full roadmap)
 
 End with:
 
@@ -277,8 +305,14 @@ End with:
 * Do next
 * Later
 * Do not
+* For each recommendation: confidence (High / Medium / Low) and why
 * What would change these recommendations
 * Stop evidence — when is the audit “acted on enough” to pause?
+
+If useful, one small leverage table for the top recommendations only:
+
+| Recommendation | Effort (Low/Med/High) | Leverage (Low/Med/High/Unknown) | Confidence |
+| --- | --- | --- | --- |
 
 If I want a week plan after this, I will run Execution Roadmap separately.
 If I want possibility space, I will run Exploratory Analysis separately.
@@ -294,9 +328,10 @@ Answer directly:
 3. What claim in the docs is most misleading?
 4. What critical path has the weakest proof?
 5. What should we stop touching?
-6. What should we delete or archive?
+6. What should we delete or archive? (confidence?)
 7. What should we fix before adding anything new?
 8. What remains uncertain because evidence was missing?
+9. What is the highest-leverage fix that is actually warranted — not merely interesting?
 ```
 
 ---
@@ -307,6 +342,7 @@ Answer directly:
 Full repository audit — what’s here, how well it works, what’s wrong.
 Follow optional/REPOSITORY_AUDIT.md (or docs/workflow-lab/REPOSITORY_AUDIT.md).
 Evidence first. No feature wishlist. Skip empty sections. Label Verified/Inferred/Uncertain.
+Recommendations need confidence. Unknowns stay unknown.
 ```
 
 ---
@@ -328,3 +364,4 @@ Evidence first. No feature wishlist. Skip empty sections. Label Verified/Inferre
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-08-20 | Initial pasteable | Peer to exploration; land audit as first-class kit (draft was chat-only) |
+| 2026-08-20 | Unknowns · rec confidence · leverage | Parity with Mode D judgment upgrades; still diagnosis not roadmap |

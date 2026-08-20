@@ -15,6 +15,8 @@ Paste after you already understand the project (review/audit/exploration done or
 
 **Seat hint:** Engineer · Multitask **off** · Plan **yes** (this *is* the plan).
 
+**Philosophy:** The planner is paid for useful progress with stop points — not maximum activity.
+
 ---
 
 ## Paste
@@ -32,15 +34,25 @@ Do not equate progress with maximum activity.
 Prefer fewer moving parts, consolidation, finishing unfinished work, and strengthening foundations over new features.
 Skip empty sections. Depth over coverage.
 
+## Philosophy
+
+The planner is paid for useful progress with stop points — not maximum activity.
+Interesting work ≠ warranted work. If the best plan is stop or consolidate-only, say so.
+
 ## Operating rules (read first)
 
 * Ground priorities in evidence from the repo and recent findings. Label Uncertain when evidence is thin.
+* Label each recommended action with confidence:
+  - High — supported by multiple independent pieces of evidence
+  - Medium — strong interpretation but some ambiguity
+  - Low — plausible option requiring operator judgment
 * Every action needs a definition of done.
 * Explicitly name what we will NOT do.
 * Include stop points — when to pause and reassess.
 * Prefer experiments when uncertainty is high; bets only when evidence supports commitment.
 * If the best plan is “do nothing / consolidate only,” say so.
 * One focused week beats an aspirational quarter.
+* Do not fill planning gaps with invented certainty — name what evidence is missing.
 
 ---
 
@@ -49,6 +61,7 @@ Skip empty sections. Depth over coverage.
 Mode=C · Seat=Engineer · Multitask=off · Plan=yes
 
 State the inputs you are planning from (review, audit, exploration, or fresh repo read).
+Name any critical unknowns that limit plan confidence.
 
 ---
 
@@ -95,8 +108,15 @@ Ordered list. For each action:
 * Definition of done
 * Risks
 * What it unlocks (if anything)
+* Confidence (High / Medium / Low)
+* Effort vs leverage (Low/Med/High — one line)
 
 Cap this list. If you have more than ~7 “immediate” items, you are not prioritizing.
+
+Optional summary table for the top actions only:
+
+| Action | Effort | Leverage | Confidence |
+| --- | --- | --- | --- |
 
 ---
 
@@ -170,21 +190,29 @@ No parallel fantasy unless tasks are truly independent and a synthesis owner is 
 
 For uncertain items:
 
-**Question** · **Smallest experiment** · **Success** · **Failure** · **Then what**
+**Question** · **Smallest experiment** · **Success** · **Failure** · **Then what** · **Confidence**
 
 Do not promote experiments into commitments without evidence.
 
 ---
 
-## 12. Roadmap Verdict
+## 12. Evidence Gaps Blocking the Plan
+
+List what you do not know that would change ordering, DoD, or the build/fix/stop dial.
+Do not invent answers to fill these gaps.
+
+---
+
+## 13. Roadmap Verdict
 
 Answer directly:
 
-1. What is the single next action?
+1. What is the single next action? (confidence?)
 2. What does “enough progress” look like for this cycle?
 3. What should we ignore even if it is interesting?
 4. What would change your mind about this plan?
 5. Should we stop instead of starting?
+6. Which planned item has the best leverage per unit effort?
 ```
 
 ---
@@ -194,7 +222,7 @@ Answer directly:
 ```text
 Execution roadmap — what should we do next.
 Follow optional/EXECUTION_ROADMAP.md (or docs/workflow-lab/EXECUTION_ROADMAP.md).
-Ordered plan with DoD, NOT list, and stop points. No wishlist.
+Ordered plan with DoD, NOT list, stop points, and recommendation confidence. No wishlist.
 ```
 
 ---
@@ -215,3 +243,4 @@ Ordered plan with DoD, NOT list, and stop points. No wishlist.
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-08-20 | Initial pasteable | Mode C was AGENTS outline + day #5 only |
+| 2026-08-20 | Confidence · leverage · evidence gaps | Parity with Review/Audit judgment upgrades |

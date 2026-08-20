@@ -44,6 +44,10 @@ Be willing to conclude that the best direction is not building anything.
   - Investigate — a question we have not answered
   - Could build — a real capability opportunity
   - Reconsider — something we currently believe that may be wrong or overvalued
+* When recommending a direction (§18), attach recommendation confidence:
+  - High — supported by multiple independent pieces of evidence
+  - Medium — strong interpretation but some ambiguity
+  - Low — plausible option requiring operator judgment
 * Before elevating any idea: does it strengthen the core purpose, or only add interesting surface area? Interesting ≠ valuable.
 * Prefer experiments when uncertainty is high.
 * Consider simplification and consolidation as legitimate progress.
@@ -336,6 +340,7 @@ Answer: If this were your project, where would you go next?
 3. What you would investigate first
 4. What you would deliberately ignore
 5. What evidence would change your mind
+6. Recommendation confidence (High / Medium / Low)
 
 Do not simply select the direction with the most features. Optimize for meaningful progress.
 
@@ -416,3 +421,4 @@ Expand the map; do not invent a backlog. Skip empty sections. Label Known/Inferr
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-08-20 | Initial pasteable | Complement to review/audit/planning; expand possibility space before deciding |
+| 2026-08-20 | Rec confidence on §18 | Thin parity with Review/Audit/Plan judgment kit |
