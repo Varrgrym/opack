@@ -55,7 +55,7 @@ Default: Agent + adaptive depth. Plan ceremony is not for “rename this variabl
 | Mega-map | Archivist (on-call) |
 | Falsify | Attacker (on-call) |
 
-Open with `Seat: …` and follow `MODEL_SEAT_PLAYBOOKS.md`. Active ≤3; declare idle.
+Open with `Seat: …` and follow `MODEL_SEAT_PLAYBOOKS.md`. Optional short openers: `SEAT_PROMPTS.md`. Active ≤3; declare idle.
 
 ### Wrong-seat callout (not a quiz)
 

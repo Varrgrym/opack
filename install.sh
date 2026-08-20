@@ -95,7 +95,8 @@ if [[ "$WITH_SEATS" -eq 1 ]]; then
   run "mkdir -p \"$TARGET/docs\""
   run "cp \"$PACK_ROOT/optional/CURSOR_MODEL_SEATS.md\" \"$TARGET/docs/CURSOR_MODEL_SEATS.md\""
   run "cp \"$PACK_ROOT/optional/MODEL_SEAT_PLAYBOOKS.md\" \"$TARGET/docs/MODEL_SEAT_PLAYBOOKS.md\""
-  echo "seats + playbooks → docs/"
+  run "cp \"$PACK_ROOT/optional/SEAT_PROMPTS.md\" \"$TARGET/docs/SEAT_PROMPTS.md\""
+  echo "seats + playbooks + seat prompts → docs/"
 fi
 
 if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then

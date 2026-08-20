@@ -33,6 +33,7 @@
 | Need | Open |
 |------|------|
 | Seat picker / playbooks | `CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` |
+| **Seat openers** (short pastes per role) | `SEAT_PROMPTS.md` |
 
 ## Opack-local (not copied by installer)
 

@@ -75,7 +75,7 @@ This file is copied as-is. Resolve kit paths by **where you are**:
 
 | Dial / piece | In **opack** clone | In **installed** project |
 |--------------|--------------------|---------------------------|
-| Seats + playbooks | `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` | `docs/` (only with `--with-seats`) |
+| Seats + playbooks | `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` · `SEAT_PROMPTS.md` | `docs/` (only with `--with-seats`) |
 | Workflow lab kits | `optional/*.md` (digest, pasteables, Mode D, …) | `docs/workflow-lab/` (only with `--with-workflow-lab`) |
 | Overlay starters | `templates/overlay-*.md` | Still only in the **opack** clone — paste into project `OPERATOR_WORKFLOW.md`; not copied by install |
 | Creative operator kit · runtime hygiene ideas | `optional/` | **Not** shipped by install — copy/paste from opack when needed |

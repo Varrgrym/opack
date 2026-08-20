@@ -34,6 +34,6 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 
 ## Optional
 
-- Seats: `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md`
+- Seats: `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` · openers `SEAT_PROMPTS.md`
 - Garden plant: `GARDEN_SIBLING.md`
 - Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` · day prompts `DAY_PROMPTS.md` · modes A–D + audit/explore

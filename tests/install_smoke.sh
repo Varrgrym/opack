@@ -97,6 +97,7 @@ fi
 SEATS="$(mktemp -d /tmp/opack-smoke-seats.XXXXXX)"
 "$INSTALL" "$SEATS" --with-seats >/dev/null
 need "$SEATS/docs/CURSOR_MODEL_SEATS.md" "seats dial copies picker"
+need "$SEATS/docs/SEAT_PROMPTS.md" "seats dial copies seat prompts"
 forbid "$SEATS/docs/workflow-lab" "seats-only does not create workflow-lab"
 
 # --- preserve existing overlay ---

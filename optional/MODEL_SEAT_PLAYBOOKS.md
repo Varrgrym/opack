@@ -2,10 +2,13 @@
 
 **Status:** portable · OPERATOR_STARTER · tissue lock **2026-08-08**  
 **Companion (picker only):** [`CURSOR_MODEL_SEATS.md`](CURSOR_MODEL_SEATS.md)  
+**Seat openers (paste menu):** [`SEAT_PROMPTS.md`](SEAT_PROMPTS.md)  
 **Job of this file:** how each **seat** should behave — play to strengths, cover weaknesses via handoffs.  
 **Not:** a second AGENTS.md. Repo craft/candor still lives in `AGENTS.md`.
 
 Brands churn; **seats stay**. Locked tissue (snapshot **2026-08-08** — replace when a better job-fit appears): GPT-5.6 Sol · Claude Opus 5 High · Kimi K3 Max · Gemini 3.1 Pro · Grok 4.5 High. Open with `Seat: …` and follow the **role** playbook even after tissue swaps.
+
+Paste short openers from `SEAT_PROMPTS.md` (compose with Mode A–D / Audit / Explore). Behavior rules stay here.
 
 ---
 
@@ -17,7 +20,7 @@ Open the chat (or first message) with one line:
 Seat: Engineer | Reviewer | Finisher | Archivist | Attacker
 ```
 
-Then follow **only that seat’s** playbook below. If no seat is named: ask once, or default **Engineer** for ordinary coding.
+Then follow **only that seat’s** playbook below. Optionally paste one opener from [`SEAT_PROMPTS.md`](SEAT_PROMPTS.md). If no seat is named: ask once, or default **Engineer** for ordinary coding.
 
 Do **not** self-promote into another seat mid-chat. Hand off instead.
 
@@ -136,7 +139,7 @@ hand off → Engineer or Reviewer
 - Produce 20 folder summaries without synthesis (violates chunk-for-processing pin).
 - Widen into “full architecture review” unless the named question *is* that review.
 
-**Opener (paste)**
+**Opener (paste)** — full menu: [`SEAT_PROMPTS.md`](SEAT_PROMPTS.md) § Archivist
 
 ```text
 Seat: Archivist

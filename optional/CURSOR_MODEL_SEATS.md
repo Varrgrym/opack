@@ -5,7 +5,8 @@
 
 **Role:** How to pick models in Cursor without model-shopping. Optimize for **finishing correct work**, not “smartest on the leaderboard.”
 
-**Behavior per seat (strengths / weaknesses / handoffs):** [`MODEL_SEAT_PLAYBOOKS.md`](MODEL_SEAT_PLAYBOOKS.md) — open chats with `Seat: …`.
+**Behavior per seat (strengths / weaknesses / handoffs):** [`MODEL_SEAT_PLAYBOOKS.md`](MODEL_SEAT_PLAYBOOKS.md) — open chats with `Seat: …`.  
+**Short paste openers per seat:** [`SEAT_PROMPTS.md`](SEAT_PROMPTS.md) — compose with Mode kits; do not replace playbooks.
 
 Copy these notes between machines. Exact vendor labels will change; **roles should not**.
 
