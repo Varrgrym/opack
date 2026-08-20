@@ -44,11 +44,11 @@
 
 | Prompt | Already covered by | This kit adds |
 |--------|-------------------|---------------|
-| #1 Deep review | Mode D / INTENT_EXPAND | Pasteable “no fix yet” investigation shape |
+| #1 Deep review | Mode D / `PROJECT_REVIEW.md` / INTENT_EXPAND | Pasteable “no fix yet” investigation shape |
 | #2 Double-check | Reviewer seat · fail-closed verify | Explicit PASS / REVISE / FAIL verdict |
 | #3 Missing pieces | Mode D gaps · SPEC · full engine `EXPLORATORY_ANALYSIS.md` | Gap-only lens (short); use exploratory kit for possibility-space passes |
 | #4 Skeptical | Attacker / Reviewer | Falsify-previous-analysis paste |
-| #5 Next actions | Mode C | Build/fix/simplify/stop dial |
+| #5 Next actions | Mode C / `EXECUTION_ROADMAP.md` | Build/fix/simplify/stop dial (short cousin) |
 | #6 Should we build? | SPEC / never-build | BUILD / DEFER / REJECT |
 | #7 Consolidate | Mode D coherence | Consolidation-only pass |
 | #8 5W1H | `INTENT_EXPAND.md` | Compact paste (optional) |
@@ -519,7 +519,8 @@ When appropriate, finish with:
 
 - Open with runtime stanza on substantial use: `Mode=… · Seat=… · Multitask=off · Plan=?`  
 - #2 and #4 pair well: Engineer builds → paste #2 or open Reviewer with #4.  
-- “Review this project” still → Mode D (don’t ask which mode); #1 is the lighter cousin.  
+- “Review this project” still → Mode D / `PROJECT_REVIEW.md` (don’t ask which mode); #1 is the lighter cousin.  
+- Defect-heavy systems pass → `REPOSITORY_AUDIT.md`. Week plan → `EXECUTION_ROADMAP.md`. Possibility space → `EXPLORATORY_ANALYSIS.md`.  
 - Do not paste the whole kit into `follow-operator-pack.mdc` — keep digest thin; open this file when needed.
 
 ---
@@ -530,3 +531,4 @@ When appropriate, finish with:
 |------|------|
 | 2026-08-09 | Operator paste kit landed; daily five highlighted; mapped to existing Modes/kits |
 | 2026-08-12 | Full TOC added (no file split — single paste kit stays installable as one dial file) |
+| 2026-08-20 | Cross-link review/audit/plan/explore engines | Quartet landed as peer pasteables |

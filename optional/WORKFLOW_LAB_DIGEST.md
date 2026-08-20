@@ -1,13 +1,13 @@
 # Workflow lab digest (short)
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
-**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `EXPLORATORY_ANALYSIS.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
+**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
 **Paths:** in opack → `optional/`; after `--with-workflow-lab` → `docs/workflow-lab/`. `../templates/` and `archive/` resolve only in the **opack** clone.  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
 **Intent ≠ full specification.** Expand to needed rigor only (`INTENT_EXPAND.md`).
 
-**Phrase lock:** “please review this project” / fine-tooth / full review → **Mode D** + Intent coverage bar. **Do not ask which mode.**  
+**Phrase lock:** “please review this project” / fine-tooth / full review → **Mode D** + `PROJECT_REVIEW.md` + Intent coverage bar. **Do not ask which mode.**  
 **Also:** organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`. Video / YouTube → `VIDEO_EXTRACT.md` (not a recap).
 
 **Automatic 5W1H** on substantial work. Certainty: Known → Inferred → Unknown → Recommended.
@@ -18,7 +18,7 @@
 **Handoff / DoD-stop / decide-low:** `RUNTIME.md` § Gates & handoff.  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) — `AGENTIC_INTERACTION.md`.  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
-**Exploration (possibility space, not a backlog):** `EXPLORATORY_ANALYSIS.md`.  
+**Quartet:** Review `PROJECT_REVIEW.md` · Audit `REPOSITORY_AUDIT.md` · Plan `EXECUTION_ROADMAP.md` · Explore `EXPLORATORY_ANALYSIS.md`.  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  
 **Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
 

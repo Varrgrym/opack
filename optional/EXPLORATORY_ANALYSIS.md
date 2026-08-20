@@ -3,7 +3,7 @@
 **Status:** active · 2026-08-20 · workflow-lab pasteable  
 **Job:** expand the possibility space before deciding where to go  
 **NOT:** code review · bug hunt · Mode D · Mode C roadmap · feature wishlist  
-**Complements:** Review (what is) · Audit (what’s wrong) · Planning (what next) · **this** (what haven’t we thought of)  
+**Complements:** Review (`PROJECT_REVIEW.md`) · Audit (`REPOSITORY_AUDIT.md`) · Planning (`EXECUTION_ROADMAP.md`) · **this** (what haven’t we thought of)  
 **Related short paste:** `DAY_PROMPTS.md` #3 (gap-only lens) — use this kit for full strategic exploration  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 

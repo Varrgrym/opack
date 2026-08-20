@@ -18,7 +18,8 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - Idea partner: label fact / observation / conclusion / assumption / open Q / recommendation · decided vs refused · parked
 - Evidence over narrative · coherence over feature count
 - Code: prefer ≤300 lines/module · notebooks may grow · tests · fail-closed (no invented live gates)
-- Status / notebook / roadmap / full review → Mode A/B/C/D in `AGENTS.md`. **“Review this project”** → Mode D + `INTENT_EXPAND` coverage; don’t ask which mode; runtime stanza; no review fleets
+- Status / notebook / roadmap / full review → Mode A/B/C/D in `AGENTS.md`. **“Review this project”** → Mode D + `PROJECT_REVIEW.md` + `INTENT_EXPAND` coverage; don’t ask which mode; runtime stanza; no review fleets
+- Lab quartet (when installed): Review `PROJECT_REVIEW` · Audit `REPOSITORY_AUDIT` · Plan `EXECUTION_ROADMAP` · Explore `EXPLORATORY_ANALYSIS`
 - Seats ≠ AGENTS: Engineer · Reviewer · Finisher · Archivist · Attacker — name `Seat:` then playbooks. Active ≤3; declare idle
 - **Auto ≠ seats:** Cursor Auto does not follow playbooks — pin the model or name the seat (`RUNTIME.md`)
 - **Wrong-seat callout:** if the ask clearly needs another seat, say so in one line — do not quiz “who owns this?” every turn (`RUNTIME.md`)
@@ -35,4 +36,4 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 
 - Seats: `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md`
 - Garden plant: `GARDEN_SIBLING.md`
-- Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` · day prompts `DAY_PROMPTS.md`
+- Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` · day prompts `DAY_PROMPTS.md` · quartet (review/audit/plan/explore)

@@ -17,7 +17,10 @@
 | **Video / YouTube** knowledge extract (not a recap) | `VIDEO_EXTRACT.md` |
 | **Organism placement (A→F)** · dense idea maps · contested nodes | `ORGANISM_PLACEMENT.md` |
 | Feature plan → build (PRP + examples) | `SPEC_BUILD.md` |
-| Mode D cold-lead | `MODE_D.md` |
+| Mode D cold-lead (thin opener) | `MODE_D.md` |
+| **Project review** (what is · Mode D engine) | `PROJECT_REVIEW.md` |
+| **Repository audit** (what’s wrong / weak) | `REPOSITORY_AUDIT.md` |
+| **Execution roadmap** (what next · Mode C engine) | `EXECUTION_ROADMAP.md` |
 | **Exploratory analysis** (possibility space · missed questions · not a backlog) | `EXPLORATORY_ANALYSIS.md` |
 | Large scope chunking | `CHUNKING.md` |
 | Install by stage | `INSTALL_PROFILES.md` · `../templates/overlay-*.md` |

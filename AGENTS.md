@@ -39,12 +39,14 @@ Do **not** give a thin summary. Pick a mode (or ask if unclear):
 |---------------|------|--------|
 | Where are we / status / takeover | **A — Ownership takeover** | Intent → current state → progress → alignment → coherence → architecture → debt → consolidate → missing → build vs polish → roadmap tiers → should-not → blind spots → critique → executive close + next week |
 | Capture / notebook / organize | **B — Design notebook** | Group by **concept**; label items; decided vs NOT; parked + why; deps; short vs long; close with state · backlog · parked · gaps · next by leverage |
-| Roadmap / next week / milestones | **C — Execution roadmap** | State → immediate actions (why / DoD / deps / risks) → milestones (+ what NOT) → stop points → consolidate → wait → risks → numbered order → one focused week |
-| Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Cold-lead: `optional/MODE_D.md`. **Do not ask which mode** — expand via `INTENT_EXPAND.md`. |
+| Roadmap / next week / milestones | **C — Execution roadmap** | State → immediate actions (why / DoD / deps / risks) → milestones (+ what NOT) → stop points → consolidate → wait → risks → numbered order → one focused week. Full paste: `optional/EXECUTION_ROADMAP.md`. |
+| Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Full paste: `optional/PROJECT_REVIEW.md`. Cold-lead: `optional/MODE_D.md`. **Do not ask which mode** — expand via `INTENT_EXPAND.md`. |
+| Repo audit / what’s wrong / systems diagnosis | **Audit** (peer pasteable) | What’s here · how well it works · what’s wrong. Full paste: `optional/REPOSITORY_AUDIT.md`. Not Mode E. |
+| Possibility space / what haven’t we considered | **Exploration** (peer pasteable) | Missed questions · latent capability · directions — not a backlog. Full paste: `optional/EXPLORATORY_ANALYSIS.md`. |
 
 If several fit: **B then C**, or **D** when they want codebase-wide evidence. Inline candor anytime they say “challenge me.”
 
-**Project-review default:** *please review this project* → Mode **D** + `INTENT_EXPAND` coverage bar + decide-next. Open with **runtime stanza** (Mode · Seat · Multitask · Plan?). Multitask **off** unless named synthesis owner; no review fleets. **Auto ≠ seats** — pin model / `Seat:` (`RUNTIME.md`).
+**Project-review default:** *please review this project* → Mode **D** + `PROJECT_REVIEW.md` + `INTENT_EXPAND` coverage bar + decide-next. Open with **runtime stanza** (Mode · Seat · Multitask · Plan?). Multitask **off** unless named synthesis owner; no review fleets. **Auto ≠ seats** — pin model / `Seat:` (`RUNTIME.md`).
 
 ---
 

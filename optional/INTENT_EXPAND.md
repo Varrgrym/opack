@@ -41,7 +41,7 @@ Certainty labels: **Known → Inferred → Unknown → Recommended**. Do not inv
 | Trivia / lookup | Answer; skip ceremony |
 | Local code question | Relevant files + docs; prefer existing impl |
 | Errors / architecture / readiness | Broader inventory; second-order causes; contradictions |
-| **“Review this project”** / fine-tooth / full review | **Mode D** + coverage bar below — **do not ask which mode** |
+| **“Review this project”** / fine-tooth / full review | **Mode D** + coverage bar below — **do not ask which mode** · full paste `PROJECT_REVIEW.md` |
 
 ---
 
@@ -61,7 +61,8 @@ Too large → semantic chunks → **synthesize before conclusions** (`CHUNKING.m
 
 Open with runtime stanza: `Mode=D · Seat=… · Multitask=off · Plan=?` (`RUNTIME.md`).
 
-Cold-lead posture: `MODE_D.md`.
+Cold-lead posture: `MODE_D.md`. Full review engine: `PROJECT_REVIEW.md`.  
+Defect-heavy diagnosis: `REPOSITORY_AUDIT.md`. Ordered plan: `EXECUTION_ROADMAP.md`. Possibility space: `EXPLORATORY_ANALYSIS.md`.
 
 ---
 
@@ -88,7 +89,7 @@ Do not invent requirements, rewrite working systems for taste, treat speculation
 ```text
 Treat my request as starting intent, not full spec.
 Expand to needed rigor only. Use 5W1H + Known/Inferred/Unknown/Recommended.
-If this is a project review: Mode D + coverage bar; do not ask which mode.
+If this is a project review: Mode D + PROJECT_REVIEW.md + coverage bar; do not ask which mode.
 Runtime stanza first on substantial work. Prefer evidence; stop when done.
 ```
 

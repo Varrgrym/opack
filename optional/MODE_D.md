@@ -1,9 +1,10 @@
 # Mode D — cold-lead (thin)
 
-**Status:** active thin kit · 2026-08-08  
+**Status:** active thin kit · 2026-08-08 · updated 2026-08-20  
 **Archive:** `archive/MODE_D_COLD_LEAD.md`  
+**Full paste engine:** `PROJECT_REVIEW.md`  
 **Pairs with:** `AGENTS.md` Mode D · `INTENT_EXPAND.md` coverage bar  
-**NOT:** Garden Immune / organ contracts
+**NOT:** Garden Immune / organ contracts · defect-only audit (`REPOSITORY_AUDIT.md`) · roadmap (`EXECUTION_ROADMAP.md`) · exploration (`EXPLORATORY_ANALYSIS.md`)
 
 ---
 
@@ -36,7 +37,9 @@
 ## Opener
 
 ```text
-Mode D — cold-lead. Follow INTENT_EXPAND coverage bar.
+Mode D — cold-lead. Follow PROJECT_REVIEW.md + INTENT_EXPAND coverage bar.
 Runtime: Mode=D · Seat=Reviewer (or Engineer) · Multitask=off · Plan=no
 Do not unlock builds. No review fleets. Chunk → synthesize if large.
 ```
+
+For the full sectioned paste, open `PROJECT_REVIEW.md`.
