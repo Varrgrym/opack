@@ -41,6 +41,9 @@ Certainty labels: **Known → Inferred → Unknown → Recommended**. Do not inv
 | Trivia / lookup | Answer; skip ceremony |
 | Local code question | Relevant files + docs; prefer existing impl |
 | Errors / architecture / readiness | Broader inventory; second-order causes; contradictions |
+| Status / where are we / takeover | **Mode A** + `OWNERSHIP_TAKEOVER.md` |
+| Capture / notebook / organize ideas | **Mode B** + `DESIGN_NOTEBOOK.md` (dumps → also `EXTRACT_AND_ORGANIZE.md`) |
+| Roadmap / next week | **Mode C** + `EXECUTION_ROADMAP.md` |
 | **“Review this project”** / fine-tooth / full review | **Mode D** + coverage bar below — **do not ask which mode** · full paste `PROJECT_REVIEW.md` |
 
 ---
@@ -62,6 +65,7 @@ Too large → semantic chunks → **synthesize before conclusions** (`CHUNKING.m
 Open with runtime stanza: `Mode=D · Seat=… · Multitask=off · Plan=?` (`RUNTIME.md`).
 
 Cold-lead posture: `MODE_D.md`. Full review engine: `PROJECT_REVIEW.md`.  
+Ownership / status: `OWNERSHIP_TAKEOVER.md`. Design notebook: `DESIGN_NOTEBOOK.md`.  
 Defect-heavy diagnosis: `REPOSITORY_AUDIT.md`. Ordered plan: `EXECUTION_ROADMAP.md`. Possibility space: `EXPLORATORY_ANALYSIS.md`.
 
 ---

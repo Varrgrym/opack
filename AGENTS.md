@@ -37,8 +37,8 @@ Do **not** give a thin summary. Pick a mode (or ask if unclear):
 
 | Phrase family | Mode | Shape |
 |---------------|------|--------|
-| Where are we / status / takeover | **A — Ownership takeover** | Intent → current state → progress → alignment → coherence → architecture → debt → consolidate → missing → build vs polish → roadmap tiers → should-not → blind spots → critique → executive close + next week |
-| Capture / notebook / organize | **B — Design notebook** | Group by **concept**; label items; decided vs NOT; parked + why; deps; short vs long; close with state · backlog · parked · gaps · next by leverage |
+| Where are we / status / takeover | **A — Ownership takeover** | Intent → current state → progress → alignment → coherence → architecture → debt → consolidate → missing → build vs polish → roadmap tiers → should-not → blind spots → critique → executive close + next week. Full paste: `optional/OWNERSHIP_TAKEOVER.md`. |
+| Capture / notebook / organize | **B — Design notebook** | Group by **concept**; label items; decided vs NOT; parked + why; deps; short vs long; close with state · backlog · parked · gaps · next by leverage. Full paste: `optional/DESIGN_NOTEBOOK.md`. |
 | Roadmap / next week / milestones | **C — Execution roadmap** | State → immediate actions (why / DoD / deps / risks) → milestones (+ what NOT) → stop points → consolidate → wait → risks → numbered order → one focused week. Full paste: `optional/EXECUTION_ROADMAP.md`. |
 | Full review / vision / fine-tooth / **“review this project”** / please review | **D — Architecture review** | Evidence from code+docs; maturity; quality; doc drift; decoupling; risks; never-build; organism vs collection. Prefer simplify. Do not unlock builds unless asked. Full paste: `optional/PROJECT_REVIEW.md`. Cold-lead: `optional/MODE_D.md`. **Do not ask which mode** — expand via `INTENT_EXPAND.md`. |
 | Repo audit / what’s wrong / systems diagnosis | **Audit** (peer pasteable) | What’s here · how well it works · what’s wrong. Full paste: `optional/REPOSITORY_AUDIT.md`. Not Mode E. |

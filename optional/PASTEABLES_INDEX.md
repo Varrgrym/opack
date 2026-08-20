@@ -19,6 +19,8 @@
 | Feature plan → build (PRP + examples) | `SPEC_BUILD.md` |
 | Mode D cold-lead (thin opener) | `MODE_D.md` |
 | **Project review** (what is · Mode D engine) | `PROJECT_REVIEW.md` |
+| **Ownership takeover** (where are we · Mode A engine) | `OWNERSHIP_TAKEOVER.md` |
+| **Design notebook** (organize by concept · Mode B engine) | `DESIGN_NOTEBOOK.md` |
 | **Repository audit** (what’s wrong / weak) | `REPOSITORY_AUDIT.md` |
 | **Execution roadmap** (what next · Mode C engine) | `EXECUTION_ROADMAP.md` |
 | **Exploratory analysis** (possibility space · missed questions · not a backlog) | `EXPLORATORY_ANALYSIS.md` |

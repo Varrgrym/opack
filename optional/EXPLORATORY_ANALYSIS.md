@@ -15,6 +15,8 @@ Paste when you already understand the project (or after a review/audit) and want
 
 **Seat hint:** Reviewer or Engineer · Multitask **off** · Plan **no** until after synthesis.
 
+**Philosophy:** Expand the map before deciding. Exploration is not authorization to build. Surprise is allowed; novelty-for-its-own-sake is not.
+
 ---
 
 ## Paste
@@ -33,26 +35,42 @@ Do not generate ideas merely to make the project bigger. Favor ideas that create
 
 Be willing to conclude that the best direction is not building anything.
 
-## Operating rules (read first)
+## Philosophy
 
-* Explore before prescribing.
+Expand understanding of what this project could be before deciding what it should become.
+Exploration is not a backlog generator. A discovery is not automatically a task.
+Do not optimize for agreement. Optimize for discovering what is actually valuable.
+
+## Anti-failure controls (read first)
+
 * Skip any section that would only produce filler. Empty is preferred over invented insight. Depth over coverage.
 * Do not invent features for the sake of novelty. You may leave the current roadmap, but every elevated idea must connect meaningfully to the project.
-* Evidence gate: ground claims in the project, the conversation, or a clear consequence of those. Label speculation as speculation — never silently promote it to fact.
-* Label findings throughout as Known · Inferred · Speculative.
-* Classify each discovery as one of:
-  - Investigate — a question we have not answered
-  - Could build — a real capability opportunity
-  - Reconsider — something we currently believe that may be wrong or overvalued
-* When recommending a direction (§18), attach recommendation confidence:
+* Do not convert the output into an Execution Roadmap. Hand off planning if needed.
+* Do not reopen a full defect audit here — point to Repository Audit when defect density is the real need.
+* Evidence gate: ground claims in the project, the conversation, or a clear consequence of those.
+* Never silently promote Speculative → Known.
+* If evidence contradicts itself, report the contradiction.
+* Prefer experiments when uncertainty is high; bets only with evidence.
+* Interesting ≠ valuable. Before elevating any idea: does it strengthen the core purpose, or only add interesting surface area?
+* Progress forms here are usually: reduce uncertainty · reveal latent capability · challenge overvalued direction — not “add features.”
+
+## Labeling
+
+* Findings: Known · Inferred · Speculative
+* Discoveries: Investigate · Could build · Reconsider
+* Direction recommendation (§18) confidence: High / Medium / Low
   - High — supported by multiple independent pieces of evidence
   - Medium — strong interpretation but some ambiguity
   - Low — plausible option requiring operator judgment
-* Before elevating any idea: does it strengthen the core purpose, or only add interesting surface area? Interesting ≠ valuable.
-* Prefer experiments when uncertainty is high.
+
+## Operating rules
+
+* Explore before prescribing.
 * Consider simplification and consolidation as legitimate progress.
 * Be willing to recommend doing nothing, abandoning sunk cost, and surprising me.
-* Do not optimize for agreement. Optimize for discovering what is actually valuable.
+* Name only directions that matter (typically 4–7); ignore the rest of any menu.
+* Futures (§16) only if multiple coherent identities exist; otherwise skip.
+* Require at least one second-order chain for the top candidate direction.
 
 The goal is not a bigger roadmap.
 The goal is to expand our understanding of what this project could be before we decide what it should become.
@@ -422,3 +440,4 @@ Expand the map; do not invent a backlog. Skip empty sections. Label Known/Inferr
 |------|--------|-----|
 | 2026-08-20 | Initial pasteable | Complement to review/audit/planning; expand possibility space before deciding |
 | 2026-08-20 | Rec confidence on §18 | Thin parity with Review/Audit/Plan judgment kit |
+| 2026-08-20 | Anti-failure controls | No backlog conversion · evidence gate · skip-empty · progress forms |

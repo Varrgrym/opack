@@ -44,11 +44,11 @@
 
 | Prompt | Already covered by | This kit adds |
 |--------|-------------------|---------------|
-| #1 Deep review | Mode D / `PROJECT_REVIEW.md` / INTENT_EXPAND | Pasteable “no fix yet” investigation shape |
+| #1 Deep review | Mode D / `PROJECT_REVIEW.md` / Audit | Lighter daily cousin of full review engine |
 | #2 Double-check | Reviewer seat · fail-closed verify | Explicit PASS / REVISE / FAIL verdict |
 | #3 Missing pieces | Mode D gaps · SPEC · full engine `EXPLORATORY_ANALYSIS.md` | Gap-only lens (short); use exploratory kit for possibility-space passes |
 | #4 Skeptical | Attacker / Reviewer | Falsify-previous-analysis paste |
-| #5 Next actions | Mode C / `EXECUTION_ROADMAP.md` | Build/fix/simplify/stop dial (short cousin) |
+| #5 Next actions | Mode C / `EXECUTION_ROADMAP.md` | Lighter daily cousin (priority gate · observable DoD) |
 | #6 Should we build? | SPEC / never-build | BUILD / DEFER / REJECT |
 | #7 Consolidate | Mode D coherence | Consolidation-only pass |
 | #8 5W1H | `INTENT_EXPAND.md` | Compact paste (optional) |
@@ -60,10 +60,14 @@
 
 ## 1 — Deep review
 
+**Full engine:** `PROJECT_REVIEW.md` (Mode D). **Defect-heavy:** `REPOSITORY_AUDIT.md`. Use this paste for a lighter daily cousin.
+
 ```text
 Do a deep review of this project/area.
 
 Do not jump straight to fixing things. First understand what exists and how it fits together.
+Do not unlock builds. Skip empty sections. Depth over coverage.
+The reviewer is paid to determine whether work is warranted — not to find work.
 
 Analyze:
 - What this is supposed to do
@@ -75,28 +79,27 @@ Analyze:
 - What assumptions it makes
 - What constraints it operates under
 - What has changed recently, if history is available
+- Implied trajectory if nothing changes for a few iterations (not alternate futures)
 
 Look for:
-- Bugs and incorrect behavior
-- Missing functionality
+- Bugs and incorrect behavior (brief — escalate to full audit if defect density dominates)
+- Missing functionality that blocks stated purpose
 - Dead or redundant code
 - Duplication
 - Contradictions between code and documentation
 - Fragile assumptions
-- Poor error handling
-- Security/safety risks
-- Performance problems
-- Unnecessary complexity
-- Places where responsibilities are mixed
-- Things that are harder to understand than they need to be
-- Gaps between the intended design and implementation
+- Complexity without corresponding leverage (only when evidenced)
+- Gaps between intended design and implementation
 
 Also ask:
 - What am I not noticing?
 - What would a skeptical reviewer challenge?
-- What would break under unusual conditions?
-- What looks correct but may actually be wrong?
+- What looks correct when read but was not executed/verified?
 - What has been solved already and should NOT be rebuilt?
+- What should we preserve / not touch?
+
+Label evidence: Verified · Strongly inferred · Uncertain.
+Recommendations need confidence: High / Medium / Low.
 
 Separate findings into:
 1. Critical
@@ -108,10 +111,12 @@ Do not make changes yet.
 
 End with:
 - Current state
-- Most important findings
+- Unknowns / what you did not inspect
+- Most important findings (Claim · Evidence · Impact · Confidence)
 - Biggest risks
-- Biggest opportunities
-- Recommended next actions, ordered by priority
+- Preserve / do-not-touch
+- Decide-next: now / next / later / do not — only if work is warranted
+- Build vs polish vs consolidate vs stop
 ```
 
 ---
@@ -243,10 +248,13 @@ End with:
 
 ## 5 — What should we do next?
 
+**Full engine:** `EXECUTION_ROADMAP.md` (Mode C). Use this paste for a lighter daily cousin.
+
 ```text
 Based on the current state of the project, determine what should happen next.
 
 Do not simply produce a generic backlog.
+Progress is not activity. Never create work merely because capacity exists.
 
 First determine whether we should:
 - build
@@ -257,40 +265,48 @@ First determine whether we should:
 - document
 - test
 - review
+- experiment
 - archive
+- wait / observe
 - stop
 
-Then produce an ordered action list.
+Explain which form of progress this cycle optimizes for: reduce uncertainty · increase capability · reduce complexity.
+
+Priority gate — before an item enters the plan:
+1. Necessary for the stated goal?
+2. Blocking something more valuable?
+3. Evidence it needs doing now?
+4. Can an existing component/workflow solve it?
+5. Is consolidate / delete / configure / document enough?
+6. What happens if we do nothing?
+Fail the gate → do not put it in the immediate plan.
+
+Then produce an ordered action list (cap ~7).
 
 For each action include:
 - Priority
 - Action
 - Why it matters
-- Dependencies
+- Dependency class: prerequisite · dependent · independent · blocked by evidence · blocked by human decision
 - Approximate scope
-- What "done" looks like
+- Effort: Small / Medium / Large
+- Leverage: Low / Medium / High
+- Observable definition of done (not bare "improve/optimize/clean up")
+- Confidence: High / Medium / Low
 - Whether it unlocks anything else
 
-Look for opportunities to accomplish multiple goals with one change.
-
-Prefer:
-- fewer moving parts
-- consolidation
-- reuse
-- deletion of unnecessary complexity
-- completing unfinished work
-- strengthening existing foundations
-
+Prefer high leverage / Small effort.
+Prefer: fewer moving parts · consolidation · reuse · deletion · finishing unfinished work · strengthening foundations
 over adding new features.
 
 Explicitly identify:
 - What should NOT be worked on yet
 - What should be parked
 - What is already good enough
+- Completion threshold — once proof is satisfied, stop and reassess
 - Where a stopping point exists
 
 The goal is not maximum activity.
-
 The goal is maximum useful progress.
 ```
 
@@ -520,6 +536,7 @@ When appropriate, finish with:
 - Open with runtime stanza on substantial use: `Mode=… · Seat=… · Multitask=off · Plan=?`  
 - #2 and #4 pair well: Engineer builds → paste #2 or open Reviewer with #4.  
 - “Review this project” still → Mode D / `PROJECT_REVIEW.md` (don’t ask which mode); #1 is the lighter cousin.  
+- Status / takeover → `OWNERSHIP_TAKEOVER.md` (Mode A). Notebook / organize ideas → `DESIGN_NOTEBOOK.md` (Mode B).  
 - Defect-heavy systems pass → `REPOSITORY_AUDIT.md`. Week plan → `EXECUTION_ROADMAP.md`. Possibility space → `EXPLORATORY_ANALYSIS.md`.  
 - Do not paste the whole kit into `follow-operator-pack.mdc` — keep digest thin; open this file when needed.
 
@@ -532,3 +549,4 @@ When appropriate, finish with:
 | 2026-08-09 | Operator paste kit landed; daily five highlighted; mapped to existing Modes/kits |
 | 2026-08-12 | Full TOC added (no file split — single paste kit stays installable as one dial file) |
 | 2026-08-20 | Cross-link review/audit/plan/explore engines | Quartet landed as peer pasteables |
+| 2026-08-20 | #1 / #5 refreshed | Sync light cousins to hardened Review / Roadmap engines |

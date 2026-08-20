@@ -102,4 +102,5 @@
 | 2026-08-20 | Audit + Roadmap judgment parity | Same confidence/unknowns/leverage kit; Explore left exploratory |
 | 2026-08-20 | Audit anti-AI-review controls | Evidence hierarchy · execute≠read · full-scale definition · preserve→expand sequence |
 | 2026-08-20 | Roadmap anti-backlog controls | Priority gate · observable DoD · completion threshold · progress≠activity |
-| — | **Pickup** | **opack local: clear.** Parked: hygiene R1/R8 (gather evidence). Paths: Pop `~/Desktop/…` (2026-08-12). External next (when chosen): FBT **3A.9** review — not art commit (already on master). MHCOS creative instance **done**. Do not: creative kit on install dial · Mode E |
+| 2026-08-20 | Mode A/B engines + Explore harden + day #1/#5 sync | Complete AGENTS mode paste parity; leftovers closed |
+| — | **Pickup** | **opack local: clear.** Modes A–D + Audit/Explore engines live. No product `docs/workflow-lab/` installs found on this PC — re-run `--with-workflow-lab` on product repos when needed. Parked: hygiene R1/R8. Paths: Pop `~/Desktop/…`. Do not: creative kit on install dial · Mode E |

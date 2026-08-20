@@ -108,6 +108,8 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     SPEC_BUILD.md \
     MODE_D.md \
     PROJECT_REVIEW.md \
+    OWNERSHIP_TAKEOVER.md \
+    DESIGN_NOTEBOOK.md \
     REPOSITORY_AUDIT.md \
     EXECUTION_ROADMAP.md \
     EXPLORATORY_ANALYSIS.md \
