@@ -18,6 +18,7 @@
 | **Organism placement (A→F)** · dense idea maps · contested nodes | `ORGANISM_PLACEMENT.md` |
 | Feature plan → build (PRP + examples) | `SPEC_BUILD.md` |
 | Mode D cold-lead | `MODE_D.md` |
+| **Exploratory analysis** (possibility space · missed questions · not a backlog) | `EXPLORATORY_ANALYSIS.md` |
 | Large scope chunking | `CHUNKING.md` |
 | Install by stage | `INSTALL_PROFILES.md` · `../templates/overlay-*.md` |
 | Lab digest / this TOC | `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` |

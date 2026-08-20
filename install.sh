@@ -107,6 +107,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     RUNTIME.md \
     SPEC_BUILD.md \
     MODE_D.md \
+    EXPLORATORY_ANALYSIS.md \
     CHUNKING.md \
     EXTRACT_AND_ORGANIZE.md \
     VIDEO_EXTRACT.md \

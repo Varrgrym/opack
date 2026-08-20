@@ -18,6 +18,7 @@ alwaysApply: true
 - Prefer understand → verify → simplify → plan → execute → validate → **stop**.
 - Agentic cook: autonomy by blast · gen↔verify · design before long cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) (`AGENTIC_INTERACTION.md`).
 - Feature builds: `SPEC_BUILD.md`. Bad session: name failure mode in `RUNTIME.md`.
+- Possibility space (not a backlog): `EXPLORATORY_ANALYSIS.md`.
 - Capture satellite: `../templates/overlay-capture-inbox.md` (from `optional/`). Profiles: `INSTALL_PROFILES.md`.
 - Dense idea organisms: A→F before tree edits (`ORGANISM_PLACEMENT.md`).
 - Install lab only with `--with-workflow-lab`.

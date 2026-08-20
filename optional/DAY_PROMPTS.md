@@ -46,7 +46,7 @@
 |--------|-------------------|---------------|
 | #1 Deep review | Mode D / INTENT_EXPAND | Pasteable “no fix yet” investigation shape |
 | #2 Double-check | Reviewer seat · fail-closed verify | Explicit PASS / REVISE / FAIL verdict |
-| #3 Missing pieces | Mode D gaps · SPEC | Gap-only lens |
+| #3 Missing pieces | Mode D gaps · SPEC · full engine `EXPLORATORY_ANALYSIS.md` | Gap-only lens (short); use exploratory kit for possibility-space passes |
 | #4 Skeptical | Attacker / Reviewer | Falsify-previous-analysis paste |
 | #5 Next actions | Mode C | Build/fix/simplify/stop dial |
 | #6 Should we build? | SPEC / never-build | BUILD / DEFER / REJECT |
