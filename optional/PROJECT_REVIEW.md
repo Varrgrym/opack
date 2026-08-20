@@ -12,9 +12,11 @@
 
 ## When to use
 
-Paste for a full project / architecture review: purpose, structure, coherence, strengths, gaps, preserve/do-not, decide-next — without unlocking builds.
+Paste for a full project / architecture review: purpose, structure, coherence, **trajectory**, strengths, gaps, preserve/do-not, unknowns, decide-next — without unlocking builds.
 
 **Seat hint:** Reviewer or Engineer · Multitask **off** · Plan **no**.
+
+**Philosophy:** The reviewer is not paid to find work. The reviewer is paid to determine whether work is warranted.
 
 ---
 
@@ -27,20 +29,31 @@ Perform a full project / architecture review of this repository.
 
 This is not primarily a bug hunt (use Repository Audit for that), not a roadmap (use Execution Roadmap), and not a possibility-space exploration (use Exploratory Analysis).
 
-Your job is to understand what is happening here deeply enough to take ownership: what it is, how it fits together, what is strong, what is weak, what to preserve, and what to decide next.
+Your job is to understand what is happening here deeply enough to take ownership: what it is, how it fits together, where it is heading, what is strong, what is weak, what to preserve, what remains unknown, and whether further work is warranted.
 
 Do not unlock builds unless I explicitly ask.
 Do not invent scope. Prefer consolidation and simplification.
 Skip empty sections. Depth over coverage.
 
+## Philosophy
+
+The reviewer is not paid to find work. The reviewer is paid to determine whether work is warranted.
+Analysis is not authorization. Trajectory and leverage answer whether continuing is warranted — not what to build next.
+
 ## Operating rules (read first)
 
 * Evidence from this repo first. No loyalty to prior chat conclusions.
-* Label: Verified · Strongly inferred · Uncertain.
+* Label evidence: Verified · Strongly inferred · Uncertain.
+* Label recommendations separately with confidence:
+  - High — supported by multiple independent pieces of evidence
+  - Medium — strong interpretation but some ambiguity
+  - Low — plausible option requiring operator judgment
 * Cite paths for important claims.
 * Too large → semantic chunks → synthesize before conclusions. Chunk for processing, never for understanding.
 * Author ≠ sole reviewer on scary irreversible recommendations — flag them.
 * Interesting ≠ valuable. Do not recommend expansion that fails the restraint litmus below.
+* Distinguish project complexity (intrinsic to the problem) from project surface area (self-inflicted sprawl). File count alone proves neither.
+* Do not fill unknowns with assumptions. State what you did not inspect.
 
 ## Restraint litmus (before recommending expansion)
 
@@ -55,7 +68,7 @@ Skip empty sections. Depth over coverage.
 
 Mode=D · Seat=Reviewer (or Engineer) · Multitask=off · Plan=no
 
-State what you inspected and what you skipped.
+State what you inspected and what you skipped (directories, workflows, integrations, tests not run).
 
 ---
 
@@ -105,8 +118,11 @@ Where docs, names, and code disagree — and which side is authoritative.
 * Duplication
 * Mixed responsibilities
 * Dead or orphaned parts
-* Complexity without leverage
 * Organism vs collection
+* Complexity vs surface area:
+  - Is complexity intrinsic to the problem, or self-inflicted?
+  - Which parts increase capability, and which merely increase surface area?
+* Complexity without leverage (brief)
 
 ---
 
@@ -123,44 +139,92 @@ If defect density is the main need, say so and recommend Repository Audit next.
 
 ---
 
-## 8. Strengths to Preserve
+## 8. Trajectory
 
-What should survive any future change.
+Describe the implied direction from current code and structure — not alternate futures (that is Exploratory Analysis).
+
+* Where is the project heading based on current code and structure?
+* Is that trajectory consistent with its apparent purpose?
+* Which recent additions strengthened the core?
+* Which additions increased surface area without increasing capability?
+* Is complexity growing faster than capability?
+* Is the project converging toward a stable system or accumulating features?
+* What would likely happen if development continued unchanged for another 3–6 iterations?
+* Is the project approaching a natural stopping point?
 
 ---
 
-## 9. Gaps & Missing Pieces (review lens)
+## 9. Strengths to Preserve
+
+What should survive any future change. Prefer specific subsystems/patterns over slogans.
+
+---
+
+## 10. Gaps & Missing Pieces (review lens)
 
 Genuine gaps vs optional improvements. Do not invent requirements to enlarge the project.
 
 ---
 
-## 10. Preserve / Do Not Touch
+## 11. Preserve / Do Not Touch
+
+Create negative space around the project — things that should not casually be modified.
 
 ### Preserve
+What should not be casually rewritten (and why).
+
 ### Do not touch yet
-### Candidates to archive or delete (evidence required)
+High blast / low evidence / low leverage — leave alone for now (and why).
+
+### Candidates to archive or delete
+Only with evidence. Attach recommendation confidence (High / Medium / Low).
 
 ---
 
-## 11. Build vs Polish vs Stop
+## 12. Build vs Polish vs Stop
 
-Given current evidence:
+Given current evidence — pick the primary dial:
 
 * Build — only if a real capability gap demands it
 * Polish — strengthen what exists
+* Consolidate — reduce surface area / duplication
 * Stop — already good enough for stated purpose
+
+For the chosen dial: effort vs leverage in one sentence. Trajectory may favor stop/consolidate even when defects exist.
 
 ---
 
-## 12. Decide-Next
+## 13. Unknowns & Unverified Areas
+
+Mandatory on non-trivial repos. Do not fill gaps with assumptions.
+
+Identify:
+
+* files/directories not inspected
+* workflows not executed
+* integrations not tested
+* assumptions that could not be verified
+* documentation that appears authoritative but was not confirmed against implementation
+* areas where your understanding is weak
+* conclusions that would change if missing evidence were different
+
+---
+
+## 14. Decide-Next
 
 * Do now / next / later / do not
+* For each recommendation: confidence (High / Medium / Low) and why
 * Milestone proof
 * What would change the recommendation
 * Stop evidence
 
+If useful, one small leverage table for the top recommendations only:
+
+| Recommendation | Effort (Low/Med/High) | Leverage (Low/Med/High/Unknown) | Confidence |
+| --- | --- | --- | --- |
+
 Do not produce a multi-week roadmap here unless asked; hand off to Execution Roadmap for that.
+Do not use this section to invent work — only to judge whether work is warranted.
 
 ---
 
@@ -169,10 +233,12 @@ Do not produce a multi-week roadmap here unless asked; hand off to Execution Roa
 1. What is this project, in one honest sentence?
 2. What is the load-bearing core?
 3. What is the biggest coherence problem?
-4. What should we preserve at all costs?
-5. What should we stop touching?
-6. What is the highest-leverage next decision (not necessarily a build)?
-7. Is the correct move build, polish, consolidate, or stop?
+4. What is the trajectory if nothing changes for 3–6 iterations?
+5. What should we preserve at all costs?
+6. What should we stop touching?
+7. What remains unknown that most affects trust in this review?
+8. What is the highest-leverage next decision (not necessarily a build)? Confidence?
+9. Is the correct move build, polish, consolidate, or stop?
 ```
 
 ---
@@ -183,6 +249,7 @@ Do not produce a multi-week roadmap here unless asked; hand off to Execution Roa
 Please review this project.
 Mode D — follow optional/PROJECT_REVIEW.md + INTENT_EXPAND coverage bar.
 Do not ask which mode. No builds unlocked. Multitask=off.
+Reviewer is paid to determine whether work is warranted — not to find work.
 ```
 
 ---
@@ -205,3 +272,4 @@ Do not ask which mode. No builds unlocked. Multitask=off.
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-08-20 | Initial full review engine | Mode D was thin opener only; peer to audit/exploration |
+| 2026-08-20 | Trajectory · unknowns · rec confidence · leverage | Directional review + trustworthy close; keep Audit/Explore separate |

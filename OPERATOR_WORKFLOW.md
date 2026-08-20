@@ -98,4 +98,5 @@
 | 2026-08-16 | Notes commit+push = multi-device save | Scoped: notes/pack/overlay autosave; product code still ask; not always-push |
 | 2026-08-20 | Exploratory analysis pasteable | Possibility-space kit; complements review/audit/planning; not a backlog generator |
 | 2026-08-20 | Review/Audit/Plan engines | `PROJECT_REVIEW` · `REPOSITORY_AUDIT` · `EXECUTION_ROADMAP` — peer pasteables to exploration |
+| 2026-08-20 | Mode D: trajectory · unknowns · confidence · leverage | Strengthen review without stealing Audit/Explore jobs |
 | — | **Pickup** | **opack local: clear.** Parked: hygiene R1/R8 (gather evidence). Paths: Pop `~/Desktop/…` (2026-08-12). External next (when chosen): FBT **3A.9** review — not art commit (already on master). MHCOS creative instance **done**. Do not: creative kit on install dial · Mode E |

@@ -13,8 +13,9 @@
 - Cold lead: evidence from **this** repo first; no loyalty to prior chat conclusions.  
 - Prefer simplification and consolidation.  
 - **Do not unlock builds** unless the operator asks.  
-- Label: verified · strongly inferred · uncertain.  
-- Author ≠ sole reviewer on scary conclusions.
+- Label: verified · strongly inferred · uncertain; recommendations get **confidence** (High / Medium / Low).  
+- Author ≠ sole reviewer on scary conclusions.  
+- Reviewer is paid to determine whether work is warranted — not to find work.
 
 ## Restraint litmus
 
@@ -29,10 +30,11 @@
 2. Structure map (chunk → synthesize if large)  
 3. Critical paths; verify claims  
 4. Doc ↔ code drift  
-5. Gaps / duplication / coherence  
-6. Preserve / do-not-touch  
-7. Prioritized actions + stop  
-8. Decide-next: now / next / later / do not  
+5. Gaps / duplication / coherence (complexity vs surface area)  
+6. Trajectory (implied direction — not alternate futures)  
+7. Preserve / do-not-touch  
+8. Unknowns & unverified  
+9. Decide-next + confidence / leverage · stop  
 
 ## Opener
 
@@ -40,6 +42,7 @@
 Mode D — cold-lead. Follow PROJECT_REVIEW.md + INTENT_EXPAND coverage bar.
 Runtime: Mode=D · Seat=Reviewer (or Engineer) · Multitask=off · Plan=no
 Do not unlock builds. No review fleets. Chunk → synthesize if large.
+Reviewer determines whether work is warranted — not how much work to invent.
 ```
 
 For the full sectioned paste, open `PROJECT_REVIEW.md`.
