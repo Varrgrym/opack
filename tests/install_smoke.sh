@@ -79,6 +79,7 @@ need "$LIVE/docs/workflow-lab/EXPLORATORY_ANALYSIS.md" "lab ships EXPLORATORY_AN
 need "$LIVE/docs/workflow-lab/RESEARCH_REPORT.md" "lab ships RESEARCH_REPORT"
 need "$LIVE/docs/workflow-lab/PLAN_APPROVAL.md" "lab ships PLAN_APPROVAL"
 need "$LIVE/docs/workflow-lab/PHASE_PIPELINE.md" "lab ships PHASE_PIPELINE"
+need "$LIVE/docs/workflow-lab/PROMPT_BUNDLES.md" "lab ships PROMPT_BUNDLES"
 need "$LIVE/docs/workflow-lab/PROJECT_REVIEW.md" "lab ships PROJECT_REVIEW"
 need "$LIVE/docs/workflow-lab/OWNERSHIP_TAKEOVER.md" "lab ships OWNERSHIP_TAKEOVER"
 need "$LIVE/docs/workflow-lab/DESIGN_NOTEBOOK.md" "lab ships DESIGN_NOTEBOOK"

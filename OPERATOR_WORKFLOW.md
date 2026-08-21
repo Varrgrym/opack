@@ -105,4 +105,5 @@
 | 2026-08-20 | Mode A/B engines + Explore harden + day #1/#5 sync | Complete AGENTS mode paste parity; leftovers closed |
 | 2026-08-20 | Seat prompts menu | Short openers per seat; compose with modes — not mega-prompts |
 | 2026-08-20 | Phase pipeline kits | Research report · plan approval gate · Research→Plan→Code→Verify conductor |
-| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates live. Re-run `--with-seats` / `--with-workflow-lab` on product repos when needed. Parked: specialist openers (docs/tests/migrate) until twice-bitten. Do not: Mode E · review fleets |
+| 2026-08-21 | Prompt bundles kit | Relation layer: ladder · named bundles · router · STOP — not Mode E |
+| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES**. Re-run `--with-seats` / `--with-workflow-lab` on product repos when needed. Parked: specialist openers (docs/tests/migrate) until twice-bitten. Do not: Mode E · review fleets |

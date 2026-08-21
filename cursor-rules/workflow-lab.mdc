@@ -20,6 +20,7 @@ alwaysApply: true
 - Feature builds: `SPEC_BUILD.md`. Bad session: name failure mode in `RUNTIME.md`.
 - Quartet + A/B: review `PROJECT_REVIEW` · audit `REPOSITORY_AUDIT` · plan `EXECUTION_ROADMAP` · explore `EXPLORATORY_ANALYSIS` · takeover `OWNERSHIP_TAKEOVER` · notebook `DESIGN_NOTEBOOK`.
 - Phase gates: Research → Plan → Code → Verify (`PHASE_PIPELINE` · `RESEARCH_REPORT` · `PLAN_APPROVAL`).
+- Which kit next / named sequences / STOP: `PROMPT_BUNDLES.md` (not Mode E).
 - Possibility space (not a backlog): `EXPLORATORY_ANALYSIS.md`.
 - Capture satellite: `../templates/overlay-capture-inbox.md` (from `optional/`). Profiles: `INSTALL_PROFILES.md`.
 - Dense idea organisms: A→F before tree edits (`ORGANISM_PLACEMENT.md`).

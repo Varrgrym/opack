@@ -3,6 +3,7 @@
 **Status:** active · 2026-08-20 · workflow-lab pasteable  
 **Job:** thin orchestration so phases stay separated (Copilot-style gates without new seats)  
 **NOT:** Mode E · mega-prompt · review fleets · replace Mode A–D / Audit / Explore  
+**Sibling:** which *analysis* kit next (not build phases) → `PROMPT_BUNDLES.md`  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 
 ---
@@ -82,6 +83,7 @@ Phase: Verify — Seat: Engineer (or Reviewer) — E2 / day #2 — reading ≠ w
 | What is / trajectory | Project Review |
 | What next (week) | Execution Roadmap inside/after Plan |
 | What haven’t we considered | Explore *before* Plan |
+| Which analysis kit / named sequence | `PROMPT_BUNDLES.md` (router · STOP) |
 | Stuck mid-code | Finisher F1 |
 | Regret on scary code | Reviewer R1 after Code |
 
@@ -102,3 +104,4 @@ Phase: Verify — Seat: Engineer (or Reviewer) — E2 / day #2 — reading ≠ w
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-08-20 | Initial | Steal Copilot Research→Plan→Code gates; keep opack seats/modes |
+| 2026-08-21 | Sibling link | `PROMPT_BUNDLES` — analysis sequences vs build phases |

@@ -27,6 +27,7 @@
 | **Research report** (deep cite · no edits · artifact) | `RESEARCH_REPORT.md` |
 | **Plan approval gate** (plan only → APPROVE/NARROW/REJECT) | `PLAN_APPROVAL.md` |
 | **Phase pipeline** (Research → Plan → Code → Verify) | `PHASE_PIPELINE.md` |
+| **Prompt bundles** (which kit next · named sequences · STOP) | `PROMPT_BUNDLES.md` |
 | Large scope chunking | `CHUNKING.md` |
 | Install by stage | `INSTALL_PROFILES.md` · `../templates/overlay-*.md` |
 | Lab digest / this TOC | `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` |

@@ -117,6 +117,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     RESEARCH_REPORT.md \
     PLAN_APPROVAL.md \
     PHASE_PIPELINE.md \
+    PROMPT_BUNDLES.md \
     CHUNKING.md \
     EXTRACT_AND_ORGANIZE.md \
     VIDEO_EXTRACT.md \

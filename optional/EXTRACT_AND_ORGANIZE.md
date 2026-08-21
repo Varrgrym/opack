@@ -87,8 +87,8 @@ Example paths: `Downloads/ChatGPT-Prompt Formation.txt` · re-export pasted 2026
 | Early | MonMate / tier lists / shop / Myuu | **Noise** — discard |
 | Mid | Garden fine-tooth / consolidation / “should we build?” | Hub/Garden — **not** Layer A |
 | Mid–late | Mode A–D / Audit / Explore / Roadmap / day prompts / Adaptive / 5W1H / chunk | **Covered** — engines + `DAY_PROMPTS` (esp. 2026-08-20 land) |
-| Late (2026-08-20→21) | Maturity ladder · **bundles** · operation metadata · router · STOP | **Keep thin** — thoughts `sources/2026-08-21-prompt-formation-chatgpt.md` · upstream candidate `PROMPT_BUNDLES` (confirm before write) |
+| Late (2026-08-20→21) | Maturity ladder · **bundles** · operation metadata · router · STOP | **Landed** — `optional/PROMPT_BUNDLES.md` · receipt thoughts `sources/2026-08-21-prompt-formation-chatgpt.md` |
 | Art / creature pastes | FBT/MHCOS product briefs | Product repos when needed — not Layer A |
 
 **2026-08-08 extract:** net-new was this extract pattern itself.  
-**2026-08-21 re-run:** only the ladder/bundles/router delta — do not re-land engine bodies.
+**2026-08-21 re-run:** ladder/bundles/router delta → `PROMPT_BUNDLES.md`. Do not re-land engine bodies.
