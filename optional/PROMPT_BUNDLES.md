@@ -2,8 +2,8 @@
 
 **Status:** active · 2026-08-21 · workflow-lab pasteable  
 **Job:** relate existing engines — which kit when, in what order, when to **STOP**  
-**NOT:** Mode E · mega-prompt · review fleets · duplicate Audit/Review/Explore/Roadmap bodies · auto-run every short ask  
-**Evidence:** thoughts `sources/2026-08-21-prompt-formation-chatgpt.md`  
+**NOT:** Mode E · mega-prompt · review fleets · duplicate engine bodies · auto-run every short ask · **premature automation of routing**  
+**Evidence:** thoughts `sources/2026-08-21-prompt-formation-chatgpt.md` · operator pin 2026-08-21 (exercise rung)  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`  
 **Companions:** `PHASE_PIPELINE.md` (build gates) · `PASTEABLES_INDEX.md` · `DAY_PROMPTS.md` · `INTENT_EXPAND.md`
 
@@ -11,15 +11,58 @@
 
 ## Idea
 
-You already have the **engines**. This kit is the **relation layer**:
+You already have the **engines**. This kit is the **relation layer**. Stack — then **stop**:
 
 ```text
-GOAL → STATE → CHEAPEST USEFUL NEXT → BUNDLE or SINGLE KIT → EVIDENCE → UPDATE STATE → STOP or NEXT
+PROMPTS → ENGINES / MODES → PROMPT_BUNDLES → ROUTING → STRUCTURED HANDOFFS → PROJECT WORK
 ```
+
+Do **not** climb past this until the current rung proves insufficient.
 
 **STOP is a valid transition.** Healthy / enough evidence / wait / consolidate / do nothing beats running another mode for theater.
 
 **Seat ≠ mode ≠ bundle.** Seats = who thinks how. Modes/engines = what thinking is allowed. Bundles = short named sequences of engines.
+
+---
+
+## Operating discipline (decided)
+
+**Don't climb the abstraction ladder. Exercise the current rung.**
+
+You do not need a more sophisticated prompt system until the existing one demonstrates it is insufficient.
+
+### Order of work (this phase)
+
+1. **Router first** — almost stupid: *given the intent, which existing bundle (or single kit) fits?*  
+2. **Metadata second** — only on kits you actually open (Purpose · Stop · When NOT).  
+3. **Structured handoffs third** — short artifact between steps, not “reread the essay.”
+
+Do **not** make the router intelligent yet. Learn routing patterns by hand first; automate only after repeated evidence.
+
+### Evidence log (per use)
+
+```text
+Intent:
+Selected bundle (or single kit):
+Why:
+Result:
+Was another operation actually needed?
+Did the bundle reduce work? (yes / no / unclear)
+```
+
+**Metric that matters:** *Did this sequence get me to the next useful state faster than my normal interaction?* — not “was the AI response good?”
+
+| Outcome | Do |
+|---------|-----|
+| Yes, repeatedly | Tighten that bundle (metadata · handoff · cut dead steps) |
+| No / unclear | Kill or simplify the bundle |
+| Same failure twice | Add **exactly one** new capability (lens or kit) — not a ladder climb |
+
+### Boundary
+
+Prove the relationships improve outcomes → then tighten.  
+If they don’t → simplify.  
+Next legitimate climb is **not** “more sophisticated prompting.”
 
 ---
 
@@ -36,7 +79,7 @@ GOAL → STATE → CHEAPEST USEFUL NEXT → BUNDLE or SINGLE KIT → EVIDENCE �
 | 6 | Router | What next? | § Router paste |
 | 7–10 | System / adaptive / meta / goal-OS | — | **Parked** until volume hurts |
 
-**Pin:** Value peaks at **L2–L6**. Do not build L8+ as product.
+**Pin:** Value peaks at **L2–L6**. Do not build L8+ as product. **Current work = exercise L3–L4**, not invent L6 automation.
 
 ---
 
@@ -125,30 +168,24 @@ Each row: **when** · **sequence** · **stop**. Open the named kit for that step
 
 ---
 
-## Paste — router (pick next; don’t run everything)
+## Paste — stupid router (pick next; don’t run everything)
 
 ```text
-Prompt bundles / router. Follow optional/PROMPT_BUNDLES.md (or docs/workflow-lab/PROMPT_BUNDLES.md).
+Prompt bundles / stupid router. Follow optional/PROMPT_BUNDLES.md (or docs/workflow-lab/PROMPT_BUNDLES.md).
 
-Given:
-- Overarching goal (one sentence)
-- Current state (known / unknown / last result)
-- Constraints (blast, time, seats)
+Given my intent (one sentence) and current state (one sentence):
 
-Do NOT run every mode. Do NOT invent Mode E or a mega-prompt.
+Do NOT run every mode. Do NOT invent Mode E, a mega-prompt, or clever multi-hop routing.
 
-Output:
-1. Cheapest useful next learn (one sentence)
-2. Bundle name OR single kit (from PASTEABLES_INDEX)
-3. Why this beats the alternatives
-4. Stop condition for this step
-5. What would make you choose STOP instead of another kit
+Answer only:
+1. Which existing bundle OR single kit fits? (name from this file / PASTEABLES_INDEX)
+2. Why (one sentence)
+3. Stop condition for this step
+4. Evidence-log fields to fill after: Result · Was another op needed? · Did the bundle reduce work?
 
-Rules:
-* Prefer one kit over a long chain when one answer suffices.
-* Prefer consolidate / verify / stop over expand when evidence supports it.
-* Active ≤3 seats; Multitask=off unless synthesis owner named.
-* Open only the chosen kit next — I paste or confirm before the next hop.
+Then STOP. Open only that kit next — I paste or confirm before any further hop.
+Prefer one kit over a chain. Prefer STOP / consolidate over expand when warranted.
+Active ≤3 seats; Multitask=off unless synthesis owner named.
 ```
 
 ---
@@ -160,7 +197,11 @@ Bundle: Stagnation — optional/PROMPT_BUNDLES.md — then open the named kit on
 ```
 
 ```text
-Router: cheapest useful next — STOP allowed — optional/PROMPT_BUNDLES.md
+Router: stupid pick — STOP allowed — optional/PROMPT_BUNDLES.md
+```
+
+```text
+Exercise the rung — optional/PROMPT_BUNDLES.md § Operating discipline
 ```
 
 ---
@@ -171,7 +212,9 @@ Router: cheapest useful next — STOP allowed — optional/PROMPT_BUNDLES.md
 - Bundle that rewrites engine doctrine  
 - Treating “interesting” as “must run next”  
 - Self-advancing the whole ladder without a stop gate  
-- Review fleets (parallel Review+Audit+Explore)
+- Review fleets (parallel Review+Audit+Explore)  
+- **Automating routing before a week of human picks + evidence logs**  
+- Judging bundles by prose quality instead of **reduced work / faster next useful state**
 
 ---
 
@@ -180,3 +223,4 @@ Router: cheapest useful next — STOP allowed — optional/PROMPT_BUNDLES.md
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-08-21 | Initial | Prompt Formation re-export delta — relation layer after 2026-08-20 engines |
+| 2026-08-21 | Operating discipline | Operator: exercise rung · stupid router · reduce-work metric · no premature routing auto |

@@ -23,7 +23,7 @@ Audit anti-fail: evidence hierarchy · execute when practical · diagnosis befor
 Roadmap anti-fail: priority gate · observable DoD · completion threshold · progress ≠ activity.  
 Explore anti-fail: not a backlog · evidence gate · skip-empty · Speculative stays Speculative.  
 **Phase gates:** Research → Plan → Code → Verify (`PHASE_PIPELINE.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md`). Research never edits; Plan never codes.  
-**Which kit next:** named bundles + router + STOP (`PROMPT_BUNDLES.md`) — relation layer over engines; not Mode E.  
+**Which kit next:** named bundles + **stupid router** + STOP + reduce-work evidence (`PROMPT_BUNDLES.md`) — exercise the rung; not Mode E / not routing automation yet.  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  
 **Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
 
