@@ -78,16 +78,17 @@ Large dump → chunk for processing → synthesize before claiming “fully extr
 
 ---
 
-## Source note — ChatGPT “Prompt Formation” export (2026-08-08)
+## Source note — ChatGPT “Prompt Formation” export
 
-Example path: `Downloads/ChatGPT-Prompt Formation.txt` (~10k lines).
+Example paths: `Downloads/ChatGPT-Prompt Formation.txt` · re-export pasted 2026-08-21 (~full project history).
 
 | Region | Content | Disposition |
 |--------|---------|-------------|
-| Early | MonMate / tier lists / unrelated | **Noise** — discard |
-| Mid | Garden fine-tooth / consolidation / “should we build?” | Hub/Garden — **not** Layer A; mirrored in analysis kits |
-| Mid | Mode C-style roadmap prompts (milestones, stop points) | **Covered** — `AGENTS.md` Mode C |
-| Late | Prompt/context/spec/gauntlet · Adaptive · 5W1H · chunk pin · lab scope | **Covered** — workflow-lab optional kits |
-| — | Net-new after this extract | **None** beyond this extract/organize pattern itself |
+| Early | MonMate / tier lists / shop / Myuu | **Noise** — discard |
+| Mid | Garden fine-tooth / consolidation / “should we build?” | Hub/Garden — **not** Layer A |
+| Mid–late | Mode A–D / Audit / Explore / Roadmap / day prompts / Adaptive / 5W1H / chunk | **Covered** — engines + `DAY_PROMPTS` (esp. 2026-08-20 land) |
+| Late (2026-08-20→21) | Maturity ladder · **bundles** · operation metadata · router · STOP | **Keep thin** — thoughts `sources/2026-08-21-prompt-formation-chatgpt.md` · upstream candidate `PROMPT_BUNDLES` (confirm before write) |
+| Art / creature pastes | FBT/MHCOS product briefs | Product repos when needed — not Layer A |
 
-Re-running extract on the same export should stop at “already covered.”
+**2026-08-08 extract:** net-new was this extract pattern itself.  
+**2026-08-21 re-run:** only the ladder/bundles/router delta — do not re-land engine bodies.
