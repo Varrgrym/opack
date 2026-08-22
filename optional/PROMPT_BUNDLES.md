@@ -175,11 +175,45 @@ Fill fields only for:
 
 ## Conceptual map (not a build checklist)
 
+Paste vision of “prompt orchestration” maps to layers you **already have** (thin):
+
+```text
+1. PROMPT LIBRARY     → pasteables / engines
+2. RELATIONSHIPS      → metadata · this file
+3. WORKFLOWS/BUNDLES  → § Bundles
+4. ROUTER             → § Stupid router (human confirms hop)
+5. PROJECT STATE      → notice by hand (evidence log · runtime · project notes)
+        ↑
+   NORTH STAR / goal hierarchy (below)
+```
+
+Also:
+
 ```text
 Prompt eng → Context eng → Operation design → Bundling → Routing → Handoffs → Workflow → Verification → Optimization
 ```
 
-Need **operation + routing + handoffs + verify** now. Rest is vocabulary for later pain.
+**Need now:** exercise L2–L4 (relations · bundles · stupid router · handoffs).  
+**Parked:** formal Project State object that every kit mutates · intelligent multi-hop orchestrator · auto-run default paths.
+
+### Goal hierarchy (navigation, not a mega-prompt)
+
+```text
+OVERARCHING GOAL / NORTH STAR
+  → PROJECT PURPOSE
+  → CURRENT PHASE
+  → CURRENT QUESTION  (“cheapest useful thing to learn next?”)
+  → BEST PROMPT / BUNDLE
+  → RESULT → HANDOFF
+  → NEW STATE
+  → NEXT PROMPT  or  STOP  or  ACT
+```
+
+**STOP** and **ACT** are first-class. Analysis-only loops are failure.
+
+### Precursors (prompt strength)
+
+A cheap pass can unlock a deep one (e.g. day Quick → full Review). Prefer **one light kit** before a heavy engine when vocabulary isn’t established. Do not chain by default.
 
 ---
 
@@ -272,15 +306,16 @@ Prompt bundles / stupid router. Follow optional/PROMPT_BUNDLES.md (or docs/workf
 Given my intent (one sentence) and current state (one sentence):
 
 Do NOT run every mode. Do NOT invent Mode E, a mega-prompt, or clever multi-hop routing.
+Ask: what is the cheapest useful thing we can learn (or decide) next?
 
 Answer only:
 1. Which existing bundle OR single kit fits? (name from this file / PASTEABLES_INDEX)
-2. Why (one sentence)
+2. Why (one sentence) — include information value vs a heavier alternative
 3. Stop condition for this step
 4. Evidence-log fields after: Result · Was another op needed? · Did the bundle reduce work? · Next useful state reached?
 
 Then STOP. Open only that kit next — I paste or confirm before any further hop.
-Prefer one kit over a chain. Prefer STOP / consolidate over expand when warranted.
+Prefer one kit over a chain. Prefer STOP / ACT / consolidate over expand when warranted.
 Active ≤3 seats; Multitask=off unless synthesis owner named.
 ```
 
@@ -329,3 +364,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-21 | Full doctrine pass | Next useful state · handoff · five-core metadata · twice-bitten · Path A · anti-Prompt-OS |
 | 2026-08-22 | Six-family lens vocab | 21-mode paste mapped; NOT engines; cite thoughts coverage |
 | 2026-08-22 | Blind-spot family | “Failing to see” → one lens; refuse 8-prompt bureaucracy |
+| 2026-08-22 | Orchestration paste | Five layers = already have; formal state/auto-orchestrator parked; cheapest-next in router |
