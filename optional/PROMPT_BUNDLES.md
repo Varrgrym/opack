@@ -219,18 +219,35 @@ A cheap pass can unlock a deep one (e.g. day Quick → full Review). Prefer **on
 
 ## Ladder (climb only as far as pain)
 
-| Level | Unit | Question | Opack today |
-|------:|------|----------|-------------|
-| 0 | Raw ask | What do I say? | Chat |
-| 1 | Prompt object | What does this kit do? | Pasteables |
-| 2 | Relations | Best after / before? | This file + complements |
-| 3 | **Bundle** | Recurring job package? | § Bundles below |
-| 4 | Workflow | Branches + gates? | `PHASE_PIPELINE` · Mode C stops |
-| 5 | State | Where are we? | Runtime · project notes |
-| 6 | Router | What next? | § Stupid router |
-| 7–10 | System / adaptive / meta / goal-OS | — | **Parked** |
+Same maturity ladder as the “prompting maturity” paste — **names aligned**; do not rebuild.
 
-**Pin:** Value peaks at **L2–L6**. Current work = **exercise L3–L4**, not invent L6 automation.
+| Level | Concept | Question | Opack today |
+|------:|---------|----------|-------------|
+| 0 | Prompt | What should I ask? | Chat |
+| 1 | Prompt object | What does this kit do? | Pasteables |
+| 2 | Relations | How do kits relate? | Metadata · this file |
+| 3 | **Bundle** | Which kits belong together? | § Bundles |
+| 4 | Workflow | Sequence + branches? | Bundles + stop/branch notes · `PHASE_PIPELINE` |
+| 5 | State | Where are we? | Notice by hand · evidence log · runtime |
+| 6 | Router | What next? | § Stupid router |
+| 7 | System | How do pieces interact? | **Parked** |
+| 8 | Adaptive | Which sequences work when? | **Parked** |
+| 9 | Meta-system | Improve the toolkit itself? | **Parked** (twice-bitten / pack growth) |
+| 10 | Goal architecture | What are we ultimately trying to accomplish? | North-star hierarchy (conceptual) · **no Goal-OS product** |
+
+**Pin:** Enormous value at **L2–L6**. Current work = **exercise L3–L4 + stupid L6**, not invent L7–10.  
+**More abstraction ≠ better.** Hierarchy exists to **reduce** cognitive load — if operating the ladder costs more than product work, Path C.
+
+### Start plan (already mostly done — don’t re-Phase-1 the library)
+
+| Phase | Paste said | Doctrine |
+|------:|------------|----------|
+| 1 | Prompt objects for everything | **NOT** — metadata only on five cores when opened |
+| 2 | Relations fields | Schema exists; fill on use |
+| 3 | 5–8 bundles | **Done** (New project · Stagnation · Major change · Cleanup · Pre-release · Handoff · Dump) |
+| 4 | Router meta-prompt | **Done** — stupid router; Path A = use it for a week |
+
+Optional later bundles (twice-bitten only): Postmortem · Explore-new-direction · Verification-only.
 
 ---
 
@@ -365,3 +382,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-22 | Six-family lens vocab | 21-mode paste mapped; NOT engines; cite thoughts coverage |
 | 2026-08-22 | Blind-spot family | “Failing to see” → one lens; refuse 8-prompt bureaucracy |
 | 2026-08-22 | Orchestration paste | Five layers = already have; formal state/auto-orchestrator parked; cheapest-next in router |
+| 2026-08-22 | Maturity ladder L0–L10 | Align names; L7–10 parked; Phase 1–4 start plan = already done / Path A |
