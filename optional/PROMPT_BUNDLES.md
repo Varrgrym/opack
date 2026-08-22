@@ -100,13 +100,15 @@ Not: interesting idea → new prompt.
 
 ### Second-tier lenses (optional instruments)
 
-Discovery · Boundary · Deletion · Question generator · Contrarian · Assumption audit · Dependency — **diagnostic only**.
+Discovery · Gap · Boundary · Deletion · Bottleneck · Forensics · Question generator · Contrarian / Red-team · Assumption audit · Pre-mortem · Retrospective · Verification — **diagnostic only**.
+
+Six-family vocabulary (UNDERSTAND · FIND · CHALLENGE · DECIDE · CHANGE · LEARN) names the *job*; it is **not** a build checklist. Full coverage map: thoughts `sources/2026-08-21-prompt-formation-chatgpt.md` § Addendum 2026-08-22.
 
 ```text
 Normal workflow → stuck → one missing lens → deploy once → return to normal
 ```
 
-Never make every project Explore→Audit→Review→Explore theater.
+Never make every project Explore→Audit→Review→Explore theater. **Do not** promote the 21-mode list to engines.
 
 ### Context
 
@@ -323,3 +325,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-21 | Initial | Prompt Formation re-export — relation layer after engines |
 | 2026-08-21 | Operating discipline | Exercise rung · stupid router · reduce-work · no premature routing auto |
 | 2026-08-21 | Full doctrine pass | Next useful state · handoff · five-core metadata · twice-bitten · Path A · anti-Prompt-OS |
+| 2026-08-22 | Six-family lens vocab | 21-mode paste mapped; NOT engines; cite thoughts coverage |
