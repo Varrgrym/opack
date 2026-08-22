@@ -196,6 +196,26 @@ Prompt eng → Context eng → Operation design → Bundling → Routing → Han
 **Need now:** exercise L2–L4 (relations · bundles · stupid router · handoffs).  
 **Parked:** formal Project State object that every kit mutates · intelligent multi-hop orchestrator · auto-run default paths.
 
+### Buzzwords → layers (not competing methods)
+
+| Managing… | Common term | Our layer |
+|-----------|-------------|-----------|
+| The instruction | Prompt engineering | L0–L1 |
+| What the model knows | Context engineering | Handoffs · handle+query |
+| Ops that belong together | Chaining / bundling | L2–L3 |
+| What happens next | Workflow / agentic workflow | L4 · stupid router |
+| Persistent knowledge | Memory / knowledge eng. | State by hand · project notes |
+| Artifact/concept links | Knowledge graphs | **Parked** |
+| Feedback / verify | Agentic loops / eval | Phase Verify · day #2 · handoff |
+| System picks the op | Orchestration | Stupid router only (for now) |
+| Improves itself over time | Adaptive / meta-agent | **Parked** (L8–L9) |
+
+Kits are **operations** (jobs), not “pages of prompt text.” Seats supply **cognitive specialization** (Engineer · Reviewer · Finisher; Attacker on-call) — do **not** invent a parallel 12-role zoo.
+
+### “Next artifact is a richer schema?” — refuse
+
+Thin operation metadata **already exists** (§ Metadata — five cores). Next step is **fill on use + Path A**, not a larger schema product. Structured handoffs **are** the inter-op artifact contract.
+
 ### Goal hierarchy (navigation, not a mega-prompt)
 
 ```text
@@ -383,3 +403,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-22 | Blind-spot family | “Failing to see” → one lens; refuse 8-prompt bureaucracy |
 | 2026-08-22 | Orchestration paste | Five layers = already have; formal state/auto-orchestrator parked; cheapest-next in router |
 | 2026-08-22 | Maturity ladder L0–L10 | Align names; L7–10 parked; Phase 1–4 start plan = already done / Path A |
+| 2026-08-22 | Buzzword stack map | Prompt/context/workflow/… = layers; ops not pages; richer schema refuse |
