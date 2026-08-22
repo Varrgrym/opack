@@ -51,6 +51,12 @@ Judge by: **Did this move the project into a more useful state?**
 
 Every operation should either: increase understanding · reduce uncertainty · produce a decision · create something · verify something · remove unnecessary complexity · or **deliberately stop**.
 
+Project-state ladder (notice by hand; don’t build a state machine yet):
+
+```text
+UNKNOWN → UNDERSTOOD → ASSESSED → DECISION-READY → IMPLEMENTED → VERIFIED → STABLE
+```
+
 #### Next useful state (conceptual)
 
 | Operation | Done when project is… |
