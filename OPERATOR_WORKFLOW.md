@@ -24,6 +24,8 @@
 - Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
 - **Host roles (differentiate behavior):** **Workhorse** = Pop / Linux (`~/Desktop/…` clones — Garden runtime, heavy plants, Proxmox-of-devices). **Satellite** = Windows / Samsung (capture + light Windows-native work; paths/shells/vision differ — do not pretend Pop behavior). On satellite: organize in **thoughts** (`C:\Users\mmedi\Projects\thoughts`) → `workhorse-queue.md`; do not fight hub/plant execution there. On workhorse: execute queued Garden work; prefer `~/Desktop/` paths; do not assume Windows paths.
 - **Multi-device pickup:** chat is not storage. After meaningful pack work → **commit + push** (clean tree on `origin`). Leave **decide-next / parked / NOT** in the overlay Log (or commit body) so another device can `git pull` and continue without re-deriving state.
+- Phrase lock **“think hard”** → same seat: raise thinking budget if offered (High / Extra High / xhigh) · raise process (short plan / program-design when blast is high) · raise verify (tests, diff, DoD) · stop if the stack is already bad. Do **not** simulate a second seat in the same Auto chat.
+- Phrase lock **“check this”** (or scary / irreversible / “I might regret this”) → produce an artifact (diff, claim, tests), then **pin Reviewer** (Opus 5 High) on that artifact — or **Attacker** (Grok 4.6 High) if the ask is falsify / “this can’t be wrong.” Label without pin = theater. Not a review fleet: gated, not every prompt.
 
 ## Personality
 
@@ -109,4 +111,5 @@
 | 2026-08-21 | Bundles operating discipline | Exercise rung · stupid router · reduce-work metric · no premature routing auto |
 | 2026-08-21 | Bundles full doctrine | Next useful state · handoff · five-core metadata · twice-bitten · Path A · anti-Prompt-OS |
 | 2026-08-23 | Attacker tissue → Grok 4.6 High | Picker/docs moved; same falsify job; xhigh optional for load-bearing |
-| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES**. Attacker = **Grok 4.6 High**. Re-run `--with-seats` / `--with-workflow-lab` on product repos when needed. Parked: specialist openers until twice-bitten; `think hard` / `check this` overlay pending confirm. Do not: Mode E · review fleets |
+| 2026-08-23 | think hard / check this phrase locks | Depth vs disagreement; Auto ≠ second mind; Reviewer/Attacker pin on artifact |
+| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES**. Attacker = **Grok 4.6 High**. Phrase locks: **think hard** · **check this**. Re-run `--with-seats` / `--with-workflow-lab` on product repos when needed. Parked: specialist openers until twice-bitten. Do not: Mode E · review fleets |
