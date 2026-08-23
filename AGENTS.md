@@ -54,7 +54,7 @@ If several fit: **B then C**, or **D** when they want codebase-wide evidence. In
 
 ## Model seats (roles, not brands)
 
-Which **chat/model role** to open — not repo behavior (that’s the rest of this file). **5 jobs** on the menu; standing spine **3** (hard cap **4** standing). Per task: **active ≤3**, declare the rest idle. **Roles endure; tissue is a snapshot** — when a better model appears for a job, swap the picker, keep the seat name. Locked tissue (2026-08-08): see `optional/CURSOR_MODEL_SEATS.md`.
+Which **chat/model role** to open — not repo behavior (that’s the rest of this file). **5 jobs** on the menu; standing spine **3** (hard cap **4** standing). Per task: **active ≤3**, declare the rest idle. **Roles endure; tissue is a snapshot** — when a better model appears for a job, swap the picker, keep the seat name. Locked tissue (2026-08-08 · Attacker **Grok 4.6** 2026-08-23): see `optional/CURSOR_MODEL_SEATS.md`.
 
 | Seat | Locked tissue | Job | When |
 |------|---------------|-----|------|
@@ -62,7 +62,7 @@ Which **chat/model role** to open — not repo behavior (that’s the rest of th
 | **Senior Reviewer** | Claude Opus 5 High | Regret-pass; scary diffs; design forks | Before irreversible changes |
 | **Pair / Finisher** | Kimi K3 Max | Close stalled multi-file loops | Agent stuck mid-refactor |
 
-Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.5 High). Promote a 4th standing seat only after the same gap bites ~3× in a week **and** you can say in one sentence when that chat opens.
+Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.6 High). Promote a 4th standing seat only after the same gap bites ~3× in a week **and** you can say in one sentence when that chat opens.
 
 **Picker:** `optional/CURSOR_MODEL_SEATS.md` · **Playbooks:** `optional/MODEL_SEAT_PLAYBOOKS.md` (open with `Seat: …`). After `--with-seats`, under project `docs/`.
 

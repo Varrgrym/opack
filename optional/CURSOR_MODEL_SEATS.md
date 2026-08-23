@@ -28,7 +28,7 @@ Diversity of **failure modes** beats stacking the same “best” model three ti
 
 ---
 
-## Locked tissue (Cursor picker) — 2026-08-08
+## Locked tissue (Cursor picker) — 2026-08-08 · Attacker re-bake 2026-08-23
 
 *Snapshot, not scripture.* Re-bake when the same hard tasks show a better fit. Roles below stay fixed.
 
@@ -38,7 +38,7 @@ Diversity of **failure modes** beats stacking the same “best” model three ti
 | **Senior Reviewer** | Claude Opus 5 | **High** (thinking) | Yes |
 | **Pair / Finisher** | Kimi K3 | **Max** (High if Max is overkill) | Yes |
 | **Archivist** | **Gemini 3.1 Pro** | — | On-call only |
-| **Attacker** | **Grok 4.5** | **High** | On-call only |
+| **Attacker** | **Grok 4.6** | **High** (xhigh if load-bearing falsify) | On-call only |
 
 ### Decision log (what happened)
 
@@ -47,6 +47,7 @@ Diversity of **failure modes** beats stacking the same “best” model three ti
 | 2026-08-08 | Five **jobs** kept; standing spine remains Engineer / Reviewer / Finisher | Catalog ≠ five always-on chats |
 | 2026-08-08 | Active ≤3; declare idle seats | Avoid seat inflation; idle ≠ backlog |
 | 2026-08-08 | Attacker tissue: **Grok 4.5 High** (not DeepSeek R1) | R1 unavailable in operator’s Cursor picker |
+| 2026-08-23 | Attacker tissue → **Grok 4.6 High** | Picker + Cursor docs moved to 4.6; same job (falsify); xhigh optional for load-bearing claims |
 | 2026-08-08 | Archivist tissue: **Gemini 3.1 Pro** (not 3.6 Flash) | Flash-only High not shown; Pro better for map/synthesis; Flash = budget fallback only |
 | 2026-08-08 | Archivist protocol tightened | named question → cite paths → compress → hand off (mandatory on Flash) |
 | 2026-08-08 | Engineer / Reviewer / Finisher left on GPT-5.6 Sol / Opus 5 High / Kimi K3 Max | Still strongest *job fits*; re-bake by hard tasks, not hype |
@@ -81,7 +82,7 @@ Architecture may **emerge from implementation attempts**. The Reviewer is not a 
 | Need | Locked tissue |
 |------|----------------|
 | Huge repo / mega-context archaeology | **Gemini 3.1 Pro** (**Archivist**) |
-| Contradiction hunting / hard invariants / nasty state bugs | **Grok 4.5 High** (**Attacker**) |
+| Contradiction hunting / hard invariants / nasty state bugs | **Grok 4.6 High** (**Attacker**) |
 | Cheaper mid-tier review or alternate draft | Sonnet-class (not a named seat) |
 
 **Promote a 4th standing seat** only after the same gap bites ~three times in a week **and** you can say in one sentence when that chat opens. Otherwise keep it on-call.
@@ -96,7 +97,7 @@ Architecture may **emerge from implementation attempts**. The Reviewer is not a 
 |-----------|---------|
 | Typos, small fixes, well-scoped features | Engineer + tests + your skim |
 | Auth, data deletion, public APIs, scary refactors | Engineer implements → Finisher if stuck → Reviewer on the diff |
-| “This can’t happen” / racey control flow | On-call Attacker (Grok 4.5 High), then back to Engineer |
+| “This can’t happen” / racey control flow | On-call Attacker (Grok 4.6 High), then back to Engineer |
 
 **Rule:** author ≠ sole reviewer on **irreversible** changes. Ordinary features do not need dual-model theater.
 
@@ -130,5 +131,5 @@ Default work          → Project Engineer — GPT-5.6 Sol (Medium / High)
 Stuck mid-refactor    → Pair / Finisher — Kimi K3 Max
 Scary / irreversible  → Senior Reviewer — Claude Opus 5 High
 Whole-tree archaeology→ Archivist — Gemini 3.1 Pro (temp)
-Prove it can’t happen → Attacker — Grok 4.5 High (temp)
+Prove it can’t happen → Attacker — Grok 4.6 High (temp)
 ```

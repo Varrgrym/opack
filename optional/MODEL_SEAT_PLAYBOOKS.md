@@ -6,7 +6,7 @@
 **Job of this file:** how each **seat** should behave — play to strengths, cover weaknesses via handoffs.  
 **Not:** a second AGENTS.md. Repo craft/candor still lives in `AGENTS.md`.
 
-Brands churn; **seats stay**. Locked tissue (snapshot **2026-08-08** — replace when a better job-fit appears): GPT-5.6 Sol · Claude Opus 5 High · Kimi K3 Max · Gemini 3.1 Pro · Grok 4.5 High. Open with `Seat: …` and follow the **role** playbook even after tissue swaps.
+Brands churn; **seats stay**. Locked tissue (snapshot **2026-08-08** · Attacker re-bake **2026-08-23** — replace when a better job-fit appears): GPT-5.6 Sol · Claude Opus 5 High · Kimi K3 Max · Gemini 3.1 Pro · Grok 4.6 High. Open with `Seat: …` and follow the **role** playbook even after tissue swaps.
 
 Paste short openers from `SEAT_PROMPTS.md` (compose with Mode A–D / Audit / Explore). Behavior rules stay here.
 
@@ -153,13 +153,13 @@ Tissue: Gemini 3.1 Pro (or Flash fallback).
 
 ---
 
-### Attacker — Grok 4.5 High
+### Attacker — Grok 4.6 High
 
 | | |
 |--|--|
 | **Strengths** | Forced disagreement; contradiction hunting; hard invariants; nasty state / race thinking |
 | **Weaknesses** | Wrong as daily driver; can block forever if no “good enough”; not the feature factory |
-| **Tissue note** | Locked **Grok 4.5 High** (2026-08-08). DeepSeek R1 preferred class but **unavailable** in operator Cursor picker. |
+| **Tissue note** | Locked **Grok 4.6 High** (2026-08-23; was 4.5 High). Prefer **High**; use **xhigh** only for load-bearing falsify. DeepSeek R1 preferred class still unavailable in operator Cursor picker. |
 
 **Must do**
 - Falsify: list failure modes, invariants, conditions under which the claim breaks.

@@ -108,4 +108,5 @@
 | 2026-08-21 | Prompt bundles kit | Relation layer: ladder · named bundles · router · STOP — not Mode E |
 | 2026-08-21 | Bundles operating discipline | Exercise rung · stupid router · reduce-work metric · no premature routing auto |
 | 2026-08-21 | Bundles full doctrine | Next useful state · handoff · five-core metadata · twice-bitten · Path A · anti-Prompt-OS |
-| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES**. Re-run `--with-seats` / `--with-workflow-lab` on product repos when needed. Parked: specialist openers (docs/tests/migrate) until twice-bitten. Do not: Mode E · review fleets |
+| 2026-08-23 | Attacker tissue → Grok 4.6 High | Picker/docs moved; same falsify job; xhigh optional for load-bearing |
+| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES**. Attacker = **Grok 4.6 High**. Re-run `--with-seats` / `--with-workflow-lab` on product repos when needed. Parked: specialist openers until twice-bitten; `think hard` / `check this` overlay pending confirm. Do not: Mode E · review fleets |

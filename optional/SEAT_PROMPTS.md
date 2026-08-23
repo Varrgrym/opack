@@ -206,7 +206,7 @@ Do not implement. Hand off to Engineer or Reviewer.
 
 ---
 
-## Attacker — Grok 4.5 High (on-call)
+## Attacker — Grok 4.6 High (on-call)
 
 ### K1 — Falsify the claim
 
