@@ -12,6 +12,7 @@
 | Short intent → rigor / project review | `INTENT_EXPAND.md` |
 | Runtime stanza · seats vs Auto · failure modes | `RUNTIME.md` |
 | Agentic interaction (slider · leash · program design · **context as variable**) | `AGENTIC_INTERACTION.md` |
+| **Cursor chat hygiene** (new chat · `@` · side chat · context ring) | `CURSOR_CHAT_HYGIENE.md` |
 | **Day prompts** (deep review · double-check · skeptical · next · done?) | `DAY_PROMPTS.md` |
 | Extract dump · Keep/Park · raw off-repo · organize | `EXTRACT_AND_ORGANIZE.md` |
 | **Video / YouTube** knowledge extract (not a recap) | `VIDEO_EXTRACT.md` |

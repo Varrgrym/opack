@@ -69,7 +69,8 @@ Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.6 High). 
 **Auto:** Cursor Auto / Router does **not** apply these playbooks. Seats are manual (named chat + `Seat:` line).  
 **Wrong-seat callout:** mismatch → one-line redirect; do **not** quiz seat ownership every turn (`optional/RUNTIME.md`).  
 **Decide-low / ask-high · DoD/stop · handoff packet:** `optional/RUNTIME.md` § Gates & handoff.  
-**Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query) — `optional/AGENTIC_INTERACTION.md`.
+**Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query) — `optional/AGENTIC_INTERACTION.md`.  
+**Cursor chat hygiene:** one task per chat · handoff · `@` known files — `optional/CURSOR_CHAT_HYGIENE.md`.
 
 ### After install (paths)
 

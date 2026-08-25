@@ -100,7 +100,8 @@ Over it: give a **handle** (paths, ledger, grep, chunked reads) — same spirit 
 - Long threads drop or soft-lose earlier turns — **you cannot rely on “remember the entire chat.”**  
 - Same shape as paste threshold: when the thread is a warehouse, **land a handle** (session note · decided/NOT/parked · handoff packet · overlay log), then continue from that — don’t re-paste the transcript.  
 - Hot path stays thin (`AGENTS` / digests / overlay); cross-chat recall = **read files**, not infinite RAM.  
-- Chat dumps → `EXTRACT_AND_ORGANIZE.md` (query/slice), not “stuff the whole JSONL back in.”
+- Chat dumps → `EXTRACT_AND_ORGANIZE.md` (query/slice), not “stuff the whole JSONL back in.”  
+- **Cursor UX (new chat · `@` · side chat · context ring):** `CURSOR_CHAT_HYGIENE.md` — thin product habits; this file stays doctrine.
 
 ### Shallow slice / subagent (**decided** · gated)
 
@@ -153,7 +154,8 @@ intent → measure/DoD → (plan if blast) → program design / vertical slice
   → paste-or-query (context as variable) → autonomy slider → generate ↔ verify → stop
 ```
 
-Seats, wrong-seat callout, decide-low/ask-high, DoD/stop: `RUNTIME.md`.
+Seats, wrong-seat callout, decide-low/ask-high, DoD/stop: `RUNTIME.md`.  
+Cursor chat UX (when to restart / `@` / side chat): `CURSOR_CHAT_HYGIENE.md`.
 
 ---
 
