@@ -90,8 +90,9 @@ Do **not** invent “we hit exactly 30k tokens.” ~30k = paste threshold; chat 
 
 Say **“close out this chat”** (or “can I close this?” / “session close”).
 
-Agent runs `CLOSE_CHAT.md`: goals check → extract keepers → **YES** / **NO** / **YES WITH LAND**.  
-Does not start new work unless you say land/fix. Deeper product “are we done?” → day #10.
+Agent runs `CLOSE_CHAT.md`: goals check → extract keepers → park **optional follow-ups** in a durable `@`-able note when any exist → **YES** / **NO** / **YES WITH LAND**.  
+Does not start new work unless you say land/fix. Deeper product “are we done?” → day #10.  
+Next chat: `@` the follow-ups file (or overlay Pickup) — do not rely on closed-thread memory.
 
 ---
 
@@ -103,7 +104,8 @@ Open chat → one job + DoD
   → Agent cooks in small verified slices
   → Land durable notes/commits when sticky
   → DoD met → stop
-  → New chat for the next job (+ handoff if needed)
+  → Close-out: park optional follow-ups to a file if any
+  → New chat for the next job (`@` follow-ups / handoff)
 ```
 
 Paste **&lt;~30k** one-shots; warehouses = **handle + query**. Autonomy by blast · gen↔verify: `AGENTIC_INTERACTION.md`. Between engines: structured handoff in `PROMPT_BUNDLES.md`.

@@ -26,7 +26,7 @@
 - **Multi-device pickup:** chat is not storage. After meaningful pack work → **commit + push** (clean tree on `origin`). Leave **decide-next / parked / NOT** in the overlay Log (or commit body) so another device can `git pull` and continue without re-deriving state.
 - Phrase lock **“think hard”** → same seat: raise thinking budget if offered (High / Extra High / xhigh) · raise process (short plan / program-design when blast is high) · raise verify (tests, diff, DoD) · stop if the stack is already bad. Do **not** simulate a second seat in the same Auto chat.
 - Phrase lock **“check this”** (or scary / irreversible / “I might regret this”) → produce an artifact (diff, claim, tests), then **pin Reviewer** (Opus 5 High) on that artifact — or **Attacker** (Grok 4.6 High) if the ask is falsify / “this can’t be wrong.” Label without pin = theater. Not a review fleet: gated, not every prompt.
-- Phrase lock **“close out this chat”** / “can I close?” → `CLOSE_CHAT.md` (lab): goals · extract · YES / NO / YES WITH LAND.
+- Phrase lock **“close out this chat”** / “can I close?” → `CLOSE_CHAT.md` (lab): goals · extract · park optional follow-ups to a durable `@`-able note · YES / NO / YES WITH LAND.
 
 ## Personality
 
@@ -36,13 +36,14 @@
 ## Behaviors
 
 - Prefer durable notes + remote sync over “I’ll remember from chat.” Dirty unpushed opack after a fix session is a handoff failure.
+- **Close-out habit:** optional / non-blocking next steps → write a parked follow-ups note (or Log/Pickup pointer) so the **next** chat can `@` it. Do not leave follow-ups only in the YES blurb. Example shape: `optional/PROMPT_FAMILY_FOLLOWUPS.md`. Empty = omit.
 
 ## Repeated tasks
 
 - When landing prompt-lab doctrine: put full shapes under `optional/`; promote only short digests to always-on / user rules after explicit confirm.
 - **Organize / maintain the repo** often — keep indexes, cross-links, digests, and install flags coherent; prefer consolidation over new kits.
 - **Chat/export dumps** (“analyze and extract useful”): run `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in optional/.
-- **Session close (opack):** if the tree changed → commit with why → push → confirm `0 ahead / 0 behind`. If WIP remains, one Log row: done · next · parked.
+- **Session close (opack):** if the tree changed → commit with why → push → confirm `0 ahead / 0 behind`. If WIP or optional follow-ups remain, land a parked note + one Log/Pickup row: done · next · parked path.
 
 ## Refuses / pins (this repo)
 
@@ -117,4 +118,5 @@
 | 2026-08-25 | Session hygiene callouts | Plan on blast · land durable · warehouse→handle · fat/DoD→new chat; always-on digest; no fake token meters |
 | 2026-08-25 | Close-out phrase lock | `CLOSE_CHAT.md` — goals · extract · YES/NO/YES WITH LAND; ships with lab |
 | 2026-08-25 | Prompt-family follow-ups parked | Field test · re-install · specialists — `optional/PROMPT_FAMILY_FOLLOWUPS.md` |
-| — | **Pickup** | **opack local: clear.** Optional next: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (field test / re-install / specialists on pain). Also: re-install digests / `--with-workflow-lab` on product repos. Parked: R1/R8 until twice-bitten. Do not: Mode E · review fleets · fake 30k telemetry |
+| 2026-08-25 | Close-out: park optional follow-ups | Habit — durable `@`-able note for next chat; CLOSE_CHAT + overlay + digests |
+| — | **Pickup** | **opack local: clear.** Optional next: `@optional/PROMPT_FAMILY_FOLLOWUPS.md`. Close-out habit: park non-blocking follow-ups before YES. Re-install lab on product repos when needed. Parked: R1/R8. Do not: Mode E · review fleets · fake 30k telemetry |

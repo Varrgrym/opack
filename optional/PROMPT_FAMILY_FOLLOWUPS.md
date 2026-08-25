@@ -2,6 +2,7 @@
 
 **Status:** parked · 2026-08-25  
 **From:** Exploration → quartet → seats → phase-pipeline chat (closed YES)  
+**Habit:** on close-out, land optional follow-ups like this so a **new** chat can `@` the path (`CLOSE_CHAT.md` § Optional follow-ups).  
 **Not a backlog to grind** — open only when pain shows or you choose a field test.
 
 ---

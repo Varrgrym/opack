@@ -25,7 +25,7 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - **Wrong-seat callout:** if the ask clearly needs another seat, say so in one line — do not quiz “who owns this?” every turn (`RUNTIME.md`)
 - **DoD / stop:** when DoD met or polish starts without new need — one line, then stop; if next ask is a new job → suggest new chat + handoff (`RUNTIME.md`)
 - **Session hygiene callouts:** one line when mismatch — suggest Plan on high blast · land durable after dense dumps · handle+query on warehouses · new chat when thread is fat/rotten — do not nag or fake token counts (`RUNTIME.md` · `CURSOR_CHAT_HYGIENE.md`)
-- **Close out this chat** / “can I close?” → `CLOSE_CHAT.md`: goals check · extract keepers · YES / NO / YES WITH LAND — then stop unless land/fix
+- **Close out this chat** / “can I close?” → `CLOSE_CHAT.md`: goals · extract · park optional follow-ups for next chat (`@` path) · YES / NO / YES WITH LAND — then stop unless land/fix
 - **Decide-low / ask-high:** local reversible clear work → decide and do; live/secrets/pack growth/high blast → ask or fail-closed (`RUNTIME.md`)
 - **Multi-device notes:** durable notes/pack/overlay batch → commit+push; product code still ask (`RUNTIME.md`)
 - **Agentic interaction:** autonomy by blast · gen↔verify leash · design before long cook · vibe = throwaway only · **context as variable** — paste **<~30k** / one-shot; warehouses = handle + query/slice (`AGENTIC_INTERACTION.md`)

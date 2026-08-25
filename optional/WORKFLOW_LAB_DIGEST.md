@@ -18,7 +18,7 @@
 **Handoff / DoD-stop / decide-low / session hygiene callouts:** `RUNTIME.md` § Gates & handoff — one-line Plan/land/warehouse/new-chat reminders (not quizzes; no fake token meters).  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) — `AGENTIC_INTERACTION.md`.  
 **Cursor chat hygiene:** one task per chat · land handoff · `@` · side chat · agent callouts — `CURSOR_CHAT_HYGIENE.md`.  
-**Close out this chat:** goals check · extract keepers · YES/NO/YES WITH LAND — `CLOSE_CHAT.md` (phrase lock).  
+**Close out this chat:** goals · extract · park optional follow-ups (`@`-able for next chat) · YES/NO/YES WITH LAND — `CLOSE_CHAT.md`.  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
 **Modes A–D + peers:** A `OWNERSHIP_TAKEOVER` · B `DESIGN_NOTEBOOK` · C `EXECUTION_ROADMAP` · D `PROJECT_REVIEW` · Audit `REPOSITORY_AUDIT` · Explore `EXPLORATORY_ANALYSIS`. Keep separate — mode determines allowed thinking.  
 Audit anti-fail: evidence hierarchy · execute when practical · diagnosis before prescription (`preserve → … → expand`).  
