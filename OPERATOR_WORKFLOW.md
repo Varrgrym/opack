@@ -116,4 +116,5 @@
 | 2026-08-25 | Cursor chat hygiene pasteable | Thin UX: new chat · `@` · side chat · ring; doctrine stays AGENTIC/RUNTIME; ships with `--with-workflow-lab` |
 | 2026-08-25 | Session hygiene callouts | Plan on blast · land durable · warehouse→handle · fat/DoD→new chat; always-on digest; no fake token meters |
 | 2026-08-25 | Close-out phrase lock | `CLOSE_CHAT.md` — goals · extract · YES/NO/YES WITH LAND; ships with lab |
-| — | **Pickup** | **opack local: clear.** **CLOSE_CHAT** phrase lock + session hygiene + **CURSOR_CHAT_HYGIENE**. Re-install digests / `--with-workflow-lab` on product repos. Parked: R1/R8 until twice-bitten. Do not: Mode E · review fleets · fake 30k telemetry |
+| 2026-08-25 | Prompt-family follow-ups parked | Field test · re-install · specialists — `optional/PROMPT_FAMILY_FOLLOWUPS.md` |
+| — | **Pickup** | **opack local: clear.** Optional next: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (field test / re-install / specialists on pain). Also: re-install digests / `--with-workflow-lab` on product repos. Parked: R1/R8 until twice-bitten. Do not: Mode E · review fleets · fake 30k telemetry |
