@@ -43,7 +43,7 @@ When close is **YES** but useful non-blocking work remains (field tests, re-inst
 4. New chat opens with `@` that file (or overlay Pickup pointer).
 
 **Example (opack):** `optional/PROMPT_FAMILY_FOLLOWUPS.md`  
-**Product repos:** prefer `docs/` or overlay Log — one path, not a second constitution.
+**Product repos:** prefer `docs/follow-ups.md` or overlay Log — one path, not a second constitution.
 
 Empty follow-ups = omit the file. Polish itch ≠ a follow-up list.
 
@@ -135,4 +135,4 @@ If optional follow-ups were listed verbally: **YES WITH LAND** until the parked 
 | Chat/export dump extract | `EXTRACT_AND_ORGANIZE.md` |
 | Example parked follow-ups | `PROMPT_FAMILY_FOLLOWUPS.md` (opack-local) |
 
-**Install:** `--with-workflow-lab` → `docs/workflow-lab/CLOSE_CHAT.md`.
+**Install:** baseline → `docs/CLOSE_CHAT.md`; `--with-workflow-lab` also copies to `docs/workflow-lab/CLOSE_CHAT.md`.

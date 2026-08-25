@@ -81,8 +81,10 @@ echo "target=$TARGET"
 echo "flags: seats=$WITH_SEATS lab=$WITH_WORKFLOW_LAB sibling=$GARDEN_SIBLING force_workflow=$FORCE_WORKFLOW dry_run=$DRY_RUN"
 
 run "mkdir -p \"$TARGET/.cursor/rules\""
+run "mkdir -p \"$TARGET/docs\""
 run "cp \"$PACK_ROOT/AGENTS.md\" \"$TARGET/AGENTS.md\""
 run "cp \"$PACK_ROOT/cursor-rules/follow-operator-pack.mdc\" \"$TARGET/.cursor/rules/follow-operator-pack.mdc\""
+run "cp \"$PACK_ROOT/optional/CLOSE_CHAT.md\" \"$TARGET/docs/CLOSE_CHAT.md\""
 
 WF="$TARGET/OPERATOR_WORKFLOW.md"
 if [[ -f "$WF" && "$FORCE_WORKFLOW" -eq 0 ]]; then
@@ -141,5 +143,6 @@ fi
 
 echo "installed operator pack → $TARGET"
 echo "  AGENTS.md"
+echo "  docs/CLOSE_CHAT.md"
 echo "  OPERATOR_WORKFLOW.md"
 echo "  .cursor/rules/follow-operator-pack.mdc"

@@ -71,7 +71,7 @@ Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.6 High). 
 **Decide-low / ask-high · DoD/stop · handoff packet · session hygiene callouts:** `optional/RUNTIME.md` § Gates & handoff (Plan on blast · land durable · warehouse→handle · fat thread→new chat — one line, not quizzes).  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query) — `optional/AGENTIC_INTERACTION.md`.  
 **Cursor chat hygiene:** one task per chat · handoff · `@` known files · agent reminders — `optional/CURSOR_CHAT_HYGIENE.md`.  
-**Close out this chat** / can I close? → `optional/CLOSE_CHAT.md` (goals · extract · YES/NO/YES WITH LAND).
+**Close out this chat** / can I close? → `docs/CLOSE_CHAT.md` (goals · extract · park optional follow-ups · YES/NO/YES WITH LAND). In opack clone: `optional/CLOSE_CHAT.md`. With lab: also `docs/workflow-lab/CLOSE_CHAT.md`.
 
 ### After install (paths)
 
@@ -79,6 +79,7 @@ This file is copied as-is. Resolve kit paths by **where you are**:
 
 | Dial / piece | In **opack** clone | In **installed** project |
 |--------------|--------------------|---------------------------|
+| Close-out protocol | `optional/CLOSE_CHAT.md` | `docs/CLOSE_CHAT.md` (baseline; same file under `docs/workflow-lab/` with `--with-workflow-lab`) |
 | Seats + playbooks | `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` · `SEAT_PROMPTS.md` | `docs/` (only with `--with-seats`) |
 | Workflow lab kits | `optional/*.md` (digest, pasteables, Mode D, …) | `docs/workflow-lab/` (only with `--with-workflow-lab`) |
 | Overlay starters | `templates/overlay-*.md` | Still only in the **opack** clone — paste into project `OPERATOR_WORKFLOW.md`; not copied by install |

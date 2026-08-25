@@ -64,6 +64,7 @@ fi
 CAP="$(mktemp -d /tmp/opack-smoke-capture.XXXXXX)"
 "$INSTALL" "$CAP" --profile capture >/dev/null
 need "$CAP/AGENTS.md" "capture profile installs baseline"
+need "$CAP/docs/CLOSE_CHAT.md" "capture profile ships close-out"
 forbid "$CAP/docs/workflow-lab" "capture profile does not ship lab"
 forbid "$CAP/docs/CURSOR_MODEL_SEATS.md" "capture profile does not ship seats"
 
@@ -72,6 +73,7 @@ LIVE="$(mktemp -d /tmp/opack-smoke.XXXXXX)"
 "$INSTALL" "$LIVE" --with-workflow-lab >/dev/null
 
 need "$LIVE/AGENTS.md" "baseline AGENTS"
+need "$LIVE/docs/CLOSE_CHAT.md" "baseline ships close-out"
 need "$LIVE/OPERATOR_WORKFLOW.md" "baseline OPERATOR_WORKFLOW"
 need "$LIVE/.cursor/rules/follow-operator-pack.mdc" "always-on digest"
 need "$LIVE/docs/workflow-lab/ORGANISM_PLACEMENT.md" "lab ships ORGANISM_PLACEMENT"
@@ -105,6 +107,7 @@ SEATS="$(mktemp -d /tmp/opack-smoke-seats.XXXXXX)"
 "$INSTALL" "$SEATS" --with-seats >/dev/null
 need "$SEATS/docs/CURSOR_MODEL_SEATS.md" "seats dial copies picker"
 need "$SEATS/docs/SEAT_PROMPTS.md" "seats dial copies seat prompts"
+need "$SEATS/docs/CLOSE_CHAT.md" "seats dial still ships close-out"
 forbid "$SEATS/docs/workflow-lab" "seats-only does not create workflow-lab"
 
 # --- preserve existing overlay ---
