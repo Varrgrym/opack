@@ -154,8 +154,8 @@ intent → measure/DoD → (plan if blast) → program design / vertical slice
   → paste-or-query (context as variable) → autonomy slider → generate ↔ verify → stop
 ```
 
-Seats, wrong-seat callout, decide-low/ask-high, DoD/stop: `RUNTIME.md`.  
-Cursor chat UX (when to restart / `@` / side chat): `CURSOR_CHAT_HYGIENE.md`.
+Seats, wrong-seat callout, decide-low/ask-high, DoD/stop, **session hygiene callouts** (Plan · land · warehouse · new chat): `RUNTIME.md`.  
+Cursor chat UX (when to restart / `@` / side chat / reminders): `CURSOR_CHAT_HYGIENE.md`.
 
 ---
 

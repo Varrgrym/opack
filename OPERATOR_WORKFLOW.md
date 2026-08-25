@@ -113,4 +113,5 @@
 | 2026-08-23 | Attacker tissue → Grok 4.6 High | Picker/docs moved; same falsify job; xhigh optional for load-bearing |
 | 2026-08-23 | think hard / check this phrase locks | Depth vs disagreement; Auto ≠ second mind; Reviewer/Attacker pin on artifact |
 | 2026-08-25 | Cursor chat hygiene pasteable | Thin UX: new chat · `@` · side chat · ring; doctrine stays AGENTIC/RUNTIME; ships with `--with-workflow-lab` |
-| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES** + **CURSOR_CHAT_HYGIENE**. Attacker = **Grok 4.6 High**. Phrase locks: **think hard** · **check this**. Re-run `--with-workflow-lab` to pick up chat hygiene. Parked: specialist openers until twice-bitten. Do not: Mode E · review fleets |
+| 2026-08-25 | Session hygiene callouts | Plan on blast · land durable · warehouse→handle · fat/DoD→new chat; always-on digest; no fake token meters |
+| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES** + **CURSOR_CHAT_HYGIENE** + **session hygiene callouts**. Attacker = **Grok 4.6 High**. Phrase locks: **think hard** · **check this**. Re-install digests / `--with-workflow-lab` on product repos to pick up reminders. Parked: R1/R8 depth·evidence until twice-bitten. Do not: Mode E · review fleets · fake 30k telemetry |

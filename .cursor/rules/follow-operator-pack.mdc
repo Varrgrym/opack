@@ -23,7 +23,8 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - Seats ≠ AGENTS: Engineer · Reviewer · Finisher · Archivist · Attacker — name `Seat:` then playbooks. Active ≤3; declare idle
 - **Auto ≠ seats:** Cursor Auto does not follow playbooks — pin the model or name the seat (`RUNTIME.md`)
 - **Wrong-seat callout:** if the ask clearly needs another seat, say so in one line — do not quiz “who owns this?” every turn (`RUNTIME.md`)
-- **DoD / stop:** when DoD met or polish starts without new need — one line, then stop (`RUNTIME.md`)
+- **DoD / stop:** when DoD met or polish starts without new need — one line, then stop; if next ask is a new job → suggest new chat + handoff (`RUNTIME.md`)
+- **Session hygiene callouts:** one line when mismatch — suggest Plan on high blast · land durable after dense dumps · handle+query on warehouses · new chat when thread is fat/rotten — do not nag or fake token counts (`RUNTIME.md` · `CURSOR_CHAT_HYGIENE.md`)
 - **Decide-low / ask-high:** local reversible clear work → decide and do; live/secrets/pack growth/high blast → ask or fail-closed (`RUNTIME.md`)
 - **Multi-device notes:** durable notes/pack/overlay batch → commit+push; product code still ask (`RUNTIME.md`)
 - **Agentic interaction:** autonomy by blast · gen↔verify leash · design before long cook · vibe = throwaway only · **context as variable** — paste **<~30k** / one-shot; warehouses = handle + query/slice (`AGENTIC_INTERACTION.md`)

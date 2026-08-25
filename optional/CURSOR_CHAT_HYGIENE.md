@@ -66,7 +66,23 @@ Current product surface includes `@file` / `@folder`, `@Terminals`, `@Chats`, `@
 | **Agent** | Clear enough to inspect / edit / test |
 | **Debug** | Reproduce → isolate → fix → prove |
 
-Don’t Plan for trivia. Runtime stanza + seats: `RUNTIME.md`. Auto ≠ seat playbooks.
+Don’t Plan for trivia (“rename this variable”). Runtime stanza + seats: `RUNTIME.md`. Auto ≠ seat playbooks.
+
+---
+
+## Agent callouts (reminders — not quizzes)
+
+When the mismatch is clear, the agent should **say one line**, then stop or continue — same spirit as wrong-seat / DoD (`RUNTIME.md` § Session hygiene):
+
+| When | Suggest |
+|------|---------|
+| High blast / ambiguous before big edits | Plan mode or short plan here |
+| Dense design still only in chat | Land notebook / pin / overlay, then optionally new chat |
+| Warehouse dump / multi-doc paste | Path + query — don’t paste the warehouse (~30k one-shot ceiling) |
+| Fat / drifted / soft-rot thread | New chat + 3-bullet handoff |
+| DoD met; next ask is a **new job** | Stop; next step in a new chat |
+
+Do **not** invent “we hit exactly 30k tokens.” ~30k = paste threshold; chat fatness = quality heuristics + the context ring **you** can see.
 
 ---
 

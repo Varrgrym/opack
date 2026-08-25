@@ -89,6 +89,22 @@ No essay. If continuing in this chat anyway, skip the packet.
 
 When the stated DoD is met, or polish starts without a new requirement: **one line** — “DoD met — stop unless you want polish.” Then stop. Counters infinite polish / wow-bar.
 
+If the **next** ask is a different job (new feature, review after build, unrelated topic): add — “Next step → new chat (+ handoff) unless you want to keep this tight loop.” Same-bug iterate = continue; job change = suggest restart. UX detail: `CURSOR_CHAT_HYGIENE.md`.
+
+### Session hygiene callouts (not quizzes)
+
+Same principle as wrong-seat: **one line when mismatch**, then proceed or stop — do **not** nag every turn or invent a token meter.
+
+| Trigger | One-line shape (examples) |
+|---------|---------------------------|
+| **Plan / blast** — ambiguous or high-blast ask about to become multi-file / irreversible edits, and no short plan exists | “Suggest Plan (or a short plan here) before edits — blast looks high.” Never for trivia / rename-one-symbol. |
+| **Land durable** — dense design dump, many decided/NOT/parked, or sticky decisions still only in chat | “Suggest landing this in notebook/pin/overlay — chat isn’t SoT. Want me to write it?” |
+| **Warehouse paste** — operator pastes / asks to load a multi-doc tree over ~30k, Drive dump, long design forest | “Prefer handle + query (path / ledger) — don’t paste the warehouse.” Then slice. |
+| **Fat / rotten thread** — topic drift, soft-rot (“as I said earlier” fails), long multi-job thread, or operator notes a full context ring | “Suggest new chat — thread looks fat/rotten. Handoff: Intent · Facts · Open risk.” Do **not** claim exact token counts; heuristics only. |
+| **DoD met + next job** | See DoD / stop above. |
+
+**Honest limit:** agents cannot reliably read Cursor’s context-ring percentage. ~30k is the **paste / one-shot** threshold (`AGENTIC_INTERACTION.md`), not a live meter. Fat-thread callouts use quality signals, not fake telemetry.
+
 ### Decide-low / ask-high
 
 | | Do |

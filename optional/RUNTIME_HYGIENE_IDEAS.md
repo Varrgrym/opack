@@ -2,9 +2,9 @@
 
 **Status:** design notebook · 2026-08-08 · opack optional  
 **Theme:** high-signal routing / session control **without** ceremony tax  
-**Landed:** wrong-seat · handoff packet · DoD/stop · decide-low/ask-high (`RUNTIME.md` + digest + `AGENTS.md`)  
+**Landed:** wrong-seat · handoff packet · DoD/stop · decide-low/ask-high · **session hygiene callouts** (Plan/blast · land durable · warehouse→handle · fat→new chat) (`RUNTIME.md` + digest + `AGENTS.md` · `CURSOR_CHAT_HYGIENE.md`)  
 **Also landed (extract line):** personal Keep/Park + capture overlay template  
-**NOT:** Auto model picker · sixth seat · per-turn interrogation
+**NOT:** Auto model picker · sixth seat · per-turn interrogation · fake context-token telemetry
 
 ---
 
@@ -20,8 +20,8 @@ Operator pins models; pack teaches *when* the current chat is the wrong tool.
 | # | Idea | Why | Blast | Label |
 |---|------|-----|-------|--------|
 | R1 | **Depth callout** — “thin answer / Mode B / Mode D?” only when the ask is ambiguous *and* wrong depth would waste a session | Mirrors wrong-seat without always opening Mode picker | low | recommendation |
-| R2 | **Plan? only on blast radius** — already in RUNTIME; tighten: never ask Plan for trivia; one line when irreversible | Stops Plan theater | low | recommendation |
-| R3 | **DoD / stop callout** — when polish starts: “DoD met — stop unless you want polish” | Counters infinite polish / wow-bar | low | **decided** (in `RUNTIME.md`) |
+| R2 | **Plan? only on blast radius** — one line when irreversible/ambiguous before edits; never for trivia | Stops Plan theater | low | **decided** (session hygiene · `RUNTIME.md`) |
+| R3 | **DoD / stop callout** — when polish starts: “DoD met — stop unless you want polish” (+ new chat if next job differs) | Counters infinite polish / wow-bar | low | **decided** (in `RUNTIME.md`) |
 | R4 | **Handoff packet** — when redirecting seat: 3 bullets (intent · facts so far · open risk) so Reviewer/Finisher doesn’t cold-start | Makes manual seats usable | med | **decided** (in `RUNTIME.md`) |
 | R5 | **Failure-mode name** — on thrash: name mode from RUNTIME table once, then re-spec | Already in kit; make it a standing habit in digest | low | recommendation |
 | R6 | **Decide-low / ask-high** — low blast: decide + do; high blast / live / seats / pack growth: ask or fail-closed | Matches “good decisions” without unbounded autonomy | med | **decided** (RUNTIME + digests) |
@@ -50,7 +50,8 @@ Operator pins models; pack teaches *when* the current chat is the wrong tool.
 2. ~~Handoff packet (R4)~~ **done**  
 3. ~~DoD / stop (R3)~~ **done**  
 4. ~~Decide-low / ask-high (R6)~~ **done** (RUNTIME + digest; pointer in AGENTS)  
-5. Depth / evidence callouts (R1, R8) — only after they bite twice
+5. ~~Plan on blast + land durable + warehouse + fat-thread callouts~~ **done** (2026-08-25 · session hygiene)  
+6. Depth / evidence callouts (R1, R8) — only after they bite twice
 
 ---
 
@@ -68,3 +69,4 @@ Operator pins models; pack teaches *when* the current chat is the wrong tool.
 |------|------|
 | 2026-08-08 | Opened from wrong-seat discussion; landed callout; listed same-line improvements |
 | 2026-08-08 | Landed R3/R4/R6 + EXTRACT Keep/Park + `overlay-capture-inbox.md` |
+| 2026-08-25 | Session hygiene callouts landed (R2 + land/warehouse/fat/new-chat); honest no-fake-token-meter pin |
