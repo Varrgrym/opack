@@ -16,7 +16,7 @@ Same Layer A everywhere. Relatedness does **not** auto-upgrade dials. `--garden-
 | **Product MVP** | `product-mvp` | Playable slice + design (e.g. MH creatures) | Baseline + `--with-seats` | Light seats; paste **`overlay-creative-operator.md`** + link [`CREATIVE_OPERATOR_KIT.md`](CREATIVE_OPERATOR_KIT.md); phase pin + `BUILD_FOCUS` / MVP metrics in overlay |
 | **Garden plant** | `garden-plant` | Peeled plant (Cookie, DocuBot, scrape) | Baseline + `--with-seats` + `--garden-sibling` | Paste `templates/overlay-garden-plant.md`; fill `HELPER_*_ROOT` |
 | **Garden hub** | `garden-hub` | Universal Automated Helper | Baseline + `--with-seats` + `--with-workflow-lab` | Hub owns Immune — never paste Immune into opack |
-| **Machine / hygiene** | `machine` | Host config, care centers, launch helpers | Baseline + `--with-seats` | Paste `templates/overlay-machine.md` |
+| **Machine / hygiene** | `machine` | Host config, care centers, launch helpers | Baseline + `--with-seats` | Paste `templates/overlay-machine.md`; optional scope `.mdc` if chat drifts |
 | **Idle / toy** | `idle` | Abandoned or tiny bots | Skip, or baseline only | Do nothing is correct |
 
 **Baseline** = `AGENTS.md` + `OPERATOR_WORKFLOW.md` + `.cursor/rules/follow-operator-pack.mdc`
@@ -54,6 +54,24 @@ Do **not** invent cluster roles, per-repo seat names, or a crawler that “react
 Equivalent flag form still works (`--with-seats`, `--with-workflow-lab`, `--garden-sibling`).
 
 After install: paste matching snippet bullets into that project’s `OPERATOR_WORKFLOW.md` (never overwrite a living overlay with `--force-workflow` unless intentional).
+
+---
+
+## Optional: chat scope rule (machine repos)
+
+**Not installed by default** — operator adds manually after paste overlay.
+
+When `OPERATOR_WORKFLOW.md` alone is not enough to stop scope drift, add a second always-on rule:
+
+`.cursor/rules/<name>.mdc` (`alwaysApply: true`)
+
+**Shape:** in scope · out of scope · preferred workflows · sibling boundaries · host facts · brief defer behavior.
+
+Copy from [`templates/project-scope.example.mdc`](../templates/project-scope.example.mdc) or an existing machine sibling. Fill placeholders; do **not** symlink across repos.
+
+**No dual maintenance:** scope fence lives in the `.mdc` *or* overlay Refuses/pins — not both verbatim. Overlay may point to the scope rule in one line.
+
+`install.sh` does not copy scope rules; `--profile machine` stays thin.
 
 ---
 

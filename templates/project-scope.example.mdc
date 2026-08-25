@@ -1,0 +1,34 @@
+---
+description: Scope this workspace chat to [DOMAIN — e.g. GPU drivers and video games]
+alwaysApply: true
+---
+
+# [Short title — e.g. Drivers and gaming only]
+
+This workspace chat is **exclusively** for:
+
+- **[In-scope area 1]** — e.g. GPU/display drivers, kernel modules, Flatpak GL/VAAPI runtimes matching host driver
+- **[In-scope area 2]** — e.g. video games, launchers, Proton prefixes, in-game performance tuning
+- **[In-scope area 3]** — e.g. gaming-related apt/flatpak updates documented in SETUP.md
+
+## Out of scope (defer briefly)
+
+- [Topic to defer — e.g. unrelated Android-on-Linux, general sysadmin, dev tooling]
+- [Another defer — e.g. security scans, bulk package upgrades unless user asks]
+- Point to another workspace or repo when declining — do not expand into a lecture.
+
+## Preferred workflows
+
+- Health check: `[./health.sh]` (or `[./verify-host.sh]` / `[./post-update-health.sh]`)
+- Updates: `[./safe-update.sh]` or documented update script — not full unrelated maintenance unless asked
+- Context: `[SETUP.md]`, `[HARDWARE-BASELINE.md]`, `[docs/…]`
+
+## Sibling boundaries
+
+- `[care-center-or-ui-repo]` is a **separate** repo — it may call scripts here; do not absorb GUI/panel work into this workspace.
+
+## Host facts (quick reference)
+
+- [OS + version], [GPU + driver package], [primary game launcher paths]
+
+When the user asks for something outside this scope, say it is outside this chat's focus and point them to another workspace or thread if they need it.

@@ -33,6 +33,7 @@ When `AGENTS.md` is missing, say so and follow only this digest + any overlay pr
 - Install by stage: `INSTALL_PROFILES.md` — lab only with `--with-workflow-lab`; `--garden-sibling` plants only
 - Extract dumps: personal ideas Keep/Park; reject PII/secrets/ops noise only (`EXTRACT_AND_ORGANIZE.md`)
 - Dense idea organisms: placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling · router
+- **Project scope rule** present (`.cursor/rules/*` scope fence) → defer out-of-scope asks briefly per that rule; do not expand into general sysadmin
 
 ## Optional
 

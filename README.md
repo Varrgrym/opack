@@ -74,6 +74,7 @@ git clone https://github.com/Varrgrym/opack.git
 ```text
 You (habits)     → Cursor user rules (global)
 Any repo         → this pack (thin install)
+Machine repos    → overlay-machine + optional scope .mdc (manual; see INSTALL_PROFILES)
 Garden hub       → Immune stays on hub
 Peeled plant     → pack + GARDEN_SIBLING.md
 Lab essays       → optional/ + archive/ (not default install)

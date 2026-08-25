@@ -97,6 +97,8 @@ This pack is the **baseline**. Each project may grow a **local overlay** — hab
 
 Prefer `OPERATOR_WORKFLOW.md` (project root). Alternative: `.cursor/rules/project-workflow.mdc` (`alwaysApply: true`). Start from `templates/OPERATOR_WORKFLOW.md` if missing.
 
+**Overlay first** — habits, pins, repeated tasks. **Scope `.mdc` second** — only when chat must hard-defer (narrow domain, sibling boundaries, script entrypoints). Example shape: `templates/project-scope.example.mdc`; machine profile note: `optional/INSTALL_PROFILES.md`. **No dual maintenance** — scope lives in the `.mdc` or overlay Refuses/pins, not both verbatim; overlay may link in one line.
+
 ### Trigger floor (noise control)
 
 Propose an overlay addition only when **one** of:
