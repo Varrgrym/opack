@@ -53,7 +53,8 @@
 | #7 Consolidate | Mode D coherence | Consolidation-only pass |
 | #8 5W1H | `INTENT_EXPAND.md` | Compact paste (optional) |
 | #9 Chunked | `CHUNKING.md` | Compact paste |
-| #10 Done? | DoD/stop · RUNTIME | DONE / NOT DONE rubric |
+| #10 Done? | DoD/stop · RUNTIME · session close | DONE / NOT DONE rubric for *product* work |
+| Close chat | `CLOSE_CHAT.md` (phrase lock) | Chat-session gate: YES/NO/YES WITH LAND + extract |
 | Meta | INTENT_EXPAND depth dial | Silent expand + simple answer |
 
 ---

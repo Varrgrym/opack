@@ -86,6 +86,15 @@ Do **not** invent “we hit exactly 30k tokens.” ~30k = paste threshold; chat 
 
 ---
 
+## Phrase lock — close out this chat
+
+Say **“close out this chat”** (or “can I close this?” / “session close”).
+
+Agent runs `CLOSE_CHAT.md`: goals check → extract keepers → **YES** / **NO** / **YES WITH LAND**.  
+Does not start new work unless you say land/fix. Deeper product “are we done?” → day #10.
+
+---
+
 ## Operator rhythm
 
 ```text
@@ -121,6 +130,7 @@ Paste **&lt;~30k** one-shots; warehouses = **handle + query**. Autonomy by blast
 | Context rot · paste threshold · verify leash | `AGENTIC_INTERACTION.md` |
 | Stanza · seats · handoff · DoD/stop | `RUNTIME.md` |
 | Next kit · structured handoff | `PROMPT_BUNDLES.md` |
+| Close-out gate (YES/NO) | `CLOSE_CHAT.md` |
 | Lab TOC | `PASTEABLES_INDEX.md` |
 
 **Install:** ships with `--with-workflow-lab` → `docs/workflow-lab/CURSOR_CHAT_HYGIENE.md`.

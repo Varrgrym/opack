@@ -1,7 +1,7 @@
 # Workflow lab digest (short)
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
-**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `CURSOR_CHAT_HYGIENE.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `OWNERSHIP_TAKEOVER.md` · `DESIGN_NOTEBOOK.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` · `PHASE_PIPELINE.md` · `PROMPT_BUNDLES.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
+**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `CURSOR_CHAT_HYGIENE.md` · `CLOSE_CHAT.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `OWNERSHIP_TAKEOVER.md` · `DESIGN_NOTEBOOK.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` · `PHASE_PIPELINE.md` · `PROMPT_BUNDLES.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
 **Paths:** in opack → `optional/`; after `--with-workflow-lab` → `docs/workflow-lab/`. `../templates/` and `archive/` resolve only in the **opack** clone.  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
@@ -18,6 +18,7 @@
 **Handoff / DoD-stop / decide-low / session hygiene callouts:** `RUNTIME.md` § Gates & handoff — one-line Plan/land/warehouse/new-chat reminders (not quizzes; no fake token meters).  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) — `AGENTIC_INTERACTION.md`.  
 **Cursor chat hygiene:** one task per chat · land handoff · `@` · side chat · agent callouts — `CURSOR_CHAT_HYGIENE.md`.  
+**Close out this chat:** goals check · extract keepers · YES/NO/YES WITH LAND — `CLOSE_CHAT.md` (phrase lock).  
 **Day prompts:** deep review / double-check / skeptical / next / done — `DAY_PROMPTS.md` (daily five).  
 **Modes A–D + peers:** A `OWNERSHIP_TAKEOVER` · B `DESIGN_NOTEBOOK` · C `EXECUTION_ROADMAP` · D `PROJECT_REVIEW` · Audit `REPOSITORY_AUDIT` · Explore `EXPLORATORY_ANALYSIS`. Keep separate — mode determines allowed thinking.  
 Audit anti-fail: evidence hierarchy · execute when practical · diagnosis before prescription (`preserve → … → expand`).  

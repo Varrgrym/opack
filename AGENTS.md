@@ -70,7 +70,8 @@ Temporary only: **Archivist** (Gemini 3.1 Pro) · **Attacker** (Grok 4.6 High). 
 **Wrong-seat callout:** mismatch → one-line redirect; do **not** quiz seat ownership every turn (`optional/RUNTIME.md`).  
 **Decide-low / ask-high · DoD/stop · handoff packet · session hygiene callouts:** `optional/RUNTIME.md` § Gates & handoff (Plan on blast · land durable · warehouse→handle · fat thread→new chat — one line, not quizzes).  
 **Agentic interaction:** autonomy slider · gen↔verify · design before cook · **context as variable** (paste <~30k one-shots; warehouses = handle + query) — `optional/AGENTIC_INTERACTION.md`.  
-**Cursor chat hygiene:** one task per chat · handoff · `@` known files · agent reminders — `optional/CURSOR_CHAT_HYGIENE.md`.
+**Cursor chat hygiene:** one task per chat · handoff · `@` known files · agent reminders — `optional/CURSOR_CHAT_HYGIENE.md`.  
+**Close out this chat** / can I close? → `optional/CLOSE_CHAT.md` (goals · extract · YES/NO/YES WITH LAND).
 
 ### After install (paths)
 

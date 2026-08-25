@@ -26,6 +26,7 @@
 - **Multi-device pickup:** chat is not storage. After meaningful pack work → **commit + push** (clean tree on `origin`). Leave **decide-next / parked / NOT** in the overlay Log (or commit body) so another device can `git pull` and continue without re-deriving state.
 - Phrase lock **“think hard”** → same seat: raise thinking budget if offered (High / Extra High / xhigh) · raise process (short plan / program-design when blast is high) · raise verify (tests, diff, DoD) · stop if the stack is already bad. Do **not** simulate a second seat in the same Auto chat.
 - Phrase lock **“check this”** (or scary / irreversible / “I might regret this”) → produce an artifact (diff, claim, tests), then **pin Reviewer** (Opus 5 High) on that artifact — or **Attacker** (Grok 4.6 High) if the ask is falsify / “this can’t be wrong.” Label without pin = theater. Not a review fleet: gated, not every prompt.
+- Phrase lock **“close out this chat”** / “can I close?” → `CLOSE_CHAT.md` (lab): goals · extract · YES / NO / YES WITH LAND.
 
 ## Personality
 
@@ -114,4 +115,5 @@
 | 2026-08-23 | think hard / check this phrase locks | Depth vs disagreement; Auto ≠ second mind; Reviewer/Attacker pin on artifact |
 | 2026-08-25 | Cursor chat hygiene pasteable | Thin UX: new chat · `@` · side chat · ring; doctrine stays AGENTIC/RUNTIME; ships with `--with-workflow-lab` |
 | 2026-08-25 | Session hygiene callouts | Plan on blast · land durable · warehouse→handle · fat/DoD→new chat; always-on digest; no fake token meters |
-| — | **Pickup** | **opack local: clear.** Modes + seats + phase gates + **PROMPT_BUNDLES** + **CURSOR_CHAT_HYGIENE** + **session hygiene callouts**. Attacker = **Grok 4.6 High**. Phrase locks: **think hard** · **check this**. Re-install digests / `--with-workflow-lab` on product repos to pick up reminders. Parked: R1/R8 depth·evidence until twice-bitten. Do not: Mode E · review fleets · fake 30k telemetry |
+| 2026-08-25 | Close-out phrase lock | `CLOSE_CHAT.md` — goals · extract · YES/NO/YES WITH LAND; ships with lab |
+| — | **Pickup** | **opack local: clear.** **CLOSE_CHAT** phrase lock + session hygiene + **CURSOR_CHAT_HYGIENE**. Re-install digests / `--with-workflow-lab` on product repos. Parked: R1/R8 until twice-bitten. Do not: Mode E · review fleets · fake 30k telemetry |

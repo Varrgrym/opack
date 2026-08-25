@@ -102,6 +102,7 @@ Same principle as wrong-seat: **one line when mismatch**, then proceed or stop �
 | **Warehouse paste** — operator pastes / asks to load a multi-doc tree over ~30k, Drive dump, long design forest | “Prefer handle + query (path / ledger) — don’t paste the warehouse.” Then slice. |
 | **Fat / rotten thread** — topic drift, soft-rot (“as I said earlier” fails), long multi-job thread, or operator notes a full context ring | “Suggest new chat — thread looks fat/rotten. Handoff: Intent · Facts · Open risk.” Do **not** claim exact token counts; heuristics only. |
 | **DoD met + next job** | See DoD / stop above. |
+| **Close-out phrase** — operator says “close out this chat” / “can I close?” | Run `CLOSE_CHAT.md` once → YES / NO / YES WITH LAND. Do not start new work unless they say land/fix. |
 
 **Honest limit:** agents cannot reliably read Cursor’s context-ring percentage. ~30k is the **paste / one-shot** threshold (`AGENTIC_INTERACTION.md`), not a live meter. Fat-thread callouts use quality signals, not fake telemetry.
 
