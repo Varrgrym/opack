@@ -1,10 +1,10 @@
 # Close out this chat
 
-**Status:** active kit · 2026-08-25 · opack optional  
+**Status:** active kit · 2026-08-26 · opack optional  
 **Job:** end-of-session gate — goals check · extract keepers · **YES close** / **NO pending**  
 **Phrase lock:** “close out this chat” · “close this chat” · “can I close this?” · “session close”  
 **Companions:** DoD/stop · handoff (`RUNTIME.md`) · extract (`EXTRACT_AND_ORGANIZE.md`) · day #10 (`DAY_PROMPTS.md`) · UX (`CURSOR_CHAT_HYGIENE.md`)  
-**NOT:** full Mode D · infinite polish · auto-commit product code · re-litigate the whole project
+**NOT:** full Mode D · product “are we done?” (→ day #10) · infinite polish · auto-commit product code · re-litigate the whole project
 
 ---
 
@@ -12,15 +12,21 @@
 
 Operator is about to leave the thread (or wants permission to). Run this **once** — do not nag.
 
+**Chat ≠ project:** a project need **not** be finished for this chat to close. Default = this chat’s DoD only. Product / feature “are we done?” → compose with day #10.
+
 ---
 
 ## Protocol (fail-closed)
 
 ```text
-1. GOALS     Restate this chat’s DoD / stated goals (from operator + what was actually pursued)
-2. CHECK     For each goal: done · partial · not started · out of scope (parked)
-3. EXTRACT   Valuable residue still only in chat: decided · NOT · parked · open Q · files touched
-4. LAND?     If sticky keepers aren’t in repo yet → list what to write (notebook / pin / overlay / commit)
+1. GOALS     Restate this chat’s DoD / stated goals (operator + what was actually pursued).
+             Separate: original · added later · abandoned/NOT. Do not invent goals.
+2. CHECK     For each: done · partial · not started · out of scope (parked).
+             Discussion of an idea ≠ completion of that idea. Briefly why if non-done.
+3. EXTRACT   Valuable residue still only in chat: decided · NOT · parked · open Q · files touched.
+             If nothing needs preserving, say so.
+4. LAND?     Sticky keepers not in repo yet → candidates with priority:
+             Must-land / Useful / skip. Prefer existing paths; no new file for trivia.
              Decide-low notes/pack → offer to land now; product code commit → ask
 5. FOLLOW-UPS  Optional / non-blocking next work → **write to a durable file** (not chat-only)
                so a *new* chat can `@` it. Skip if none. Do not invent a fake backlog.
@@ -61,7 +67,7 @@ Landed / already durable: …
 Optional follow-ups (parked for next chat): <path> · or “none”
 ```
 
-Use when all **blocking** goals for *this chat* are met. Polish itch ≠ pending.
+Use when all **blocking** goals for *this chat* are met — even if the project continues elsewhere. Polish itch ≠ pending. Unfinished project work that is parked or belongs in a new chat ≠ NO.
 
 ### NO — do not close yet
 
@@ -78,7 +84,7 @@ Facts so far: …
 Open risk / ask: …
 ```
 
-Pending items must be **specific and smallest**. Do not invent new scope.
+Pending items must be **specific and smallest**. Do not invent new scope. Do not treat optional / interesting / unfinished-*project* work as blocking *this chat*.
 
 ### YES WITH LAND (variant)
 
@@ -93,6 +99,8 @@ Must land before close (or mark parked with path):
 Say “land it” to write files; then YES close.
 ```
 
+Useful-but-not-must candidates may be skipped or parked with operator say-so — only **Must-land** blocks YES.
+
 ---
 
 ## Paste (operator)
@@ -100,19 +108,21 @@ Say “land it” to write files; then YES close.
 ```text
 Close out this chat.
 
-1) Restate this chat’s goals / DoD.
-2) Check each: done · partial · not started · parked.
-3) Extract anything valuable still only in chat (decided · NOT · parked · open Q).
-4) Say what should be landed to files (if any).
+A project need not be finished for this chat to close. Default = this chat’s DoD only.
+Do not treat discussion of an idea as completion of that idea.
+Do not expand scope. Do not start new work unless I say land/fix.
+
+1) Restate this chat’s goals / DoD (original · added later · abandoned/NOT). Do not invent goals.
+2) Check each: done · partial · not started · parked. Briefly why if non-done.
+3) Extract anything valuable still only in chat (decided · NOT · parked · open Q). If nothing to preserve, say so.
+4) Land candidates: Must-land / Useful / skip. Prefer existing paths; no new file for trivia.
 5) If optional non-blocking follow-ups exist: land them in a durable parked note for the next chat (@-able). Do not invent work.
 6) Verdict — exactly one:
    - YES — you can close this chat
-   - NO — do not close yet (list blocking pending)
+   - NO — do not close yet (list blocking pending for *this chat*)
    - YES WITH LAND — close after landing (list must-land)
-7) If NO or YES WITH LAND: leave a 3-bullet handoff for the next chat.
+7) If NO or YES WITH LAND: leave a 3-bullet handoff (Intent · Facts · Open risk).
    If YES with parked follow-ups: give the file path.
-
-Do not expand scope. Do not start new work unless I say land/fix.
 ```
 
 ---

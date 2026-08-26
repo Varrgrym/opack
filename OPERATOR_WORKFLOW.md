@@ -119,4 +119,5 @@
 | 2026-08-25 | Close-out phrase lock | `CLOSE_CHAT.md` — goals · extract · YES/NO/YES WITH LAND; ships with lab |
 | 2026-08-25 | Prompt-family follow-ups parked | Field test · re-install · specialists — `optional/PROMPT_FAMILY_FOLLOWUPS.md` |
 | 2026-08-25 | Close-out: park optional follow-ups | Habit — durable `@`-able note for next chat; CLOSE_CHAT + overlay + digests |
+| 2026-08-26 | Close-out: chat≠project harden | Explicit session vs product done; anti-false-done; land Must/Useful/skip; paste stays thin |
 | — | **Pickup** | **opack local: clear.** Optional next: `@optional/PROMPT_FAMILY_FOLLOWUPS.md`. Close-out habit: park non-blocking follow-ups before YES. Re-install lab on product repos when needed. Parked: R1/R8. Do not: Mode E · review fleets · fake 30k telemetry |
