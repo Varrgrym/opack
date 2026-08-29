@@ -120,4 +120,5 @@
 | 2026-08-25 | Prompt-family follow-ups parked | Field test · re-install · specialists — `optional/PROMPT_FAMILY_FOLLOWUPS.md` |
 | 2026-08-25 | Close-out: park optional follow-ups | Habit — durable `@`-able note for next chat; CLOSE_CHAT + overlay + digests |
 | 2026-08-26 | Close-out: chat≠project harden | Explicit session vs product done; anti-false-done; land Must/Useful/skip; paste stays thin |
-| — | **Pickup** | **opack local: clear.** Optional next: `@optional/PROMPT_FAMILY_FOLLOWUPS.md`. Close-out habit: park non-blocking follow-ups before YES. Re-install lab on product repos when needed. Parked: R1/R8. Do not: Mode E · review fleets · fake 30k telemetry |
+| 2026-08-29 | Close-out this chat | Desktop layout follow-up parked §6 in `PROMPT_FAMILY_FOLLOWUPS.md` |
+| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (field test · re-install · R1/R8 · **§6 Projects/Cursor Workspaces**). Do not: Mode E · review fleets · project symlinks · fake 30k telemetry |

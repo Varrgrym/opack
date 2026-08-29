@@ -67,6 +67,19 @@ Chat-only “Full Repository Audit” draft was never recovered. Current `REPOSI
 
 Older overlay parked item (gather evidence). Unrelated to prompt-family completeness — keep parked until chosen.
 
+### 6. Desktop layout — `Projects` + `Cursor Workspaces` (2026-08-13 talk)
+
+**From:** opack / Desktop hygiene chat (closed). Talk-only — **not executed**.
+
+**Decided framing (recommendation, not done):**
+- Universal **layout**, not identical absolute paths across OSes.
+- Repos visible under a parent folder; saved Cursor `.code-workspace` files in a **named** shelf.
+- Prefer: `~/Desktop/Projects/` (git trees) + sibling or child **`Cursor Workspaces/`** (workspace files only).
+- **NOT:** project symlinks · putting git trees inside `Cursor Workspaces` · half-move (some Desktop, some Projects).
+
+**Open when:** operator schedules a quiet hygiene pass (moves break Cursor chat binding — one coordinated migrate + path pass).  
+**Where to log results:** this § + `OPERATOR_WORKFLOW.md` Log/Pickup.
+
 ---
 
 ## Explicit NOT
