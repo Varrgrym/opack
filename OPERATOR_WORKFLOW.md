@@ -121,4 +121,5 @@
 | 2026-08-25 | Close-out: park optional follow-ups | Habit — durable `@`-able note for next chat; CLOSE_CHAT + overlay + digests |
 | 2026-08-26 | Close-out: chat≠project harden | Explicit session vs product done; anti-false-done; land Must/Useful/skip; paste stays thin |
 | 2026-08-29 | Close-out this chat | Desktop layout follow-up parked §6 in `PROMPT_FAMILY_FOLLOWUPS.md` |
-| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (field test · re-install · R1/R8 · **§6 Projects/Cursor Workspaces**). Do not: Mode E · review fleets · project symlinks · fake 30k telemetry |
+| 2026-08-30 | Seat habit proof parked | §7 in `PROMPT_FAMILY_FOLLOWUPS.md` — pin model · optional Archivist/Attacker spike |
+| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (**§7 seat habit** · §1 field test · §6 Desktop layout). Phrase locks: **think hard** · **check this** in overlay. Do not: Mode E · review fleets · project symlinks |

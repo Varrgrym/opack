@@ -80,6 +80,24 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 **Open when:** operator schedules a quiet hygiene pass (moves break Cursor chat binding — one coordinated migrate + path pass).  
 **Where to log results:** this § + `OPERATOR_WORKFLOW.md` Log/Pickup.
 
+### 7. Seat habit proof (2026-08-23 seats / Auto chat)
+
+**From:** pull · seats vs Auto · Attacker 4.6 · `think hard` / `check this` chat (closed YES).
+
+**Habit (ongoing):**
+- Default **Engineer** (Auto or pin GPT-5.6 Sol).
+- **`check this`** / scary → **pin Reviewer** (Opus 5 High) on the artifact — not `Seat: Reviewer` on Auto.
+- **Label without pin = theater** (`OPERATOR_WORKFLOW.md` phrase locks).
+
+**Optional proof (one spike, not a roster expansion):**
+- Run **one** on-call seat on a **real** ask when it appears:
+  - **Archivist** — pin Gemini 3.1 Pro · named question → cite paths → compress → hand off (`SEAT_PROMPTS.md` A1).
+  - **Attacker** — pin Grok 4.6 High · falsify one load-bearing claim (`SEAT_PROMPTS.md` K1).
+- **DoD:** One line in Field-test log below or overlay Log: seat used · ask · enough / not worth repeating.
+- **If never triggered:** leave on-call idle — **not** failure; promotion rule still ~3× same gap.
+
+**NOT:** staff all five toggles · Auto as second mind · review fleets.
+
 ---
 
 ## Explicit NOT
@@ -108,3 +126,5 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Product repo missing kits | §2 Re-install |
 | Same specialist ask twice | §3 |
 | Found old Audit paste | §4 |
+| Desktop / workspace hygiene | §6 |
+| Prove seats vs Auto theater | §7 Seat habit proof |
