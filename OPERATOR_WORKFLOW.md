@@ -27,6 +27,7 @@
 - Phrase lock **“think hard”** → same seat: raise thinking budget if offered (High / Extra High / xhigh) · raise process (short plan / program-design when blast is high) · raise verify (tests, diff, DoD) · stop if the stack is already bad. Do **not** simulate a second seat in the same Auto chat.
 - Phrase lock **“check this”** (or scary / irreversible / “I might regret this”) → produce an artifact (diff, claim, tests), then **pin Reviewer** (Opus 5 High) on that artifact — or **Attacker** (Grok 4.6 High) if the ask is falsify / “this can’t be wrong.” Label without pin = theater. Not a review fleet: gated, not every prompt.
 - Phrase lock **“close out this chat”** / “can I close?” → `CLOSE_CHAT.md` (lab): goals · extract · park optional follow-ups to a durable `@`-able note · YES / NO / YES WITH LAND.
+- **Reply shape:** verdict first on status/ops · complete body (footer never excuses omission) · `TLDR:` state only · `Next steps:` action only · `(see §X)` for depth · close-out replaces footer — full rules: `optional/OPERATOR_REPLY_PROTOCOL.md` (lab: `docs/workflow-lab/OPERATOR_REPLY_PROTOCOL.md`).
 
 ## Personality
 
@@ -122,4 +123,5 @@
 | 2026-08-26 | Close-out: chat≠project harden | Explicit session vs product done; anti-false-done; land Must/Useful/skip; paste stays thin |
 | 2026-08-29 | Close-out this chat | Desktop layout follow-up parked §6 in `PROMPT_FAMILY_FOLLOWUPS.md` |
 | 2026-08-30 | Seat habit proof parked | §7 in `PROMPT_FAMILY_FOLLOWUPS.md` — pin model · optional Archivist/Attacker spike |
-| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (**§7 seat habit** · §1 field test · §6 Desktop layout). Phrase locks: **think hard** · **check this** in overlay. Do not: Mode E · review fleets · project symlinks |
+| 2026-09-01 | Operator reply protocol | Verdict-first · state TLDR · action Next steps · precedence · close-out override — `optional/OPERATOR_REPLY_PROTOCOL.md` |
+| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (**§7 seat habit** · §1 field test · §6 Desktop layout). Phrase locks: **think hard** · **check this** · **reply shape** in overlay. Do not: Mode E · review fleets · project symlinks |
