@@ -39,25 +39,23 @@ else
   fail "dry-run missing ORGANISM_PLACEMENT"
 fi
 
-# --- digest dual-edit + ~30k hot-path ---
+# --- digest dual-edit + ~30k hot-path (single always-on mdc) ---
 FOLLOW_SRC="$PACK_ROOT/cursor-rules/follow-operator-pack.mdc"
 FOLLOW_INST="$PACK_ROOT/.cursor/rules/follow-operator-pack.mdc"
-LAB_SRC="$PACK_ROOT/cursor-rules/workflow-lab.mdc"
-LAB_INST="$PACK_ROOT/.cursor/rules/workflow-lab.mdc"
 if diff -q "$FOLLOW_SRC" "$FOLLOW_INST" >/dev/null; then
   pass "follow-operator-pack cursor-rules sync"
 else
   fail "follow-operator-pack cursor-rules drift"
 fi
-if diff -q "$LAB_SRC" "$LAB_INST" >/dev/null; then
-  pass "workflow-lab cursor-rules sync"
+if grep -q '30k' "$FOLLOW_SRC"; then
+  pass "~30k hot-path in always-on digest"
 else
-  fail "workflow-lab cursor-rules drift"
+  fail "~30k missing from follow-operator-pack digest"
 fi
-if grep -q '30k' "$FOLLOW_SRC" && grep -q '30k' "$LAB_SRC"; then
-  pass "~30k hot-path in both digests"
+if [[ -e "$PACK_ROOT/cursor-rules/workflow-lab.mdc" ]]; then
+  fail "workflow-lab.mdc source should be removed (merged into follow-operator-pack)"
 else
-  fail "~30k missing from a digest source"
+  pass "workflow-lab.mdc removed from source"
 fi
 
 # --- capture profile = baseline dial ---
@@ -76,6 +74,7 @@ need "$LIVE/AGENTS.md" "baseline AGENTS"
 need "$LIVE/docs/CLOSE_CHAT.md" "baseline ships close-out"
 need "$LIVE/OPERATOR_WORKFLOW.md" "baseline OPERATOR_WORKFLOW"
 need "$LIVE/.cursor/rules/follow-operator-pack.mdc" "always-on digest"
+forbid "$LIVE/.cursor/rules/workflow-lab.mdc" "lab install does not ship second always-on mdc"
 need "$LIVE/docs/workflow-lab/ORGANISM_PLACEMENT.md" "lab ships ORGANISM_PLACEMENT"
 need "$LIVE/docs/workflow-lab/EXPLORATORY_ANALYSIS.md" "lab ships EXPLORATORY_ANALYSIS"
 need "$LIVE/docs/workflow-lab/RESEARCH_REPORT.md" "lab ships RESEARCH_REPORT"

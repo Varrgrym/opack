@@ -35,5 +35,5 @@ Explore anti-fail: not a backlog · evidence gate · skip-empty · Speculative s
 
 **Bad session:** name failure mode in `RUNTIME.md`; don’t prompt-harder on a bad stack.
 
-**Install:** `./install.sh /path --with-workflow-lab` (baseline stays thin without this flag).  
-**Profiles:** `INSTALL_PROFILES.md`. Archived kits: `archive/`.
+**Install:** `./install.sh /path --with-workflow-lab` (baseline stays thin without this flag). Kits copy to `docs/workflow-lab/` — **no second always-on `.mdc`** (lab digest merged into `follow-operator-pack.mdc` 2026-09-01).  
+**Profiles:** `INSTALL_PROFILES.md`. Archived kits: `archive/`. Opack-only overlay context: `OPACK_OPERATOR_CONTEXT.md`.

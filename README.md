@@ -12,7 +12,8 @@ No Garden Immune / constitution.
 | `.cursor/rules/follow-operator-pack.mdc` | Always-on digest |
 
 **Optional dials:** `--with-seats` · `--with-workflow-lab` · `--garden-sibling`  
-**Lab front doors** (only with `--with-workflow-lab`): `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` → kits behind them.  
+**Lab front doors** (only with `--with-workflow-lab`): `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` → kits behind them (on disk; not always-on).  
+**Opack clone:** `@optional/OPACK_OPERATOR_CONTEXT.md` for host roles, families, and opack phrase locks.  
 **Seats:** `CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md`  
 **Profiles:** `optional/INSTALL_PROFILES.md`
 

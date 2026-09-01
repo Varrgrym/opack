@@ -2,63 +2,41 @@
 
 **Status:** living · project-local (opack itself)  
 **Baseline:** Layer A `AGENTS.md`  
-**Always-on digest:** `.cursor/rules/follow-operator-pack.mdc`  
+**Always-on digest:** `.cursor/rules/follow-operator-pack.mdc` (single digest — lab merged 2026-09-01)  
+**Opack context:** `@optional/OPACK_OPERATOR_CONTEXT.md` (host roles, families, phrase locks — not always-on)  
 **Rule:** keep this file thin. Cursor proposes only after **twice** seen/corrected, or operator says **“remember that.”** Confirm before write.
 
 ---
 
 ## Standing prompts
 
-- This repo’s lab chats may focus on **prompt / context / specification / agent-loop formation** — Garden is an occasional example only.
-- **“Review this project” / fine-tooth / full review** → Mode D + `INTENT_EXPAND` coverage; do not ask which mode. Runtime stanza. No review fleets.
-- **“Organize the repo” / extract dumps** → `EXTRACT_AND_ORGANIZE.md`. Often Mode B.
-- **Video / YouTube** / “without watching it myself” → `VIDEO_EXTRACT.md` — source-first knowledge extract, not a transcript recap.
-- 5W1H on substantial work; skip ceremony on trivia.
-- Large scope: **chunk for processing, never for understanding** (`CHUNKING.md`). FIC on long sessions.
-- Runtime / failures / Auto≠seats: `RUNTIME.md`. Feature builds: `SPEC_BUILD.md`.
-- Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` (full essays in `optional/archive/`).
-- Desire **order**; meticulous notes are mandatory memory — chat is not storage.
-- **Necessary complexity only**; many moving parts → Murphy; prefer consolidate.
-- Prefer structure in **3s** where it helps (active families / WIP, standing seats, roadmap tiers) — not fake triads everywhere.
-- **Active families (note, not law):** (1) Garden · (2) Game development · (3) Updating systems (substrate / Proxmox-of-devices to host Garden). Hands primarily on one; two more in mind. Many repos OK while clearing backlog.
-- Before new surface: prefer park or merge into a family story — opack documents mess meticulously if you skip this.
-- **Host roles (differentiate behavior):** **Workhorse** = Pop / Linux (`~/Desktop/…` clones — Garden runtime, heavy plants, Proxmox-of-devices). **Satellite** = Windows / Samsung (capture + light Windows-native work; paths/shells/vision differ — do not pretend Pop behavior). On satellite: organize in **thoughts** (`C:\Users\mmedi\Projects\thoughts`) → `workhorse-queue.md`; do not fight hub/plant execution there. On workhorse: execute queued Garden work; prefer `~/Desktop/` paths; do not assume Windows paths.
-- **Multi-device pickup:** chat is not storage. After meaningful pack work → **commit + push** (clean tree on `origin`). Leave **decide-next / parked / NOT** in the overlay Log (or commit body) so another device can `git pull` and continue without re-deriving state.
-- Phrase lock **“think hard”** → same seat: raise thinking budget if offered (High / Extra High / xhigh) · raise process (short plan / program-design when blast is high) · raise verify (tests, diff, DoD) · stop if the stack is already bad. Do **not** simulate a second seat in the same Auto chat.
-- Phrase lock **“check this”** (or scary / irreversible / “I might regret this”) → produce an artifact (diff, claim, tests), then **pin Reviewer** (Opus 5 High) on that artifact — or **Attacker** (Grok 4.6 High) if the ask is falsify / “this can’t be wrong.” Label without pin = theater. Not a review fleet: gated, not every prompt.
-- Phrase lock **“close out this chat”** / “can I close?” → `CLOSE_CHAT.md` (lab): goals · extract · park optional follow-ups to a durable `@`-able note · YES / NO / YES WITH LAND.
-- **Reply shape:** verdict first on status/ops · complete body (footer never excuses omission) · `TLDR:` state only · `Next steps:` action only · `(see §X)` for depth · close-out replaces footer — full rules: `optional/OPERATOR_REPLY_PROTOCOL.md` (lab: `docs/workflow-lab/OPERATOR_REPLY_PROTOCOL.md`).
+- Lab repo: prompt / context / spec / agent-loop formation — `@optional/OPACK_OPERATOR_CONTEXT.md` for host roles, families, `think hard` / `check this`, philosophy, multi-device.
+- Organize / maintain this repo → `EXTRACT_AND_ORGANIZE.md`; keep indexes and install flags coherent.
+- Reply shape when you want scan-friendly output → `@optional/OPERATOR_REPLY_PROTOCOL.md` (not always-on).
 
 ## Personality
 
-- Radical candor; challenge complexity theater; prefer consolidation over new subsystems unless a real gap demands them.
-- Seasonal tender of related systems: clean → make space → refocus when attention clouds.
+- (See `OPACK_OPERATOR_CONTEXT.md` — kept out of overlay to reduce always-on duplication.)
 
 ## Behaviors
 
-- Prefer durable notes + remote sync over “I’ll remember from chat.” Dirty unpushed opack after a fix session is a handoff failure.
-- **Close-out habit:** optional / non-blocking next steps → write a parked follow-ups note (or Log/Pickup pointer) so the **next** chat can `@` it. Do not leave follow-ups only in the YES blurb. Example shape: `optional/PROMPT_FAMILY_FOLLOWUPS.md`. Empty = omit.
+- **Close-out habit:** park optional follow-ups to a durable `@`-able note — `optional/PROMPT_FAMILY_FOLLOWUPS.md` or Log/Pickup row.
 
 ## Repeated tasks
 
-- When landing prompt-lab doctrine: put full shapes under `optional/`; promote only short digests to always-on / user rules after explicit confirm.
-- **Organize / maintain the repo** often — keep indexes, cross-links, digests, and install flags coherent; prefer consolidation over new kits.
-- **Chat/export dumps** (“analyze and extract useful”): run `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in optional/.
-- **Session close (opack):** if the tree changed → commit with why → push → confirm `0 ahead / 0 behind`. If WIP or optional follow-ups remain, land a parked note + one Log/Pickup row: done · next · parked path.
+- **Chat/export dumps:** `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in `optional/`.
+- **Session close (opack):** commit+push if tree changed; Log pickup row if WIP remains.
 
 ## Refuses / pins (this repo)
 
 - Do not paste Garden Immune, FOCUS notebooks, organ contracts, or traveler corpora into this pack.
-- Do not silently promote Intent Expand full kit into Layer A / always-on without confirm.
+- Do not silently promote Intent Expand or reply protocol into Layer A / always-on without confirm.
 - Prefer archive over delete for superseded kits (`optional/archive/`).
-- **No project symlinks.** Real folders only — symlinks are a path quick-fix that break Cursor chat binding, confuse installs, and hide layout debt. Move/rename for real; never `ln -s` project roots unless the operator explicitly overrides.
+- **No project symlinks.** Real folders only — symlinks break Cursor chat binding and hide layout debt.
 
 ## Open experiments
 
-- Keep lab digests short; promote kits only after twice useful.
-- Opack as Garden’s local-AI rulebook later (still portable Layer A for non-Garden roots).
-- **Tissue re-bake (parked):** optional nudge in **opack root only** — not in other installs’ digests.
-- **Windows satellite path (detail):** **thoughts** at `C:\Users\mmedi\Projects\thoughts` (Windows). On Pop workhorse the same repo is `~/Desktop/thoughts`. Capture inbox (raw / sources / by-family / workhorse-queue). Not library organizer; see standing prompt Host roles.
+- See `OPACK_OPERATOR_CONTEXT.md` § Open experiments.
 
 ## Upstream candidates
 
@@ -121,7 +99,8 @@
 | 2026-08-25 | Prompt-family follow-ups parked | Field test · re-install · specialists — `optional/PROMPT_FAMILY_FOLLOWUPS.md` |
 | 2026-08-25 | Close-out: park optional follow-ups | Habit — durable `@`-able note for next chat; CLOSE_CHAT + overlay + digests |
 | 2026-08-26 | Close-out: chat≠project harden | Explicit session vs product done; anti-false-done; land Must/Useful/skip; paste stays thin |
-| 2026-08-29 | Close-out this chat | Desktop layout follow-up parked §6 in `PROMPT_FAMILY_FOLLOWUPS.md` |
+| 2026-08-29 | Close-out: this chat | Desktop layout follow-up parked §6 in `PROMPT_FAMILY_FOLLOWUPS.md` |
 | 2026-08-30 | Seat habit proof parked | §7 in `PROMPT_FAMILY_FOLLOWUPS.md` — pin model · optional Archivist/Attacker spike |
 | 2026-09-01 | Operator reply protocol | Verdict-first · state TLDR · action Next steps · precedence · close-out override — `optional/OPERATOR_REPLY_PROTOCOL.md` |
-| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (**§7 seat habit** · §1 field test · §6 Desktop layout). Phrase locks: **think hard** · **check this** · **reply shape** in overlay. Do not: Mode E · review fleets · project symlinks |
+| 2026-09-01 | Digest consolidation | Single always-on `.mdc`; opack context → `OPACK_OPERATOR_CONTEXT.md`; remove `workflow-lab.mdc` from install |
+| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (**§7 seat habit** · §1 field test · §6 Desktop layout). Opack context: `@optional/OPACK_OPERATOR_CONTEXT.md`. Do not: Mode E · review fleets · project symlinks |

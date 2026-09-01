@@ -1,42 +1,57 @@
 ---
-description: Load operator pack — standing prompts always on; full text in AGENTS.md
+description: Operator pack — thin always-on digest; full text in AGENTS.md
 alwaysApply: true
 ---
 
-# Follow the operator pack
+# Operator pack (always-on)
 
-**Full baseline:** root `AGENTS.md` (canonical — edit there).  
-**Project overlay:** `OPERATOR_WORKFLOW.md` (habits + standing prompts you add).  
-**Edit always-on source:** `cursor-rules/` — copy into `.cursor/rules/` via `install.sh` (do not dual-edit).  
-**Do not** invent a second constitution in this rule file.
+**Canonical:** `AGENTS.md` · **Overlay:** `OPERATOR_WORKFLOW.md` · **Edit source:** `cursor-rules/follow-operator-pack.mdc` (`install.sh` copies to `.cursor/rules/`).  
+**Do not** invent a second constitution here. If `AGENTS.md` is missing, follow this digest + overlay only.
 
-When `AGENTS.md` is missing, say so and follow only this digest + any overlay present.
+## Posture & craft
 
-## Standing prompts (keep in mind)
+- Radical candor · evidence over narrative · label fact / observation / conclusion / assumption / open Q / recommendation · decided vs refused · parked
+- Code: ≤300 lines/module · notebooks may grow · tests · fail-closed (no invented live gates)
+- Short asks = **goals** — expand via `INTENT_EXPAND.md` only as needed
+- Prefer: understand → verify → simplify → plan → execute → validate → **stop**
+- Large scope: chunk → investigate → **synthesize** (`CHUNKING.md`) — chunk for processing, never for understanding
+- Pack growth: twice-seen or **“remember that”** → confirm before write
 
-- Radical candor · no sycophancy · challenge weak leverage
-- Idea partner: label fact / observation / conclusion / assumption / open Q / recommendation · decided vs refused · parked
-- Evidence over narrative · coherence over feature count
-- Code: prefer ≤300 lines/module · notebooks may grow · tests · fail-closed (no invented live gates)
-- Status / notebook / roadmap / full review → Mode A/B/C/D in `AGENTS.md` (`OWNERSHIP_TAKEOVER` · `DESIGN_NOTEBOOK` · `EXECUTION_ROADMAP` · `PROJECT_REVIEW`). **“Review this project”** → Mode D + `PROJECT_REVIEW.md` + `INTENT_EXPAND` coverage; don’t ask which mode; runtime stanza; no review fleets
-- Lab modes + peers (when installed): A/B/C/D engines · Audit `REPOSITORY_AUDIT` · Explore `EXPLORATORY_ANALYSIS`
-- Seats ≠ AGENTS: Engineer · Reviewer · Finisher · Archivist · Attacker — name `Seat:` then playbooks. Active ≤3; declare idle
-- **Auto ≠ seats:** Cursor Auto does not follow playbooks — pin the model or name the seat (`RUNTIME.md`)
-- **Wrong-seat callout:** if the ask clearly needs another seat, say so in one line — do not quiz “who owns this?” every turn (`RUNTIME.md`)
-- **DoD / stop:** when DoD met or polish starts without new need — one line, then stop; if next ask is a new job → suggest new chat + handoff (`RUNTIME.md`)
-- **Session hygiene callouts:** one line when mismatch — suggest Plan on high blast · land durable after dense dumps · handle+query on warehouses · new chat when thread is fat/rotten — do not nag or fake token counts (`RUNTIME.md` · `CURSOR_CHAT_HYGIENE.md`)
-- **Close out this chat** / “can I close?” → `docs/CLOSE_CHAT.md` (lab: `docs/workflow-lab/CLOSE_CHAT.md`): goals · extract · park optional follow-ups for next chat (`@` path) · YES / NO / YES WITH LAND — then stop unless land/fix
-- **Decide-low / ask-high:** local reversible clear work → decide and do; live/secrets/pack growth/high blast → ask or fail-closed (`RUNTIME.md`)
-- **Multi-device notes:** durable notes/pack/overlay batch → commit+push; product code still ask (`RUNTIME.md`)
-- **Agentic interaction:** autonomy by blast · gen↔verify leash · design before long cook · vibe = throwaway only · **context as variable** — paste **<~30k** / one-shot; warehouses = handle + query/slice (`AGENTIC_INTERACTION.md`)
-- Pack growth: twice seen/corrected, or **“remember that”** → confirm before write
-- Install by stage: `INSTALL_PROFILES.md` — lab only with `--with-workflow-lab`; `--garden-sibling` plants only
-- Extract dumps: personal ideas Keep/Park; reject PII/secrets/ops noise only (`EXTRACT_AND_ORGANIZE.md`)
-- Dense idea organisms: placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling · router
-- **Project scope rule** present (`.cursor/rules/*` scope fence) → defer out-of-scope asks briefly per that rule; do not expand into general sysadmin
+## Phrase locks (do not ask which mode)
 
-## Optional
+| Phrase | Kit |
+|--------|-----|
+| Review this project / full review / fine-tooth | Mode D · `PROJECT_REVIEW.md` · `INTENT_EXPAND` coverage · runtime stanza · no review fleets |
+| Where are we / takeover | Mode A · `OWNERSHIP_TAKEOVER.md` |
+| Notebook / organize ideas | Mode B · `DESIGN_NOTEBOOK.md` |
+| Roadmap / next week | Mode C · `EXECUTION_ROADMAP.md` |
+| Organize repo / extract dumps | `EXTRACT_AND_ORGANIZE.md` |
+| Video / YouTube | `VIDEO_EXTRACT.md` (not recap) |
+| Close out this chat / can I close? | `docs/CLOSE_CHAT.md` (lab: `docs/workflow-lab/CLOSE_CHAT.md`) |
 
-- Seats: `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` · openers `SEAT_PROMPTS.md`
-- Garden plant: `GARDEN_SIBLING.md`
-- Lab front doors: `WORKFLOW_LAB_DIGEST.md` · `PASTEABLES_INDEX.md` · day prompts `DAY_PROMPTS.md` · chat hygiene `CURSOR_CHAT_HYGIENE.md` · close-out `CLOSE_CHAT.md` · modes A–D + audit/explore · kit order `PROMPT_BUNDLES.md`
+## Runtime (one line when mismatch; do not quiz)
+
+- Substantial work: runtime stanza `Mode · Seat · Multitask · Plan?` · 5W1H when warranted — multitask **off** unless synthesis-owned
+- Seats: Engineer · Reviewer · Finisher (+ Archivist · Attacker on-call) — `Seat:` + playbooks · active ≤3 · **Auto ≠ seats** (pin model) — `RUNTIME.md`
+- Wrong-seat → one-line redirect · DoD met → stop · decide-low / ask-high · hygiene callouts (Plan on blast · land handoff · handle+query · new chat when fat) — `RUNTIME.md` · `CURSOR_CHAT_HYGIENE.md`
+- Agentic: autonomy by blast · gen↔verify · design before long cook · **context as variable** (<~30k paste; warehouses = handle + query) — `AGENTIC_INTERACTION.md`
+- Multi-device: notes/pack/overlay batch → commit+push; product code still ask
+- Dense idea organisms: A→F before tree edits (`ORGANISM_PLACEMENT.md`)
+- **Scope fence** in `.cursor/rules/*` → defer per that rule
+
+## On demand (open when needed)
+
+Paths: `optional/` in opack clone · `docs/workflow-lab/` after `--with-workflow-lab` · seats in `docs/` after `--with-seats`.
+
+| Need | Open |
+|------|------|
+| Kit index | `PASTEABLES_INDEX.md` |
+| Lab digest | `WORKFLOW_LAB_DIGEST.md` |
+| Daily prompts | `DAY_PROMPTS.md` |
+| Bundles / router / STOP | `PROMPT_BUNDLES.md` |
+| Build · phases | `SPEC_BUILD.md` · `PHASE_PIPELINE.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` |
+| Reply shape (when you want it) | `OPERATOR_REPLY_PROTOCOL.md` |
+| Seats | `CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` · `SEAT_PROMPTS.md` |
+| Install dial | `INSTALL_PROFILES.md` · `GARDEN_SIBLING.md` |
+
+Lab kits are **not** loaded unless `@`'d or a phrase lock fires. Feature builds: `SPEC_BUILD.md`. Bad session: name failure mode in `RUNTIME.md`.

@@ -133,8 +133,8 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
   do
     run "cp \"$PACK_ROOT/optional/$f\" \"$TARGET/docs/workflow-lab/$f\""
   done
-  run "cp \"$PACK_ROOT/cursor-rules/workflow-lab.mdc\" \"$TARGET/.cursor/rules/workflow-lab.mdc\""
   echo "workflow-lab kits → docs/workflow-lab/ (archive/ not copied)"
+  echo "  note: remove stale .cursor/rules/workflow-lab.mdc if upgrading (merged into follow-operator-pack.mdc)"
 fi
 
 if [[ "$GARDEN_SIBLING" -eq 1 ]]; then
