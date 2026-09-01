@@ -10,7 +10,7 @@
 
 ## Standing prompts
 
-- Lab repo: prompt / context / spec / agent-loop formation — `@optional/OPACK_OPERATOR_CONTEXT.md` for host roles, families, `think hard` / `check this`, philosophy, multi-device.
+- Lab repo: prompt / context / spec / agent-loop formation — `@optional/OPACK_OPERATOR_CONTEXT.md` for host roles, families, `think hard` / `check this`, **machine switch**, philosophy, multi-device.
 - Organize / maintain this repo → `EXTRACT_AND_ORGANIZE.md`; keep indexes and install flags coherent.
 - Reply shape when you want scan-friendly output → `@optional/OPERATOR_REPLY_PROTOCOL.md` (not always-on).
 
@@ -26,6 +26,7 @@
 
 - **Chat/export dumps:** `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in `optional/`.
 - **Session close (opack):** commit+push if tree changed; Log pickup row if WIP remains.
+- **Machine switch:** `config/active-set.yaml` + `scripts/machine-switch.sh` — see `OPACK_OPERATOR_CONTEXT.md` § machine switch.
 
 ## Refuses / pins (this repo)
 
@@ -104,4 +105,5 @@
 | 2026-09-01 | Operator reply protocol | Verdict-first · state TLDR · action Next steps · precedence · close-out override — `optional/OPERATOR_REPLY_PROTOCOL.md` |
 | 2026-09-01 | User rules trim applied | Removed 13 duplicate global rules; added 6 tooling-only rules via cursor_dialog |
 | 2026-09-01 | Session close — prompt efficiency | Handoff parked §8 `PROMPT_FAMILY_FOLLOWUPS.md` |
-| — | **Pickup** | **Done this session.** Next chat `@optional/PROMPT_FAMILY_FOLLOWUPS.md` **§8** (verify) · §7 · §1 · §6. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. Pack at `afb140b`. |
+| 2026-09-01 | §8 digest verify | Trivial + Mode D phrase-lock smoke passed; agents less lost yes. Next: §7 seat proof · §1 field test · §6 desktop layout · satellite user-rules count (§8.2). |
+| — | **Pickup** | **§8 verify done.** Next `@optional/PROMPT_FAMILY_FOLLOWUPS.md` **§7** · **§1** · **§6** · §8.2 satellite rules. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. |

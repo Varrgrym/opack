@@ -71,6 +71,20 @@ Same seat: raise thinking budget if offered (High / Extra High / xhigh) · raise
 
 Scary / irreversible / “I might regret this” → produce an artifact (diff, claim, tests), then **pin Reviewer** (Opus 5 High) on that artifact — or **Attacker** (Grok 4.6 High) if the ask is falsify / “this can’t be wrong.” Label without pin = theater. Not a review fleet: gated, not every prompt.
 
+### “machine switch”
+
+Leaving one machine or arriving on the other → sync **active set only** (3 product repos + helpers — not every Desktop folder).
+
+1. **Review:** `scripts/machine-switch.sh` (dry-run default) or equivalent status per repo in `config/active-set.yaml`
+2. **Read:** branch · ahead/behind · dirty · last commit
+3. **Act by class:**
+   - `notes` / `capture` — ff-only pull if clean+behind (`--apply`); commit+push if ahead before leaving
+   - `product` — report only; push when you land a slice
+   - missing path on this role — skip (workhorse-only is normal)
+4. **Semantic WIP:** Pickup row in overlay Log if git state isn’t enough
+
+Copy `config/active-set.example.yaml` → `config/active-set.yaml` (gitignored) and edit paths/focus list.
+
 ### Reply shape (on request)
 
 Verdict first on status/ops · complete body (footer never excuses omission) · `TLDR:` state only · `Next steps:` action only · `(see §X)` for depth · close-out replaces footer — full rules: `OPERATOR_REPLY_PROTOCOL.md`.

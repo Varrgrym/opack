@@ -1,0 +1,56 @@
+# Active set — machine-switch manifest (example)
+#
+# Copy to one of (first match wins):
+#   $ACTIVE_SET
+#   ~/.config/opack/active-set.yaml
+#   ./config/active-set.yaml   (relative to opack root)
+#
+# Edit names/paths when focus changes. Only list repos you actively hand off
+# between machines — not every folder on Desktop.
+#
+# class:
+#   notes   — opack-like; apply may pull (ff-only) and remind push
+#   capture — thoughts-like; same as notes
+#   product — your 3 focus projects; report only unless you ask to land
+#
+# paths:
+#   pop       — Linux workhorse (expand ~)
+#   satellite — Windows capture machine; null = workhorse-only (no path check there)
+
+repos:
+  # --- helpers (almost always on the list) ---
+  - name: opack
+    class: notes
+    family: workflow-lab
+    paths:
+      pop: ~/Desktop/opack
+      satellite: C:/Users/mmedi/Projects/opack
+
+  - name: thoughts
+    class: capture
+    family: capture-inbox
+    paths:
+      pop: ~/Desktop/thoughts
+      satellite: C:/Users/mmedi/Projects/thoughts
+
+  # --- active product focus (edit to your current 3) ---
+  - name: garden-hub
+    class: product
+    family: garden
+    paths:
+      pop: ~/Desktop/Universal-Automated-Helper
+      satellite: null
+
+  - name: monster-hunter-cos
+    class: product
+    family: game-dev
+    paths:
+      pop: ~/Desktop/MonsterHunter-CreaturesofSonaria
+      satellite: null
+
+  - name: machine-config-pop
+    class: product
+    family: updating-systems
+    paths:
+      pop: ~/Desktop/machine-config-pop-rtx4070
+      satellite: null

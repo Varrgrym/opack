@@ -134,7 +134,7 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 | Date | Repo | What broke / what worked | Kit patched? |
 |------|------|--------------------------|--------------|
-| — | — | — | — |
+| 2026-09-01 | opack | §8 verify: trivial ask → no Mode D theater (install smoke OK, single digest). "Review this project" → Mode D + runtime stanza, no mode quiz (phrase lock in digest + INTENT_EXPAND + PROJECT_REVIEW). Agents less lost: **yes** — one front door, lab `@`-only, opack context out of always-on. Satellite rules count not checked (Pop workhorse). | no |
 
 ---
 
