@@ -48,6 +48,7 @@
 |------|------|
 | **Opack operator context** (host roles · families · think hard / check this · multi-device) | `OPACK_OPERATOR_CONTEXT.md` |
 | **User rules trim guide** (dedupe global rules vs pack) | `USER_RULES_TRIM_GUIDE.md` |
+| **Minimal user rules paste** (ready block for Cursor Settings) | `USER_RULES_MINIMAL_PASTE.md` |
 | **Prompt-family follow-ups** (field test · re-install · specialists) | `PROMPT_FAMILY_FOLLOWUPS.md` |
 | Runtime hygiene ideas (callouts, not quizzes) | `RUNTIME_HYGIENE_IDEAS.md` |
 | Creative operator kit · pipeline · profile · design phases | `CREATIVE_OPERATOR_KIT.md` |
