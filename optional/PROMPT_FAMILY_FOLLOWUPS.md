@@ -11,6 +11,8 @@
 
 Modes A–D · Audit · Explore · Seat openers · Research / Plan-gate / Phase pipeline · Day #1/#5 sync · anti-failure harden · install/index/smoke · pushed to `origin/master`.
 
+**2026-09-01 (prompt efficiency chat):** Single always-on digest · thin overlay · `OPACK_OPERATOR_CONTEXT.md` · user rules 13→6 on Pop · commits `ca178a6` · `1fca4d8` · `afb140b` on `origin/master`.
+
 Canonical front doors: `optional/WORKFLOW_LAB_DIGEST.md` · `optional/PASTEABLES_INDEX.md` · seats `SEAT_PROMPTS.md`.
 
 ---
@@ -98,6 +100,24 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 **NOT:** staff all five toggles · Auto as second mind · review fleets.
 
+### 8. Digest consolidation verify (2026-09-01)
+
+**From:** prompt-bloat review chat (closed YES). Landed on `origin/master`.
+
+**What changed:**
+- One always-on `.mdc` (`follow-operator-pack.mdc`); `workflow-lab.mdc` removed from install
+- Opack overlay thinned → `@optional/OPACK_OPERATOR_CONTEXT.md`
+- Global user rules on Pop: 13 duplicate rules removed, 6 tooling-only via `cursor_dialog`
+
+**Open when (optional verify, not blocking):**
+1. **New chat smoke** — trivial code ask on opack: no Mode D theater; say "review this project" → Mode D without mode quiz
+2. **Satellite** — Cursor Settings → Rules → User: confirm 6 rules synced (or re-run trim from `USER_RULES_MINIMAL_PASTE.md`)
+3. **Stale installs** — on lab-enabled product repos: delete `.cursor/rules/workflow-lab.mdc` if present; re-run `./install.sh … --with-workflow-lab` when you want kit files refreshed
+
+**DoD:** One line in Field-test log or overlay Log: "agents feel less lost" yes/no + which test failed.
+
+**NOT:** re-expand always-on digests · promote reply protocol to always-on without confirm.
+
 ---
 
 ## Explicit NOT
@@ -128,3 +148,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Found old Audit paste | §4 |
 | Desktop / workspace hygiene | §6 |
 | Prove seats vs Auto theater | §7 Seat habit proof |
+| After digest consolidation | §8 Verify (new chat · satellite rules · stale workflow-lab.mdc) |

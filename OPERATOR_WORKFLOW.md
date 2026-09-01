@@ -103,4 +103,5 @@
 | 2026-08-30 | Seat habit proof parked | §7 in `PROMPT_FAMILY_FOLLOWUPS.md` — pin model · optional Archivist/Attacker spike |
 | 2026-09-01 | Operator reply protocol | Verdict-first · state TLDR · action Next steps · precedence · close-out override — `optional/OPERATOR_REPLY_PROTOCOL.md` |
 | 2026-09-01 | User rules trim applied | Removed 13 duplicate global rules; added 6 tooling-only rules via cursor_dialog |
-| — | **Pickup** | **opack local: clear.** Next `@`: `optional/PROMPT_FAMILY_FOLLOWUPS.md` (**§7 seat habit** · §1 field test · §6 Desktop layout). Opack context: `@optional/OPACK_OPERATOR_CONTEXT.md`. Do not: Mode E · review fleets · project symlinks |
+| 2026-09-01 | Session close — prompt efficiency | Handoff parked §8 `PROMPT_FAMILY_FOLLOWUPS.md` |
+| — | **Pickup** | **Done this session.** Next chat `@optional/PROMPT_FAMILY_FOLLOWUPS.md` **§8** (verify) · §7 · §1 · §6. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. Pack at `afb140b`. |
