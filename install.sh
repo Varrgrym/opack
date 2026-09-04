@@ -120,6 +120,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     PLAN_APPROVAL.md \
     PHASE_PIPELINE.md \
     EXPANSION_LIFECYCLE.md \
+    ENGAGEMENT_SHAPES.md \
     PROMPT_BUNDLES.md \
     CHUNKING.md \
     EXTRACT_AND_ORGANIZE.md \

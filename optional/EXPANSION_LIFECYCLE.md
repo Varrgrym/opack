@@ -3,7 +3,7 @@
 **Status:** active · 2026-09-04 · workflow-lab pasteable  
 **Job:** readiness lens for new work — commitment level, fog of war, and “territory claimed” before build  
 **NOT:** five new seats · Mode E · rigid pipeline on every task · military roleplay  
-**Sibling:** build phases → `PHASE_PIPELINE.md` · falsify one claim → Attacker in `OPERATOR_WORKFLOW.md` · which kit next → `PROMPT_BUNDLES.md`  
+**Sibling:** build phases → `PHASE_PIPELINE.md` · how to fire → `ENGAGEMENT_SHAPES.md` · falsify one claim → Attacker in `OPERATOR_WORKFLOW.md` · which kit next → `PROMPT_BUNDLES.md`  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 
 ---
