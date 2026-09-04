@@ -25,7 +25,7 @@ Audit anti-fail: evidence hierarchy · execute when practical · diagnosis befor
 Roadmap anti-fail: priority gate · observable DoD · completion threshold · progress ≠ activity.  
 Explore anti-fail: not a backlog · evidence gate · skip-empty · Speculative stays Speculative.  
 **Phase gates:** Research → Plan → Code → Verify (`PHASE_PIPELINE.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md`). Research never edits; Plan never codes.  
-**Expansion lens:** Scout → Soldier → Settler → Builder → Defender (`EXPANSION_LIFECYCLE.md`) — territory claimed before build; not new seats.  
+**Expansion lens:** Scout → Soldier → Settler → Builder → Defender → Steward (`EXPANSION_LIFECYCLE.md`) — Quartermaster phase 0 · Synthesizer beat · territory gate; not new seats.  
 **Which kit next:** `PROMPT_BUNDLES.md` — stupid router · handoff · next-useful-state · twice-bitten · Path A default; not Mode E / not Prompt-OS / not routing automation yet.  
 **Model routing / per-cent:** `INTELLIGENCE_PER_CENT.md` — lists A/B/C · experiment · prompts A–E · bundle row in `PROMPT_BUNDLES.md`.  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  

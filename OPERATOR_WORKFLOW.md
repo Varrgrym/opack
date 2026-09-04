@@ -123,4 +123,5 @@
 | 2026-09-01 | §8 digest verify | Trivial + Mode D phrase-lock smoke passed; agents less lost yes. Next: §7 seat proof · §1 field test · §6 desktop layout · satellite user-rules count (§8.2). |
 | 2026-09-04 | Attacker challenge standing prompt | Reusable falsify block: right/wrong/improve/hard gates + proceed/narrow/stop close |
 | 2026-09-04 | Expansion lifecycle kit | Scout→Defender lens; Settler/territory gate; sibling to phase pipeline |
+| 2026-09-04 | Expansion lifecycle v2 | Synthesizer beat · Steward loop · Quartermaster phase 0 |
 | — | **Pickup** | **§8 verify done.** Next `@optional/PROMPT_FAMILY_FOLLOWUPS.md` **§7** · **§1** · **§6** · §8.2 satellite rules. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. |
