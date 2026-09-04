@@ -3,7 +3,7 @@
 **Status:** active · 2026-08-20 · workflow-lab pasteable  
 **Job:** thin orchestration so phases stay separated (Copilot-style gates without new seats)  
 **NOT:** Mode E · mega-prompt · review fleets · replace Mode A–D / Audit / Explore  
-**Sibling:** which *analysis* kit next (not build phases) → `PROMPT_BUNDLES.md`  
+**Sibling:** which *analysis* kit next (not build phases) → `PROMPT_BUNDLES.md` · readiness / territory gate → `EXPANSION_LIFECYCLE.md`  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 
 ---
