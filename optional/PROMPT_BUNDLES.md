@@ -384,6 +384,12 @@ Each row: **when** · **sequence** · **stop**. Open the named kit — do not in
 **Sequence:** Review → Docs↔code drift → Independence → Cold-start stranger test  
 **Stop:** handoff packet written; hidden deps named; or “not ready to separate.”
 
+### Multi-repo arc / phase routing
+
+**When:** multi-week plan spans repos · “what belongs in this chat?” · tempted to hand off the whole L5  
+**Sequence:** `DAY_PROMPTS.md` #11 (surface table · this-chat slice) → execute in-chat slice if any → `CLOSE_CHAT.md` → one-slice handoff to next workspace → `PHASE_PIPELINE` on that slice only  
+**Stop:** routing table + at most one in-chat DoD + one structured handoff; no whole-arc execution in one thread.
+
 ### Dump / video extract
 
 **When:** ChatGPT export, notes pile, YouTube  
@@ -470,3 +476,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-22 | Buzzword stack map | Prompt/context/workflow/… = layers; ops not pages; richer schema refuse |
 | 2026-09-04 | Model routing bundle | `INTELLIGENCE_PER_CENT.md` — E→B→C→D sequence · prompts A–E |
 | 2026-09-04 | Framework router | Lifecycle vs phase vs shape picker; Stage·Shape runtime; rapid fire = chain + bundle |
+| 2026-09-04 | Multi-repo arc bundle | `DAY_PROMPTS.md` #11 — surface routing vs `PHASE_PIPELINE` in-slice gates |

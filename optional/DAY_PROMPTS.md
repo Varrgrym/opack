@@ -19,7 +19,7 @@
 
 **Loop:** Understand → inspect → challenge → prioritize → verify completion.
 
-**Also reach for:** #9 Chunked investigation on large repos · meta-prompt when you want silent expansion of short asks.
+**Also reach for:** #9 Chunked investigation on large repos · #11 Phase routing on multi-repo / multi-week arcs · meta-prompt when you want silent expansion of short asks.
 
 ### Full TOC
 
@@ -36,6 +36,7 @@
 | 8 | [Who / what / why / when / where / how](#8--who--what--why--when--where--how) |
 | 9 | [Chunked investigation](#9--chunked-investigation) |
 | 10 | [Are we actually done?](#10--are-we-actually-done) |
+| 11 | [Phase routing](#11--phase-routing) |
 | — | [Meta — expand short asks](#meta--expand-short-asks-standing-paste) · [Operator tips](#operator-tips) · [Log](#log) |
 
 ---
@@ -54,6 +55,7 @@
 | #8 5W1H | `INTENT_EXPAND.md` | Compact paste (optional) |
 | #9 Chunked | `CHUNKING.md` | Compact paste |
 | #10 Done? | DoD/stop · RUNTIME · session close | DONE / NOT DONE rubric for *product* work |
+| #11 Phase routing | `PHASE_PIPELINE.md` (in-slice gates) · `RUNTIME.md` handoff · `PROMPT_BUNDLES.md` structured handoff | *Where* each phase runs — repo · chat · life — not the full arc in one thread |
 | Close chat | `CLOSE_CHAT.md` (phrase lock) | Chat-session gate (chat≠project): YES/NO/YES WITH LAND + extract |
 | Meta | INTENT_EXPAND depth dial | Silent expand + simple answer |
 
@@ -485,6 +487,65 @@ Do not expand the scope merely because improvements are possible.
 
 ---
 
+## 11 — Phase routing
+
+**Full engines:** `PHASE_PIPELINE.md` (Research → Plan → Code → Verify *inside one slice*) · `RUNTIME.md` § handoff · `PROMPT_BUNDLES.md` § Structured handoff. Use this paste when a **multi-phase arc** spans repos, workspaces, or non-Cursor work — and you need *where* each phase runs, not a whole-plan dump.
+
+**Phrase lock (short):** `Phase routing — this chat only. No whole-arc handoff.`
+
+```text
+Phase routing.
+
+I have a multi-phase plan (possibly multi-repo, multi-week). Do NOT execute the whole arc in this thread. Do NOT hand off the entire plan as one L5 packet.
+
+Your job: route phases to the right execution surface — then tell me what to do NOW in THIS chat only.
+
+Rules:
+- One handoff = one JOB · one REPO (or one workspace) · one DONE. Multi-week arcs get sliced, not monolith handoffs.
+- Wrong surface = wrong seat: don't mix hub fix + other-repo build + overnight automation in one fat thread.
+- Some phases are not Cursor work (habit, field test, daily use). Mark them "Neither — no chat executes this."
+- Do not invent phases or expand scope. Distinguish blocking gaps from polish.
+- Do not code unless I pick an in-chat slice and say go.
+
+Step 1 — Inventory (brief)
+Restate the arc as numbered phases (or accept mine). For each phase note: goal · repo/surface · dependency.
+
+Step 2 — Routing table (required)
+| Phase | Where (repo / workspace / life) | This chat? (Yes / Hand off / Neither) | Why |
+
+Step 3 — This chat only
+- Smallest in-scope slice I can finish here (if any)
+- Observable DoD for that slice
+- What explicitly does NOT belong here
+
+Step 4 — Next handoff (if any — ONE slice only)
+Three bullets (`RUNTIME.md`):
+  Intent: …
+  Facts so far: …
+  Open risk / ask: …
+Plus structured handoff (`PROMPT_BUNDLES.md`):
+  FINDINGS: (≤5 bullets)
+  RECOMMENDED NEXT OPERATION: (one phase · one repo)
+  STOP CONDITION: …
+  RELEVANT PATHS: (@-able handles only — no warehouse paste)
+
+Step 5 — Decision tree
+- "Next hour" → …
+- "Start building properly" → …
+- "Done for today" → …
+
+Step 6 — Verdict
+Pick one primary path and end with exactly two phrase locks I can say:
+- "<verb> <slice>" → stay and execute in this chat
+- "write the <next phase> handoff" → close clean and open fresh
+
+If nothing belongs in this chat, say so and give the handoff only.
+```
+
+**Compose:** Phase routing → pick slice → (if build) `PHASE_PIPELINE.md` → close with `CLOSE_CHAT.md`.
+
+---
+
 ## Meta — expand short asks (standing paste)
 
 Closest to “make my simple request smarter” without always-on ceremony:
@@ -539,6 +600,7 @@ When appropriate, finish with:
 - “Review this project” still → Mode D / `PROJECT_REVIEW.md` (don’t ask which mode); #1 is the lighter cousin.  
 - Status / takeover → `OWNERSHIP_TAKEOVER.md` (Mode A). Notebook / organize ideas → `DESIGN_NOTEBOOK.md` (Mode B).  
 - Defect-heavy systems pass → `REPOSITORY_AUDIT.md`. Week plan → `EXECUTION_ROADMAP.md`. Possibility space → `EXPLORATORY_ANALYSIS.md`.  
+- Multi-repo / multi-week arc → #11 before executing or handing off the whole plan.  
 - Do not paste the whole kit into `follow-operator-pack.mdc` — keep digest thin; open this file when needed.
 
 ---
@@ -551,3 +613,4 @@ When appropriate, finish with:
 | 2026-08-12 | Full TOC added (no file split — single paste kit stays installable as one dial file) |
 | 2026-08-20 | Cross-link review/audit/plan/explore engines | Quartet landed as peer pasteables |
 | 2026-08-20 | #1 / #5 refreshed | Sync light cousins to hardened Review / Roadmap engines |
+| 2026-09-04 | #11 Phase routing | Multi-repo arc → surface table · one-slice handoff · phrase locks; not `PHASE_PIPELINE` |
