@@ -1,7 +1,7 @@
 # Workflow lab digest (short)
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
-**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `CURSOR_CHAT_HYGIENE.md` · `CLOSE_CHAT.md` · `DAY_PROMPTS.md` · `SPEC_BUILD.md` · `MODE_D.md` · `OWNERSHIP_TAKEOVER.md` · `DESIGN_NOTEBOOK.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` · `PHASE_PIPELINE.md` · `PROMPT_BUNDLES.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
+**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `CURSOR_CHAT_HYGIENE.md` · `CLOSE_CHAT.md` · `DAY_PROMPTS.md` · `INTELLIGENCE_PER_CENT.md` · `SPEC_BUILD.md` · `MODE_D.md` · `OWNERSHIP_TAKEOVER.md` · `DESIGN_NOTEBOOK.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` · `PHASE_PIPELINE.md` · `PROMPT_BUNDLES.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
 **Paths:** in opack → `optional/`; after `--with-workflow-lab` → `docs/workflow-lab/`. `../templates/` and `archive/` resolve only in the **opack** clone.  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
@@ -26,6 +26,7 @@ Roadmap anti-fail: priority gate · observable DoD · completion threshold · pr
 Explore anti-fail: not a backlog · evidence gate · skip-empty · Speculative stays Speculative.  
 **Phase gates:** Research → Plan → Code → Verify (`PHASE_PIPELINE.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md`). Research never edits; Plan never codes.  
 **Which kit next:** `PROMPT_BUNDLES.md` — stupid router · handoff · next-useful-state · twice-bitten · Path A default; not Mode E / not Prompt-OS / not routing automation yet.  
+**Model routing / per-cent:** `INTELLIGENCE_PER_CENT.md` — lists A/B/C · experiment · prompts A–E · bundle row in `PROMPT_BUNDLES.md`.  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  
 **Dense idea organism:** placement interview A→F before tree edits (`ORGANISM_PLACEMENT.md`) — parent · ≤4 cores · coupling map · source router.
 

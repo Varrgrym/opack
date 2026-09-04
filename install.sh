@@ -128,6 +128,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     CLOSE_CHAT.md \
     OPERATOR_REPLY_PROTOCOL.md \
     DAY_PROMPTS.md \
+    INTELLIGENCE_PER_CENT.md \
     ORGANISM_PLACEMENT.md \
     INSTALL_PROFILES.md
   do

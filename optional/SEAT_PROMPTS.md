@@ -253,6 +253,7 @@ Do not become a permanent blocker. Subject: <claim or change>
 
 | Need | Seat opener | Mode / kit |
 |------|-------------|------------|
+| Model routing / per-cent | A–E in `INTELLIGENCE_PER_CENT.md` | Attacker D before pin changes |
 | Build a slice | E1 / E4 | `SPEC_BUILD` · after `PLAN_APPROVAL` |
 | Week plan | E3 then Engineer+C | `EXECUTION_ROADMAP` · or `PLAN_APPROVAL` |
 | Full review | R1 | `PROJECT_REVIEW` |

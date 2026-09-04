@@ -333,6 +333,13 @@ Each row: **when** · **sequence** · **stop**. Open the named kit — do not in
 **Sequence:** `EXTRACT_AND_ORGANIZE` or `VIDEO_EXTRACT` → Mode B land Keep → **STOP**  
 **Stop:** net-new landed or “already covered.”
 
+### Model routing / intelligence per cent
+
+**When:** credit squeeze · monthly tissue review · before pin change · “which model for this seat?”  
+**Sequence:** **E** Usage audit (if squeezing) → **B** List refresh → **C** Experiment (if fixtures exist) → **D** Attacker (if changing pins) → pin decision or **STOP**  
+**Stop:** gates G1–G3 met + scorecard recorded + explicit pin change **or** “no change this cycle.”  
+**Kit:** `INTELLIGENCE_PER_CENT.md` (prompts A–E). **NOT** a substitute for Mode D or seat playbooks.
+
 ---
 
 ## Paste — stupid router
@@ -404,3 +411,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-22 | Orchestration paste | Five layers = already have; formal state/auto-orchestrator parked; cheapest-next in router |
 | 2026-08-22 | Maturity ladder L0–L10 | Align names; L7–10 parked; Phase 1–4 start plan = already done / Path A |
 | 2026-08-22 | Buzzword stack map | Prompt/context/workflow/… = layers; ops not pages; richer schema refuse |
+| 2026-09-04 | Model routing bundle | `INTELLIGENCE_PER_CENT.md` — E→B→C→D sequence · prompts A–E |
