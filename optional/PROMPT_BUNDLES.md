@@ -5,7 +5,7 @@
 **NOT:** Mode E · mega-prompt · review fleets · duplicate engine bodies · auto-run every short ask · **premature automation of routing** · Prompt-OS for its own sake  
 **Evidence:** thoughts `sources/2026-08-21-prompt-formation-chatgpt.md` · operator doctrine 2026-08-21  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`  
-**Companions:** `PHASE_PIPELINE.md` (build gates) · `PASTEABLES_INDEX.md` · `DAY_PROMPTS.md` · `INTENT_EXPAND.md`
+**Companions:** `PHASE_PIPELINE.md` (build gates) · `EXPANSION_LIFECYCLE.md` (readiness) · `ENGAGEMENT_SHAPES.md` (I/O topology) · `PASTEABLES_INDEX.md` · `DAY_PROMPTS.md` · `INTENT_EXPAND.md`
 
 ---
 
@@ -282,8 +282,57 @@ Optional later bundles (twice-bitten only): Postmortem · Explore-new-direction 
 | Where are we (takeover) | `OWNERSHIP_TAKEOVER.md` (Mode A) |
 | Organize by concept | `DESIGN_NOTEBOOK.md` (Mode B) |
 | Research → Plan → Code → Verify | `PHASE_PIPELINE.md` |
+| Fog · claim · expansion loop | `EXPANSION_LIFECYCLE.md` |
+| Scatter · sniper · chain per stage | `ENGAGEMENT_SHAPES.md` |
+| Runtime stanza (Stage · Shape) | `RUNTIME.md` §1 |
 | Daily light cousins | `DAY_PROMPTS.md` |
 | Short ask → rigor | `INTENT_EXPAND.md` |
+
+---
+
+## Framework router (lifecycle · phase · shape)
+
+**Almost stupid:** one lead framework per chat turn — do not stack all three unless synthesizing.
+
+| Operator question | Lead with | Not |
+|-------------------|-----------|-----|
+| Can we act? / fog? / territory claimed? | `EXPANSION_LIFECYCLE.md` | Jumping to Code |
+| What edits are allowed now? | `PHASE_PIPELINE.md` | Scatter during Builder |
+| How should this message fire? | `ENGAGEMENT_SHAPES.md` | Shape without Stage |
+| Which kits in order? | This file (bundle row) + STOP | Inventing a new sequence |
+
+**Combined runtime stanza** (`RUNTIME.md` §1):
+
+```text
+Mode=… · Stage=… · Shape=… · Seat=… · Multitask=off · Plan=…
+```
+
+| Field | Source |
+|-------|--------|
+| `Stage` | Quartermaster · Scout · Synthesizer · Soldier · Settler · Builder · Defender · Steward |
+| `Shape` | scatter · funnel · sniper · chain · held fire · … (core five first) |
+
+Omit `Stage` / `Shape` on trivial work (typo · known one-file fix).
+
+**Phase pipeline ⊂ expansion lifecycle** (build path):
+
+```text
+Quartermaster → Scout (+Synthesizer?) → Soldier? → Settler(Plan) → Builder(Code) → Defender(Verify) → Steward
+```
+
+**Rapid fire** = engagement shape **chain** implemented as a **named bundle** below — always name **cease-fire** (STOP · funnel · APPROVE · DoD).
+
+### Paste — framework router
+
+```text
+Framework router — optional/PROMPT_BUNDLES.md
+
+Intent: <one line>
+Lead framework: Expansion | Phase | Shape | Bundle
+If Bundle: <name from Bundles section>
+Runtime: Mode=… · Stage=… · Shape=… · Seat=… · Multitask=off · Plan=…
+Cease-fire: <when this stops>
+```
 
 ---
 
@@ -308,6 +357,14 @@ Each row: **when** · **sequence** · **stop**. Open the named kit — do not in
 **When:** scary / cross-cutting edit already decided  
 **Sequence:** Review (impact) → Plan → human APPROVE → Code → Verify  
 **Stop:** DoD proven; no scope widen. Use `PHASE_PIPELINE`.
+
+### Rapid fire (engagement shape → bundle)
+
+**When:** convergent chain — related steps back-to-back, not wide scatter  
+**Shape:** `chain` (`ENGAGEMENT_SHAPES.md`)  
+**Sequence:** pick a named bundle above (e.g. Major change) or declare custom ≤5 steps · **funnel** after Scout if chunky  
+**Cease-fire:** STOP · APPROVE · DoD · or `Synthesize` before Soldier — **name it before step 1**  
+**Stop:** one claim or one landed slice; no scope widen
 
 ### Cleanup / coherence
 
@@ -412,3 +469,4 @@ Handoff — optional/PROMPT_BUNDLES.md § Structured handoff
 | 2026-08-22 | Maturity ladder L0–L10 | Align names; L7–10 parked; Phase 1–4 start plan = already done / Path A |
 | 2026-08-22 | Buzzword stack map | Prompt/context/workflow/… = layers; ops not pages; richer schema refuse |
 | 2026-09-04 | Model routing bundle | `INTELLIGENCE_PER_CENT.md` — E→B→C→D sequence · prompts A–E |
+| 2026-09-04 | Framework router | Lifecycle vs phase vs shape picker; Stage·Shape runtime; rapid fire = chain + bundle |

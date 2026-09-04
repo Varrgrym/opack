@@ -3,7 +3,7 @@
 **Status:** active · 2026-08-20 · workflow-lab pasteable  
 **Job:** thin orchestration so phases stay separated (Copilot-style gates without new seats)  
 **NOT:** Mode E · mega-prompt · review fleets · replace Mode A–D / Audit / Explore  
-**Sibling:** which *analysis* kit next (not build phases) → `PROMPT_BUNDLES.md` · readiness / territory gate → `EXPANSION_LIFECYCLE.md`  
+**Sibling:** which *analysis* kit next (not build phases) → `PROMPT_BUNDLES.md` · readiness / territory gate → `EXPANSION_LIFECYCLE.md` · how to fire → `ENGAGEMENT_SHAPES.md`  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 
 ---
@@ -30,6 +30,22 @@ VERIFY (tests / smoke / Reviewer if scary)
 | Verify | Prove / falsify | New features | Engineer / Reviewer | E2 · day #2 · R1 if scary |
 
 **Skip phases when appropriate:** typo fix → Code+Verify. Unfamiliar repo / high blast → full pipeline. Possibility space → `EXPLORATORY_ANALYSIS.md` *before* Plan (not instead of Research when the question is “what exists”).
+
+### Phase pipeline ⊂ expansion lifecycle
+
+Build phases are the **Code-path spine**. Expansion lifecycle wraps them with fog, falsify, claim, and day-2 loop:
+
+| Phase pipeline | Expansion lifecycle | Notes |
+|----------------|---------------------|-------|
+| (before Research) | **Quartermaster** | install · host · tooling |
+| Research | **Scout** (+ **Synthesizer** if chunky) | read-only map |
+| (between Research and Plan) | **Soldier** | falsify before Settler on non-trivial work |
+| Plan | **Settler** | APPROVE · territory claimed |
+| Code | **Builder** | approved slice only |
+| Verify | **Defender** | pre-mortem or post-ship |
+| (after Verify / between expansions) | **Steward** | hygiene · drift · not new features |
+
+**Engagement shape** (`ENGAGEMENT_SHAPES.md`) names *how* each stage fires (scatter · sniper · chain). **Framework router:** `PROMPT_BUNDLES.md` § Framework router.
 
 ---
 
@@ -105,3 +121,4 @@ Phase: Verify — Seat: Engineer (or Reviewer) — E2 / day #2 — reading ≠ w
 |------|--------|-----|
 | 2026-08-20 | Initial | Steal Copilot Research→Plan→Code gates; keep opack seats/modes |
 | 2026-08-21 | Sibling link | `PROMPT_BUNDLES` — analysis sequences vs build phases |
+| 2026-09-04 | Phase ⊂ lifecycle map | Quartermaster/Soldier/Steward around Research–Verify; link engagement shapes |

@@ -1,4 +1,4 @@
-# Expansion lifecycle — Scout → Soldier → Settler → Builder → Defender
+# Expansion lifecycle — Quartermaster → Scout → … → Steward
 
 **Status:** active · 2026-09-04 · workflow-lab pasteable  
 **Job:** readiness lens for new work — commitment level, fog of war, and “territory claimed” before build  
@@ -282,6 +282,8 @@ Use as **readiness checklist**, not a mandatory five-step ceremony.
 | Cross-repo / sibling boundary | Envoy · `GARDEN_SIBLING.md` · gh · handoff (when territory touches another repo) |
 | What next after steward | `EXECUTION_ROADMAP.md` |
 | Dense idea map before tree edits | `ORGANISM_PLACEMENT.md` (parallel to Scout) |
+| Which framework leads? | `PROMPT_BUNDLES.md` § Framework router |
+| How this message fires | `ENGAGEMENT_SHAPES.md` |
 
 ---
 
@@ -291,3 +293,4 @@ Use as **readiness checklist**, not a mandatory five-step ceremony.
 |------|--------|-----|
 | 2026-09-04 | Initial | Steal RTS expansion shape; name Settler/territory gate; sibling to phase pipeline |
 | 2026-09-04 | Synthesizer · Steward · Quartermaster | Beats and loop tail; Finisher/Envoy cross-refs; no new seats |
+| 2026-09-04 | Title + router cross-link | Full lifecycle name; PROMPT_BUNDLES framework router |

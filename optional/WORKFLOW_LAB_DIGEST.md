@@ -12,7 +12,7 @@
 
 **Automatic 5W1H** on substantial work. Certainty: Known → Inferred → Unknown → Recommended.
 
-**Runtime stanza:** `Mode · Seat · Multitask · Plan?` — multitask **off** unless synthesis-owned. **No review fleets.**  
+**Runtime stanza:** `Mode · Stage · Shape · Seat · Multitask · Plan?` — Stage=`EXPANSION_LIFECYCLE` · Shape=`ENGAGEMENT_SHAPES` · omit Stage/Shape when trivial (`RUNTIME.md` §1). Multitask **off** unless synthesis-owned. **No review fleets.**  
 **Auto vs seats:** Cursor Auto does **not** pick seats from playbooks — name `Seat:` / pin the model (`RUNTIME.md`). Seat openers: `SEAT_PROMPTS.md` (with `--with-seats`).  
 **Wrong-seat:** one-line redirect on mismatch — no per-turn seat quiz (`RUNTIME.md` · ideas: `RUNTIME_HYGIENE_IDEAS.md`).  
 **Handoff / DoD-stop / decide-low / session hygiene callouts:** `RUNTIME.md` § Gates & handoff — one-line Plan/land/warehouse/new-chat reminders (not quizzes; no fake token meters).  
@@ -27,6 +27,7 @@ Explore anti-fail: not a backlog · evidence gate · skip-empty · Speculative s
 **Phase gates:** Research → Plan → Code → Verify (`PHASE_PIPELINE.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md`). Research never edits; Plan never codes.  
 **Expansion lens:** Scout → Soldier → Settler → Builder → Defender → Steward (`EXPANSION_LIFECYCLE.md`) — Quartermaster phase 0 · Synthesizer beat · territory gate; not new seats.  
 **Engagement shapes:** scatter · sniper · chain · funnel (`ENGAGEMENT_SHAPES.md`) — *how* to fire per stage; Scout names the target.  
+**Framework router:** which kit leads — `PROMPT_BUNDLES.md` § Framework router.  
 **Which kit next:** `PROMPT_BUNDLES.md` — stupid router · handoff · next-useful-state · twice-bitten · Path A default; not Mode E / not Prompt-OS / not routing automation yet.  
 **Model routing / per-cent:** `INTELLIGENCE_PER_CENT.md` — lists A/B/C · experiment · prompts A–E · bundle row in `PROMPT_BUNDLES.md`.  
 **Extract:** personal Keep/Park; raw dumps off-repo (`EXTRACT_AND_ORGANIZE.md`). Capture satellite → `../templates/overlay-capture-inbox.md`.  

@@ -41,6 +41,14 @@ Engagement:     —           scatter/sweep     funnel      sniper
 
 **Pin:** Scatter **widens** the map. Chain **walks** a path. Sniper **hits** one coordinate.
 
+### Core five (memorize) vs advanced
+
+| Core (default) | Advanced (when named) |
+|----------------|----------------------|
+| scatter · funnel · sniper · chain (rapid fire) · held fire | burst · sweep · spiral · beam · fork · relay · echo · tracer · dry fire · suppress |
+
+**Late Scout sniper:** one **known** artifact (named file · cited section) in a **familiar** repo — verify one fact, not greenfield precision. **Early Scout sniper** on unknown territory = false precision (avoid).
+
 ---
 
 ## Extended shapes (same design space)
@@ -185,6 +193,26 @@ Shape: <name> — lifecycle stage: <stage> — target: <artifact>.
 | Cross-chat continue | Relay · `CLOSE_CHAT.md` |
 | Same artifact, other lens | Echo · `think hard` / `check this` |
 | Large repo context | Warehouse + sniper/beam · `AGENTIC_INTERACTION.md` |
+| Which framework leads? | Router · `PROMPT_BUNDLES.md` § Framework router |
+
+---
+
+## Framework router (short)
+
+Full picker lives in `PROMPT_BUNDLES.md`. Quick rule:
+
+| Your question | Lead framework |
+|---------------|----------------|
+| Can we act yet? / fog? / territory? | `EXPANSION_LIFECYCLE.md` |
+| What phase is allowed? (edit gates) | `PHASE_PIPELINE.md` |
+| How should this message fire? | `ENGAGEMENT_SHAPES.md` (this file) |
+| Which sequence of kits? | `PROMPT_BUNDLES.md` |
+
+```text
+Mode=… · Stage=… · Shape=… · Seat=… · Multitask=off · Plan=…
+```
+
+`Stage` = expansion lifecycle · `Shape` = engagement topology · omit Stage/Shape when trivial (typo fix → Engineer only).
 
 ---
 
@@ -193,3 +221,4 @@ Shape: <name> — lifecycle stage: <stage> — target: <artifact>.
 | Date | Change | Why |
 |------|--------|-----|
 | 2026-09-04 | Initial | Scatter/sniper/chain + extended shapes; Scout owns target; sibling to expansion lifecycle |
+| 2026-09-04 | Router + core five | Framework picker; late vs early Scout sniper; link PROMPT_BUNDLES |

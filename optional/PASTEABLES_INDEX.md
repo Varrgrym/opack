@@ -30,7 +30,7 @@
 | **Research report** (deep cite · no edits · artifact) | `RESEARCH_REPORT.md` |
 | **Plan approval gate** (plan only → APPROVE/NARROW/REJECT) | `PLAN_APPROVAL.md` |
 | **Phase pipeline** (Research → Plan → Code → Verify) | `PHASE_PIPELINE.md` |
-| **Expansion lifecycle** (Scout → Soldier → Settler → Builder → Defender · territory gate) | `EXPANSION_LIFECYCLE.md` |
+| **Expansion lifecycle** (Quartermaster → Scout → … → Steward · territory gate) | `EXPANSION_LIFECYCLE.md` |
 | **Engagement shapes** (scatter · sniper · chain · funnel — how to fire per stage) | `ENGAGEMENT_SHAPES.md` |
 | **Prompt bundles** (which kit next · named sequences · STOP) | `PROMPT_BUNDLES.md` |
 | **Intelligence per cent** (model routing · lists A/B/C · experiment · prompts A–E) | `INTELLIGENCE_PER_CENT.md` |

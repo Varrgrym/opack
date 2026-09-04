@@ -24,8 +24,21 @@ Formation: `INTENT_EXPAND.md`. Seats: `CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLA
 One visible line, then proceed:
 
 ```text
-Mode=… · Seat=… · Multitask=off|on(+owner) · Plan=yes|no
+Mode=… · Stage=… · Shape=… · Seat=… · Multitask=off|on(+owner) · Plan=yes|no
 ```
+
+| Field | When | Kit |
+|-------|------|-----|
+| `Mode` | Always on substantial work | §2 below |
+| `Stage` | Fog · claim · expansion work | `EXPANSION_LIFECYCLE.md` — omit when trivial |
+| `Shape` | Wide vs narrow vs chain this turn | `ENGAGEMENT_SHAPES.md` — omit when trivial |
+| `Seat` | Pin model / playbook | §3 below |
+| `Multitask` | Default **off** | synthesis owner if on |
+| `Plan` | High blast before edits | yes \| no |
+
+**Examples:** typo fix → `Mode=Agent · Seat=Engineer · Multitask=off · Plan=no` (no Stage/Shape). Unfamiliar fork → `Mode=Plan · Stage=Scout · Shape=scatter · Seat=Archivist · Multitask=off · Plan=yes`.
+
+**Framework router:** `PROMPT_BUNDLES.md` § Framework router.
 
 Multitask **off** unless independent work has a **named synthesis owner**. **No review fleets.**
 
@@ -141,6 +154,6 @@ Classic names: README theater · premature build · sycophantic agreement · sco
 understand → verify → simplify → plan → execute → validate → **stop**.  
 Goal = best justified outcome with least unnecessary complexity. **Do nothing** when that is correct.
 
-For unfamiliar / high-blast work, prefer gated phases: Research → Plan (approve) → Code → Verify (`PHASE_PIPELINE.md`). Research never edits; Plan never codes.
+For unfamiliar / high-blast work, prefer gated phases: Research → Plan (approve) → Code → Verify (`PHASE_PIPELINE.md`). Research never edits; Plan never codes. Expansion readiness lens: `EXPANSION_LIFECYCLE.md`. Name `Stage` · `Shape` in runtime stanza when non-trivial.
 
 **Agentic interaction:** partial autonomy (slider by blast) · generate↔verify on a leash · program design / vertical slice before long cook · vibe only for throwaway · **context as variable** (paste <~30k one-shots; warehouses = handle + query/slice) · human owns understanding. Full kit: `AGENTIC_INTERACTION.md`.
