@@ -42,6 +42,7 @@
 ## Repeated tasks
 
 - **Machine repo audit** (“are my clones current?” / cleanup planning): opack-shaped — run from opack workspace or document results here; sensitive local-only repos (e.g. financial-coordinator) are **verify-only, never bulk-delete**.
+- **Satellite repo tiers** (product / assistants / utilities per machine): document in that host’s `machine-config-*` repo (e.g. `docs/SATELLITE-REPOS.md`) — not in opack; link from thoughts pins when needed.
 - **Chat/export dumps:** `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in `optional/`.
 - **Session close (opack):** commit+push if tree changed; Log pickup row if WIP remains.
 - **Machine switch:** `config/active-set.yaml` + `scripts/machine-switch.sh` — see `OPACK_OPERATOR_CONTEXT.md` § machine switch.
