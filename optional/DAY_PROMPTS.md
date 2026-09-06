@@ -56,7 +56,7 @@
 | #9 Chunked | `CHUNKING.md` | Compact paste |
 | #10 Done? | DoD/stop · RUNTIME · session close | DONE / NOT DONE rubric for *product* work |
 | #11 Phase routing | `PHASE_PIPELINE.md` (in-slice gates) · `RUNTIME.md` handoff · `PROMPT_BUNDLES.md` structured handoff | *Where* each phase runs — repo · chat · life — not the full arc in one thread |
-| Close chat | `CLOSE_CHAT.md` (phrase lock) | Chat-session gate (chat≠project): YES/NO/YES WITH LAND + extract |
+| Close chat | `CLOSE_CHAT.md` (phrase lock) | Read phase · **go** / **fix** · verify |
 | Meta | INTENT_EXPAND depth dial | Silent expand + simple answer |
 
 ---

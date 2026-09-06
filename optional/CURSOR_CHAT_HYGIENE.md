@@ -90,8 +90,7 @@ Do **not** invent “we hit exactly 30k tokens.” ~30k = paste threshold; chat 
 
 Say **“close out this chat”** (or “can I close this?” / “session close”).
 
-Agent runs `CLOSE_CHAT.md`: chat≠project · goals check → extract keepers → park **optional follow-ups** in a durable `@`-able note when any exist → **YES** / **NO** / **YES WITH LAND**. Product “are we done?” stays day #10.  
-Does not start new work unless you say land/fix. Deeper product “are we done?” → day #10.  
+Agent runs `CLOSE_CHAT.md` read → honest goal/workaround state → **go** lands it and close. Product NOT DONE OK. No day #10 auto; no exit backlog. **fix** only if blocking today.
 Next chat: `@` the follow-ups file (or overlay Pickup) — do not rely on closed-thread memory.
 
 ---

@@ -2,7 +2,7 @@
 
 **Status:** parked · 2026-08-25  
 **From:** Exploration → quartet → seats → phase-pipeline chat (closed YES)  
-**Habit:** on close-out, land optional follow-ups like this so a **new** chat can `@` the path (`CLOSE_CHAT.md` § Optional follow-ups).  
+**Habit:** opack pinned close land target — on **go**, append Must-land + follow-ups here (`CLOSE_CHAT.md`). New chat `@` this path.  
 **Not a backlog to grind** — open only when pain shows or you choose a field test.
 
 ---
@@ -42,7 +42,7 @@ On machines/repos that should receive kits:
 ./install.sh /path/to/project --with-seats
 ```
 
-Windows satellite had **no** `docs/workflow-lab/` installs when checked (2026-08-20). Pop / product trees may still be stale until re-run.
+**Pop Desktop (2026-09-02):** reinstalled from current opack into 11 targets (baseline / seats / seats+garden / seats+lab as each already had). Verified match on `AGENTS.md` · `follow-operator-pack.mdc` · `CLOSE_CHAT.md`; removed stale `workflow-lab.mdc` on UAH + MHCOS. Windows satellite still unchecked from Pop — re-run there when on that machine.
 
 ### 3. Specialist openers (twice-bitten only)
 
@@ -112,11 +112,23 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 **Open when (optional verify, not blocking):**
 1. **New chat smoke** — trivial code ask on opack: no Mode D theater; say "review this project" → Mode D without mode quiz
 2. **Satellite** — Cursor Settings → Rules → User: confirm 6 rules synced (or re-run trim from `USER_RULES_MINIMAL_PASTE.md`)
-3. **Stale installs** — on lab-enabled product repos: delete `.cursor/rules/workflow-lab.mdc` if present; re-run `./install.sh … --with-workflow-lab` when you want kit files refreshed
+3. **Stale installs** — Pop lab repos refreshed 2026-09-02 (see §2). Satellite / new clones: delete `.cursor/rules/workflow-lab.mdc` if present; re-run `./install.sh …` with prior dials.
 
 **DoD:** One line in Field-test log or overlay Log: "agents feel less lost" yes/no + which test failed.
 
 **NOT:** re-expand always-on digests · promote reply protocol to always-on without confirm.
+
+---
+
+## Session close · 2026-09-06
+
+**From:** opack currency check → make installs current (Sep 2 work) · close-out this thread.  
+**Intended goal:** Know if local installs matched opack; make Desktop installs current.  
+**Outcome:** done (this chat)  
+**Gap:** Windows satellite not refreshed from Pop; no personal `~/.config/opack/active-set.yaml` (still example). Product pack commits were ask-high — several product trees may still be dirty for *other* work.  
+**Leftover state:** none from install (no overrides/flags).  
+**Follow-ups (next chat):** satellite reinstall when on Windows · optional personal active-set · commit product pack diffs only when landing a slice.  
+**NOT pursuing now:** day #10 · invent backlog from product dirtiness.
 
 ---
 

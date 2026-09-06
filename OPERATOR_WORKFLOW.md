@@ -16,6 +16,7 @@
 - Expansion readiness (scout → soldier → settler → builder → defender) → `@optional/EXPANSION_LIFECYCLE.md`; short gate: **Territory claimed?**
 - Engagement shape (scatter · sniper · chain · funnel — how to fire per stage) → `@optional/ENGAGEMENT_SHAPES.md`; Scout names the target.
 - Runtime stanza with Stage + Shape → `Mode · Stage · Shape · Seat · Multitask · Plan?` — `@optional/RUNTIME.md` §1; router → `@optional/PROMPT_BUNDLES.md` § Framework router.
+- **Close-out:** read → honest state (goal met or workaround?) → **go** lands it and close · **fix** only if blocking *today* · day #10 is a separate ask.
 - **Attacker challenge** (pin Attacker / Grok 4.6 High; open with `Seat: Attacker`; Soldier stage):
 
   ```text
@@ -37,14 +38,14 @@
 
 ## Behaviors
 
-- **Close-out habit:** park optional follow-ups to a durable `@`-able note — `optional/PROMPT_FAMILY_FOLLOWUPS.md` or Log/Pickup row.
+- **Close-out habit:** product NOT DONE is OK — land honest state on **go** · park pursue-later · don’t backlog at exit.
 
 ## Repeated tasks
 
 - **Machine repo audit** (“are my clones current?” / cleanup planning): opack-shaped — run from opack workspace or document results here; sensitive local-only repos (e.g. financial-coordinator) are **verify-only, never bulk-delete**.
 - **Satellite repo tiers** (product / assistants / utilities per machine): document in that host’s `machine-config-*` repo (e.g. `docs/SATELLITE-REPOS.md`) — not in opack; link from thoughts pins when needed.
 - **Chat/export dumps:** `EXTRACT_AND_ORGANIZE.md`; do not re-import content already in `optional/`.
-- **Session close (opack):** commit+push if tree changed; Log pickup row if WIP remains.
+- **Session close (opack):** `CLOSE_CHAT.md` read → **go** or **fix** → verify · commit+push notes/pack if changed; Log pickup row if WIP remains.
 - **Machine switch:** `config/active-set.yaml` + `scripts/machine-switch.sh` — see `OPACK_OPERATOR_CONTEXT.md` § machine switch.
 
 ## Refuses / pins (this repo)
@@ -53,6 +54,7 @@
 - Do not silently promote Intent Expand or reply protocol into Layer A / always-on without confirm.
 - Prefer archive over delete for superseded kits (`optional/archive/`).
 - **No project symlinks.** Real folders only — symlinks break Cursor chat binding and hide layout debt.
+- **Close land target (opack):** `optional/PROMPT_FAMILY_FOLLOWUPS.md` — Must-land + follow-ups on **go**; Log row for Pickup only.
 
 ## Open experiments
 
@@ -130,4 +132,6 @@
 | 2026-09-04 | Expansion lifecycle v2 | Synthesizer beat · Steward loop · Quartermaster phase 0 |
 | 2026-09-04 | Engagement shapes kit | Scatter/sniper/chain; Scout owns target; sibling to lifecycle |
 | 2026-09-04 | Framework router landed | PROMPT_BUNDLES picker; RUNTIME Stage·Shape stanza; phase⊂lifecycle map |
+| 2026-09-06 | Close-out YES/NO fork | YES land→close · NO fix→land→close; steps 1–5 preserved; YES WITH LAND merged into YES |
+| 2026-09-06 | Close-out honest land | Product NOT DONE OK at close · land goal/workaround/gap on go · no day #10 auto · no exit backlog |
 | — | **Pickup** | **§8 verify done.** Next `@optional/PROMPT_FAMILY_FOLLOWUPS.md` **§7** · **§1** · **§6** · §8.2 satellite rules. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. |
