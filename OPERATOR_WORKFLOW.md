@@ -134,4 +134,5 @@
 | 2026-09-04 | Framework router landed | PROMPT_BUNDLES picker; RUNTIME Stage·Shape stanza; phase⊂lifecycle map |
 | 2026-09-06 | Close-out YES/NO fork | YES land→close · NO fix→land→close; steps 1–5 preserved; YES WITH LAND merged into YES |
 | 2026-09-06 | Close-out honest land | Product NOT DONE OK at close · land goal/workaround/gap on go · no day #10 auto · no exit backlog |
-| — | **Pickup** | **§8 verify done.** Next `@optional/PROMPT_FAMILY_FOLLOWUPS.md` **§7** · **§1** · **§6** · §8.2 satellite rules. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. |
+| 2026-09-06 | Session close — opack install currency | Pop Desktop reinstall done 2026-09-02; landed in `PROMPT_FAMILY_FOLLOWUPS.md` Session close · §2 updated. Next: satellite install · optional personal active-set. |
+| — | **Pickup** | **Pop installs current.** Next: satellite reinstall · `@optional/PROMPT_FAMILY_FOLLOWUPS.md` §7 · §1 · §6 · §8.2. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. |
