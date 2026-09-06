@@ -148,6 +148,22 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-06 (phase routing #11)
+
+**From:** “what is left” prompt ask → generalize Garden/UAH multi-repo routing → land `DAY_PROMPTS` #11 → commit+push (`96f86fa`).  
+**Intended goal:** Durable paste for routing multi-phase arcs across repos/chats/life — not whole-plan L5 handoffs.  
+**Outcome:** done (this chat)  
+**Workaround:** Combined “what is left” paste delivered in chat only — **not** a separate kit; user pivoted to phase routing; `#3` / `#10` remain adjacent.  
+**Gap:** `#11` **documented, not field-tested** on a live multi-repo arc (Garden table was source material, not execution). Installed product repos lack `#11` until `--with-workflow-lab` re-run.  
+**Leftover state:** none (opack clean vs `origin`).  
+**Landed (origin):** `DAY_PROMPTS.md` #11 · `PASTEABLES_INDEX` · `WORKFLOW_LAB_DIGEST` · `PHASE_PIPELINE` sibling link · `PROMPT_BUNDLES` multi-repo arc bundle (`96f86fa`).  
+**Follow-ups (next chat):** field-test `#11` on real fork (e.g. Garden Phase 1 UAH → Phase 3 launcher handoff) · §2 re-install lab if product trees stale · optional standalone “what is left” kit only if `#3`/`#10` prove thin twice.  
+**decided:** `#11` = *where* · `PHASE_PIPELINE` = *in-slice gates* · one handoff = one JOB · one REPO · one DONE · phrase lock: `Phase routing — this chat only. No whole-arc handoff.` · compose: `#11` → slice → `PHASE_PIPELINE` → `CLOSE_CHAT`.  
+**parked:** Garden Phase 1 alone smoke (UAH) · Phase 3 ticket spec (garden-launcher + `@~/Desktop/thoughts/by-family/garden/garden-launcher-overnight-discussion-2026-09-04.md`) · Phase 0 habit (daily life).  
+**NOT pursuing now:** day #10 · execute Garden work in opack chat · whole-arc L5.
+
+---
+
 ## Explicit NOT
 
 - Mode E  
@@ -178,3 +194,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Prove seats vs Auto theater | §7 Seat habit proof |
 | After digest consolidation | §8 Verify (new chat · satellite rules · stale workflow-lab.mdc) |
 | Expansion/shapes untested | Session close 2026-09-06 (expansion) · §1 field test add-on |
+| Multi-repo arc / “what belongs here?” | Session close 2026-09-06 (phase routing) · `DAY_PROMPTS.md` #11 |
