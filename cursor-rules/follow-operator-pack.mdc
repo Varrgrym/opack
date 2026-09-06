@@ -27,6 +27,7 @@ alwaysApply: true
 | Roadmap / next week | Mode C · `EXECUTION_ROADMAP.md` |
 | Organize repo / extract dumps | `EXTRACT_AND_ORGANIZE.md` |
 | Video / YouTube | `VIDEO_EXTRACT.md` (not recap) |
+| Plain explain / explain simply / explain this repo | `docs/PLAIN_EXPLAIN.md` (lab: `docs/workflow-lab/PLAIN_EXPLAIN.md`) |
 | Close out this chat / can I close? | `docs/CLOSE_CHAT.md` (lab: `docs/workflow-lab/CLOSE_CHAT.md`) |
 
 ## Runtime (one line when mismatch; do not quiz)

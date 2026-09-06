@@ -11,6 +11,7 @@
 ## Standing prompts
 
 - Lab repo: prompt / context / spec / agent-loop formation — `@optional/OPACK_OPERATOR_CONTEXT.md` for host roles, families, `think hard` / `check this`, **machine switch**, philosophy, multi-device.
+- **plain explain** / **explain simply** → `@optional/PLAIN_EXPLAIN.md` (newcomer or owner refresher; not Mode D).
 - Organize / maintain this repo → `EXTRACT_AND_ORGANIZE.md`; keep indexes and install flags coherent.
 - Reply shape when you want scan-friendly output → `@optional/OPERATOR_REPLY_PROTOCOL.md` (not always-on).
 - Expansion readiness (scout → soldier → settler → builder → defender) → `@optional/EXPANSION_LIFECYCLE.md`; short gate: **Territory claimed?**
@@ -132,6 +133,7 @@
 | 2026-09-04 | Expansion lifecycle v2 | Synthesizer beat · Steward loop · Quartermaster phase 0 |
 | 2026-09-04 | Engagement shapes kit | Scatter/sniper/chain; Scout owns target; sibling to lifecycle |
 | 2026-09-04 | Framework router landed | PROMPT_BUNDLES picker; RUNTIME Stage·Shape stanza; phase⊂lifecycle map |
+| 2026-09-06 | Plain explain kit landed | Newcomer overview + owner refresher; baseline `docs/PLAIN_EXPLAIN.md`; phrase lock in digest |
 | 2026-09-06 | Close-out YES/NO fork | YES land→close · NO fix→land→close; steps 1–5 preserved; YES WITH LAND merged into YES |
 | 2026-09-06 | Close-out honest land | Product NOT DONE OK at close · land goal/workaround/gap on go · no day #10 auto · no exit backlog |
 | 2026-09-06 | Session close — opack install currency | Pop Desktop reinstall done 2026-09-02; landed in `PROMPT_FAMILY_FOLLOWUPS.md` Session close · §2 updated. Next: satellite install · optional personal active-set. |

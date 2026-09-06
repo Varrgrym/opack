@@ -45,6 +45,7 @@ Do **not** give a thin summary. Pick a mode (or ask if unclear):
 | Possibility space / what haven’t we considered | **Exploration** (peer pasteable) | Missed questions · latent capability · directions — not a backlog. Full paste: `optional/EXPLORATORY_ANALYSIS.md`. |
 | Deep research report / no edits yet | **Research** (phase) | Cited report artifact; never implement. Full paste: `optional/RESEARCH_REPORT.md`. Orchestration: `optional/PHASE_PIPELINE.md`. |
 | Plan then wait for approval | **Plan gate** (phase) | Plan only → APPROVE / NARROW / REJECT. Full paste: `optional/PLAN_APPROVAL.md`. |
+| Plain explain / explain simply / explain this repo | **Orient** (peer pasteable) | Plain-language mental model for newcomers or owner refresher. Full paste: `optional/PLAIN_EXPLAIN.md`. Not Mode D. |
 
 If several fit: **B then C**, or **D** when they want codebase-wide evidence. Inline candor anytime they say “challenge me.”
 
@@ -80,6 +81,7 @@ This file is copied as-is. Resolve kit paths by **where you are**:
 | Dial / piece | In **opack** clone | In **installed** project |
 |--------------|--------------------|---------------------------|
 | Close-out protocol | `optional/CLOSE_CHAT.md` | `docs/CLOSE_CHAT.md` (baseline; same file under `docs/workflow-lab/` with `--with-workflow-lab`) |
+| Plain explain | `optional/PLAIN_EXPLAIN.md` | `docs/PLAIN_EXPLAIN.md` (baseline; same file under `docs/workflow-lab/` with `--with-workflow-lab`) |
 | Seats + playbooks | `optional/CURSOR_MODEL_SEATS.md` · `MODEL_SEAT_PLAYBOOKS.md` · `SEAT_PROMPTS.md` | `docs/` (only with `--with-seats`) |
 | Workflow lab kits | `optional/*.md` (digest, pasteables, Mode D, …) | `docs/workflow-lab/` (only with `--with-workflow-lab`; **no** second always-on `.mdc`) |
 | Opack-only operator context | `optional/OPACK_OPERATOR_CONTEXT.md` | Not shipped — opack clone overlay companion |

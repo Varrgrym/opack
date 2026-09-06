@@ -343,7 +343,7 @@ Each row: **when** · **sequence** · **stop**. Open the named kit — do not in
 ### New project / cold start
 
 **When:** unfamiliar repo, handoff in, “what is this?”  
-**Sequence:** Orient (`INTENT_EXPAND` / day #8) → Review → Discovery lens → Boundary → Baseline note  
+**Sequence:** `PLAIN_EXPLAIN.md` → (if operator needs depth) Review → Discovery lens → Boundary → Baseline note  
 **Stop:** one-page mental model; entry points known; no build unlocked.
 
 ### Stagnation

@@ -1,14 +1,14 @@
 # Workflow lab digest (short)
 
 **Front doors:** this file · `PASTEABLES_INDEX.md`  
-**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `CURSOR_CHAT_HYGIENE.md` · `CLOSE_CHAT.md` · `DAY_PROMPTS.md` · `INTELLIGENCE_PER_CENT.md` · `SPEC_BUILD.md` · `MODE_D.md` · `OWNERSHIP_TAKEOVER.md` · `DESIGN_NOTEBOOK.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` · `PHASE_PIPELINE.md` · `EXPANSION_LIFECYCLE.md` · `ENGAGEMENT_SHAPES.md` · `PROMPT_BUNDLES.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
+**Active kits:** `INTENT_EXPAND.md` · `RUNTIME.md` · `AGENTIC_INTERACTION.md` · `CURSOR_CHAT_HYGIENE.md` · `CLOSE_CHAT.md` · `PLAIN_EXPLAIN.md` · `DAY_PROMPTS.md` · `INTELLIGENCE_PER_CENT.md` · `SPEC_BUILD.md` · `MODE_D.md` · `OWNERSHIP_TAKEOVER.md` · `DESIGN_NOTEBOOK.md` · `PROJECT_REVIEW.md` · `REPOSITORY_AUDIT.md` · `EXECUTION_ROADMAP.md` · `EXPLORATORY_ANALYSIS.md` · `RESEARCH_REPORT.md` · `PLAN_APPROVAL.md` · `PHASE_PIPELINE.md` · `EXPANSION_LIFECYCLE.md` · `ENGAGEMENT_SHAPES.md` · `PROMPT_BUNDLES.md` · `CHUNKING.md` · `EXTRACT_AND_ORGANIZE.md` · `VIDEO_EXTRACT.md` · `ORGANISM_PLACEMENT.md`  
 **Paths:** in opack → `optional/`; after `--with-workflow-lab` → `docs/workflow-lab/`. `../templates/` and `archive/` resolve only in the **opack** clone.  
 **Stack reminder:** Prompt → Context → Spec → Loop → Eval → Memory (detail archived in `archive/AI_WORKFLOW_STACK.md`).
 
 **Intent ≠ full specification.** Expand to needed rigor only (`INTENT_EXPAND.md`).
 
 **Phrase lock:** “please review this project” / fine-tooth / full review → **Mode D** + `PROJECT_REVIEW.md` + Intent coverage bar. **Do not ask which mode.**  
-**Also:** where are we / takeover → `OWNERSHIP_TAKEOVER.md` (A). Capture / notebook / organize ideas → `DESIGN_NOTEBOOK.md` (B). Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`. Video / YouTube → `VIDEO_EXTRACT.md` (not a recap).
+**Also:** where are we / takeover → `OWNERSHIP_TAKEOVER.md` (A). Capture / notebook / organize ideas → `DESIGN_NOTEBOOK.md` (B). Plain explain / explain simply → `PLAIN_EXPLAIN.md`. Organize / extract dumps → `EXTRACT_AND_ORGANIZE.md`. Video / YouTube → `VIDEO_EXTRACT.md` (not a recap).
 
 **Automatic 5W1H** on substantial work. Certainty: Known → Inferred → Unknown → Recommended.
 

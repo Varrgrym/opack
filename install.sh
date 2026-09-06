@@ -85,6 +85,7 @@ run "mkdir -p \"$TARGET/docs\""
 run "cp \"$PACK_ROOT/AGENTS.md\" \"$TARGET/AGENTS.md\""
 run "cp \"$PACK_ROOT/cursor-rules/follow-operator-pack.mdc\" \"$TARGET/.cursor/rules/follow-operator-pack.mdc\""
 run "cp \"$PACK_ROOT/optional/CLOSE_CHAT.md\" \"$TARGET/docs/CLOSE_CHAT.md\""
+run "cp \"$PACK_ROOT/optional/PLAIN_EXPLAIN.md\" \"$TARGET/docs/PLAIN_EXPLAIN.md\""
 
 WF="$TARGET/OPERATOR_WORKFLOW.md"
 if [[ -f "$WF" && "$FORCE_WORKFLOW" -eq 0 ]]; then
@@ -128,6 +129,7 @@ if [[ "$WITH_WORKFLOW_LAB" -eq 1 ]]; then
     AGENTIC_INTERACTION.md \
     CURSOR_CHAT_HYGIENE.md \
     CLOSE_CHAT.md \
+    PLAIN_EXPLAIN.md \
     OPERATOR_REPLY_PROTOCOL.md \
     DAY_PROMPTS.md \
     INTELLIGENCE_PER_CENT.md \
@@ -148,5 +150,6 @@ fi
 echo "installed operator pack → $TARGET"
 echo "  AGENTS.md"
 echo "  docs/CLOSE_CHAT.md"
+echo "  docs/PLAIN_EXPLAIN.md"
 echo "  OPERATOR_WORKFLOW.md"
 echo "  .cursor/rules/follow-operator-pack.mdc"

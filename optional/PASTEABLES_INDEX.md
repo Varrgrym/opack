@@ -14,6 +14,7 @@
 | Agentic interaction (slider · leash · program design · **context as variable**) | `AGENTIC_INTERACTION.md` |
 | **Cursor chat hygiene** (new chat · `@` · side chat · context ring) | `CURSOR_CHAT_HYGIENE.md` |
 | **Close out this chat** (read · go/fix · verify · pinned land path) | `CLOSE_CHAT.md` |
+| **Plain explain** (newcomer overview · owner refresher · not Mode D) | `PLAIN_EXPLAIN.md` |
 | **Operator reply shape** (verdict · body · TLDR state · Next steps action · precedence) | `OPERATOR_REPLY_PROTOCOL.md` |
 | **Day prompts** (deep review · double-check · skeptical · next · done? · **phase routing**) | `DAY_PROMPTS.md` (#11 multi-repo arc) |
 | Extract dump · Keep/Park · raw off-repo · organize | `EXTRACT_AND_ORGANIZE.md` |
