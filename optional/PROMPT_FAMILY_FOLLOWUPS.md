@@ -30,6 +30,7 @@ Run the gated pipeline once on a real product repo:
 5. Verify (E2 / day #2)
 
 **DoD:** Note what failed in practice (section filler, skipped gates, weak cites) → patch only those kits.  
+**Optional add-on (2026-09-06):** same repo, one pass with `Stage: Scout · Shape: scatter` → funnel → `Soldier/sniper` using `EXPANSION_LIFECYCLE.md` + `ENGAGEMENT_SHAPES.md` — log in Field-test log.  
 **Where to log results:** this file § Field-test log, or a dated row in `OPERATOR_WORKFLOW.md` Log.
 
 ### 2. Re-install lab into product repos
@@ -132,6 +133,21 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-06 (expansion lifecycle · engagement shapes)
+
+**From:** repo sync · Attacker prompt · RTS expansion metaphor · gun I/O shapes · framework router chat (closed YES).  
+**Intended goal:** Repos current; land reusable doctrine (lifecycle · shapes · router · runtime stanza).  
+**Outcome:** done  
+**Gap:** Frameworks **documented, not field-tested** on a real fork. Installed product repos lack new kits until `--with-workflow-lab` re-run. Machine-wide repo sync not re-verified since Sep 4 sync pass.  
+**Leftover state:** none (opack clean vs `origin`).  
+**Landed (origin):** `EXPANSION_LIFECYCLE.md` · `ENGAGEMENT_SHAPES.md` · Attacker overlay · `PROMPT_BUNDLES` § Framework router · `RUNTIME.md` Stage·Shape stanza · `PHASE_PIPELINE` phase⊂lifecycle map (commits through `04eaf9c`+).  
+**Follow-ups (next chat):** §1 field test — add `Stage: Scout · Shape: scatter` → funnel → Soldier on **real** fork · §2 re-install lab on targets needing new kits · §7 seat proof with explicit Stage·Shape · optional repo re-audit.  
+**decided:** Scout owns target; two layers (lifecycle + shapes); core five shapes; no new seats.  
+**parked:** `Territory claimed?` / `Shape:` to always-on `.mdc` (twice-seen not met) · hard “Soldier before Settler” rule until field test.  
+**NOT pursuing now:** day #10 · Layer A promotion · sixth seat.
+
+---
+
 ## Explicit NOT
 
 - Mode E  
@@ -161,3 +177,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Desktop / workspace hygiene | §6 |
 | Prove seats vs Auto theater | §7 Seat habit proof |
 | After digest consolidation | §8 Verify (new chat · satellite rules · stale workflow-lab.mdc) |
+| Expansion/shapes untested | Session close 2026-09-06 (expansion) · §1 field test add-on |

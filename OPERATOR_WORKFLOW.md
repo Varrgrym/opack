@@ -135,4 +135,5 @@
 | 2026-09-06 | Close-out YES/NO fork | YES land→close · NO fix→land→close; steps 1–5 preserved; YES WITH LAND merged into YES |
 | 2026-09-06 | Close-out honest land | Product NOT DONE OK at close · land goal/workaround/gap on go · no day #10 auto · no exit backlog |
 | 2026-09-06 | Session close — opack install currency | Pop Desktop reinstall done 2026-09-02; landed in `PROMPT_FAMILY_FOLLOWUPS.md` Session close · §2 updated. Next: satellite install · optional personal active-set. |
-| — | **Pickup** | **Pop installs current.** Next: satellite reinstall · `@optional/PROMPT_FAMILY_FOLLOWUPS.md` §7 · §1 · §6 · §8.2. Context: `@optional/OPACK_OPERATOR_CONTEXT.md`. |
+| 2026-09-06 | Session close — expansion + shapes | Lifecycle · engagement shapes · router · Stage·Shape stanza landed. See `PROMPT_FAMILY_FOLLOWUPS.md` Session close · 2026-09-06 (expansion). |
+| — | **Pickup** | **Expansion + shapes on origin.** Next: `@optional/PROMPT_FAMILY_FOLLOWUPS.md` §1 field test (Stage·Shape) · §2 re-install lab · §7 seat proof · satellite reinstall · §6 desktop. |
