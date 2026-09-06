@@ -179,6 +179,26 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Date | Repo | What broke / what worked | Kit patched? |
 |------|------|--------------------------|--------------|
 | 2026-09-01 | opack | §8 verify: trivial ask → no Mode D theater (install smoke OK, single digest). "Review this project" → Mode D + runtime stanza, no mode quiz (phrase lock in digest + INTENT_EXPAND + PROJECT_REVIEW). Agents less lost: **yes** — one front door, lab `@`-only, opack context out of always-on. Satellite rules count not checked (Pop workhorse). | no |
+| 2026-09-06 | opack | Close-out kit: read → **go** (honest land) · **fix** rare · day #10 separate · product NOT DONE OK at close. **Not field-tested** on live closes yet (Sober/trivial/broken). | kits landed |
+
+---
+
+## Session close · 2026-09-06 (close-out kit chat)
+
+**Intended goal:** Close-out workflow — leave thread cleanly without exit backlog or false “done.”
+
+**Outcome:** **done** (kit). Read → honest state → **go** lands → close. `optional/CLOSE_CHAT.md` + cross-refs + overlay pin.
+
+**Gap:** Attacker field test (3 real closes) not run. Sober chat paste given but not executed there.
+
+**Leftover state:** None on machine. opack docs committed on `master`.
+
+**Follow-ups (next chat):**
+- Run close + **go** on Sober chat (land to `SOBER.md`)
+- Field-test close on trivial / broken sessions when ready
+- `@` this file § Field-test log row 2026-09-06
+
+**NOT pursuing now:** Re-litigating set-and-forget vs split prompts — decided.
 
 ---
 
