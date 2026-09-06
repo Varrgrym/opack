@@ -202,6 +202,24 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-06 (ChatGPT general prompts)
+
+**Intended goal:** General prompts to use ChatGPT better; then a personal cheat sheet assuming all use cases (work · coding · writing · learning · planning).
+
+**Outcome:** **done** (in-chat delivery). Meta-prompt · daily five · per-use-case one-liners · understand→skeptical→double-check→done loop.
+
+**Gap:** Prompts never landed as a durable personal note / Custom Instructions — chat-only unless user copies later.
+
+**Leftover state:** none (no code/config edits).
+
+**Follow-ups (next chat):** none blocking. Optional: paste cheat sheet into a personal note or ChatGPT Custom Instructions if wanted outside this thread.
+
+**decided:** Assume all five use cases true for the cheat sheet.
+
+**NOT pursuing now:** day #10 · packing prompts into opack kits · inventing exit backlog.
+
+---
+
 ## Open when
 
 | Signal | Open |
