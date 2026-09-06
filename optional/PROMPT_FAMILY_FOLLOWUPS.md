@@ -220,6 +220,31 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-06 (950QDB satellite context)
+
+**From:** Windows satellite (950QDB) post-cleanup context chat (closed YES). TALK ONLY — no product work.
+
+**Intended goal:** Capture standing 950QDB satellite layout after repo cleanup as durable context.
+
+**Outcome:** done (this chat)
+
+**Gap:** Canonical map `machine-config-samsung-950QDB/docs/SATELLITE-REPOS.md` not verified from this opack workspace (lives in machine-config repo). Duplicate `opack` Cursor workspace entry not confirmed cleared.
+
+**Leftover state:** none (no writes or commands from agent).
+
+**950QDB layout (decided):**
+- **Keeps:** `mhcos` (product) · `thoughts` + `opack` (assistants) · `FC`, `care-center`, `machine-config`, `library-organizer` (utilities)
+- **Removed (~7.4 GB):** `fbt`, `UAH`, `google-doc-scrape`, `Varrs-Game-Bot` — recover via thoughts garden bridge pin
+- **FC:** local-only sensitive — never bulk-delete or push
+
+**Follow-ups (next chat):** restart Cursor → `Prune-CursorWorkspaces.ps1` if duplicate `opack` entry persists · `@` canonical map from machine-config when on 950QDB.
+
+**parked:** land full layout in `machine-config-samsung-950QDB/docs/SATELLITE-REPOS.md` if not already current there.
+
+**NOT pursuing now:** day #10 · assume removed clones exist locally · bulk-delete or push FC.
+
+---
+
 ## Open when
 
 | Signal | Open |
