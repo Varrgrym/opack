@@ -208,15 +208,15 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 **Outcome:** **done** (in-chat delivery). Meta-prompt · daily five · per-use-case one-liners · understand→skeptical→double-check→done loop.
 
-**Gap:** Prompts never landed as a durable personal note / Custom Instructions — chat-only unless user copies later.
+**Gap:** ~~Prompts never landed~~ — **closed 2026-09-09** → `optional/CHATGPT_PROMPTS.md` (Custom Instructions + cheat sheet + extended prompts).
 
 **Leftover state:** none (no code/config edits).
 
-**Follow-ups (next chat):** none blocking. Optional: paste cheat sheet into a personal note or ChatGPT Custom Instructions if wanted outside this thread.
+**Follow-ups (next chat):** optional — copy Custom Instructions block into ChatGPT settings if not done yet.
 
 **decided:** Assume all five use cases true for the cheat sheet.
 
-**NOT pursuing now:** day #10 · packing prompts into opack kits · inventing exit backlog.
+**NOT pursuing now:** day #10 · inventing exit backlog.
 
 ---
 

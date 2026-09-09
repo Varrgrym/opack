@@ -1,7 +1,8 @@
 # Prompt — extract ChatGPT HTML export
 
 **Portable canonical:** opack `optional/EXTRACT_CHAT_EXPORT_PROMPT.md`  
-**General dumps (non-HTML):** [`EXTRACT_AND_ORGANIZE.md`](EXTRACT_AND_ORGANIZE.md)
+**General dumps (non-HTML):** [`EXTRACT_AND_ORGANIZE.md`](EXTRACT_AND_ORGANIZE.md)  
+**Use ChatGPT better (outbound):** [`CHATGPT_PROMPTS.md`](CHATGPT_PROMPTS.md)
 
 Paste into a new chat with the `.html` attached (or give its absolute path).
 
