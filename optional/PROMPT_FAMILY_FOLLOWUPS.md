@@ -245,6 +245,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-10 (plain explain kit)
+
+**From:** explain opack to newcomer → land reusable **plain explain** prompt in pack → copy-paste · commit+push · demo on opack · orient seats vs lifecycle vs engagement shapes.
+
+**Intended goal:** Durable newcomer/overview prompt usable in any installed repo; honest orient on where seats / Scout–Defender / scatter–sniper live.
+
+**Outcome:** **done** (kit + chat delivery).
+
+**Gap:** `install_smoke.sh` not run on Windows satellite (bash unavailable). Product repos lack `docs/PLAIN_EXPLAIN.md` until `--with-workflow-lab` or baseline re-install.
+
+**Leftover state:** none (opack clean vs `origin` at land).
+
+**Landed (origin):** `optional/PLAIN_EXPLAIN.md` · phrase lock in `follow-operator-pack.mdc` · baseline `docs/PLAIN_EXPLAIN.md` via `install.sh` · indexes · smoke test updates (`74ac00d`).
+
+**Follow-ups (next chat):** §2 re-install on stale trees (satellite/workhorse) · field-test `plain explain` on one non-opack repo · run `install_smoke.sh` on Pop/bash host when convenient.
+
+**decided:** Audience = smart newcomer, plain language (not child framing); section 5 = owner refresher; seats · lifecycle `Stage` · engagement `Shape` = three separate layers — all active, workflow-lab depth.
+
+**parked:** Promote `Stage`/`Shape` to always-on digest (twice-seen not met).
+
+**NOT pursuing now:** day #10 · Mode D for simple orient asks.
+
+---
+
 ## Open when
 
 | Signal | Open |
@@ -258,3 +282,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | After digest consolidation | §8 Verify (new chat · satellite rules · stale workflow-lab.mdc) |
 | Expansion/shapes untested | Session close 2026-09-06 (expansion) · §1 field test add-on |
 | Multi-repo arc / “what belongs here?” | Session close 2026-09-06 (phase routing) · `DAY_PROMPTS.md` #11 |
+| Plain explain on product repo / stale install | Session close 2026-09-10 (plain explain) · §2 re-install · phrase `plain explain` |
