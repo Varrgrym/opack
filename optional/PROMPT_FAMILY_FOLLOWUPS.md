@@ -293,6 +293,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-10 (ChatGPT prompts land)
+
+**From:** prompt inventory · close-prompt requests · external/ChatGPT audit → operator said **land** → close read → **go**.
+
+**Intended goal:** Durable ChatGPT general-use prompts (Custom Instructions · cheat sheet · extended set); wire into opack indexes.
+
+**Outcome:** **done**.
+
+**Gap:** Operator extra draft never pasted — merge pass still open. Custom Instructions not copied into ChatGPT settings (human-side · unverified).
+
+**Leftover state:** none (`opack` clean vs `origin` after land).
+
+**Landed (origin):** `optional/CHATGPT_PROMPTS.md` · `PASTEABLES_INDEX.md` · `PROMPT_FAMILY_FOLLOWUPS.md` (2026-09-06 gap closed) · `EXTRACT_CHAT_EXPORT_PROMPT.md` cross-link (`9caf246`).
+
+**Follow-ups (next chat):** paste operator draft for merge into `CHATGPT_PROMPTS.md` if any · copy Custom Instructions block into ChatGPT settings.
+
+**decided:** Opack-local kit (not installer-shipped). Reverses 2026-09-06 “not in pack” for this slice.
+
+**parked:** Operator draft merge · Custom Instructions copy.
+
+**NOT pursuing now:** day #10 · inventing exit backlog.
+
+---
+
 ## Open when
 
 | Signal | Open |
@@ -308,3 +332,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Multi-repo arc / “what belongs here?” | Session close 2026-09-06 (phase routing) · `DAY_PROMPTS.md` #11 |
 | Plain explain on product repo / stale install | Session close 2026-09-10 (plain explain) · §2 re-install · phrase `plain explain` |
 | All repos sync / land dirty thoughts | Session close 2026-09-10 (repo sync) · `thoughts` `5ee7a0b` · memory purge pickup in thoughts follow-ups |
+| ChatGPT daily use / merge operator draft | Session close 2026-09-10 (ChatGPT prompts land) · `@optional/CHATGPT_PROMPTS.md` |
