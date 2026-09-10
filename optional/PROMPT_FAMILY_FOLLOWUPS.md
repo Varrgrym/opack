@@ -269,6 +269,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-10 (repo sync · thoughts land)
+
+**From:** `pull all` → repeated `opack` sync checks → all-`Projects/` audit (7 repos) → **land + push** dirty `thoughts` → close-out read → **go**.
+
+**Intended goal:** Machine/repos current (pull + push parity); land uncommitted `thoughts` operator notes.
+
+**Outcome:** **done** (chat scope).
+
+**Gap:** ChatGPT memory purge (human Settings) — **not this chat**; pickup already in `thoughts/inbox/follow-ups.md` · `@by-family/operator/chatgpt-memory-extract-2026-09-07.md` §6–§9. No post-land 7-repo re-audit.
+
+**Leftover state:** none from this chat. **Observation:** `thoughts` may have moved to feature branch after land (`5ee7a0b` on `master` at push time).
+
+**Landed (origin):** `thoughts` `5ee7a0b` — GPT mine-then-purge policy · local-AI Stage 3 wave-2 · 9 files. `opack` pulled only (no product edits this chat until this close row).
+
+**Follow-ups (next chat):** reply `memory cleared` after ChatGPT Settings purge · optional fresh 7-repo sync stamp.
+
+**decided:** `Projects/` = 7 git repos; “up to date” = remote parity **and** clean working tree.
+
+**parked:** ChatGPT memory purge (human).
+
+**NOT pursuing now:** day #10 · re-audit all repos unless operator asks.
+
+---
+
 ## Open when
 
 | Signal | Open |
@@ -283,3 +307,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Expansion/shapes untested | Session close 2026-09-06 (expansion) · §1 field test add-on |
 | Multi-repo arc / “what belongs here?” | Session close 2026-09-06 (phase routing) · `DAY_PROMPTS.md` #11 |
 | Plain explain on product repo / stale install | Session close 2026-09-10 (plain explain) · §2 re-install · phrase `plain explain` |
+| All repos sync / land dirty thoughts | Session close 2026-09-10 (repo sync) · `thoughts` `5ee7a0b` · memory purge pickup in thoughts follow-ups |
