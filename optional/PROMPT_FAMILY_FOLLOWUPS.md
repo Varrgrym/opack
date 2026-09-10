@@ -317,6 +317,26 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-10 (close-out prompt retrieval)
+
+**From:** operator asked for closing-out prompt → delivered `CLOSE_CHAT.md` paste → close read → **go**.
+
+**Intended goal:** Retrieve pasteable close-out kit (read phase + execute locks + land target).
+
+**Outcome:** **done**.
+
+**Gap:** none.
+
+**Leftover state:** none (no edits until this land row).
+
+**Landed (this go):** session close row in `optional/PROMPT_FAMILY_FOLLOWUPS.md`.
+
+**Follow-ups (next chat):** none.
+
+**NOT pursuing now:** day #10.
+
+---
+
 ## Open when
 
 | Signal | Open |
