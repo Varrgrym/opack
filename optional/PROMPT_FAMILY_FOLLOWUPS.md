@@ -337,6 +337,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-18 (Desktop repo audit · Open WebUI land)
+
+**From:** “all repos up to date?” → Desktop git audit + fetch → **proceed with both** (pull two behind · commit machine-config Open WebUI scripts) → close read → **go**.
+
+**Intended goal:** Know whether Desktop clones match origin; sync **MonsterHunter-CreaturesofSonaria** and **thoughts**; land untracked `install-open-webui.sh` + `open-webui.sh` in **machine-config-pop-rtx4070**.
+
+**Outcome:** **done** (chat scope).
+
+**Gap:** No post-land fetch pass on all 12 Desktop git repos (belt-and-suspenders only). ChatGPT memory purge remains human-side pickup in `thoughts/inbox/follow-ups.md` — not this chat.
+
+**Leftover state:** none from this chat (touched repos clean vs origin at verify). **Observation:** `garden-plant` · `lineage-join-work` on Desktop are not git repos.
+
+**Landed (repos):** pulls — `MonsterHunter-CreaturesofSonaria` `15e5836` · `thoughts` `5ee7a0b`. **machine-config-pop-rtx4070** `fde81b9` (Open WebUI install + launch scripts; pushed to `origin/main` before close verify).
+
+**Follow-ups (next chat):** optional “are clones current?” re-audit on `~/Desktop/*` · `memory cleared` after ChatGPT Settings purge (existing pickup).
+
+**decided:** “Up to date” = upstream parity **and** clean working tree for scanned Desktop git repos.
+
+**parked:** Full 12-repo fetch stamp unless operator asks again.
+
+**NOT pursuing now:** day #10 · opack product edits beyond this close row.
+
+---
+
 ## Open when
 
 | Signal | Open |
@@ -353,3 +377,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | Plain explain on product repo / stale install | Session close 2026-09-10 (plain explain) · §2 re-install · phrase `plain explain` |
 | All repos sync / land dirty thoughts | Session close 2026-09-10 (repo sync) · `thoughts` `5ee7a0b` · memory purge pickup in thoughts follow-ups |
 | ChatGPT daily use / merge operator draft | Session close 2026-09-10 (ChatGPT prompts land) · `@optional/CHATGPT_PROMPTS.md` |
+| Desktop clones current / Open WebUI scripts on Pop | Session close 2026-09-18 (Desktop repo audit) · `machine-config-pop-rtx4070` `fde81b9` · optional re-audit |
