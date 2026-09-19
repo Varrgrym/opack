@@ -361,6 +361,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-19 (close-out kit · ChatGPT leftovers)
+
+**From:** close-out prompt paste → read → **go** (`416a5dc` narrow land) → “what’s left for ChatGPT close-out?” → full-thread close read → **go**.
+
+**Intended goal:** Operator pack close-out paste; honest inventory of ChatGPT arc (repo vs human).
+
+**Outcome:** **done** (chat scope).
+
+**Gap:** ChatGPT **human** slice still open (not blocking this thread): Custom Instructions paste into Settings (unverified) · optional operator draft merge into `CHATGPT_PROMPTS.md` · memory purge pickup in `thoughts` (reply `memory cleared` when done).
+
+**Leftover state:** none (`opack` clean after land).
+
+**Landed (this go):** full-thread session close row in `optional/PROMPT_FAMILY_FOLLOWUPS.md`.
+
+**Follow-ups (next chat):** human ChatGPT items above · `@optional/CHATGPT_PROMPTS.md` § Custom Instructions.
+
+**decided:** Opack ChatGPT **repo** close-out already done (2026-09-10 land); this chat only restated human pickup.
+
+**parked:** Draft merge if no draft exists → drop.
+
+**NOT pursuing now:** day #10 · fix path (verdict was YES).
+
+---
+
 ## Open when
 
 | Signal | Open |
