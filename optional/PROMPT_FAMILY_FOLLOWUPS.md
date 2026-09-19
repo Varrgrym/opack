@@ -385,6 +385,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-19 (Projects pull all · thoughts master)
+
+**From:** `pull all repos on this machine` → ff-only on 7× `Projects/` → close read → **proceed** (`thoughts` → `master` + shallow clone scan + `Desktop\thoughts`) → close read → **go**.
+
+**Intended goal:** Sync known Windows satellite git clones with remotes; align `Projects\thoughts` on `master`.
+
+**Outcome:** **done** (chat scope).
+
+**Gap:** No full-disk git discovery (depth-4 scan only). No post-pull test/build runs. Operator may have pulled/landed on `thoughts` after this chat (`c233950` on `master` at go-verify — ahead of in-chat `a347241`).
+
+**Leftover state:** none from this chat at verify (`Projects\thoughts` · `Desktop\thoughts` · `opack` clean vs `origin/master`). Local checkout left `cursor/playlist-inspect-extract-25f6` on remote only.
+
+**Landed (in-session pulls):** `MonsterHunter-CreaturesofSonaria` `057cbad` (large FF) · `thoughts` feature branch then `master` `a347241` (23-commit FF). Five other `Projects/` repos already current.
+
+**Follow-ups (next chat):** optional `pull all` stamp on `Projects/` + `Desktop\thoughts` · resume `cursor/playlist-inspect-extract-25f6` only if that line returns.
+
+**decided:** Windows “pull all” default set = `C:\Users\mmedi\Projects` (7 repos) + `Desktop\thoughts` when present; prefer `git pull --ff-only`.
+
+**parked:** Exhaustive machine-wide repo inventory · pop-only paths in `active-set.example.yaml`.
+
+**NOT pursuing now:** day #10 · product work · `machine-switch.sh --apply` unless operator asks.
+
+---
+
 ## Open when
 
 | Signal | Open |
@@ -402,3 +426,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | All repos sync / land dirty thoughts | Session close 2026-09-10 (repo sync) · `thoughts` `5ee7a0b` · memory purge pickup in thoughts follow-ups |
 | ChatGPT daily use / merge operator draft | Session close 2026-09-10 (ChatGPT prompts land) · `@optional/CHATGPT_PROMPTS.md` |
 | Desktop clones current / Open WebUI scripts on Pop | Session close 2026-09-18 (Desktop repo audit) · `machine-config-pop-rtx4070` `fde81b9` · optional re-audit |
+| Satellite `Projects/` pull all | Session close 2026-09-19 (Projects pull all) · 7 repos · `thoughts` on `master` |
