@@ -3,7 +3,7 @@
 **Status:** active kit · 2026-09-06 · opack optional  
 **Job:** honest read (steps 1–6) · **go** (land state → verify → close) · **fix** (only if *this chat* still blocking)  
 **Phrase lock:** “close out this chat” · “close this chat” · “can I close this?” · “session close”  
-**Execute locks:** **go** (land then close) · **fix** (run fix plan — only when read phase was NO)  
+**Execute locks:** **go** (land → verify → close) · **fix** (run fix plan — only when read phase was NO) · **not** `land` alone (operator habit: “go, fix, or land” → use **go** or **fix** only)  
 **Companions:** DoD/stop · handoff (`RUNTIME.md`) · extract (`EXTRACT_AND_ORGANIZE.md`) · day #10 (`DAY_PROMPTS.md` · **separate ask**) · UX (`CURSOR_CHAT_HYGIENE.md`)  
 **NOT:** auto-run day #10 at close · backlog at exit · infinite polish · auto-commit product code · re-litigate the whole project
 
@@ -139,23 +139,28 @@ Use only when the operator **won’t** close until the listed item is fixed **no
 Close out this chat.
 
 Chat ≠ project. I can leave even if the product goal wasn’t met.
-Be honest: goal met or workaround only? Land that state on go — don’t open new work.
+Be honest: goal met or workaround only? Land that state on go — don’t open new work in this thread.
 Do not run day #10 unless I ask. Read phase: no writes.
 
 1) Intended goal · this chat’s DoD (original · added · abandoned/NOT).
-2) Check each: done · partial · not started · parked.
-3) Honesty: goal met? If not — what was achieved · what’s unverified · leftover system state?
-4) Extract chat-only keepers (decided · NOT · parked · open Q).
-5) Must-land on go: session state + follow-ups (paths). Pursue-later ≠ blocking.
+2) Check each: done · partial · not started · parked (discussion ≠ done).
+3) Honesty: goal met? If not — achieved · unverified · leftover system state?
+4) Keepers → must-land on go: decided · NOT · parked · open Q — with paths (see defaults below). Pursue-later ≠ blocking.
+5) Default land (override if overlay pin says otherwise):
+   - opack → optional/PROMPT_FAMILY_FOLLOWUPS.md
+   - thoughts → inbox/follow-ups.md
+   - installed product → OPERATOR_WORKFLOW.md Log or docs/follow-ups.md
+   - also append to subject doc(s) touched this chat
 6) Verdict:
-   - YES — say go to land honest state → verify → close
-   - NO — only if I must fix something before leaving today; say fix
-7) If NO: handoff — Intent · Facts · Open risk.
+   - YES — reply go (land + verify + close; handoff what landed · @ pickup)
+   - NO — only if I must fix something before leaving today; reply fix · handoff Intent · Facts · Open risk
 ```
 
 ---
 
 ## Paste (operator) — execute
+
+Reply with **one** word after the read phase:
 
 ```text
 go
@@ -165,8 +170,10 @@ go
 fix
 ```
 
-**go** — write Must-land (honest state + follow-ups) · commit+push notes/pack if changed · verify · YES close.  
-**fix** — NO path only · no new scope.
+**go** — write Must-land (honest state + follow-ups) · commit+push notes/pack/overlay if changed · verify (git status · paths) · handoff what landed · YES close.  
+**fix** — after NO only · smallest blocking fixes · then same as **go** · no new scope.
+
+**Not a third lock:** `land` means the write inside **go**. Saying “go, fix, or land” → pick **go** (YES) or **fix** (NO). Do not treat **land** alone as “write without verify.”
 
 ---
 
@@ -189,7 +196,7 @@ Cold lead: prior chat not evidence — repo + landed docs only.
 ## Agent standing behavior
 
 Read phase: **no writes**. State product NOT DONE plainly when true — that is not a NO verdict by itself.  
-**go** = land first, then close — no verbal YES without verify.  
+**go** = land → verify → handoff → close — no verbal YES without verify. **land** is not a separate execute token.  
 Do not spawn a backlog at exit. Park pursue-later; operator opens a new chat when ready.  
 Do not auto-run day #10. Do not commit product code unless operator asked this session.
 
@@ -206,3 +213,11 @@ Do not auto-run day #10. Do not commit product code unless operator asked this s
 | Read-only repo review (new chat) | `PROJECT_REVIEW_READONLY.md` |
 
 **Install:** baseline → `docs/CLOSE_CHAT.md`; `--with-workflow-lab` also copies to `docs/workflow-lab/CLOSE_CHAT.md`.
+
+---
+
+## Log
+
+| Date | Change | Why |
+|------|--------|-----|
+| 2026-09-20 | Operator paste: land defaults · go vs land · post-go handoff | Reduce ambiguous “go, fix, or land” execute |
