@@ -5,7 +5,7 @@
 **NOT:** PR nitpick · audit-only defect hunt · roadmap · possibility-space exploration  
 **Phrase lock:** “please review this project” / fine-tooth / full review → this kit + `INTENT_EXPAND.md` coverage bar — **do not ask which mode**  
 **Cold-lead thin opener:** `MODE_D.md`  
-**Read-only / GitHub cold open:** `PROJECT_REVIEW_READONLY.md` (new chat after close-out; execution-trace emphasis; no writes)  
+**Read-only / cold open:** `PROJECT_REVIEW_READONLY.md` (prefix + verdict · then **this** paste — not a second outline)  
 **Complements:** **this** (what is) · Audit (`REPOSITORY_AUDIT.md`) · Planning (`EXECUTION_ROADMAP.md`) · Exploration (`EXPLORATORY_ANALYSIS.md`)  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 

@@ -172,7 +172,7 @@ fix
 
 ## Paste (operator) — close then new chat (read-only review)
 
-Use after **go** in the closing chat. Open a **new** chat; paste `PROJECT_REVIEW_READONLY.md` (or `@` it). Do not run the review in the closing chat.
+Use after **go** in the closing chat. Open a **new** chat; `@PROJECT_REVIEW_READONLY.md` + `@PROJECT_REVIEW.md` (prefix then Mode D engine). Do not run the review in the closing chat.
 
 On **go**, must-land should include when applicable:
 

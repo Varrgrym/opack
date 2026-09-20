@@ -1,256 +1,60 @@
-# Project review — read-only (GitHub / cold open)
+# Project review — read-only (cold open prefix)
 
 **Status:** active kit · 2026-09-20 · workflow-lab pasteable  
-**Job:** honest technical model of one repo · execution/data-flow trace · **no writes**  
-**NOT:** PR nitpick-only · roadmap · close-out (`CLOSE_CHAT.md`) · session land  
-**Pairs with:** Mode D · `PROJECT_REVIEW.md` (workspace ownership review) · `INTENT_EXPAND.md` coverage when phrase-locked  
-**Phrase lock:** none — operator pastes explicitly or `@` this file  
+**Job:** **prefix only** — read-only + cold lead + verdict shape; **body = `PROJECT_REVIEW.md`** (Mode D)  
+**NOT:** second full review outline · audit laundry · close-out (`CLOSE_CHAT.md`)  
+**Pairs with:** `PROJECT_REVIEW.md` (canonical sections) · `CLOSE_CHAT.md` (prior chat) · `REPOSITORY_AUDIT.md` (defect-heavy)  
+**Phrase lock:** none — operator pastes this + `@PROJECT_REVIEW.md` or pastes both  
 **Install:** `--with-workflow-lab` → `docs/workflow-lab/`
 
 ---
 
 ## When to use
 
-- **New chat** after closing the prior thread (`CLOSE_CHAT.md` → **go**).
-- Repo named by **GitHub URL** or **workspace already open** (omit URL).
+- **New chat** after `CLOSE_CHAT.md` → **go** (land URL · path · branch · cold-lead line).
 - **Read-only** until you explicitly ask to implement.
+- Workspace already open **or** URL for intent only (review uses local tree / workspace).
 
-**Seat hint:** Reviewer · Multitask **off** · Plan **no**.
-
-**Chain from close-out:** On **go**, land repo URL · local path · branch · one line: *cold lead — prior chat not evidence.* Then open this paste in a **new** chat.
+**Seat:** Reviewer · Multitask **off** · Plan **no**.
 
 ---
 
-## Paste (operator) — full
+## Paste (operator) — prefix + engine
+
+Paste **this block first**, then add the full paste from **`PROJECT_REVIEW.md`** (from `# Project Review — Mode D` through section 14), or `@optional/PROJECT_REVIEW.md` and tell the agent to follow it under the constraints below.
 
 ```text
-# Project review — read-only (full)
-
-Review this GitHub repo/project in depth.
+# Project review — read-only (cold open)
 
 Runtime: Mode=D · Seat=Reviewer · Multitask=off · Plan=no
 
-This is a READ-ONLY review. Do not modify files, create commits, open PRs, run migrations, change configuration, or otherwise alter project state unless I explicitly ask later. Inspect broadly before forming conclusions.
+READ-ONLY: Do not modify files, commit, open PRs, run migrations, or change configuration unless I explicitly ask later.
 
-Evidence from this repository first. Do not treat prior chats, README claims, or my handoff notes as authoritative unless confirmed in the repo or in landed git docs I @-reference.
+Cold lead: Evidence from this repository (and git docs I @-reference) only. Prior chats and handoff notes are non-authoritative.
 
-Repository:
-[PASTE GITHUB URL — or say “this workspace” if the repo is already open]
+Scope: [GitHub URL and/or “this workspace” + path]
+Handoff (non-authoritative): [close-out commit/path · branch · one-line intent · leftover system state — or “none”]
 
-Optional handoff (non-authoritative):
-[Prior close-out path/commit · branch · one-line intent · leftover system state — or “none”]
+Follow PROJECT_REVIEW.md (Mode D full paste) under these overrides:
 
-Your job is to understand the actual system as it exists—not to assume the README, stated product goal, architecture diagrams, or prior plans are correct.
+* Treat as read-only (stronger than “do not unlock builds”).
+* Skip empty sections. Depth over coverage.
+* In §3 Critical paths: trace 1–3 load-bearing flows as data paths (input → state → logic → outputs); name authoritative vs derived state.
+* Material defects only on those paths; for defect sweeps, say “use Repository Audit” — do not run a full audit checklist here.
+* Too large → chunk per CHUNKING.md → synthesize before verdict.
+* End with the REVIEW VERDICT block below (may replace §14 Decide-Next format for this session).
 
-Review the repo as a system. Trace important behavior through the actual code, configuration, data flow, dependencies, tests, scripts, and deployment/runtime assumptions.
-
-Philosophy: The reviewer is not paid to find work. The reviewer is paid to determine whether work is warranted. Analysis is not authorization.
-
-State up front what you inspected and what you skipped (directories, workflows, tests/CI not run).
-
----
-
-## 1. PROJECT INTENT
-
-* What does the project appear intended to do?
-* What is its stated goal?
-* What does the implementation actually do?
-* Where do those diverge?
-* Identify the apparent current product/system boundary.
-* Do not invent missing intent.
-
-Label: Verified · Strongly inferred · Uncertain.
+Philosophy and restraint litmus: as in PROJECT_REVIEW.md (not paid to find work; analysis is not authorization).
+```
 
 ---
 
-## 2. REPOSITORY MAP
+## Paste (operator) — verdict only
 
-Build a concise map of:
+Append after the Mode D body (or as the required close if you `@` only this file for a short re-cap):
 
-* major directories/files
-* application/runtime entry points
-* core modules and responsibilities
-* data models/storage
-* APIs/interfaces
-* frontend/UI, if present
-* background jobs/workers, if present
-* external services/integrations
-* configuration and environment handling
-* build/test/deployment infrastructure
-
-For each important component, explain what depends on it and what it depends on.
-
----
-
-## 3. EXECUTION / DATA FLOW
-
-Trace the important paths end-to-end.
-
-For the core use cases, show:
-
-input → transformations → state/data → business logic → outputs/side effects
-
-Identify:
-
-* authoritative state
-* derived state
-* boundaries between subsystems
-* synchronization/async behavior
-* error handling
-* persistence
-* external dependencies
-* important invariants
-
-Prefer causal explanations over feature lists.
-
----
-
-## 4. ACTUAL ARCHITECTURE
-
-Reverse-engineer the architecture from the implementation.
-
-Separate:
-
-* documented architecture
-* architecture actually implemented
-* architectural intent visible in the code
-* accidental/coupled structure
-
-Identify major abstractions and whether they genuinely provide isolation or are mostly organizational.
-
----
-
-## 5. CURRENT STATE
-
-Classify significant areas as:
-
-* done
-* partial
-* not started
-* broken
-* unclear/unverified
-* parked/dead code
-
-Do not call something “done” merely because code exists. Look for evidence in implementation, integration, tests, and runtime paths.
-
----
-
-## 6. QUALITY / CORRECTNESS
-
-Look specifically for:
-
-* correctness bugs
-* broken or incomplete flows
-* race conditions/state inconsistencies
-* error-handling gaps
-* invalid assumptions
-* dead code
-* duplicated logic
-* excessive coupling
-* abstraction problems
-* security/privacy concerns
-* performance risks
-* reliability risks
-* maintainability problems
-* dependency/version risks
-* test gaps
-
-Distinguish confirmed problems from plausible risks.
-
-For every important finding, give:
-
-* evidence (paths)
-* why it matters
-* affected path/component
-* confidence: high / medium / low
-
----
-
-## 7. TESTS AND VERIFICATION
-
-Determine:
-
-* what is actually tested
-* what tests prove
-* what is only mocked
-* what important behavior is untested
-* whether tests appear trustworthy
-* whether CI/build checks cover the critical paths
-
-Run tests when practical; if not, say what remains unverified. Do not equate test presence with correctness.
-
----
-
-## 8. GIT / PROJECT HYGIENE
-
-Inspect relevant repository history and project metadata where available.
-
-Look for:
-
-* recent direction of development
-* abandoned approaches
-* suspicious or stale code
-* unfinished migrations/refactors
-* TODO/FIXME markers that matter
-* generated artifacts
-* secrets or sensitive configuration risks
-* dependency drift
-* inconsistencies between code and documentation
-
-Do not overinterpret commit history; use it as supporting evidence.
-
----
-
-## 9. SYSTEM RISKS
-
-Identify the small number of risks that could materially affect the project.
-
-Separate:
-
-* blocking issues
-* important but non-blocking issues
-* cleanup
-* speculative/future concerns
-
-Do not turn every imperfection into a blocker.
-
----
-
-## 10. PRODUCT / SYSTEM READ
-
-Without prescribing what the product should become, explain:
-
-* what system exists today
-* what it is actually capable of
-* what its strongest internal design assumptions are
-* where the system is coherent
-* where it is internally inconsistent
-* what remains unverified
-
----
-
-## 11. TRAJECTORY & LEVERAGE
-
-From current code and structure (not alternate futures):
-
-* implied direction of development
-* whether trajectory matches apparent purpose
-* what strengthened the core vs increased surface area without capability
-* whether complexity is growing faster than capability
-* natural stopping point vs “keep building by default”
-
-Restraint litmus before recommending expansion:
-
-1. Does this belong in this repo’s stated purpose?
-2. Can an existing piece absorb it?
-3. Is the gap capability, or integration/docs/config?
-4. Would do nothing / archive / exercise win?
-
----
-
-## 12. REVIEW VERDICT
-
-End with a compact state report:
+```text
+## REVIEW VERDICT (required close)
 
 INTENDED GOAL
 [What the project appears to be trying to accomplish.]
@@ -258,58 +62,38 @@ INTENDED GOAL
 ACTUAL STATE
 [What exists and works based on evidence.]
 
-GOAL STATUS
-* MET
-* PARTIAL
-* NOT MET
-* UNDETERMINED
+GOAL STATUS — MET | PARTIAL | NOT MET | UNDETERMINED
 
 CRITICAL FACTS
-[Only the facts necessary to understand the current state.]
+[Minimum facts to understand current state.]
 
 CONFIRMED RISKS
-[Concrete evidence-backed risks.]
+[Evidence-backed only; path + confidence high/medium/low.]
 
 UNVERIFIED
-[Things that cannot be established from the available evidence.]
+[What you could not establish.]
 
 LEFTOVER SYSTEM STATE
-[Incomplete migrations, generated files, local state, configuration assumptions, etc.]
+[Migrations, generated artifacts, env assumptions, local-only state.]
 
 DO NOT TOUCH
-[Anything that should not be changed merely as cleanup.]
+[High blast or low evidence — not casual cleanup.]
 
 OPEN QUESTIONS
-[Maximum 3. Only questions that materially affect understanding or next action.]
+[Max 3 — material to next decision only.]
 
-BUILD vs POLISH vs CONSOLIDATE vs STOP
-[Pick one primary dial with one sentence: effort vs leverage.]
+PRIMARY DIAL — BUILD | POLISH | CONSOLIDATE | STOP
+[One sentence: effort vs leverage.]
 
 RECOMMENDED NEXT STEP
-[Factual next step based on evidence. Do not implement unless I explicitly ask.]
+[Factual; do not implement unless I ask.]
+```
 
 ---
 
-## IMPORTANT REVIEW RULES
+## Agent note
 
-* Read before proposing changes.
-* No writes unless I explicitly ask later.
-* No “best practice” recommendations detached from this project's actual constraints.
-* Do not redesign the system merely because you would architect it differently.
-* Do not assume TODOs are requirements.
-* Do not assume README claims are true.
-* Do not assume missing documentation means missing implementation.
-* Do not assume implementation means working behavior.
-* Prefer tracing real execution paths.
-* Label inference explicitly.
-* Separate confirmed facts, interpretation, and speculation.
-* When evidence conflicts, show the conflict rather than silently choosing one.
-* If the repo is too large for complete inspection, say exactly what was inspected and what remains unverified.
-* Do not manufacture certainty.
-* Do not begin a coding phase unless explicitly asked.
-
-The desired output is an honest technical model of the repository, not a generic code review.
-```
+One review engine: **`PROJECT_REVIEW.md`**. This file adds **gates** (read-only, cold lead) and a **fixed verdict footer**. Do not invent a parallel 12-section outline.
 
 ---
 
@@ -317,10 +101,9 @@ The desired output is an honest technical model of the repository, not a generic
 
 | Kit | Job |
 |-----|-----|
-| `CLOSE_CHAT.md` | End prior chat · land pickup · **go** |
-| **this file** | Cold-open read-only repo model (URL or workspace) |
-| `PROJECT_REVIEW.md` | Full Mode D ownership review (workspace · trajectory · decide-next) |
-| `MODE_D.md` | Thin opener → `PROJECT_REVIEW.md` |
+| `CLOSE_CHAT.md` | End prior chat · **go** |
+| **this file** | Prefix + verdict · cold open |
+| `PROJECT_REVIEW.md` | Mode D sections 0–14 (canonical) |
 | `REPOSITORY_AUDIT.md` | Defect / systems diagnosis |
 
 ---
@@ -329,4 +112,5 @@ The desired output is an honest technical model of the repository, not a generic
 
 | Date | Change | Why |
 |------|--------|-----|
-| 2026-09-20 | Initial kit | Durable GitHub/cold read-only review paste; close → new chat chain |
+| 2026-09-20 | Initial kit | Durable cold read-only paste; close → new chat |
+| 2026-09-20 | Shrink to prefix + pointer | One engine; less drift and checklist theater |

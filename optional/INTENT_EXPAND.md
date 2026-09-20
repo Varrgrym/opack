@@ -45,7 +45,7 @@ Certainty labels: **Known → Inferred → Unknown → Recommended**. Do not inv
 | Capture / notebook / organize ideas | **Mode B** + `DESIGN_NOTEBOOK.md` (dumps → also `EXTRACT_AND_ORGANIZE.md`) |
 | Roadmap / next week | **Mode C** + `EXECUTION_ROADMAP.md` |
 | **“Review this project”** / fine-tooth / full review | **Mode D** + coverage bar below — **do not ask which mode** · full paste `PROJECT_REVIEW.md` |
-| Read-only review · GitHub URL · new chat after close-out | `PROJECT_REVIEW_READONLY.md` — not phrase-locked; operator pastes or `@` |
+| Read-only review · cold open · new chat after close-out | `PROJECT_REVIEW_READONLY.md` + `PROJECT_REVIEW.md` — not phrase-locked |
 
 ---
 
