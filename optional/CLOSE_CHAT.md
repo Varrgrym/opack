@@ -170,6 +170,22 @@ fix
 
 ---
 
+## Paste (operator) — close then new chat (read-only review)
+
+Use after **go** in the closing chat. Open a **new** chat; paste `PROJECT_REVIEW_READONLY.md` (or `@` it). Do not run the review in the closing chat.
+
+On **go**, must-land should include when applicable:
+
+```text
+Next chat: read-only project review (@optional/PROJECT_REVIEW_READONLY.md).
+Repo URL: [URL]
+Local path: [path or n/a]
+Branch: [branch or default]
+Cold lead: prior chat not evidence — repo + landed docs only.
+```
+
+---
+
 ## Agent standing behavior
 
 Read phase: **no writes**. State product NOT DONE plainly when true — that is not a NO verdict by itself.  
@@ -187,5 +203,6 @@ Do not auto-run day #10. Do not commit product code unless operator asked this s
 | Session hygiene | `RUNTIME.md` · `CURSOR_CHAT_HYGIENE.md` |
 | Useful residue / dumps | `EXTRACT_AND_ORGANIZE.md` |
 | opack follow-ups pin | `PROMPT_FAMILY_FOLLOWUPS.md` |
+| Read-only repo review (new chat) | `PROJECT_REVIEW_READONLY.md` |
 
 **Install:** baseline → `docs/CLOSE_CHAT.md`; `--with-workflow-lab` also copies to `docs/workflow-lab/CLOSE_CHAT.md`.

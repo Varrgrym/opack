@@ -45,6 +45,7 @@ Certainty labels: **Known → Inferred → Unknown → Recommended**. Do not inv
 | Capture / notebook / organize ideas | **Mode B** + `DESIGN_NOTEBOOK.md` (dumps → also `EXTRACT_AND_ORGANIZE.md`) |
 | Roadmap / next week | **Mode C** + `EXECUTION_ROADMAP.md` |
 | **“Review this project”** / fine-tooth / full review | **Mode D** + coverage bar below — **do not ask which mode** · full paste `PROJECT_REVIEW.md` |
+| Read-only review · GitHub URL · new chat after close-out | `PROJECT_REVIEW_READONLY.md` — not phrase-locked; operator pastes or `@` |
 
 ---
 
@@ -64,7 +65,7 @@ Too large → semantic chunks → **synthesize before conclusions** (`CHUNKING.m
 
 Open with runtime stanza: `Mode=D · Seat=… · Multitask=off · Plan=?` (`RUNTIME.md`).
 
-Cold-lead posture: `MODE_D.md`. Full review engine: `PROJECT_REVIEW.md`.  
+Cold-lead posture: `MODE_D.md`. Full review engine: `PROJECT_REVIEW.md`. Read-only / URL / post-close: `PROJECT_REVIEW_READONLY.md`.  
 Ownership / status: `OWNERSHIP_TAKEOVER.md`. Design notebook: `DESIGN_NOTEBOOK.md`.  
 Defect-heavy diagnosis: `REPOSITORY_AUDIT.md`. Ordered plan: `EXECUTION_ROADMAP.md`. Possibility space: `EXPLORATORY_ANALYSIS.md`.
 

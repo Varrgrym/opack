@@ -427,3 +427,4 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | ChatGPT daily use / merge operator draft | Session close 2026-09-10 (ChatGPT prompts land) · `@optional/CHATGPT_PROMPTS.md` |
 | Desktop clones current / Open WebUI scripts on Pop | Session close 2026-09-18 (Desktop repo audit) · `machine-config-pop-rtx4070` `fde81b9` · optional re-audit |
 | Satellite `Projects/` pull all | Session close 2026-09-19 (Projects pull all) · 7 repos · `thoughts` on `master` |
+| Close → new chat read-only review | `PROJECT_REVIEW_READONLY.md` · `CLOSE_CHAT.md` chain paste · 2026-09-20 land |
