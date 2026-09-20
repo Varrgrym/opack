@@ -409,6 +409,30 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 
 ---
 
+## Session close · 2026-09-20 (close + review prompt kits)
+
+**From:** repo pull/sync · thoughts hygiene · compare close vs review → land READONLY → challenge → shrink to prefix+Mode D → challenge close paste → **go** (`76c5c3c`).
+
+**Intended goal:** Durable close-out and cold read-only review workflow; honest repo sync where touched; no prompt sprawl.
+
+**Outcome:** **done** (chat scope).
+
+**Gap:** Installed `docs/CLOSE_CHAT.md` / workflow-lab copies stale until `git pull` or re-install on other machines. No end-of-chat 8-repo audit.
+
+**Leftover state:** none (`opack` `76c5c3c` · `thoughts` `8049b74` clean vs `origin` at go-verify).
+
+**Landed (origin · opack):** `PROJECT_REVIEW_READONLY.md` (prefix + verdict → `PROJECT_REVIEW.md`) · `CLOSE_CHAT.md` (land defaults · **go**/**fix** only · not **land** alone) · `install.sh` · INDEX · `INTENT_EXPAND` · cross-links (`2f5118d`…`76c5c3c`). **thoughts** Ash Margin handoff earlier in arc (`1fd5163`; remote since moved).
+
+**Follow-ups (next chat):** cold review → `@PROJECT_REVIEW_READONLY.md` + `@PROJECT_REVIEW.md` in **new** chat after close **go** · optional `Projects/` pull-all stamp.
+
+**decided:** One review engine (`PROJECT_REVIEW.md`); READONLY = gates + verdict. Close execute = **go** (land+verify+handoff) or **fix** after NO.
+
+**parked:** Full-machine repo inventory · workflow-lab re-copy on satellite.
+
+**NOT pursuing now:** day #10 · third execute lock “land” · mega merged close+review paste.
+
+---
+
 ## Open when
 
 | Signal | Open |
@@ -427,4 +451,5 @@ Older overlay parked item (gather evidence). Unrelated to prompt-family complete
 | ChatGPT daily use / merge operator draft | Session close 2026-09-10 (ChatGPT prompts land) · `@optional/CHATGPT_PROMPTS.md` |
 | Desktop clones current / Open WebUI scripts on Pop | Session close 2026-09-18 (Desktop repo audit) · `machine-config-pop-rtx4070` `fde81b9` · optional re-audit |
 | Satellite `Projects/` pull all | Session close 2026-09-19 (Projects pull all) · 7 repos · `thoughts` on `master` |
-| Close → new chat read-only review | `PROJECT_REVIEW_READONLY.md` · `CLOSE_CHAT.md` chain paste · 2026-09-20 land |
+| Close → new chat read-only review | Session close 2026-09-20 (kits) · `@PROJECT_REVIEW_READONLY.md` + `@PROJECT_REVIEW.md` |
+| Close-out paste / go vs land | Session close 2026-09-20 (kits) · `@optional/CLOSE_CHAT.md` operator paste |
